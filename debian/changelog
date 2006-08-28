@@ -1,3 +1,11 @@
+xubuntu-default-settings (0.19) edgy; urgency=low
+
+  * Update gdm theme using the new Jozef Mak one
+  * Bump Standards Version to 3.7.2
+  * Bump debhelper compat to 5
+
+ -- Gauvain Pocentek <gauvainpocentek@ubuntu.com>  Mon, 28 Aug 2006 17:19:37 +0200
+
 xubuntu-default-settings (0.18) dapper; urgency=low
 
   * Make timed login text white (thus visible) in the gdm theme
