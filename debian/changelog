@@ -1,6 +1,7 @@
 xubuntu-default-settings (0.19) edgy; urgency=low
 
   * Update gdm theme using the new Jozef Mak one
+  * Add xubuntu-jmak.png backdrop
   * Bump Standards Version to 3.7.2
   * Bump debhelper compat to 5
 
