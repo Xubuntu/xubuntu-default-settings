@@ -1,0 +1,7 @@
+[GdmGreeterTheme]
+Greeter=Xubuntu.xml
+Name=Xubuntu
+Description=Xubuntu welcome screen
+Author=Jozsef Mak
+Copyright=(c) 2006 Canonical Ltd.
+Screenshot=screenshot.png

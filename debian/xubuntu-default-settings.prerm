@@ -1,0 +1,11 @@
+#! /bin/sh
+
+set -e
+
+#DEBHELPER#
+
+case "$1" in
+  remove)
+    update-alternatives --remove gdm-config-derivative /etc/xdg/xubuntu/gdm/gdm.conf
+    ;;
+esac

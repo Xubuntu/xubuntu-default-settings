@@ -1,0 +1,7 @@
+use_default_menu=true
+menu_file=
+icon_file=/usr/share/pixmaps/xubuntu-logo.png
+show_menu_icons=true
+button_title=Applications
+show_button_title=true
+

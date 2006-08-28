@@ -1,0 +1,16 @@
+This package was debianized by Jani Monoses <jani@ubuntu.com> on
+Fri,  9 Dec 2005 16:21:22 +0200.
+
+Copyright Holders:
+		Mark Shuttleworth, Jeff Waugh 
+		Trevor Vallender <trevorv@riseup.net>
+		Nicolas Trangez <ikke@eikke.com>
+		Rohan McGovern <rohan.pm@gmail.com>
+License:
+
+The ivman config files are licensed under the QPL
+The GDM theme is licensed under the GPL
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL'.
+

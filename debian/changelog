@@ -1,0 +1,129 @@
+xubuntu-default-settings (0.18) dapper; urgency=low
+
+  * Make timed login text white (thus visible) in the gdm theme
+  * Add the same Human icons for shutdown/reboot/logout in the gdm
+    screen that are used in the Xfce session logout dialog
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 30 May 2006 15:09:41 +0300
+
+xubuntu-default-settings (0.17) dapper; urgency=low
+
+  * Make Human the default xcursor theme
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 24 May 2006 17:21:05 +0300
+
+xubuntu-default-settings (0.16) dapper; urgency=low
+
+  * Make the default gdm session xfce4.desktop to make sure
+    not only xfce4-session is started but startxfce4, which
+    means xscreensaver is started too (LP #42887)
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 16 May 2006 18:57:25 +0300
+
+xubuntu-default-settings (0.15) dapper; urgency=low
+
+  * Add /etc/xdg/xubuntu/applications/defaults.list to set
+    default mime handlers  (gqview, gnumeric, xfmedia, etc.)
+  * Add another wallpaper by Luzi
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 15 May 2006 20:36:12 +0300
+
+xubuntu-default-settings (0.14) dapper; urgency=low
+
+  * Make Clearlooks the default theme 
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon,  1 May 2006 12:25:53 +0300
+
+xubuntu-default-settings (0.13) dapper; urgency=low
+
+  * gdm theme colour tweaks, thumbnail and credits 
+
+ -- Jani Monoses <jani@ubuntu.com>  Sat, 29 Apr 2006 11:28:44 +0300
+
+xubuntu-default-settings (0.12) dapper; urgency=low
+
+  * New gdm theme from Jozsef Mak 
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri, 28 Apr 2006 08:10:22 +0300
+
+xubuntu-default-settings (0.11) dapper; urgency=low
+
+  * Add xubuntu logo in the desktop menu button
+  * Do not fail in postinst if /etc/gdm does not exist (LP #40110)
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 25 Apr 2006 21:36:59 +0300
+
+xubuntu-default-settings (0.10) dapper; urgency=low
+
+  * Switch back to alternatives scheme for gdm.conf to be able to
+    install along edubuntu (  revert most of the last upload )
+  * Use hyphen not underscore in wallpaper name
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 24 Apr 2006 16:36:15 +0300
+
+xubuntu-default-settings (0.9) dapper; urgency=low
+
+  * Add a new wallpaper by Jozsef Mak
+  * Install gdm-cdd.conf directly not via alternatives, and
+    add Provides: and Conflicts: on gdm-config-derivative
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 24 Apr 2006 00:29:22 +0300
+
+xubuntu-default-settings (0.8) dapper; urgency=low
+
+  * Add default panel settings files here, instead of patching xfce4-panel
+  * Remove ivman configuration
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri, 21 Apr 2006 18:47:56 +0300
+
+xubuntu-default-settings (0.7) dapper; urgency=low
+
+  * Default xfprint backend to CUPS instead of None, so print dialog
+    launched from desktop menu works
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 19 Apr 2006 13:10:54 +0300
+
+xubuntu-default-settings (0.6) dapper; urgency=low
+
+  * Add default config file for the UI settings and set tango as the 
+    icon theme 
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 19 Apr 2006 10:08:46 +0300
+
+xubuntu-default-settings (0.5) dapper; urgency=low
+
+  * Change gdm root window color from brown to the same as the background
+    of the Xfce splash to avoid too many color changes during startup
+  * Add default config file for xfdesktop and set it to use desktop icons 
+    by default (friendlier than upstream default of not using them, and needed
+    for the espresso launcher icon anyway)
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 18 Apr 2006 22:20:21 +0300
+
+xubuntu-default-settings (0.4) dapper; urgency=low
+
+  * Fix gdm theme name, take two. 
+
+ -- Jani Monoses <jani@ubuntu.com>  Sat, 18 Feb 2006 10:28:34 +0200
+
+xubuntu-default-settings (0.3) dapper; urgency=low
+
+  * Fix gdm theme name
+  * Add alternative providing /etc/gdm/gdm-cdd.conf which has precedence over
+    the default gdm.conf. Use it for selecting custom gdm theme
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri, 17 Feb 2006 12:28:30 +0200
+
+xubuntu-default-settings (0.2) dapper; urgency=low
+
+  * Make this a native package
+
+ -- Jani Monoses <jani@ubuntu.com>  Sun, 18 Dec 2005 22:18:54 +0200
+
+xubuntu-default-settings (0.1) dapper; urgency=low
+
+  * Initial release with custom ivman configuration files and
+    a GDM theme
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri,  9 Dec 2005 16:21:22 +0200
+
