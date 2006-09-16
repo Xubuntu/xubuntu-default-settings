@@ -11,7 +11,7 @@
   <!-- ubuntu logo -->
   <item type="pixmap">
     <normal file="text.png" alpha="1.0"/>
-    <pos x="50%" y="33%" width="scale" height="12%" anchor="c"/>
+    <pos x="50%" y="52%" width="scale" height="50%" anchor="c"/>
   </item>
 
   <!-- bottom bar -->
@@ -113,11 +113,11 @@
     <box xpadding="0" ypadding="0" spacing="5" orientation="vertical">
       <item type="rect">
         <pos x="0" y="0" width="box" height="box" expand="true"/>
-        <normal color="#ffffff" alpha="0.15"/>
+        <normal color="#ffffff" alpha="0.00"/>
         <box xpadding="50" ypadding="15" spacing="10" orientation="vertical">
           <item type="label" id="pam-prompt">
             <pos x="0"/>
-            <normal font="Bitstream Vera Sans Bold 10" color="#000000"/>
+            <normal font="Bitstream Vera Sans Bold 10" color="#3a5065"/>
             <stock type="username-label"/>
           </item>
           <item type="rect">
@@ -132,14 +132,14 @@
           <!-- timer warning -->
           <item type="label" id="timed-label">
             <show type="timed"/>
-            <normal font="Bitstream Vera Sans Bold 11" color="#000000"/>
+            <normal font="Bitstream Vera Sans Bold 11" color="#3a5065"/>
             <stock type="timed-label"/>
           </item>
         </box>
       </item>
       <item type="rect">
         <pos x="0" y="0" width="100%" height="box" expand="true"/>
-        <normal color="#ffffff" alpha="0.15"/>
+        <normal color="#ffffff" alpha="0.00"/>
         <box xpadding="10" ypadding="8" spacing="10" orientation="horizontal" homogeneous="true">
           <!-- language -->
           <item type="rect" id="language_button" button="true">
