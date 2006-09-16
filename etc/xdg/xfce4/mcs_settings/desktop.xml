@@ -3,4 +3,5 @@
 
 <mcs-option>
 	<option name="desktopiconstyle" type="int" value="2"/>
+        <option name="imagepath_0_0" type="string" value="/usr/share/xfce4/backdrops/xubuntu-jmak.png"/>
 </mcs-option>
