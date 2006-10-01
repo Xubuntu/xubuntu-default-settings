@@ -1,3 +1,9 @@
+xubuntu-default-settings (0.20) edgy; urgency=low
+
+  * Update gdm theme
+
+ -- Gauvain Pocentek <gauvainpocentek@ubuntu.com>  Sun,  1 Oct 2006 19:05:49 +0200
+
 xubuntu-default-settings (0.19) edgy; urgency=low
 
   * Update gdm theme using the new Jozsef Mak one
