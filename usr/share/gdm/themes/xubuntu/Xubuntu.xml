@@ -187,7 +187,7 @@
 
   <!-- caps lock warning -->
   <item type="label" id="caps-lock-warning">
-    <pos x="50%" y="50%" anchor="c"/>
+    <pos x="50%" y="80%" anchor="c"/>
     <normal font="Bitstream Vera Sans Bold 11" color="#dc292b"/>
     <stock type="caps-lock-warning"/>
   </item>
@@ -195,7 +195,7 @@
 
   <!-- pam error -->
   <item type="label" id="pam-error">
-    <pos x="50%" y="53%" anchor="c" />
+    <pos x="50%" y="83%" anchor="c" />
     <normal font="Bitstream Vera Sans Bold 11" color="#dc292b"/>
     <text></text>
   </item>
