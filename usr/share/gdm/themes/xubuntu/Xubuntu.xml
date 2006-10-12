@@ -199,5 +199,11 @@
     <normal font="Bitstream Vera Sans Bold 11" color="#dc292b"/>
     <text></text>
   </item>
-
+  
+  <!-- pam message (hidden, but required) -->
+  <item type="label" id="pam-message">
+    <pos x="50%" anchor="c" />
+    <normal alpha="0.00" font="Bitstream Vera Sans Bold 11" color="#000000"/>
+    <text></text>
+  </item>
 </greeter>

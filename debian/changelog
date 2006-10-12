@@ -1,3 +1,10 @@
+xubuntu-default-settings (0.21) edgy; urgency=low
+
+  * Xubuntu.xml gdm configuration: add a pam-message stanza so the
+    user is warned when his password has expired.
+
+ -- Gauvain Pocentek <gauvainpocentek@ubuntu.com>  Thu, 12 Oct 2006 19:19:39 +0200
+
 xubuntu-default-settings (0.20) edgy; urgency=low
 
   * Update gdm theme with new backgroung.png, text.png and
