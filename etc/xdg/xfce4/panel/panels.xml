@@ -16,6 +16,7 @@
 		<items>
 			<item name="xfce4-menu" id="1"/>
 			<item name="launcher" id="2"/>
+			<item name="launcher" id="3"/>
 			<item name="separator" id="3"/>
 			<item name="systray" id="4"/>
 			<item name="clock" id="5"/>
