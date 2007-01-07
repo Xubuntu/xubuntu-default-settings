@@ -1,3 +1,26 @@
+xubuntu-default-settings (0.24) feisty; urgency=low
+
+  * Add etc/xdg/xfce4/desktop/xfdesktoprc: only show the 
+    removable devices icons on the desktop.
+
+ -- Gauvain Pocentek <gauvainpocentek@ubuntu.com>  Sat, 23 Dec 2006 10:52:56 +0100
+
+xubuntu-default-settings (0.23) edgy; urgency=low
+
+  * etc/xdg/xfce4/mcs_settings/desktop.xml: Do not show system menu by default
+    on right click. Enable latest edgy wallpaper
+  * etc/xdg/xfce4/panel/tasklist-2.rc: Do not make buttons flat in taskbar,
+    keep it how it was in dapper. 
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 23 Oct 2006 13:22:49 +0300
+
+xubuntu-default-settings (0.22) edgy; urgency=low
+
+  * Add trashcan to bottom panel
+  * Install config files ready to use in accessibility enabled setups.
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 16 Oct 2006 09:53:59 +0300
+
 xubuntu-default-settings (0.21) edgy; urgency=low
 
   * Xubuntu.xml gdm configuration: add a pam-message stanza so the
