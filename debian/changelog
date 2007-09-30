@@ -1,3 +1,10 @@
+xubuntu-default-settings (0.34) UNRELEASED; urgency=low
+
+  * debian/control: add the XS-Vcs-Bzr field since this package is maintained 
+    in bzr.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 01 Oct 2007 00:25:07 +0200
+
 xubuntu-default-settings (0.33) gutsy; urgency=low
 
   * etc/xdg/xubuntu/applications/defaults.list, etc/xdg/Thunar/thunarrc:

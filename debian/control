@@ -5,6 +5,7 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jani Monoses <jani@ubuntu.com>
 Build-Depends: debhelper (>= 5.0.0)
 Standards-Version: 3.7.2
+XS-Vcs-Bzr: http://bazaar.launchpad.net/~xubuntu-team/xubuntu-default-settings/trunk
 
 Package: xubuntu-default-settings
 Replaces: xfce4-panel (<< 4.3.90.1svn+r21136-0ubuntu2)
