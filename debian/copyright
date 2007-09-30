@@ -11,6 +11,28 @@ License:
 The ivman config files are licensed under the QPL
 The GDM theme is licensed under the GPL
 
+---
+
+The MurrinaStormCloud GTK 2.x theme was taken from 
+http://www.gnome-look.org/content/show.php/MurrinaStormCloud?content=61418.
+
+This theme is a modification by Sven Hein of the MurrinaBlueGreyGlass GTK 2.x 
+theme.
+
+License: GPL
+
+---
+
+The Xfwm4.5-svn xfwm4 theme was taken from upstream svn (revision 25981).
+
+joy - SVG based theme for xfwm4.
+Created Sept. 2006 by Olivier Fourdan <fourdan@xfce.org>
+Modified Oct. 2006 by Olivier Fourdan <fourdan@xfce.org>
+Modified Jul. 2007 by Olivier Fourdan <fourdan@xfce.org>
+
+Theme released under GNU GPL license.
+
+---
+
 On Debian systems, the complete text of the GNU General
 Public License can be found in `/usr/share/common-licenses/GPL'.
-

@@ -1,0 +1,10 @@
+show_button_icon=true
+show_button_label=true
+label=Places
+show_icons=true
+show_volumes=true
+show_bookmarks=true
+show_recent=true
+show_recent_clear=true
+show_recent_number=10
+

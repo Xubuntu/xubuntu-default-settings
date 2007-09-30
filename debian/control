@@ -1,7 +1,8 @@
 Source: xubuntu-default-settings
 Section: x11
 Priority: optional
-Maintainer: Jani Monoses <jani@ubuntu.com>
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Jani Monoses <jani@ubuntu.com>
 Build-Depends: debhelper (>= 5.0.0)
 Standards-Version: 3.7.2
 

@@ -11,12 +11,12 @@
   <!-- ubuntu logo -->
   <item type="pixmap">
     <normal file="text.png" alpha="1.0"/>
-    <pos x="50%" y="52%" width="scale" height="50%" anchor="c"/>
+    <pos x="50%" y="42%" width="scale" height="59%" anchor="c"/>
   </item>
 
   <!-- bottom bar -->
   <item type="rect">
-    <normal color="#2d4e5e"/>
+    <normal color="#293337"/>
     <pos y="100%" x="0" width="100%" height="42" anchor="sw"/>
     <box xpadding="10" spacing="10" orientation="horizontal">
       <!-- reboot -->
@@ -109,7 +109,7 @@
   
   <!-- password box -->
   <item type="rect">
-    <pos x="50%" y="60%" width="box" height="box" anchor="c"/>
+    <pos x="50%" y="62%" width="box" height="box" anchor="c"/>
     <box xpadding="0" ypadding="0" spacing="5" orientation="vertical">
       <item type="rect">
         <pos x="0" y="0" width="box" height="box" expand="true"/>
@@ -117,7 +117,7 @@
         <box xpadding="50" ypadding="15" spacing="10" orientation="vertical">
           <item type="label" id="pam-prompt">
             <pos x="0"/>
-            <normal font="Bitstream Vera Sans Bold 10" color="#3a5065"/>
+            <normal font="Bitstream Vera Sans Bold 12" color="#ffffff"/>
             <stock type="username-label"/>
           </item>
           <item type="rect">
@@ -132,7 +132,7 @@
           <!-- timer warning -->
           <item type="label" id="timed-label">
             <show type="timed"/>
-            <normal font="Bitstream Vera Sans Bold 11" color="#3a5065"/>
+            <normal font="Bitstream Vera Sans Bold 12" color="#ffffff"/>
             <stock type="timed-label"/>
           </item>
         </box>
@@ -143,7 +143,7 @@
         <box xpadding="10" ypadding="8" spacing="10" orientation="horizontal" homogeneous="true">
           <!-- language -->
           <item type="rect" id="language_button" button="true">
-            <pos x="50%" y="50%" width="box" height="box" anchor="c"/>
+            <pos x="50%" y="100%" width="box" height="box" anchor="c"/>
             <box xpadding="0" spacing="2" orientation="horizontal">
               <item type="pixmap">
                 <pos width="24" height="24"/>
@@ -152,9 +152,9 @@
                 <active file="icon-language-active.png"/>
               </item>
               <item type="label">
-                <normal font="Bitstream Vera Sans 9" color="#3a5065"/>
-                <prelight font="Bitstream Vera Sans 9" color="#587999"/>
-                <active font="Bitstream Vera Sans 9" color="#3a5065"/>
+                <normal font="Bitstream Vera Sans 12" color="#ffffff"/>
+                <prelight font="Bitstream Vera Sans 12" color="#b7b7b7"/>
+                <active font="Bitstream Vera Sans 12" color="#ffffff"/>
                 <pos y="50%" anchor="w"/>
                 <stock type="language"/>
               </item>
@@ -162,7 +162,7 @@
           </item>
           <!-- session -->
           <item type="rect" id="session_button" button="true">
-            <pos x="50%" y="50%" width="box" height="box" anchor="c"/>
+            <pos x="50%" y="100%" width="box" height="box" anchor="c"/>
             <box xpadding="0" spacing="2" orientation="horizontal">
               <item type="pixmap">
                 <pos width="24" height="24"/>
@@ -171,9 +171,9 @@
                 <active file="icon-session-active.png"/>
               </item>
               <item type="label">
-                <normal font="Bitstream Vera Sans 9" color="#3a5065"/>
-                <prelight font="Bitstream Vera Sans 9" color="#587999"/>
-                <active font="Bitstream Vera Sans 9" color="#3a5065"/>
+                <normal font="Bitstream Vera Sans 12" color="#ffffff"/>
+                <prelight font="Bitstream Vera Sans 12" color="#b7b7b7"/>
+                <active font="Bitstream Vera Sans 12" color="#ffffff"/>
                 <pos y="50%" anchor="w"/>
                 <stock type="session"/>
               </item>

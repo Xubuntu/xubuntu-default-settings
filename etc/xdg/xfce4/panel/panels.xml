@@ -15,6 +15,7 @@
 		</properties>
 		<items>
 			<item name="xfce4-menu" id="1"/>
+			<item name="places" id="2"/>
 			<item name="launcher" id="2"/>
 			<item name="launcher" id="3"/>
 			<item name="separator" id="3"/>

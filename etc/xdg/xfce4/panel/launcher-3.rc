@@ -1,0 +1,8 @@
+[Entry 0]
+Name=Help
+Exec=xfbrowser4 /usr/share/xubuntu-docs/desktopguide/C/index.html
+Terminal=false
+StartupNotify=true
+Comment=Xubuntu Desktop Guide
+Icon=gnome-help
+

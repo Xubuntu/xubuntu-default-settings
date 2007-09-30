@@ -1,8 +1,70 @@
+xubuntu-default-settings (0.33) gutsy; urgency=low
+
+  * etc/xdg/xubuntu/applications/defaults.list, etc/xdg/Thunar/thunarrc:
+    default to totem instead of gxine, brasero instead of xfburn
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri, 28 Sep 2007 22:37:28 +0200
+
+xubuntu-default-settings (0.32) gutsy; urgency=low
+
+  * etc/xdg/xubuntu/applications/defaults.list: default to gxine and
+    file-roller instead of xfmedia and xarchiver
+
+ -- Jani Monoses <jani@ubuntu.com>  Sun,  9 Sep 2007 20:01:29 +0200
+
+xubuntu-default-settings (0.31) gutsy; urgency=low
+
+  * etc/xdg/xfce4/panel: add a launcher for the xubuntu desktop guide.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 08 Sep 2007 22:09:28 +0200
+
+xubuntu-default-settings (0.30) gutsy; urgency=low
+
+  * etc/xdg/xubuntu/gdm/gdm.conf:
+    - set the GtkTheme to MurrinaStormCloud
+    - use "Browser=true" so the users lists work correctly.	(LP: #137975)
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 07 Sep 2007 16:24:03 +0200
+
+xubuntu-default-settings (0.29) gutsy; urgency=low
+
+  * Update gdm theme and wallpaper.
+  * usr/share/themes/Xfwm4.5-svn: new xfwm4 default theme.
+  * debian/copyright: updated.
+  * etc/xdg/xfce4/mcs_settings/xfwm4.xml: added to set the default xfwm4 theme.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 15 Aug 2007 15:43:20 +0200
+
+xubuntu-default-settings (0.28) gutsy; urgency=low
+
+  * usr/share/themes/MurrinaStormCloud: ship the new default theme.
+  * debian/copyright: updated.
+  * etc/xdg/xfce4/mcs_settings/gtk.xml: set default theme to MurrinaStormCloud.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 04 Aug 2007 11:56:07 +0200
+
+xubuntu-default-settings (0.27) gutsy; urgency=low
+
+  * etc/xdg/xfce4/panel/launcher-3.rc: drop the thunar launcher.
+  * etc/xdg/xfce4/panel/places-2.rc: add the xfce4-places-plugin to the panel.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 07 Jul 2007 00:46:21 +0200
+
+xubuntu-default-settings (0.26) feisty; urgency=low
+
+  * Enable thunar volume manager by default
+  * Make gxine the default audio CD and DVD player for newly inserted discs
+  * Fix thunar launcher description  
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 21 Mar 2007 12:30:35 +0200
+
 xubuntu-default-settings (0.25) feisty; urgency=low
 
   * Add a thunar launcher to the panel
+  * Update gdm theme and wallpaper
+  * Add a default thunar-volman config
 
- -- Gauvain Pocentek <gauvainpocentek@ubuntu.com>  Sun,  7 Jan 2007 10:05:41 +0100
+ -- Gauvain Pocentek <gauvainpocentek@ubuntu.com>  Sun, 28 Jan 2007 07:37:42 +0100
 
 xubuntu-default-settings (0.24) feisty; urgency=low
 

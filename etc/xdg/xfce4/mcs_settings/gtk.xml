@@ -5,5 +5,5 @@
 	<option name="Gtk/CursorThemeName" type="string" value="Human"/>
 	<option name="Gtk/CursorThemeSize" type="int" value="24"/>
 	<option name="Net/IconThemeName" type="string" value="Tango"/>
-	<option name="Net/ThemeName" type="string" value="Clearlooks"/>
+	<option name="Net/ThemeName" type="string" value="MurrinaStormCloud"/>
 </mcs-option>
