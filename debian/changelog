@@ -1,9 +1,24 @@
-xubuntu-default-settings (0.34) UNRELEASED; urgency=low
+xubuntu-default-settings (0.36) UNRELEASED; urgency=low
 
   * debian/control: add the XS-Vcs-Bzr field since this package is maintained 
     in bzr.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 01 Oct 2007 00:25:07 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 29 Oct 2007 17:51:33 +0100
+
+xubuntu-default-settings (0.35) gutsy; urgency=low
+
+  * Remove places plugin from the panel, it crashes on accessing volumes
+  * Point help browser to the Xubuntu docs not the ubuntu-artwork link
+    which depends on what is set in the alternatives system
+
+ -- Jani Monoses <jani@ubuntu.com>  Sat, 13 Oct 2007 22:39:27 +0200
+
+xubuntu-default-settings (0.34) gutsy; urgency=low
+
+  * resync with latest gdm.conf, change background to blueish
+  * use locale neutral URL in help launcher
+
+ -- Jani Monoses <jani@ubuntu.com>  Thu, 04 Oct 2007 22:52:43 +0200
 
 xubuntu-default-settings (0.33) gutsy; urgency=low
 

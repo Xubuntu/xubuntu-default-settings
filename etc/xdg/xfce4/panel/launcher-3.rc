@@ -1,6 +1,6 @@
 [Entry 0]
 Name=Help
-Exec=xfbrowser4 /usr/share/xubuntu-docs/desktopguide/C/index.html
+Exec=xfbrowser4 /usr/share/xubuntu-docs/about/xubuntu-index.html 
 Terminal=false
 StartupNotify=true
 Comment=Xubuntu Desktop Guide
