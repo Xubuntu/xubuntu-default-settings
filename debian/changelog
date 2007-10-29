@@ -1,9 +1,11 @@
 xubuntu-default-settings (0.36) UNRELEASED; urgency=low
 
-  * debian/control: add the XS-Vcs-Bzr field since this package is maintained 
-    in bzr.
+  * debian/control:
+    - add the XS-Vcs-Bzr & XS-Vcs-Browser fields since this package is maintained 
+      in bzr
+    - change maintainer to "Xubuntu Developers".
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 29 Oct 2007 17:51:33 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 29 Oct 2007 18:50:53 +0100
 
 xubuntu-default-settings (0.35) gutsy; urgency=low
 
