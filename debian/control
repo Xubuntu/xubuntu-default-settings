@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 Build-Depends: debhelper (>= 5.0.0)
 Standards-Version: 3.7.2
+Homepage: http://launchpad.net/~xubuntu-team/xubuntu-default-settings
 XS-Vcs-Bzr: http://bazaar.launchpad.net/~xubuntu-team/xubuntu-default-settings/trunk
 XS-Vcs-Browser: http://codebrowse.launchpad.net/~xubuntu-team/xubuntu-default-settings/trunk
 

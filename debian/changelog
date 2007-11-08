@@ -1,5 +1,13 @@
 xubuntu-default-settings (0.36) UNRELEASED; urgency=low
 
+  [Cody A.W. Somerville]
+
+  * Modified panel sizes (smaller bottom panel)
+  * Enabled thunar-volman for printers
+  * debian/control: Added homepage field
+
+  [Lionel Le Folgoc]
+
   * debian/control:
     - add the XS-Vcs-Bzr & XS-Vcs-Browser fields since this package is maintained 
       in bzr
