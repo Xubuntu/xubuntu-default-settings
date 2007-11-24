@@ -8,11 +8,13 @@ xubuntu-default-settings (0.36) UNRELEASED; urgency=low
   [Lionel Le Folgoc]
 
   * debian/control:
-    - add the XS-Vcs-Bzr & XS-Vcs-Browser fields since this package is maintained 
+    - add the Vcs-Bzr & Vcs-Browser fields since this package is maintained 
       in bzr
     - change maintainer to "Xubuntu Developers".
+  * etc/xdg/xfce4/panel/panels.xml: re-enable the places plugin.
+  * etc/xdg/xfce4/panel/places-2.rc: updated.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 29 Oct 2007 18:50:53 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 24 Nov 2007 22:38:15 +0100
 
 xubuntu-default-settings (0.35) gutsy; urgency=low
 
