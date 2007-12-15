@@ -1,20 +1,21 @@
-xubuntu-default-settings (0.36) UNRELEASED; urgency=low
+xubuntu-default-settings (0.36) hardy; urgency=low
 
   [Cody A.W. Somerville]
 
-  * Modified panel sizes (smaller bottom panel)
+  * Modified panel sizes (smaller panels).    (LP: #106233)
   * debian/control: Added homepage field
 
   [Lionel Le Folgoc]
 
   * debian/control:
-    - add the Vcs-Bzr & Vcs-Browser fields since this package is maintained 
+    - add the Vcs-Bzr & Vcs-Browser fields since this package is maintained
       in bzr
-    - change maintainer to "Xubuntu Developers".
+    - change maintainer to "Xubuntu Developers"
+    - bump Standards-Version to 3.7.3.
   * etc/xdg/xfce4/panel/panels.xml: re-enable the places plugin.
   * etc/xdg/xfce4/panel/places-2.rc: updated.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 24 Nov 2007 22:38:15 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 15 Dec 2007 18:35:57 +0100
 
 xubuntu-default-settings (0.35) gutsy; urgency=low
 
