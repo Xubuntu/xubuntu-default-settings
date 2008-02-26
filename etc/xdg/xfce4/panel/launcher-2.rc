@@ -4,5 +4,5 @@ Exec=firefox
 Terminal=false
 StartupNotify=true
 Comment=Firefox web browser
-Icon=/usr/share/pixmaps/firefox.png
+Icon=/usr/share/pixmaps/firefox-3.0.png
 

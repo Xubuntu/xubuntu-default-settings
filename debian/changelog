@@ -1,3 +1,12 @@
+xubuntu-default-settings (0.37) hardy; urgency=low
+
+  * Updated gdm theme
+  * Updated MurinaDarkCloud gtkrc
+  * New backround image
+  * Fixed path to icon in firefox panel launcher
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Tue, 26 Feb 2008 19:09:49 -0400
+
 xubuntu-default-settings (0.36) hardy; urgency=low
 
   [Cody A.W. Somerville]
