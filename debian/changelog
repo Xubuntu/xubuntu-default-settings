@@ -1,3 +1,9 @@
+xubuntu-default-settings (0.38) hardy; urgency=low
+
+  * Fixed GDM theme (Closes LP#: 208901)
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Tue, 01 Apr 2008 12:37:27 -0300
+
 xubuntu-default-settings (0.37) hardy; urgency=low
 
   * Updated gdm theme
