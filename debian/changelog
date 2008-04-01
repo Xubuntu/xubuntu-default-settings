@@ -1,7 +1,8 @@
 xubuntu-default-settings (0.38) hardy; urgency=low
 
-  * Fixed GDM theme (Closes LP#: 208901)
+  * Fixed GDM theme (Closes LP: #208901)
   * Disable border on system tray.
+  * Disable flat buttons on task list.
   * Updated changelog to include date in copyright.
 
  -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Tue, 01 Apr 2008 12:37:27 -0300
