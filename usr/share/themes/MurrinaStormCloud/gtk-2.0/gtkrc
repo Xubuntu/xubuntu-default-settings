@@ -206,31 +206,3 @@ widget_class "*.GtkFrame.GtkLabel" 	style "theme-frame-title"
 # notebook stuff
 widget_class "*.GtkNotebook.*.GtkEventBox" style "theme-notebook"
 widget_class "*.GtkNotebook.*.GtkViewport" style "theme-notebook"
-
-###############################
-#                             #
-# ==== Jmakz's additions ==== #
-#                             #
-###############################
-
-style "xfdesktop-icon-view" {
-   XfdesktopIconView::label-alpha = 0
-
-#Text colors you can delete these if you want you use gtk theme colors
-   fg[NORMAL] = "#ffffff"
-   fg[SELECTED] = "#00ff00"
-   fg[ACTIVE] = "#0000ff"
-
-}
-widget_class "*XfdesktopIconView*" style "xfdesktop-icon-view"
-
-style "panel"
-{
- bg[NORMAL] = "#9aa2b2"
-xthickness = 0
-ythickness = 0
-}
-
-widget_class "*Panel*"      style "panel"
-widget "*Panel*"            style "panel"
-class "*Panel*"             style "panel"

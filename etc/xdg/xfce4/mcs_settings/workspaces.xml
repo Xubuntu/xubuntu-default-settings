@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mcs-option SYSTEM "mcs-option.dtd">
+
+<mcs-option>
+	<option name="Xfwm/WorkspaceCount" type="int" value="2"/>
+	<option name="names" type="string" value="1;2;3;4"/>
+</mcs-option>
+
