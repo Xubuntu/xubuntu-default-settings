@@ -1,3 +1,22 @@
+xubuntu-default-settings (0.41) intrepid; urgency=low
+
+  * etc/xdg/xubuntu/applications/default.list:
+    - Updated to use ristretto to view images instead of gqview.
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Sun, 15 Jun 2008 09:14:43 -0300
+
+xubuntu-default-settings (0.40) intrepid; urgency=low
+
+  * etc/xdg/xubuntu/gdm/gdm.conf:
+    - Updated to use xfce4.desktop session instead of default.desktop
+      which should fix a number of bugs caused by Xubuntu not properly
+      starting.
+    - Closes lp: #220899
+    - Closes lp: #224444
+    - Closes lp: #200665
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Sun, 15 Jun 2008 06:12:35 -0300
+
 xubuntu-default-settings (0.39) hardy; urgency=low
 
   * Changed panel colours back to theme default.
