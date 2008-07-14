@@ -1,3 +1,12 @@
+xubuntu-default-settings (0.42) intrepid; urgency=low
+
+  * Updated GDM theme for Intrepid.
+  * debian/change:
+    - Bumped standards version to 3.8.0.
+    - Updated long description.
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Mon, 14 Jul 2008 19:29:21 -0300
+
 xubuntu-default-settings (0.41) intrepid; urgency=low
 
   * etc/xdg/xubuntu/applications/default.list:
