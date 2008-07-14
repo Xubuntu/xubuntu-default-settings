@@ -1,6 +1,7 @@
 xubuntu-default-settings (0.42) intrepid; urgency=low
 
   * Updated GDM theme for Intrepid.
+  * Added xfce4-mixer to default panel configuration. (lp: #220948)
   * debian/change:
     - Bumped standards version to 3.8.0.
     - Updated long description.
