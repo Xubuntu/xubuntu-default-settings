@@ -8,5 +8,5 @@ show_bookmarks=true
 show_recent=true
 show_recent_clear=true
 show_recent_number=10
-search_cmd=
+search_cmd=catfish
 

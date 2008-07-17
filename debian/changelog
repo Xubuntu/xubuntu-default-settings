@@ -1,3 +1,10 @@
+xubuntu-default-settings (0.43) intrepid; urgency=low
+
+  * etc/xdg/xfce4/panel/places-2.xml:
+    - Set catfish as search command.
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Wed, 16 Jul 2008 23:26:19 -0300
+
 xubuntu-default-settings (0.42) intrepid; urgency=low
 
   * Updated GDM theme for Intrepid.
