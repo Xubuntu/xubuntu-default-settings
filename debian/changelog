@@ -6,8 +6,10 @@ xubuntu-default-settings (0.50) UNRELEASED; urgency=low
     xfce4-help.desktop.
   * etc/xdg/xubuntu/gdm/gdm.conf: change default session from xfce4.desktop to
     xfce.desktop (renamed in xfce4-utils 4.5.x).
+  * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml: added to
+    enable GNOME acessibility services by default.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 07 Feb 2009 22:32:29 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 07 Feb 2009 22:41:12 +0100
 
 xubuntu-default-settings (0.49) jaunty; urgency=low
 
