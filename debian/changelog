@@ -1,3 +1,10 @@
+xubuntu-default-settings (0.44) UNRELEASED; urgency=low
+
+  * Do not ship usr/share/themes/Xfwm4.5-svn anymore, it's now the default theme
+    with Xfce 4.6.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 07 Feb 2009 11:55:56 +0100
+
 xubuntu-default-settings (0.43) intrepid; urgency=low
 
   * etc/xdg/xfce4/panel/places-2.xml:
