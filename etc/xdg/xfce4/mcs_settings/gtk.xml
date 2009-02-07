@@ -6,4 +6,7 @@
 	<option name="Gtk/CursorThemeSize" type="int" value="24"/>
 	<option name="Net/IconThemeName" type="string" value="Tango"/>
 	<option name="Net/ThemeName" type="string" value="MurrinaStormCloud"/>
+	<option name="Xft/Antialias" type="int" value="1"/>
+	<option name="Xft/HintStyle" type="string" value="hintslight"/>
+	<option name="Xft/Hinting" type="int" value="1"/>
 </mcs-option>

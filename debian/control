@@ -12,6 +12,7 @@ Package: xubuntu-default-settings
 Architecture: all
 Depends: xfce4-utils (>= 4.5.99.1-0ubuntu2)
 Replaces: xfce4-panel (<< 4.3.90.1svn+r21136-0ubuntu2)
+Provides: gdm-theme
 Description: default settings for Xubuntu
  Various system settings tailored for Xubuntu:
   * custom GDM theme

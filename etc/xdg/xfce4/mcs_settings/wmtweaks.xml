@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mcs-option SYSTEM "mcs-option.dtd">
+
+<mcs-option>
+	<option name="Xfwm/BorderlessMaximize" type="int" value="1"/>
+	<option name="Xfwm/CycleHidden" type="int" value="1"/>
+	<option name="Xfwm/CycleMinimum" type="int" value="1"/>
+	<option name="Xfwm/CycleWorkspaces" type="int" value="0"/>
+	<option name="Xfwm/EasyClick" type="string" value="Alt"/>
+	<option name="Xfwm/FocusHint" type="int" value="1"/>
+	<option name="Xfwm/FrameOpacity" type="int" value="57"/>
+	<option name="Xfwm/InactiveOpacity" type="int" value="100"/>
+	<option name="Xfwm/MoveOpacity" type="int" value="100"/>
+	<option name="Xfwm/PlacementRatio" type="int" value="20"/>
+	<option name="Xfwm/PopupOpacity" type="int" value="100"/>
+	<option name="Xfwm/PreventFocusStealing" type="int" value="0"/>
+	<option name="Xfwm/RaiseWithAnyButton" type="int" value="0"/>
+	<option name="Xfwm/ResizeOpacity" type="int" value="100"/>
+	<option name="Xfwm/RestoreOnMove" type="int" value="1"/>
+	<option name="Xfwm/ScrollWorkspaces" type="int" value="0"/>
+	<option name="Xfwm/ShowFrameShadow" type="int" value="0"/>
+	<option name="Xfwm/ShowPopupShadow" type="int" value="0"/>
+	<option name="Xfwm/SnapResist" type="int" value="0"/>
+	<option name="Xfwm/ToggleWorkspaces" type="int" value="0"/>
+	<option name="Xfwm/UnredirectOverlays" type="int" value="0"/>
+	<option name="Xfwm/UseCompositing" type="int" value="0"/>
+	<option name="Xfwm/WrapCycle" type="int" value="0"/>
+	<option name="Xfwm/WrapLayout" type="int" value="0"/>
+</mcs-option>
+

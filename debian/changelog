@@ -1,4 +1,4 @@
-xubuntu-default-settings (0.44) UNRELEASED; urgency=low
+xubuntu-default-settings (0.48) UNRELEASED; urgency=low
 
   * Do not ship usr/share/themes/Xfwm4.5-svn anymore, it's now the default theme
     with Xfce 4.6.
@@ -8,6 +8,48 @@ xubuntu-default-settings (0.44) UNRELEASED; urgency=low
       XDG_{CONFIG,DATA}_DIRS.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 07 Feb 2009 14:14:00 +0100
+
+xubuntu-default-settings (0.47) intrepid; urgency=low
+
+  * usr/share/xfce4/backgroups/*:
+    - Set non-widescreen background as default and name widescreen
+      background xubuntu-jmak-ws.png
+  * Added etc/xdg/xfce4/mcs_settings/wmtweaks.xml:
+     - Disable changing workspace via mousewheel on background by default.
+     - Fixes LP: #226888
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Tue, 14 Oct 2008 10:17:27 -0300
+
+xubuntu-default-settings (0.46) intrepid; urgency=low
+
+  * Removed default orage settings.
+  * Updated /etc/xdg/Thunar/volmanrc:
+    - Launch listen instead of totem for music cds.
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Thu, 02 Oct 2008 05:39:54 -0300
+
+xubuntu-default-settings (0.45) intrepid; urgency=low
+
+  * etc/xdg/orage/oragerc:
+    - Added new default options for orage so that it'll  use the
+      static icon in the system tray instead of the ugly dynamic ones.
+  * etc/xdg/xubuntu/applications/defaults.list:
+    - Use gpicview instead of ristretto.
+  * usr/share/xfce4/backdrops/*:
+    - Moved current wallpaper to xubuntu-jmak-hardy.png.
+    - Added new wallpaper for Intrepid.
+    - Added new wallpaper for Intrepid for widescreen monitors.
+  * etc/xdg/xfce4/mcs_settings/gtk.xml:
+    - Enable anti-aliasing and hinting by default.
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Mon, 29 Sep 2008 09:20:44 -0300
+
+xubuntu-default-settings (0.44) intrepid; urgency=low
+
+  * debian/control:
+    - Provide gdm-theme after discussion regarding lp #258091
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Fri, 15 Aug 2008 14:51:06 -0300
 
 xubuntu-default-settings (0.43) intrepid; urgency=low
 
