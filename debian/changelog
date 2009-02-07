@@ -1,3 +1,13 @@
+xubuntu-default-settings (0.49) UNRELEASED; urgency=low
+
+  * etc/xdg/xubuntu/menus/xfce-applications.menu: provides a xubuntu-specific
+    desktop menu:
+    - add gnome-app-install-xfce as a direct child of "Applications", and hide
+      it from the System submenu.
+  * etc/xdg/xubuntu/xfce4/panel/xfce4-menu-1.rc: open this menu file by default.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 07 Feb 2009 17:08:36 +0100
+
 xubuntu-default-settings (0.48) jaunty; urgency=low
 
   * Do not ship usr/share/themes/Xfwm4.5-svn anymore, it's now the default theme
