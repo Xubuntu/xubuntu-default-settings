@@ -4,14 +4,15 @@ Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.8.0
-Homepage: http://launchpad.net/~xubuntu-team/xubuntu-default-settings
-Vcs-Bzr: http://bazaar.launchpad.net/~xubuntu-team/xubuntu-default-settings/trunk
-Vcs-Browser: http://codebrowse.launchpad.net/~xubuntu-team/xubuntu-default-settings/trunk
+Homepage: https://code.launchpad.net/~xubuntu-dev/xubuntu-default-settings/trunk
+Vcs-Bzr: lp:xubuntu-default-settings
+Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-dev/xubuntu-default-settings/trunk/files
 
 Package: xubuntu-default-settings
+Architecture: all
+Depends: xfce4-utils (>= 4.5.99.1-0ubuntu2)
 Replaces: xfce4-panel (<< 4.3.90.1svn+r21136-0ubuntu2)
-Architecture: all 
-Description: default settings for Xubuntu 
+Description: default settings for Xubuntu
  Various system settings tailored for Xubuntu:
   * custom GDM theme
   * custom Xfce desktop UI settings
