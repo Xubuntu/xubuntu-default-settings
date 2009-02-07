@@ -1,4 +1,4 @@
-xubuntu-default-settings (0.48) UNRELEASED; urgency=low
+xubuntu-default-settings (0.48) jaunty; urgency=low
 
   * Do not ship usr/share/themes/Xfwm4.5-svn anymore, it's now the default theme
     with Xfce 4.6.
@@ -6,8 +6,11 @@ xubuntu-default-settings (0.48) UNRELEASED; urgency=low
     - update Homepage and Vcs-* urls
     - depends on xfce4-utils (>= 4.5.99.1-0ubuntu2) to correctly handle
       XDG_{CONFIG,DATA}_DIRS.
+  * Move etc/xdg/xfce4 to etc/xdg/xubuntu.
+  * Migrate all config files to xfconf.
+  * debian/postinst: handle config files' removal.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 07 Feb 2009 14:14:00 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 07 Feb 2009 15:21:16 +0100
 
 xubuntu-default-settings (0.47) intrepid; urgency=low
 

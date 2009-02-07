@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfprint" version="1.0">
+  <property name="printing-system" type="string" value="cups_plugin.so"/>
+  <property name="XfPrint" type="empty">
+    <property name="system" type="string" value="cups_plugin.so"/>
+  </property>
+</channel>

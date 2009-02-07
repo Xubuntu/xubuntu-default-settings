@@ -1,0 +1,48 @@
+#!/bin/sh
+
+set -e
+
+# Remove a no-longer used conffile
+rm_conffile() {
+    CONFFILE="$1"
+
+    if [ -e "$CONFFILE" ]; then
+        md5sum="`md5sum \"$CONFFILE\" | sed -e \"s/ .*//\"`"
+        old_md5sum="`dpkg-query -W -f='${Conffiles}' $PKGNAME | sed -n -e \"\\\\' $CONFFILE '{s/ obsolete$//;s/.* //p}\"`"
+
+        if [ "$md5sum" != "$old_md5sum" ]; then
+            echo "Obsolete conffile $CONFFILE has been modified by you."
+            echo "Saving as $CONFFILE.dpkg-bak ..."
+            mv -f "$CONFFILE" "$CONFFILE".dpkg-bak
+        else
+            echo "Removing obsolete conffile $CONFFILE ..."
+            rm -f "$CONFFILE"
+        fi
+    fi
+}
+
+case "$1" in
+install|upgrade)
+    if dpkg --compare-versions "$2" le "0.47"; then
+        rm_conffile "/etc/xdg/Thunar/thunarrc"
+        rm_conffile "/etc/xdg/Thunar/volmanrc"
+        rm_conffile "/etc/xdg/xfce4/panel/launcher-2.rc"
+        rm_conffile "/etc/xdg/xfce4/panel/launcher-3.rc"
+        rm_conffile "/etc/xdg/xfce4/panel/panels.xml"
+        rm_conffile "/etc/xdg/xfce4/panel/places-2.rc"
+        rm_conffile "/etc/xdg/xfce4/panel/separator-3.rc"
+        rm_conffile "/etc/xdg/xfce4/panel/systray-4.rc"
+        rm_conffile "/etc/xdg/xfce4/panel/tasklist-2.rc"
+        rm_conffile "/etc/xdg/xfce4/panel/xfce4-menu-1.rc"
+        rm_conffile "/etc/xdg/xfce4/panel/xfce4-mixer-5.rc"
+        rm_conffile "/etc/xdg/xfce4/mcs_settings/gtk.xml"
+        rm_conffile "/etc/xdg/xfce4/mcs_settings/desktop.xml"
+        rm_conffile "/etc/xdg/xfce4/mcs_settings/xfwm4.xml"
+        rm_conffile "/etc/xdg/xfce4/mcs_settings/wmtweaks.xml"
+        rm_conffile "/etc/xdg/xfce4/mcs_settings/workspaces.xml"
+        rm_conffile "/etc/xdg/xfce4/mcs_settings/xfprint.xml"
+    fi
+esac
+
+
+#DEBHELPER#
