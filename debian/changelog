@@ -1,3 +1,14 @@
+xubuntu-default-settings (0.50) UNRELEASED; urgency=low
+
+  * usr/share/applications/xubuntu-help.desktop: moved from xfdesktop4, menu
+    item to open Xubuntu documentation files (LP: #239904).
+  * etc/xdg/xubuntu/menus/xfce-applications.menu: include it instead of
+    xfce4-help.desktop.
+  * etc/xdg/xubuntu/gdm/gdm.conf: change default session from xfce4.desktop to
+    xfce.desktop (renamed in xfce4-utils 4.5.x).
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 07 Feb 2009 22:32:29 +0100
+
 xubuntu-default-settings (0.49) jaunty; urgency=low
 
   * etc/xdg/xubuntu/:

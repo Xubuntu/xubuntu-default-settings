@@ -9,7 +9,7 @@
     
     <Include>
         <Filename>gnome-app-install-xfce.desktop</Filename>
-        <Filename>xfce4-help.desktop</Filename>
+        <Filename>xubuntu-help.desktop</Filename>
         <Filename>xfce4-about-xfce.desktop</Filename>
         <Filename>xfce4-logout.desktop</Filename>
     </Include>
@@ -21,7 +21,7 @@
         <Separator/>
         <Merge type="all"/>
         <Separator/>
-        <Filename>xfce4-help.desktop</Filename>
+        <Filename>xubuntu-help.desktop</Filename>
         <Filename>xfce4-about-xfce.desktop</Filename>
         <Filename>xfce4-logout.desktop</Filename>
     </Layout>
