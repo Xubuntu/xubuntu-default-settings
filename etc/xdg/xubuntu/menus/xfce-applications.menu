@@ -30,7 +30,7 @@
         <Name>Settings</Name>
         <Directory>xfce-settings.directory</Directory>
         <Include>
-            <Category>Settings</Category>
+            <Category>DesktopSettings</Category>
         </Include>
         
         <Layout>
