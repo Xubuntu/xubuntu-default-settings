@@ -1,8 +1,12 @@
+[Global]
+MoveFirst=false
+ArrowPosition=0
+
 [Entry 0]
 Name=Help
-Exec=xfbrowser4 /usr/share/xubuntu-docs/about/xubuntu-index.html 
-Terminal=false
-StartupNotify=true
 Comment=Xubuntu Desktop Guide
 Icon=gnome-help
+Exec=xfbrowser4 /usr/share/xubuntu-docs/about/xubuntu-index.html
+Terminal=false
+StartupNotify=true
 

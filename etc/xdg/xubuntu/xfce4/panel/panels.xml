@@ -20,7 +20,7 @@
 			<item name="launcher" id="3"/>
 			<item name="separator" id="3"/>
 			<item name="systray" id="4"/>
-			<item name="xfce4-mixer" id="5"/>
+			<item name="xfce4-mixer-plugin" id="5"/>
 			<item name="clock" id="5"/>
 			<item name="actions" id="6"/>
 		</items>

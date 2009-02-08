@@ -42,6 +42,9 @@ install|upgrade)
         rm_conffile "/etc/xdg/xfce4/mcs_settings/workspaces.xml"
         rm_conffile "/etc/xdg/xfce4/mcs_settings/xfprint.xml"
     fi
+    if dpkg --compare-versions "$2" le "0.49"; then
+        rm_conffile "/etc/xdg/xubuntu/xfce4/panel/xfce4-mixer-5.rc"
+    fi
 esac
 
 

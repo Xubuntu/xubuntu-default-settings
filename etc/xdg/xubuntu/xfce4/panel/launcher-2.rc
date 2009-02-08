@@ -1,8 +1,12 @@
+[Global]
+MoveFirst=false
+ArrowPosition=0
+
 [Entry 0]
 Name=Web browser
+Comment=Firefox web browser
+Icon=/usr/share/pixmaps/firefox-3.0.png
 Exec=firefox
 Terminal=false
 StartupNotify=true
-Comment=Firefox web browser
-Icon=/usr/share/pixmaps/firefox-3.0.png
 
