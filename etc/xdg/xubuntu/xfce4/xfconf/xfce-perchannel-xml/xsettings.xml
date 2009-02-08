@@ -14,5 +14,4 @@
     <property name="CursorThemeName" type="string" value="Human"/>
     <property name="CursorThemeSize" type="int" value="24"/>
   </property>
-  <property name="Initialized" type="uint" value="1"/>
 </channel>
