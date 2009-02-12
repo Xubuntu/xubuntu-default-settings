@@ -1,3 +1,12 @@
+xubuntu-default-settings (0.51) UNRELEASED; urgency=low
+
+  * Rename debian/postinst to debian/preinst: this makes more sense for
+    conffiles handling, and this should fix alternatives that were already set
+    in debian/xubuntu-default-settings.postinst.
+  * debian/preinst: delete /etc/xdg/orage/oragerc as well.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 12 Feb 2009 22:46:48 +0100
+
 xubuntu-default-settings (0.50) jaunty; urgency=low
 
   * usr/share/applications/xubuntu-help.desktop: moved from xfdesktop4, menu

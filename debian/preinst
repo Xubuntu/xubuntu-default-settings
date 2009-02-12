@@ -24,6 +24,7 @@ rm_conffile() {
 case "$1" in
 install|upgrade)
     if dpkg --compare-versions "$2" le "0.47"; then
+        rm_conffile "/etc/xdg/orage/oragerc"
         rm_conffile "/etc/xdg/Thunar/thunarrc"
         rm_conffile "/etc/xdg/Thunar/volmanrc"
         rm_conffile "/etc/xdg/xfce4/panel/launcher-2.rc"
