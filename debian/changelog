@@ -1,11 +1,12 @@
-xubuntu-default-settings (0.51) UNRELEASED; urgency=low
+xubuntu-default-settings (0.51) jaunty; urgency=low
 
-  * Rename debian/postinst to debian/preinst: this makes more sense for
-    conffiles handling, and this should fix alternatives that were already set
-    in debian/xubuntu-default-settings.postinst.
-  * debian/preinst: delete /etc/xdg/orage/oragerc as well.
+  * Rename debian/postinst to debian/xubuntu-default-settings.preinst: this
+    makes more sense for conffiles handling, and this should fix alternatives
+    that were already set in debian/xubuntu-default-settings.postinst.
+  * debian/xubuntu-default-settings.preinst: delete /etc/xdg/orage/oragerc as
+    well.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 12 Feb 2009 22:46:48 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 13 Feb 2009 20:04:02 +0100
 
 xubuntu-default-settings (0.50) jaunty; urgency=low
 
