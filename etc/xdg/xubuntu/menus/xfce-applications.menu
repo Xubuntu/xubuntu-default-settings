@@ -139,7 +139,7 @@
         </Include>
         <Exclude>
             <Category>X-Xfce-Toplevel</Category>
-        <Exclude>
+        </Exclude>
     </Menu>
     
 </Menu>
