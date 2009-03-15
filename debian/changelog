@@ -9,8 +9,10 @@ xubuntu-default-settings (0.52) UNRELEASED; urgency=low
     - debian/xubuntu-default-settings.gconf-defaults: set 'auto_launch' gconf
       key to false
     - debian/rules: call dh_gconf --priority=20.
+  * etc/xdg/xubuntu/menus/xfce-applications.menu: don't show in 'Other' desktop
+    files belonging to 'X-Xfce-Toplevel' category.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Mar 2009 17:01:53 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Mar 2009 17:41:49 +0100
 
 xubuntu-default-settings (0.51) jaunty; urgency=low
 

@@ -137,6 +137,9 @@
         <Include>
             <All/>
         </Include>
+        <Exclude>
+            <Category>X-Xfce-Toplevel</Category>
+        <Exclude>
     </Menu>
     
 </Menu>
