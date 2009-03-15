@@ -30,8 +30,11 @@
         <Name>Settings</Name>
         <Directory>xfce-settings.directory</Directory>
         <Include>
-            <Category>DesktopSettings</Category>
+            <Category>Settings</Category>
         </Include>
+        <Exclude>
+            <Category>System</Category>
+        </Exclude>
         
         <Layout>
             <Filename>xfce-settings-manager.desktop</Filename>
