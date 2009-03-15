@@ -1,3 +1,12 @@
+xubuntu-default-settings (0.52) UNRELEASED; urgency=low
+
+  * Ship artwork in xubuntu-artwork instead of xubuntu-default-settings:
+    - usr/share/{gdm,pixmaps,themes,xfce4}: dropped
+    - depends on xubuntu-artwork (>= 0.22~)
+    - don't provide gdm-theme.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Mar 2009 15:52:17 +0100
+
 xubuntu-default-settings (0.51) jaunty; urgency=low
 
   * Rename debian/postinst to debian/xubuntu-default-settings.preinst: this

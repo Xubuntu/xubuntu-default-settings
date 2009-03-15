@@ -10,9 +10,9 @@ Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-dev/xubuntu-default-settings/t
 
 Package: xubuntu-default-settings
 Architecture: all
+Depends: xubuntu-artwork (>= 0.22~)
 Replaces: xfce4-panel (<< 4.3.90.1svn+r21136-0ubuntu2)
-Provides: gdm-theme
 Description: default settings for Xubuntu
  Various system settings tailored for Xubuntu:
-  * custom GDM theme
+  * custom GDM settings
   * custom Xfce desktop UI settings
