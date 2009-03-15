@@ -33,6 +33,7 @@ binary-indep: build install
 	dh_installchangelogs 
 	dh_installdocs
 	dh_compress
+	dh_gconf --priority=20
 	dh_installdeb
 	dh_gencontrol
 	dh_md5sums

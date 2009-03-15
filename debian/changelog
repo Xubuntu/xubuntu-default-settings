@@ -4,8 +4,13 @@ xubuntu-default-settings (0.52) UNRELEASED; urgency=low
     - usr/share/{gdm,pixmaps,themes,xfce4}: dropped
     - depends on xubuntu-artwork (>= 0.22~)
     - don't provide gdm-theme.
+  * Revert to the "old" behavior of update-manager:
+    - debian/control: add missing ${misc:Depends}
+    - debian/xubuntu-default-settings.gconf-defaults: set 'auto_launch' gconf
+      key to false
+    - debian/rules: call dh_gconf --priority=20.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Mar 2009 15:52:17 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Mar 2009 17:01:53 +0100
 
 xubuntu-default-settings (0.51) jaunty; urgency=low
 
