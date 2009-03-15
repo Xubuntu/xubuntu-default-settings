@@ -10,9 +10,10 @@ xubuntu-default-settings (0.52) UNRELEASED; urgency=low
       key to false
     - debian/rules: call dh_gconf --priority=20.
   * etc/xdg/xubuntu/menus/xfce-applications.menu: don't show in 'Other' desktop
-    files belonging to 'X-Xfce-Toplevel' category.
+    files belonging to 'X-Xfce-Toplevel' category (thanks vinnl and j1mc for
+    spotting this).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Mar 2009 17:41:49 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Mar 2009 17:55:46 +0100
 
 xubuntu-default-settings (0.51) jaunty; urgency=low
 
