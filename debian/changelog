@@ -17,8 +17,10 @@ xubuntu-default-settings (0.52) UNRELEASED; urgency=low
       'System' (thanks j1mc).
   * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml: set
     new jaunty wallpaper.
+  * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: set
+    'gnome-brave' as default icon theme.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 16 Mar 2009 19:47:37 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 16 Mar 2009 21:31:08 +0100
 
 xubuntu-default-settings (0.51) jaunty; urgency=low
 
