@@ -15,8 +15,10 @@ xubuntu-default-settings (0.52) UNRELEASED; urgency=low
     - don't show in 'Settings' desktop files belonging only to
       'DesktopSettings', but rather those belonging to 'Settings' but not to
       'System' (thanks j1mc).
+  * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml: set
+    new jaunty wallpaper.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Mar 2009 18:12:56 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 16 Mar 2009 19:47:37 +0100
 
 xubuntu-default-settings (0.51) jaunty; urgency=low
 
