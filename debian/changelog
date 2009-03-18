@@ -1,4 +1,4 @@
-xubuntu-default-settings (0.52) UNRELEASED; urgency=low
+xubuntu-default-settings (0.52) jaunty; urgency=low
 
   * Ship artwork in xubuntu-artwork instead of xubuntu-default-settings:
     - usr/share/{gdm,pixmaps,themes,xfce4}: dropped
@@ -21,7 +21,7 @@ xubuntu-default-settings (0.52) UNRELEASED; urgency=low
   * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: set
     'gnome-brave' as default icon theme.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 18 Mar 2009 20:05:27 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 18 Mar 2009 20:38:59 +0100
 
 xubuntu-default-settings (0.51) jaunty; urgency=low
 
