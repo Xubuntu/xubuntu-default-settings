@@ -1,38 +1,12 @@
-This package was debianized by Jani Monoses <jani@ubuntu.com> on
-Fri,  9 Dec 2005 16:21:22 +0200.
-
-Copyright 2005-2008:
-		Mark Shuttleworth, Jeff Waugh 
-		Trevor Vallender <trevorv@riseup.net>
-		Nicolas Trangez <ikke@eikke.com>
-		Rohan McGovern <rohan.pm@gmail.com>
-License:
-
-The ivman config files are licensed under the QPL
-The GDM theme is licensed under the GPL
-
----
-
-The MurrinaStormCloud GTK 2.x theme was taken from 
-http://www.gnome-look.org/content/show.php/MurrinaStormCloud?content=61418.
-
-This theme is a modification by Sven Hein of the MurrinaBlueGreyGlass GTK 2.x 
-theme.
-
-License: GPL
-
----
-
-The Xfwm4.5-svn xfwm4 theme was taken from upstream svn (revision 25981).
-
-joy - SVG based theme for xfwm4.
-Created Sept. 2006 by Olivier Fourdan <fourdan@xfce.org>
-Modified Oct. 2006 by Olivier Fourdan <fourdan@xfce.org>
-Modified Jul. 2007 by Olivier Fourdan <fourdan@xfce.org>
-
-Theme released under GNU GPL license.
-
----
-
-On Debian systems, the complete text of the GNU General
-Public License can be found in `/usr/share/common-licenses/GPL'.
+Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=196
+Upstream-Name: Xubuntu Default Settings
+Upstream-Maintainer: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
+Upstream-Source: https://launchpad.net/xubuntu-default-settings
+Files: *
+Copyright: Copyright 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
+Copyright: Copyright 2007-2009, Lionel Le Folgoc <mrpouit@ubuntu.com>
+Copyright: Copyright 2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
+Copyright: Copyright 2005-2008, Jani Monoses <jani@ubuntu.com>
+License: GPL-2+
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL' file.

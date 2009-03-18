@@ -3,7 +3,8 @@ xubuntu-default-settings (0.52) UNRELEASED; urgency=low
   * Ship artwork in xubuntu-artwork instead of xubuntu-default-settings:
     - usr/share/{gdm,pixmaps,themes,xfce4}: dropped
     - depends on xubuntu-artwork (>= 0.22~)
-    - don't provide gdm-theme.
+    - don't provide gdm-theme
+    - update debian/copyright consequently.
   * Revert to the "old" behavior of update-manager:
     - debian/control: add missing ${misc:Depends}
     - debian/xubuntu-default-settings.gconf-defaults: set 'auto_launch' gconf
@@ -20,7 +21,7 @@ xubuntu-default-settings (0.52) UNRELEASED; urgency=low
   * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: set
     'gnome-brave' as default icon theme.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 16 Mar 2009 21:31:08 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 18 Mar 2009 20:05:27 +0100
 
 xubuntu-default-settings (0.51) jaunty; urgency=low
 
