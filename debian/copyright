@@ -2,6 +2,7 @@ Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=re
 Upstream-Name: Xubuntu Default Settings
 Upstream-Maintainer: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
 Upstream-Source: https://launchpad.net/xubuntu-default-settings
+
 Files: *
 Copyright: Copyright 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
 Copyright: Copyright 2007-2009, Lionel Le Folgoc <mrpouit@ubuntu.com>
