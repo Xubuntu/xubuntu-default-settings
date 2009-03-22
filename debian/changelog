@@ -1,3 +1,11 @@
+xubuntu-default-settings (0.53) UNRELEASED; urgency=low
+
+  * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4: restore "maximise
+    window" action on double-click (apparently dropped with the transition to
+    xfconf).
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 22 Mar 2009 11:44:11 +0100
+
 xubuntu-default-settings (0.52) jaunty; urgency=low
 
   * Ship artwork in xubuntu-artwork instead of xubuntu-default-settings:

@@ -6,6 +6,7 @@
     <property name="cycle_hidden" type="bool" value="true"/>
     <property name="cycle_minimum" type="bool" value="true"/>
     <property name="cycle_workspaces" type="bool" value="false"/>
+    <property name="double_click_action" type="string" value="maximize"/>
     <property name="easy_click" type="string" value="Alt"/>
     <property name="focus_hint" type="bool" value="true"/>
     <property name="frame_opacity" type="int" value="57"/>
