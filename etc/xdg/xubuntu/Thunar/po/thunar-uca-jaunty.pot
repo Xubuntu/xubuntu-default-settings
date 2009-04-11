@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-11 22:20+0200\n"
+"POT-Creation-Date: 2009-04-11 23:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../uca.xml.in.h:1
-msgid "Find in this folder"
+msgid "Example for a custom action"
 msgstr ""
 
 #: ../uca.xml.in.h:2
+msgid "Find in this folder"
+msgstr ""
+
+#: ../uca.xml.in.h:3
+msgid "Open Terminal Here"
+msgstr ""
+
+#: ../uca.xml.in.h:4
 msgid "Search for files within this folder"
 msgstr ""
