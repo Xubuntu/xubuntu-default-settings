@@ -1,3 +1,11 @@
+xubuntu-default-settings (0.54) jaunty; urgency=low
+
+  * etc/xdg/xubuntu/menus/xfce-applications.menu: Don't show the 
+    Screensavers menu.  It has no purpose. Instead we should be showing the
+    screensavers preferences utility. (LP: #350962)
+
+ -- Mario Limonciello <superm1@ubuntu.com>  Sat, 11 Apr 2009 10:39:41 -0500
+
 xubuntu-default-settings (0.53) jaunty; urgency=low
 
   * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml: restore

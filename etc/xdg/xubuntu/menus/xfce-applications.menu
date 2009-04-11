@@ -42,13 +42,6 @@
             <Merge type="all"/>
         </Layout>
         
-        <Menu>
-            <Name>Screensavers</Name>
-            <Directory>xfce-screensavers.directory</Directory>
-            <Include>
-                <Category>Screensaver</Category>
-            </Include>
-        </Menu>
     </Menu>
     
     <Menu>
