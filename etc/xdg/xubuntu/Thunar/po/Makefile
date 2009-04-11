@@ -9,7 +9,7 @@ all: generate-uca
 generate-pot: POTFILES.in
 	intltool-update --pot --gettext-package=thunar-uca-$(RELEASE)
 
-generate-uca: *.po
+generate-uca:
 	for i in $(POTFILES); do \
 		f=$$(echo $$i | sed 's/\.in//'); \
 		intltool-merge -x . ../$$i ../$$f; \

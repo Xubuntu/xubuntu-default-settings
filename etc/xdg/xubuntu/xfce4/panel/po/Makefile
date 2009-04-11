@@ -21,7 +21,7 @@ generate-pot: generate-headers
 	xgettext --directory=tmp --files-from=POTFILES.in --output=panel-rc-files-$(RELEASE).pot --keyword=_ --keyword=N_ --keyword=Q_ --from-code=UTF-8
 	rm -rf tmp POTFILES.in
 
-generate-rc-files: *.po
+generate-rc-files:
 	for i in $(POTFILES); do \
 		f=$$(echo $$i | sed 's/\.in//'); \
 		intltool-merge -d . ../$$i ../$$f; \
