@@ -1,6 +1,6 @@
 show_button_icon=true
 show_button_label=true
-label=Places
+_label=Places
 show_icons=true
 show_volumes=true
 mount_open_volumes=true

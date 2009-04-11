@@ -3,8 +3,8 @@ MoveFirst=false
 ArrowPosition=0
 
 [Entry 0]
-Name=Help
-Comment=Xubuntu Desktop Guide
+_Name=Help
+_Comment=Xubuntu Desktop Guide
 Icon=gnome-help
 Exec=xfbrowser4 /usr/share/xubuntu-docs/about/xubuntu-index.html
 Terminal=false
