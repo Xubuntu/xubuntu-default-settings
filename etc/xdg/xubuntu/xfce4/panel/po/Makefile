@@ -26,6 +26,8 @@ generate-rc-files:
 		f=$$(echo $$i | sed 's/\.in//'); \
 		intltool-merge -d . ../$$i ../$$f; \
 	done
+	# workaround (xfce4-menu-1.rc contains a forbidden key...)
+	sed -i 's/FIXME/_/' ../xfce4-menu-1.rc
 
 update-po:
 	for i in *.po; do \
