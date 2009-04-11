@@ -5,6 +5,7 @@ SUBDIRS := etc/xdg/xubuntu/xfce4/panel/po
 all: install
 
 install:
+	mkdir -pv $(DESTDIR)
 	cp -a etc usr $(DESTDIR)/.
 	# po generation
 	for i in $(SUBDIRS); do \
