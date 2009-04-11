@@ -4,11 +4,15 @@ xubuntu-default-settings (0.55) UNRELEASED; urgency=low
     - etc/xdg/xubuntu/xfce4/panel:
       + generate rc files which have translatable strings from rc.in ones
       + po/*: added.
+  * Fix "Thunar needs a "Find in this folder" action" (LP: #291622):
+    - etc/xdg/xubuntu/Thunar:
+      + generate uca.xml from uca.xml.in to have it translated
+      + po/*: added.
   * Makefile: added (useful to generate rc files without cluttering
     debian/rules file).
   * debian/rules: call $(MAKE) once instead of multiple dh_install.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 11 Apr 2009 22:00:25 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 11 Apr 2009 22:25:06 +0200
 
 xubuntu-default-settings (0.54) jaunty; urgency=low
 
