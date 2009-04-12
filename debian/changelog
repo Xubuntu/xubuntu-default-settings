@@ -1,3 +1,10 @@
+xubuntu-default-settings (0.55) UNRELEASED; urgency=low
+
+  * etc/xdg/xubuntu/menus/xfce-applications.menu: Exclude screensavers' desktop
+    files from the "Other" menu (LP: #360063).
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 12 Apr 2009 19:23:02 +0200
+
 xubuntu-default-settings (0.54) jaunty; urgency=low
 
   * etc/xdg/xubuntu/menus/xfce-applications.menu: Don't show the 

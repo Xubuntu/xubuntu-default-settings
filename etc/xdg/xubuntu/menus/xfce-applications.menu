@@ -134,6 +134,7 @@
             <All/>
         </Include>
         <Exclude>
+            <Category>Screensaver</Category>
             <Category>X-Xfce-Toplevel</Category>
         </Exclude>
     </Menu>
