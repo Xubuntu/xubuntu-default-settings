@@ -1,4 +1,4 @@
-xubuntu-default-settings (0.56) UNRELEASED; urgency=low
+xubuntu-default-settings (0.56) jaunty; urgency=low
 
   * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
     - Set default DPI to 96 as Xserver.org autodetection is broke.
