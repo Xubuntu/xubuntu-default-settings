@@ -1,3 +1,11 @@
+xubuntu-default-settings (0.56) UNRELEASED; urgency=low
+
+  * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
+    - Set default DPI to 96 as Xserver.org autodetection is broke.
+    - Set default RGBA value to rgb to fix ugly font issues.
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Tue, 14 Apr 2009 22:30:29 -0300
+
 xubuntu-default-settings (0.55) jaunty; urgency=low
 
   * etc/xdg/xubuntu/menus/xfce-applications.menu: Exclude screensavers' desktop
