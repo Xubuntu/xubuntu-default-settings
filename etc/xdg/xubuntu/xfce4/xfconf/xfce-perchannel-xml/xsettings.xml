@@ -6,9 +6,11 @@
     <property name="IconThemeName" type="string" value="gnome-brave"/>
   </property>
   <property name="Xft" type="empty">
+    <property name="DPI" type="int" value="96"/>
     <property name="Antialias" type="int" value="1"/>
     <property name="Hinting" type="int" value="1"/>
     <property name="HintStyle" type="string" value="hintslight"/>
+    <property name="RGBA" type="string" value="rgb"/>
   </property>
   <property name="Gtk" type="empty">
     <property name="CursorThemeName" type="string" value="Human"/>
