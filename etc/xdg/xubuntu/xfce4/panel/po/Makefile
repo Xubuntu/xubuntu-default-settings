@@ -5,8 +5,6 @@ POTFILES := places-2.rc.in \
 			xfce4-menu-1.rc.in \
 			launcher-3.rc.in
 
-RELEASE := jaunty
-
 all: generate-rc-files
 
 generate-headers:
@@ -18,7 +16,7 @@ generate-headers:
 	done
 
 generate-pot: generate-headers
-	xgettext --directory=tmp --files-from=POTFILES.in --output=panel-rc-files-$(RELEASE).pot --keyword=_ --keyword=N_ --keyword=Q_ --from-code=UTF-8
+	xgettext --directory=tmp --files-from=POTFILES.in --output=panel-rc-files.pot --keyword=_ --keyword=N_ --keyword=Q_ --from-code=UTF-8
 	rm -rf tmp POTFILES.in
 
 generate-rc-files:
@@ -32,7 +30,7 @@ generate-rc-files:
 update-po:
 	for i in *.po; do \
 		code=$$(echo $$i | sed 's/.po//'); \
-		intltool-update --gettext-package=panel-rc-files-$(RELEASE) --dist $$code; \
+		intltool-update --gettext-package=panel-rc-files --dist $$code; \
 	done
 
 # vim:ts=4
