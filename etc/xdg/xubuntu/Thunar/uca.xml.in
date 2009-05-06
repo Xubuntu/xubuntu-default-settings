@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE actions [
+  <!ELEMENT actions (action)+>
+
+  <!ELEMENT action (icon|patterns|name|command|description|directories|audio-files|image-files|other-files|text-files|video-files)*>
+
+  <!ELEMENT icon (#PCDATA)>
+  <!ELEMENT command (#PCDATA)>
+  <!ELEMENT patterns (#PCDATA)>
+
+  <!ELEMENT name (#PCDATA)>
+  <!ATTLIST name xml:lang CDATA #IMPLIED>
+
+  <!ELEMENT description (#PCDATA)>
+  <!ATTLIST description xml:lang CDATA #IMPLIED>
+
+  <!ELEMENT directories EMPTY>
+  <!ELEMENT audio-files EMPTY>
+  <!ELEMENT image-files EMPTY>
+  <!ELEMENT other-files EMPTY>
+  <!ELEMENT text-files EMPTY>
+  <!ELEMENT video-files EMPTY>
+]>
+<actions>
+
+  <action>
+    <icon>Terminal</icon>
+    <patterns>*</patterns>
+    <_name>Open Terminal Here</_name>
+    <command>exo-open --working-directory %f --launch TerminalEmulator</command>
+    <_description>Example for a custom action</_description>
+    <directories/>
+  </action>
+
+  <action>
+    <icon>filefind</icon>
+    <_name>Find in this folder</_name>
+    <command>catfish --path=%f</command>
+    <_description>Search for files within this folder</_description>
+    <patterns>*</patterns>
+    <directories/>
+  </action>
+
+</actions>

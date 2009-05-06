@@ -1,45 +1,37 @@
 #!/usr/bin/make -f
-# -*- makefile -*-
-# Sample debian/rules that uses debhelper.
-# This file was originally written by Joey Hess and Craig Small.
-# As a special exception, when this file is copied by dh-make into a
-# dh-make output file, you may use that output file without restriction.
-# This special exception was added by Craig Small in version 0.37 of dh-make.
 
-# Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
-
-
-build:
+build: build-stamp
+build-stamp:
+	dh_testdir
+	touch build-stamp
 
 clean:
 	dh_testdir
 	dh_testroot
-
-	dh_clean 
+	rm -f build-stamp
+	dh_clean
 
 install: build
 	dh_testdir
 	dh_testroot
-	dh_clean
+	dh_prep
 	dh_installdirs
-	dh_install etc/* etc
-	dh_install usr/* usr
-# Build architecture-independent files here.
-binary-indep: build install
+	$(MAKE) DESTDIR=$(CURDIR)/debian/xubuntu-default-settings
 
+binary-indep: build install
 	dh_testdir
 	dh_testroot
-	dh_installchangelogs 
+	dh_installchangelogs
 	dh_installdocs
 	dh_compress
 	dh_gconf --priority=20
+	dh_fixperms
 	dh_installdeb
 	dh_gencontrol
 	dh_md5sums
 	dh_builddeb
 
-binary-arch:
+binary-arch: build install
 
 binary: binary-indep binary-arch
-.PHONY: build clean binary-indep binary install 
+.PHONY: build clean binary-indep binary-arch binary install
