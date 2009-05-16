@@ -1,4 +1,4 @@
-xubuntu-default-settings (0.57) UNRELEASED; urgency=low
+xubuntu-default-settings (0.57) jaunty; urgency=low
 
   * Fix "[Xubuntu only] Non-translatable labels and launchers" (LP: #163206):
     - etc/xdg/xubuntu/xfce4/panel:
@@ -15,7 +15,7 @@ xubuntu-default-settings (0.57) UNRELEASED; urgency=low
     - bump debhelper dependency to >= 7 for dh_prep
     - build-depend on intltool.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 16 May 2009 22:11:15 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 16 May 2009 22:12:33 +0200
 
 xubuntu-default-settings (0.56) jaunty; urgency=low
 
