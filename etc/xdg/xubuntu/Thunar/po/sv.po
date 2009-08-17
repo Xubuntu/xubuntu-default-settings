@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2009-04-11 21:32+0200\n"
-"PO-Revision-Date: 2009-05-16 20:54+0000\n"
+"POT-Creation-Date: 2009-04-11 23:24+0200\n"
+"PO-Revision-Date: 2009-05-18 15:03+0000\n"
 "Last-Translator: Daniel Nylander <yeager@ubuntu.com>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,26 +17,18 @@ msgstr ""
 "X-Launchpad-Export-Date: 2009-08-17 03:30+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
-#: places-2.rc.in.h:1
-msgid "Places"
-msgstr "Platser"
+#: ../uca.xml.in.h:1
+msgid "Example for a custom action"
+msgstr "Exempel på en anpassad åtgärd"
 
-#: launcher-2.rc.in.h:1
-msgid "Firefox web browser"
-msgstr "Webbläsaren Firefox"
+#: ../uca.xml.in.h:2
+msgid "Find in this folder"
+msgstr "Sök i denna mapp"
 
-#: launcher-2.rc.in.h:2
-msgid "Web browser"
-msgstr "Webbläsare"
+#: ../uca.xml.in.h:3
+msgid "Open Terminal Here"
+msgstr "Öppna terminal här"
 
-#: xfce4-menu-1.rc.in.h:1
-msgid "Applications"
-msgstr "Program"
-
-#: launcher-3.rc.in.h:1
-msgid "Help"
-msgstr "Hjälp"
-
-#: launcher-3.rc.in.h:2
-msgid "Xubuntu Desktop Guide"
-msgstr "Skrivbordsguide för Xubuntu"
+#: ../uca.xml.in.h:4
+msgid "Search for files within this folder"
+msgstr "Sök efter filer i denna mapp"
