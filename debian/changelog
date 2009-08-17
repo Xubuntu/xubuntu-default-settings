@@ -1,3 +1,9 @@
+xubuntu-default-settings (0.58) UNRELEASED; urgency=low
+
+  * Pull new and updated translations from LP.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 17 Aug 2009 09:25:06 +0200
+
 xubuntu-default-settings (0.57) karmic; urgency=low
 
   * Fix "[Xubuntu only] Non-translatable labels and launchers" (LP: #163206):
