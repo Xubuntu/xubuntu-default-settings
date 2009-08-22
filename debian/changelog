@@ -1,10 +1,10 @@
-xubuntu-default-settings (0.59) UNRELEASED; urgency=low
+xubuntu-default-settings (0.59) karmic; urgency=low
 
   * Refreshed translations, again.
   * etc/xdg/xubuntu/xfce4/panel/launcher-2.rc.in: update for firefox-3.5
     (LP: #417353).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 22 Aug 2009 15:18:59 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 22 Aug 2009 15:20:37 +0200
 
 xubuntu-default-settings (0.58) karmic; urgency=low
 
