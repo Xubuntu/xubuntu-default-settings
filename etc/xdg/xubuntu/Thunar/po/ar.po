@@ -1,4 +1,4 @@
-# Czech translation for xubuntu-default-settings
+# Arabic translation for xubuntu-default-settings
 # Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
 # This file is distributed under the same license as the xubuntu-default-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
@@ -7,36 +7,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2009-04-11 21:32+0200\n"
-"PO-Revision-Date: 2009-06-04 06:01+0000\n"
+"POT-Creation-Date: 2009-04-11 23:24+0200\n"
+"PO-Revision-Date: 2009-08-29 16:04+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Czech <cs@li.org>\n"
+"Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2009-08-30 09:22+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
-#: places-2.rc.in.h:1
-msgid "Places"
+#: ../uca.xml.in.h:1
+msgid "Example for a custom action"
 msgstr ""
 
-#: launcher-2.rc.in.h:1
-msgid "Firefox web browser"
+#: ../uca.xml.in.h:2
+msgid "Find in this folder"
 msgstr ""
 
-#: launcher-2.rc.in.h:2
-msgid "Web browser"
+#: ../uca.xml.in.h:3
+msgid "Open Terminal Here"
 msgstr ""
 
-#: xfce4-menu-1.rc.in.h:1
-msgid "Applications"
-msgstr ""
-
-#: launcher-3.rc.in.h:1
-msgid "Help"
-msgstr ""
-
-#: launcher-3.rc.in.h:2
-msgid "Xubuntu Desktop Guide"
+#: ../uca.xml.in.h:4
+msgid "Search for files within this folder"
 msgstr ""
