@@ -1,3 +1,9 @@
+xubuntu-default-settings (0.60) UNRELEASED; urgency=low
+
+  * Pull in new translations: Arabic and Hebrew.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 02 Sep 2009 10:11:51 +0200
+
 xubuntu-default-settings (0.59) karmic; urgency=low
 
   * Refreshed translations, again.
