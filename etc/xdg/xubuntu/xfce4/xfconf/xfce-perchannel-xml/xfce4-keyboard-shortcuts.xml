@@ -7,6 +7,7 @@
       <property name="&lt;Control&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
       <property name="Print" type="string" value="xfce4-screenshooter -f"/>
       <property name="&lt;Alt&gt;Print" type="string" value="xfce4-screenshooter -w"/>
+      <property name="&lt;Control&gt;Escape" type="string" value="xfce4-popup-menu"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

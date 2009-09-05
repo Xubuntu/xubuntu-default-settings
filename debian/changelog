@@ -14,8 +14,10 @@ xubuntu-default-settings (0.60) UNRELEASED; urgency=low
     default session.
   * debian/xubuntu-default-settings.links: provide gnome.desktop to force the
     default session.
+  * etc/xdg/xubuntu/ [...] /xfce4-keyboard-shortcuts.xml: readd a shortcut for
+    xfce4-popup-menu (LP: #424282).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 06 Sep 2009 00:29:35 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 06 Sep 2009 00:42:04 +0200
 
 xubuntu-default-settings (0.59) karmic; urgency=low
 
