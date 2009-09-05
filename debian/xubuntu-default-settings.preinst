@@ -46,6 +46,9 @@ install|upgrade)
     if dpkg --compare-versions "$2" le "0.49"; then
         rm_conffile "/etc/xdg/xubuntu/xfce4/panel/xfce4-mixer-5.rc"
     fi
+    if dpkg --compare-versions "$2" le "0.60"; then
+        rm_conffile "/etc/xdg/xubuntu/gdm/gdm.conf"
+    fi
 esac
 
 

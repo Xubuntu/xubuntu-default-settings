@@ -6,8 +6,8 @@ set -e
 
 case "$1" in
   configure)
-    if [ -d /etc/gdm ]; then
-    	update-alternatives --install /etc/gdm/gdm-cdd.conf gdm-config-derivative /etc/xdg/xubuntu/gdm/gdm.conf 50
+    if dpkg --compare-versions "${2}" le-nl "0.60"; then
+        update-alternatives --remove gdm-config-derivative /etc/xdg/xubuntu/gdm/gdm.conf
     fi
     ;;
 esac
