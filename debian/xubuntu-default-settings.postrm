@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+case "$1" in
+    remove)
+        dpkg-divert --package xubuntu-default-settings --remove --rename\
+                    --divert /usr/share/xsessions/gnome.desktop.diverted /usr/share/xsessions/gnome.desktop
+    ;;
+esac

@@ -6,7 +6,16 @@ xubuntu-default-settings (0.60) UNRELEASED; urgency=low
   * debian/xubuntu-default-settings.prerm, etc/xdg/xubuntu/gdm/gdm.conf:
     drop, unnecessary now.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 06 Sep 2009 00:09:08 +0200
+  * Add in a set of workaround that will be used until a better solution
+    to (LP: #403291) is developed (same as Mythbuntu).
+  * debian/xubuntu-default-settings.{preinst,postrm}: add a diversion for
+    /usr/share/xsessions/gnome.desktop so that we can make gnome.desktop be a
+    symlink to xfce.desktop since gdm now looks for gnome.desktop to pick it's
+    default session.
+  * debian/xubuntu-default-settings.links: provide gnome.desktop to force the
+    default session.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 06 Sep 2009 00:29:35 +0200
 
 xubuntu-default-settings (0.59) karmic; urgency=low
 
