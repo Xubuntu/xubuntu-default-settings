@@ -12,12 +12,12 @@ xubuntu-default-settings (0.60) UNRELEASED; urgency=low
     /usr/share/xsessions/gnome.desktop so that we can make gnome.desktop be a
     symlink to xfce.desktop since gdm now looks for gnome.desktop to pick it's
     default session.
-  * debian/xubuntu-default-settings.links: provide gnome.desktop to force the
-    default session.
+  * Provide gnome.desktop to force the default session.
+
   * etc/xdg/xubuntu/ [...] /xfce4-keyboard-shortcuts.xml: readd a shortcut for
     xfce4-popup-menu (LP: #424282).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 06 Sep 2009 00:42:04 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 06 Sep 2009 12:34:16 +0200
 
 xubuntu-default-settings (0.59) karmic; urgency=low
 
