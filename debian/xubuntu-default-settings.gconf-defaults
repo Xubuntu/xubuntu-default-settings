@@ -1,1 +1,3 @@
 /apps/update-notifier/auto_launch false
+/desktop/gnome/background/picture_filename /usr/share/xfce4/backdrops/xubuntu-jaunty.png
+/apps/gdm/simple-greeter/logo_icon_name xubuntu-logo
