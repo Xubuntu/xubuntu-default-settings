@@ -17,7 +17,10 @@ xubuntu-default-settings (0.60) UNRELEASED; urgency=low
   * etc/xdg/xubuntu/ [...] /xfce4-keyboard-shortcuts.xml: readd a shortcut for
     xfce4-popup-menu (LP: #424282).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 06 Sep 2009 12:34:16 +0200
+  * usr/share/gdm/autostart/LoginWindow/xfce4-power-manager.desktop: provide
+    xfce4-power-manager to replace gnome-power-manager for gdm.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 06 Sep 2009 12:54:42 +0200
 
 xubuntu-default-settings (0.59) karmic; urgency=low
 

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Power Manager
+Comment=Power management daemon
+Icon=xfce-power-manager
+Exec=xfce-power-manager
+Terminal=false
+Type=Application
+Categories=
+OnlyShowIn=GNOME;XFCE;
