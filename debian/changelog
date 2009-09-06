@@ -21,8 +21,10 @@ xubuntu-default-settings (0.60) UNRELEASED; urgency=low
     - xfce4-power-manager.desktop: provide xfce4-power-manager to replace
       gnome-power-manager for gdm
     - xfsettingsd.desktop: use xfsettings to provide a xsettings daemon.
+  * debian/xubuntu-default-settings.gconf-defaults: set xubuntu-logo as
+    the default logo on the greeter.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 06 Sep 2009 14:30:42 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 06 Sep 2009 14:44:22 +0200
 
 xubuntu-default-settings (0.59) karmic; urgency=low
 
