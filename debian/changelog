@@ -1,4 +1,4 @@
-xubuntu-default-settings (0.60) UNRELEASED; urgency=low
+xubuntu-default-settings (0.60) karmic; urgency=low
 
   * Pull in new translations: Arabic and Hebrew.
   * debian/xubuntu-default-settings.{postinst,preinst}: unregister gdm config
@@ -25,7 +25,7 @@ xubuntu-default-settings (0.60) UNRELEASED; urgency=low
   * debian/xubuntu-default-settings.gconf-defaults: set xubuntu-logo as
     the default logo on the greeter.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 07 Sep 2009 17:21:15 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 07 Sep 2009 22:03:32 +0200
 
 xubuntu-default-settings (0.59) karmic; urgency=low
 
