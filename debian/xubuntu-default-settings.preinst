@@ -23,9 +23,6 @@ rm_conffile() {
 
 case "$1" in
 install|upgrade)
-    dpkg-divert --package xubuntu-default-settings --add --rename \
-                --divert /usr/share/xsessions/gnome.desktop.diverted /usr/share/xsessions/gnome.desktop
-
     if dpkg --compare-versions "$2" le "0.47"; then
         rm_conffile "/etc/xdg/orage/oragerc"
         rm_conffile "/etc/xdg/Thunar/thunarrc"
