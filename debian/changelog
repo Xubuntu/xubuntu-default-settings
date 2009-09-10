@@ -1,4 +1,4 @@
-xubuntu-default-settings (0.61) UNRELEASED; urgency=low
+xubuntu-default-settings (0.61) karmic; urgency=low
 
   * debian/control: provides/conflicts with ubuntu-derivative-default-settings.
   * debian/xubuntu-default-settings.preinst: drop our diversion for
@@ -7,7 +7,7 @@ xubuntu-default-settings (0.61) UNRELEASED; urgency=low
   * debian/xubuntu-default-settings.postrm: dropped.
   * Provide default.desktop instead of gnome.desktop (LP: #403291, #426800).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 10 Sep 2009 20:11:15 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 10 Sep 2009 20:44:24 +0200
 
 xubuntu-default-settings (0.60) karmic; urgency=low
 
