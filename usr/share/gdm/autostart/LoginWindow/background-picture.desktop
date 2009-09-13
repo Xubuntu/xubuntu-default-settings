@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=GDM Background picture
+Comment=Set GDM background picture
+Icon=image-viewer
+Exec=feh --no-menus --bg-seamless /usr/share/xfce4/backdrops/xubuntu-jaunty.png
+Terminal=false
+Type=Application
+Categories=
+OnlyShowIn=GNOME;XFCE;
