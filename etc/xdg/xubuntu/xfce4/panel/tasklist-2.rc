@@ -1,7 +1,7 @@
 grouping=1
-width=300
+width=100
 all_workspaces=false
 expand=true
 flat_buttons=false
-show_handles=true
+show_handles=false
 

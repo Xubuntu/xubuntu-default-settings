@@ -41,7 +41,6 @@
 			<item name="showdesktop" id="1"/>
 			<item name="tasklist" id="2"/>
 			<item name="pager" id="3"/>
-			<item name="thunar-tpa" id="4"/>
 		</items>
 	</panel>
 </panels>

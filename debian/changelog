@@ -1,3 +1,22 @@
+xubuntu-default-settings (0.63) karmic; urgency=low
+
+  * debian/xubuntu-default-settings.gconf-defaults:
+    - Set /apps/gdm/simple-greeter/logo_icon_name back to its default value
+      'computer' as we don't have an SVG of the Xubuntu logo so it looks
+      blocky when scaled.
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Sun, 13 Sep 2009 02:08:38 -0300
+
+xubuntu-default-settings (0.62) karmic; urgency=low
+
+  * etc/xdg/xubuntu/xfce4/panel/panels.xml:
+    - Remove thunar-tpa from default panel setup.
+  * etc/xdg/xubuntu/xfce4/panel/tasklist-2.rc:
+    - Set minamum width to 100 instead of 300.
+    - Do not show tasklist handle by default.
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Sat, 12 Sep 2009 18:02:32 -0300
+
 xubuntu-default-settings (0.61) karmic; urgency=low
 
   * debian/control: provides/conflicts with ubuntu-derivative-default-settings.
