@@ -4,6 +4,8 @@ xubuntu-default-settings (0.63) karmic; urgency=low
     - Set /apps/gdm/simple-greeter/logo_icon_name back to its default value
       'computer' as we don't have an SVG of the Xubuntu logo so it looks
       blocky when scaled.
+  * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
+    - Set default theme to MurrinaXubuntu temporarily for wider testing.
 
  -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Sun, 13 Sep 2009 02:08:38 -0300
 
