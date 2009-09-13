@@ -1,4 +1,4 @@
-xubuntu-default-settings (0.63) UNRELEASED; urgency=low
+xubuntu-default-settings (0.63) karmic; urgency=low
 
   * Test a way to set gdm's background picture without gnome-settings-daemon:
     - usr/share/gdm/autostart/LoginWindow/background-picture.desktop: added,
@@ -7,7 +7,7 @@ xubuntu-default-settings (0.63) UNRELEASED; urgency=low
   * debian/xubuntu-default-settings.gconf-defaults: revert change from previous
     upload.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 13 Sep 2009 13:59:10 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 13 Sep 2009 14:04:19 +0200
 
 xubuntu-default-settings (0.62) karmic; urgency=low
 
