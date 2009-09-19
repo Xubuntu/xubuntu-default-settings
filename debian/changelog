@@ -5,8 +5,10 @@ xubuntu-default-settings (0.64) UNRELEASED; urgency=low
     gtk theme, drop dependency on feh.
   * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: set
     Albatross as default theme.
+  * debian/xubuntu-default-settings.gconf-defaults: logo_icon_name is now set
+    in xubuntu-gdm-theme.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Sep 2009 13:44:15 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Sep 2009 13:58:29 +0200
 
 xubuntu-default-settings (0.63) karmic; urgency=low
 
