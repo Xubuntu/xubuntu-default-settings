@@ -1,3 +1,13 @@
+xubuntu-default-settings (0.64) UNRELEASED; urgency=low
+
+  * usr/share/gdm: dropped, everything is in xubuntu-gdm-theme now.
+  * debian/control: bump dependency on xubuntu-artwork to (>= 0.33) for the new
+    gtk theme, drop dependency on feh.
+  * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: set
+    Albatross as default theme.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Sep 2009 13:44:15 +0200
+
 xubuntu-default-settings (0.63) karmic; urgency=low
 
   * Test a way to set gdm's background picture without gnome-settings-daemon:
