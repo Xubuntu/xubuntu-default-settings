@@ -1,4 +1,4 @@
-xubuntu-default-settings (0.64) UNRELEASED; urgency=low
+xubuntu-default-settings (0.64) karmic; urgency=low
 
   * usr/share/gdm: dropped, everything is in xubuntu-gdm-theme now.
   * debian/control: bump dependency on xubuntu-artwork to (>= 0.33) for the new
@@ -8,7 +8,7 @@ xubuntu-default-settings (0.64) UNRELEASED; urgency=low
   * debian/xubuntu-default-settings.gconf-defaults: logo_icon_name is now set
     in xubuntu-gdm-theme.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Sep 2009 13:58:29 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Sep 2009 14:23:06 +0200
 
 xubuntu-default-settings (0.63) karmic; urgency=low
 
