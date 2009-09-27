@@ -4,9 +4,11 @@ xubuntu-default-settings (0.65) UNRELEASED; urgency=low
     instead of gpicview. LP: #432881
   * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: set
     'elementaryXubuntu' as default icon theme.
+  * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml: set
+    xubuntu-karmic.png as default wallpaper.
   * debian/control: bump dependency on xubuntu-artwork to (>= 0.34).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 27 Sep 2009 13:08:50 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 27 Sep 2009 13:19:55 +0200
 
 xubuntu-default-settings (0.64) karmic; urgency=low
 
