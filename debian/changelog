@@ -2,8 +2,11 @@ xubuntu-default-settings (0.65) UNRELEASED; urgency=low
 
   * etc/xdg/xubuntu/applications/defaults.list: reassociate image/* to ristretto
     instead of gpicview. LP: #432881
+  * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: set
+    'elementaryXubuntu' as default icon theme.
+  * debian/control: bump dependency on xubuntu-artwork to (>= 0.34).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 24 Sep 2009 11:34:47 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 27 Sep 2009 13:08:50 +0200
 
 xubuntu-default-settings (0.64) karmic; urgency=low
 

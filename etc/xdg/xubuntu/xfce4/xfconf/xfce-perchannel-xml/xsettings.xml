@@ -3,7 +3,7 @@
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
     <property name="ThemeName" type="string" value="Albatross"/>
-    <property name="IconThemeName" type="string" value="gnome-brave"/>
+    <property name="IconThemeName" type="string" value="elementaryXubuntu"/>
   </property>
   <property name="Xft" type="empty">
     <property name="DPI" type="int" value="96"/>
