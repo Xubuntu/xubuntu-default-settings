@@ -1,8 +1,13 @@
 xubuntu-default-settings (0.66) UNRELEASED; urgency=low
 
+  [ Lionel Le Folgoc ]
   * Pull in new translations: Spanish.
+  
+  [ Cody A.W. Somerville ]
+  * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml:
+    - Set Albatross as default xfce4 window manager theme.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 01 Oct 2009 16:02:03 +0200
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Sat, 03 Oct 2009 20:21:24 -0300
 
 xubuntu-default-settings (0.65) karmic; urgency=low
 
