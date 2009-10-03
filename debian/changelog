@@ -1,4 +1,4 @@
-xubuntu-default-settings (0.66) UNRELEASED; urgency=low
+xubuntu-default-settings (0.66) karmic; urgency=low
 
   [ Lionel Le Folgoc ]
   * Pull in new translations: Spanish.
