@@ -1,4 +1,4 @@
-xubuntu-default-settings (0.67) UNRELEASED; urgency=low
+xubuntu-default-settings (0.67) karmic; urgency=low
 
   * debian/control: bump dependency on xubuntu-artwork to >= 0.35, required
     for the new Albatross xfwm4 theme.
@@ -6,7 +6,7 @@ xubuntu-default-settings (0.67) UNRELEASED; urgency=low
   * etc/xdg/xubuntu/applications/defaults.list: set exaile as default handler
     for audio/*. LP: #441833
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 04 Oct 2009 11:33:40 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 10 Oct 2009 23:29:16 +0200
 
 xubuntu-default-settings (0.66) karmic; urgency=low
 
