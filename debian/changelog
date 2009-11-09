@@ -3,9 +3,9 @@ xubuntu-default-settings (0.68) UNRELEASED; urgency=low
   * Refrshed translations.
   * etc/xdg/xubuntu/xfce4:
     - helpers.rc: set default applications
-    - mount.rc: set default mount options.
+    - mount.rc: set default mount options. LP: #238702
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 09 Nov 2009 11:20:38 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 09 Nov 2009 11:22:54 +0100
 
 xubuntu-default-settings (0.67) karmic; urgency=low
 
