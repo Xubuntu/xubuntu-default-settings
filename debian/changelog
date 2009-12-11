@@ -1,3 +1,10 @@
+xubuntu-default-settings (0.69) UNRELEASED; urgency=low
+
+  * etc/xdg/xubuntu/menus/xfce-applications.menu: replace all occurrences of
+    'gnome-app-install-xfce.desktop' with 'ubuntu-software-center.desktop'.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 11 Dec 2009 09:11:13 +0100
+
 xubuntu-default-settings (0.68) lucid; urgency=low
 
   * Refreshed translations.
