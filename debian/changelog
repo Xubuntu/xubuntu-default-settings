@@ -1,3 +1,18 @@
+xubuntu-default-settings (0.70) UNRELEASED; urgency=low
+
+  * Change gdm default session handling: (LP: #403291)
+    - remove usr/share/xsessions/default.desktop@
+    - debian/postinst:
+     + call gdm-set-default-session to add xfce as default session only if
+       no other previous default session
+     + remove divert (no more needed as was only internal to karmic cycle)
+    - debian/postrm:
+      unsetting xfce as default
+    - debian/control:
+      remove Provides/Conflicts with ubuntu-derivative-default-settings
+
+ -- Didier Roche <didrocks@ubuntu.com>  Sat, 12 Dec 2009 23:09:23 +0100
+
 xubuntu-default-settings (0.69) lucid; urgency=low
 
   * etc/xdg/xubuntu/menus/xfce-applications.menu: replace all occurrences of

@@ -11,8 +11,6 @@ Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-dev/xubuntu-default-settings/t
 Package: xubuntu-default-settings
 Architecture: all
 Depends: ${misc:Depends}, xubuntu-artwork (>= 0.35)
-Provides: ubuntu-derivative-default-settings
-Conflicts: ubuntu-derivative-default-settings
 Description: default settings for Xubuntu
  Various system settings tailored for Xubuntu:
   * custom GDM settings
