@@ -13,5 +13,8 @@ case "$1" in
         dpkg-divert --package xubuntu-default-settings --remove --rename\
                     --divert /usr/share/xsessions/gnome.desktop.diverted /usr/share/xsessions/gnome.desktop
     fi
+    if [ -x /usr/lib/gdm/gdm-set-default-session ] ; then
+        /usr/lib/gdm/gdm-set-default-session --keep-old xfce
+    fi
     ;;
 esac
