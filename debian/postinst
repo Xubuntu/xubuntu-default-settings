@@ -14,7 +14,7 @@ case "$1" in
                     --divert /usr/share/xsessions/gnome.desktop.diverted /usr/share/xsessions/gnome.desktop
     fi
     if [ -x /usr/lib/gdm/gdm-set-default-session ] ; then
-        /usr/lib/gdm/gdm-set-default-session --keep-old xfce
+        /usr/lib/gdm/gdm-set-default-session --keep-old xfce || true
     fi
     ;;
 esac

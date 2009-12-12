@@ -5,7 +5,7 @@ set -e
 case "$1" in
   remove|purge)
     if [ -x /usr/lib/gdm/gdm-set-default-session ] ; then
-        /usr/lib/gdm/gdm-set-default-session --remove xfce
+        /usr/lib/gdm/gdm-set-default-session --remove xfce || true
     fi
     ;;
 esac
