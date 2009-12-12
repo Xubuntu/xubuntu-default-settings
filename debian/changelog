@@ -2,8 +2,12 @@ xubuntu-default-settings (0.69) UNRELEASED; urgency=low
 
   * etc/xdg/xubuntu/menus/xfce-applications.menu: replace all occurrences of
     'gnome-app-install-xfce.desktop' with 'ubuntu-software-center.desktop'.
+  * debian/control:
+    - b-dep on debhelper (>= 7.0.50~) for override support
+    - drop replaces on xfce4-panel, was for a very old revision.
+  * debian/rules: switch to rules.tiny, using overrides.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 11 Dec 2009 09:11:13 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 12 Dec 2009 16:40:53 +0100
 
 xubuntu-default-settings (0.68) lucid; urgency=low
 

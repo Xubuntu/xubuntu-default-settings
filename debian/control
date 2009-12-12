@@ -2,7 +2,7 @@ Source: xubuntu-default-settings
 Section: x11
 Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
-Build-Depends: debhelper (>= 7), intltool
+Build-Depends: debhelper (>= 7.0.50~), intltool
 Standards-Version: 3.8.3
 Homepage: https://launchpad.net/xubuntu-default-settings
 Vcs-Bzr: lp:xubuntu-default-settings
@@ -11,7 +11,6 @@ Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-dev/xubuntu-default-settings/t
 Package: xubuntu-default-settings
 Architecture: all
 Depends: ${misc:Depends}, xubuntu-artwork (>= 0.35)
-Replaces: xfce4-panel (<< 4.3.90.1svn+r21136-0ubuntu2)
 Provides: ubuntu-derivative-default-settings
 Conflicts: ubuntu-derivative-default-settings
 Description: default settings for Xubuntu
