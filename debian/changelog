@@ -1,4 +1,4 @@
-xubuntu-default-settings (0.70) UNRELEASED; urgency=low
+xubuntu-default-settings (0.70) lucid; urgency=low
 
   [ Didier Roche ]
   * Change gdm default session handling: (LP: #403291)
