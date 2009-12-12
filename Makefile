@@ -3,7 +3,8 @@
 SUBDIRS := etc/xdg/xubuntu/Thunar/po \
 			etc/xdg/xubuntu/xfce4/panel/po
 
-all: install
+all:
+	@echo "Nothing to build, call 'make install' instead."
 
 install:
 	mkdir -pv $(DESTDIR)
