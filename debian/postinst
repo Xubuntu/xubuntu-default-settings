@@ -6,13 +6,6 @@ set -e
 
 case "$1" in
   configure|upgrade)
-    if dpkg --compare-versions "${2}" le-nl "0.60"; then
-        update-alternatives --remove gdm-config-derivative /etc/xdg/xubuntu/gdm/gdm.conf
-    fi
-    if dpkg --compare-versions "${2}" le-nl "0.61"; then
-        dpkg-divert --package xubuntu-default-settings --remove --rename\
-                    --divert /usr/share/xsessions/gnome.desktop.diverted /usr/share/xsessions/gnome.desktop
-    fi
     if [ -x /usr/lib/gdm/gdm-set-default-session ] ; then
         /usr/lib/gdm/gdm-set-default-session --keep-old xfce || true
     fi
