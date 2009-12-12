@@ -1,8 +1,5 @@
 #!/usr/bin/make -f
 
-override_dh_auto_install:
-	$(MAKE) DESTDIR=$(CURDIR)/debian/xubuntu-default-settings
-
 override_dh_gconf:
 	dh_gconf --priority=20
 
