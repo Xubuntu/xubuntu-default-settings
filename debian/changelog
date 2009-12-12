@@ -1,5 +1,6 @@
 xubuntu-default-settings (0.70) UNRELEASED; urgency=low
 
+  [ Didier Roche ]
   * Change gdm default session handling: (LP: #403291)
     - remove usr/share/xsessions/default.desktop@
     - debian/postinst:
@@ -10,6 +11,9 @@ xubuntu-default-settings (0.70) UNRELEASED; urgency=low
       unsetting xfce as default
     - debian/control:
       remove Provides/Conflicts with ubuntu-derivative-default-settings
+
+  [ Lionel Le Folgoc ]
+  * usr/share/xsessions: dropped, now empty.
 
  -- Didier Roche <didrocks@ubuntu.com>  Sat, 12 Dec 2009 23:09:23 +0100
 
