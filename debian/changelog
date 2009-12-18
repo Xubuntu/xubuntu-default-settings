@@ -1,3 +1,10 @@
+xubuntu-default-settings (0.71) UNRELEASED; urgency=low
+
+  * etc/xdg/xubuntu/Thunar/volmanrc: use 'totem %d' instead of 'totem dvd:/'
+    lp: #459490
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 18 Dec 2009 14:34:00 +0100
+
 xubuntu-default-settings (0.70) lucid; urgency=low
 
   [ Didier Roche ]
