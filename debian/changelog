@@ -1,4 +1,4 @@
-xubuntu-default-settings (0.71) UNRELEASED; urgency=low
+xubuntu-default-settings (0.71) lucid; urgency=low
 
   * etc/xdg/xubuntu/Thunar/volmanrc: use 'totem %d' instead of 'totem dvd:/'
     lp: #459490
@@ -6,7 +6,7 @@ xubuntu-default-settings (0.71) UNRELEASED; urgency=low
     alternate screen by default. lp: #358796
   * New translations: da (panel config), pl (panel & thunar).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 09 Jan 2010 13:13:54 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 09 Jan 2010 13:22:11 +0100
 
 xubuntu-default-settings (0.70) lucid; urgency=low
 
