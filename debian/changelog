@@ -2,8 +2,10 @@ xubuntu-default-settings (0.71) UNRELEASED; urgency=low
 
   * etc/xdg/xubuntu/Thunar/volmanrc: use 'totem %d' instead of 'totem dvd:/'
     lp: #459490
+  * etc/xdg/xubuntu/Terminal/terminalrc: added, enables vte's scrolling
+    alternate screen by default. lp: #358796
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 18 Dec 2009 14:34:00 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 09 Jan 2010 13:11:03 +0100
 
 xubuntu-default-settings (0.70) lucid; urgency=low
 
