@@ -1,4 +1,4 @@
-xubuntu-default-settings (10.04ubuntu1) UNRELEASED; urgency=low
+xubuntu-default-settings (10.04.0) UNRELEASED; urgency=low
 
   * New versioning scheme, includes the release version.
   * Rename etc/xdg/xubuntu to etc/xdg/xdg-xubuntu, to use the new "feature"
