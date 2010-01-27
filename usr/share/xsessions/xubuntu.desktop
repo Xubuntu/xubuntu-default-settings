@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Xubuntu Session
+Comment=Use this session to boot into Xubuntu
+Exec=/usr/share/xubuntu/session.sh
+Icon=
+Type=Application

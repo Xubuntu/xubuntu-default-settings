@@ -4,52 +4,96 @@ set -e
 
 # Remove a no-longer used conffile
 rm_conffile() {
-    CONFFILE="$1"
+    local PKGNAME="$1"
+    local CONFFILE="$2"
 
-    if [ -e "$CONFFILE" ]; then
-        md5sum="`md5sum \"$CONFFILE\" | sed -e \"s/ .*//\"`"
-        old_md5sum="`dpkg-query -W -f='${Conffiles}' $PKGNAME | sed -n -e \"\\\\' $CONFFILE '{s/ obsolete$//;s/.* //p}\"`"
+    [ -e "$CONFFILE" ] || return 0
 
-        if [ "$md5sum" != "$old_md5sum" ]; then
-            echo "Obsolete conffile $CONFFILE has been modified by you."
-            echo "Saving as $CONFFILE.dpkg-bak ..."
-            mv -f "$CONFFILE" "$CONFFILE".dpkg-bak
-        else
-            echo "Removing obsolete conffile $CONFFILE ..."
-            rm -f "$CONFFILE"
-        fi
+    local md5sum="$(md5sum $CONFFILE | sed -e 's/ .*//')"
+    local old_md5sum="$(dpkg-query -W -f='${Conffiles}' $PKGNAME | \
+            sed -n -e "\' $CONFFILE ' { s/ obsolete$//; s/.* //; p }")"
+    if [ "$md5sum" != "$old_md5sum" ]; then
+        echo "Obsolete conffile $CONFFILE has been modified by you."
+        echo "Saving as $CONFFILE.dpkg-bak ..."
+        mv -f "$CONFFILE" "$CONFFILE".dpkg-bak
+    else
+        echo "Removing obsolete conffile $CONFFILE ..."
+        rm -f "$CONFFILE"
+    fi
+}
+
+# Prepare to move a conffile without triggering a dpkg question
+prep_mv_conffile() {
+    local PKGNAME="$1"
+    local CONFFILE="$2"
+
+    [ -e "$CONFFILE" ] || return 0
+
+    local md5sum="$(md5sum $CONFFILE | sed -e 's/ .*//')"
+    local old_md5sum="$(dpkg-query -W -f='${Conffiles}' $PKGNAME | \
+            sed -n -e "\' $CONFFILE ' { s/ obsolete$//; s/.* //; p }")"
+    if [ "$md5sum" = "$old_md5sum" ]; then
+        rm -f "$CONFFILE"
     fi
 }
 
 case "$1" in
 install|upgrade)
     if dpkg --compare-versions "$2" le "0.47"; then
-        rm_conffile "/etc/xdg/orage/oragerc"
-        rm_conffile "/etc/xdg/Thunar/thunarrc"
-        rm_conffile "/etc/xdg/Thunar/volmanrc"
-        rm_conffile "/etc/xdg/xfce4/panel/launcher-2.rc"
-        rm_conffile "/etc/xdg/xfce4/panel/launcher-3.rc"
-        rm_conffile "/etc/xdg/xfce4/panel/panels.xml"
-        rm_conffile "/etc/xdg/xfce4/panel/places-2.rc"
-        rm_conffile "/etc/xdg/xfce4/panel/separator-3.rc"
-        rm_conffile "/etc/xdg/xfce4/panel/systray-4.rc"
-        rm_conffile "/etc/xdg/xfce4/panel/tasklist-2.rc"
-        rm_conffile "/etc/xdg/xfce4/panel/xfce4-menu-1.rc"
-        rm_conffile "/etc/xdg/xfce4/panel/xfce4-mixer-5.rc"
-        rm_conffile "/etc/xdg/xfce4/mcs_settings/gtk.xml"
-        rm_conffile "/etc/xdg/xfce4/mcs_settings/desktop.xml"
-        rm_conffile "/etc/xdg/xfce4/mcs_settings/xfwm4.xml"
-        rm_conffile "/etc/xdg/xfce4/mcs_settings/wmtweaks.xml"
-        rm_conffile "/etc/xdg/xfce4/mcs_settings/workspaces.xml"
-        rm_conffile "/etc/xdg/xfce4/mcs_settings/xfprint.xml"
+        rm_conffile xubuntu-default-settings "/etc/xdg/orage/oragerc"
+        rm_conffile xubuntu-default-settings "/etc/xdg/Thunar/thunarrc"
+        rm_conffile xubuntu-default-settings "/etc/xdg/Thunar/volmanrc"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/panel/launcher-2.rc"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/panel/launcher-3.rc"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/panel/panels.xml"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/panel/places-2.rc"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/panel/separator-3.rc"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/panel/systray-4.rc"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/panel/tasklist-2.rc"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/panel/xfce4-menu-1.rc"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/panel/xfce4-mixer-5.rc"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/mcs_settings/gtk.xml"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/mcs_settings/desktop.xml"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/mcs_settings/xfwm4.xml"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/mcs_settings/wmtweaks.xml"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/mcs_settings/workspaces.xml"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/mcs_settings/xfprint.xml"
     fi
     if dpkg --compare-versions "$2" le "0.49"; then
-        rm_conffile "/etc/xdg/xubuntu/xfce4/panel/xfce4-mixer-5.rc"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/panel/xfce4-mixer-5.rc"
     fi
     if dpkg --compare-versions "$2" le "0.60"; then
-        rm_conffile "/etc/xdg/xubuntu/gdm/gdm.conf"
+        rm_conffile xubuntu-default-settings "/etc/xdg/xubuntu/gdm/gdm.conf"
+    fi
+    if dpkg --compare-versions "$2" lt "10.04"; then
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/helpers.rc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/exaile/settings.ini"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfprint.xml"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/panel/launcher-3.rc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/panel/tasklist-2.rc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/panel/xfce4-mixer-plugin-5.rc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/panel/separator-3.rc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/panel/pager-3.rc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/panel/actions-6.rc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/panel/places-2.rc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/panel/clock-5.rc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/panel/launcher-2.rc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/panel/systray-4.rc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/panel/panels.xml"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/panel/xfce4-menu-1.rc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/Terminal/terminalrc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/mount.rc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/applications/defaults.list"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/menus/xfce-applications.menu"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/Thunar/volmanrc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/Thunar/thunarrc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/Thunar/uca.xml"
     fi
 esac
-
 
 #DEBHELPER#

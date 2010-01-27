@@ -2,7 +2,17 @@
 
 set -e
 
-#DEBHELPER#
+# Move a conffile without triggering a dpkg question
+mv_conffile() {
+    local OLDCONFFILE="$1"
+    local NEWCONFFILE="$2"
+
+    [ -e "$OLDCONFFILE" ] || return 0
+
+    echo "Preserving user changes to $NEWCONFFILE ..."
+    mv -f "$NEWCONFFILE" "$NEWCONFFILE".dpkg-new
+    mv -f "$OLDCONFFILE" "$NEWCONFFILE"
+}
 
 case "$1" in
   configure|upgrade)
@@ -10,7 +20,40 @@ case "$1" in
         update-alternatives --remove gdm-config-derivative /etc/xdg/xubuntu/gdm/gdm.conf
     fi
     if [ -x /usr/lib/gdm/gdm-set-default-session ] ; then
-        /usr/lib/gdm/gdm-set-default-session --keep-old xfce || true
+        /usr/lib/gdm/gdm-set-default-session --keep-old xubuntu || true
+    fi
+    ;;
+  configure)
+    if dpkg --compare-versions "$2" lt "10.04"; then
+        mv_conffile "/etc/xdg/xubuntu/helpers.rc" "/etc/xdg/xdg-xubuntu/helpers.rc"
+        mv_conffile "/etc/xdg/xubuntu/exaile/settings.ini" "/etc/xdg/xdg-xubuntu/exaile/settings.ini"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml" "/etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml" "/etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml" "/etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml" "/etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml" "/etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfprint.xml" "/etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfprint.xml"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/panel/launcher-3.rc" "/etc/xdg/xdg-xubuntu/xfce4/panel/launcher-3.rc"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/panel/tasklist-2.rc" "/etc/xdg/xdg-xubuntu/xfce4/panel/tasklist-2.rc"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/panel/xfce4-mixer-plugin-5.rc" "/etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-mixer-plugin-5.rc"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/panel/separator-3.rc" "/etc/xdg/xdg-xubuntu/xfce4/panel/separator-3.rc"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/panel/pager-3.rc" "/etc/xdg/xdg-xubuntu/xfce4/panel/pager-3.rc"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/panel/actions-6.rc" "/etc/xdg/xdg-xubuntu/xfce4/panel/actions-6.rc"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/panel/places-2.rc" "/etc/xdg/xdg-xubuntu/xfce4/panel/places-2.rc"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/panel/clock-5.rc" "/etc/xdg/xdg-xubuntu/xfce4/panel/clock-5.rc"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/panel/launcher-2.rc" "/etc/xdg/xdg-xubuntu/xfce4/panel/launcher-2.rc"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/panel/systray-4.rc" "/etc/xdg/xdg-xubuntu/xfce4/panel/systray-4.rc"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/panel/panels.xml" "/etc/xdg/xdg-xubuntu/xfce4/panel/panels.xml"
+        mv_conffile "/etc/xdg/xubuntu/xfce4/panel/xfce4-menu-1.rc" "/etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-menu-1.rc"
+        mv_conffile "/etc/xdg/xubuntu/Terminal/terminalrc" "/etc/xdg/xdg-xubuntu/Terminal/terminalrc"
+        mv_conffile "/etc/xdg/xubuntu/mount.rc" "/etc/xdg/xdg-xubuntu/mount.rc"
+        mv_conffile "/etc/xdg/xubuntu/applications/defaults.list" "/etc/xdg/xdg-xubuntu/applications/defaults.list"
+        mv_conffile "/etc/xdg/xubuntu/menus/xfce-applications.menu" "/etc/xdg/xdg-xubuntu/menus/xfce-applications.menu"
+        mv_conffile "/etc/xdg/xubuntu/Thunar/volmanrc" "/etc/xdg/xdg-xubuntu/Thunar/volmanrc"
+        mv_conffile "/etc/xdg/xubuntu/Thunar/thunarrc" "/etc/xdg/xdg-xubuntu/Thunar/thunarrc"
+        mv_conffile "/etc/xdg/xubuntu/Thunar/uca.xml" "/etc/xdg/xdg-xubuntu/Thunar/uca.xml"
     fi
     ;;
 esac
+
+#DEBHELPER#

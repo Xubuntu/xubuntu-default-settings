@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
-SUBDIRS := etc/xdg/xubuntu/Thunar/po \
-			etc/xdg/xubuntu/xfce4/panel/po
+SUBDIRS := etc/xdg/xdg-xubuntu/Thunar/po \
+			etc/xdg/xdg-xubuntu/xfce4/panel/po
 
 all:
 	@echo "Nothing to build, call 'make install' instead."

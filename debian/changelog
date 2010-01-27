@@ -1,3 +1,18 @@
+xubuntu-default-settings (10.04ubuntu1) UNRELEASED; urgency=low
+
+  * New versioning scheme, includes the release version.
+  * Rename etc/xdg/xubuntu to etc/xdg/xdg-xubuntu, to use the new "feature"
+    added in gdm by Didier lp: #327926
+    - etc/xdg/xubuntu => etc/xdg/xdg-xubuntu
+    - Makefile,etc/xdg/xdg-xubuntu/xfce4/panel/{launcher-2,xfce4-menu-1}.rc.in:
+      update paths
+    - debian/p{re,ost}inst: handle conffiles' moves.
+  * Change default session to xubuntu (xfce will be a vanilla session)
+    - usr/share/{xsessions/xubuntu.desktop,xubuntu/session.sh}: added
+    - debian/post{inst,rm}: set new default session to 'xubuntu'.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 26 Jan 2010 23:06:42 +0100
+
 xubuntu-default-settings (0.71) lucid; urgency=low
 
   * etc/xdg/xubuntu/Thunar/volmanrc: use 'totem %d' instead of 'totem dvd:/'
