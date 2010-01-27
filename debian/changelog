@@ -1,4 +1,4 @@
-xubuntu-default-settings (10.04.0) UNRELEASED; urgency=low
+xubuntu-default-settings (10.04.0) lucid; urgency=low
 
   * New versioning scheme, includes the release version.
   * Rename etc/xdg/xubuntu to etc/xdg/xdg-xubuntu, to use the new "feature"
@@ -7,11 +7,11 @@ xubuntu-default-settings (10.04.0) UNRELEASED; urgency=low
     - Makefile,etc/xdg/xdg-xubuntu/xfce4/panel/{launcher-2,xfce4-menu-1}.rc.in:
       update paths
     - debian/p{re,ost}inst: handle conffiles' moves.
-  * Change default session to xubuntu (xfce will be a vanilla session)
+  * Change default session to xubuntu (xfce will be a vanilla xfce session)
     - usr/share/{xsessions/xubuntu.desktop,xubuntu/session.sh}: added
     - debian/post{inst,rm}: set new default session to 'xubuntu'.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 26 Jan 2010 23:06:42 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 27 Jan 2010 21:44:35 +0100
 
 xubuntu-default-settings (0.71) lucid; urgency=low
 
