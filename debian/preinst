@@ -39,7 +39,7 @@ prep_mv_conffile() {
 
 case "$1" in
 install|upgrade)
-    if dpkg --compare-versions "$2" le "0.47"; then
+    if dpkg --compare-versions "$2" le-nl "0.47"; then
         rm_conffile xubuntu-default-settings "/etc/xdg/orage/oragerc"
         rm_conffile xubuntu-default-settings "/etc/xdg/Thunar/thunarrc"
         rm_conffile xubuntu-default-settings "/etc/xdg/Thunar/volmanrc"
@@ -59,13 +59,13 @@ install|upgrade)
         rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/mcs_settings/workspaces.xml"
         rm_conffile xubuntu-default-settings "/etc/xdg/xfce4/mcs_settings/xfprint.xml"
     fi
-    if dpkg --compare-versions "$2" le "0.49"; then
+    if dpkg --compare-versions "$2" le-nl "0.49"; then
         rm_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/panel/xfce4-mixer-5.rc"
     fi
-    if dpkg --compare-versions "$2" le "0.60"; then
+    if dpkg --compare-versions "$2" le-nl "0.60"; then
         rm_conffile xubuntu-default-settings "/etc/xdg/xubuntu/gdm/gdm.conf"
     fi
-    if dpkg --compare-versions "$2" lt "10.04"; then
+    if dpkg --compare-versions "$2" lt-nl "10.04.1"; then
         prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/helpers.rc"
         prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/exaile/settings.ini"
         prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml"

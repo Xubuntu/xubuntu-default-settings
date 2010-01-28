@@ -15,7 +15,7 @@ mv_conffile() {
 }
 
 case "$1" in
-  configure|upgrade)
+  upgrade)
     if dpkg --compare-versions "${2}" le-nl "0.60"; then
         update-alternatives --remove gdm-config-derivative /etc/xdg/xubuntu/gdm/gdm.conf
     fi
@@ -24,7 +24,13 @@ case "$1" in
     fi
     ;;
   configure)
-    if dpkg --compare-versions "$2" lt "10.04"; then
+    if dpkg --compare-versions "${2}" le-nl "0.60"; then
+        update-alternatives --remove gdm-config-derivative /etc/xdg/xubuntu/gdm/gdm.conf
+    fi
+    if [ -x /usr/lib/gdm/gdm-set-default-session ] ; then
+        /usr/lib/gdm/gdm-set-default-session --keep-old xubuntu || true
+    fi
+    if dpkg --compare-versions "$2" lt-nl "10.04.1"; then
         mv_conffile "/etc/xdg/xubuntu/helpers.rc" "/etc/xdg/xdg-xubuntu/helpers.rc"
         mv_conffile "/etc/xdg/xubuntu/exaile/settings.ini" "/etc/xdg/xdg-xubuntu/exaile/settings.ini"
         mv_conffile "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml" "/etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml"

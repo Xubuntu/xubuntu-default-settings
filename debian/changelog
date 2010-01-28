@@ -1,3 +1,14 @@
+xubuntu-default-settings (10.04.1) UNRELEASED; urgency=low
+
+  * debian/postinst,debian/preinst: fix version checks and typo in the case
+    statement.
+  * etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-menu-1.rc.in: use default menu
+    instead of pointing directly to our menu file. As $XDG_CONFIG_DIRS var
+    is correctly set, nothing will change, except that it'll update itself
+    automagically if we move our config dir later.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 28 Jan 2010 20:51:22 +0100
+
 xubuntu-default-settings (10.04.0) lucid; urgency=low
 
   * New versioning scheme, includes the release version.
