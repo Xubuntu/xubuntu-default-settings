@@ -1,7 +1,8 @@
 #!/usr/bin/make -f
 
 SUBDIRS := etc/xdg/xdg-xubuntu/Thunar/po \
-			etc/xdg/xdg-xubuntu/xfce4/panel/po
+			etc/xdg/xdg-xubuntu/xfce4/panel/po \
+			usr/share/xsessions/po
 
 all:
 	@echo "Nothing to build, call 'make install' instead."

@@ -1,3 +1,9 @@
+xubuntu-default-settings (10.04.2) UNRELEASED; urgency=low
+
+  * Set up translations for /usr/share/xsessions/xubuntu.desktop.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 31 Jan 2010 11:46:29 +0100
+
 xubuntu-default-settings (10.04.1) lucid; urgency=low
 
   * debian/postinst,debian/preinst: fix version checks and typo in the case
