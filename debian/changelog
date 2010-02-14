@@ -1,8 +1,8 @@
-xubuntu-default-settings (10.04.2) UNRELEASED; urgency=low
+xubuntu-default-settings (10.04.2) lucid; urgency=low
 
   * Set up translations for /usr/share/xsessions/xubuntu.desktop.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 14 Feb 2010 22:12:36 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 14 Feb 2010 22:27:12 +0100
 
 xubuntu-default-settings (10.04.1) lucid; urgency=low
 
