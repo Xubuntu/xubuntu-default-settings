@@ -1,3 +1,10 @@
+xubuntu-default-settings (10.04.3) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-menu-1.rc.in: updated to use
+    the new menu logo.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 15 Feb 2010 21:14:36 +0100
+
 xubuntu-default-settings (10.04.2) lucid; urgency=low
 
   * Set up translations for /usr/share/xsessions/xubuntu.desktop.
