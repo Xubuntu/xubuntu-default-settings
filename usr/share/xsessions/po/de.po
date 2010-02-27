@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: xubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-01-31 11:45+0100\n"
-"PO-Revision-Date: 2010-02-22 20:46+0000\n"
+"PO-Revision-Date: 2010-02-26 18:55+0000\n"
 "Last-Translator: Daniel Schury <Surst@gmx.net>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-02-23 05:01+0000\n"
+"X-Launchpad-Export-Date: 2010-02-27 04:44+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #: xubuntu.desktop.in.h:1
 msgid "Use this session to boot into Xubuntu"
-msgstr "Benutzen Sie diese Session, um mit Xubuntu zu starten"
+msgstr "Benutzen Sie diese Session, um Xubuntu zu starten"
 
 #: xubuntu.desktop.in.h:2
 msgid "Xubuntu Session"
