@@ -1,6 +1,6 @@
 xubuntu-default-settings (10.04.4) UNRELEASED; urgency=low
 
-  * Add a default Xdefaults settings file.
+  * Add a default Xdefaults settings file. lp: #361678
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 02 Mar 2010 22:57:17 +0100
 
