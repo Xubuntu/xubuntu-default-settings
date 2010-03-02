@@ -1,3 +1,9 @@
+xubuntu-default-settings (10.04.4) UNRELEASED; urgency=low
+
+  * Add a default Xdefaults settings file.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 02 Mar 2010 22:57:17 +0100
+
 xubuntu-default-settings (10.04.3) lucid; urgency=low
 
   * etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-menu-1.rc.in: updated to use
