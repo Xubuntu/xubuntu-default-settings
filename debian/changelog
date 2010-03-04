@@ -4,6 +4,7 @@ xubuntu-default-settings (10.04.4) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-mixer.xml,
     etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-mixer-plugin-5.rc: set default
     controls for xfce4-mixer, its panel plugin and xfce4-volumed. lp: #343692
+  * Refreshed translations.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 02 Mar 2010 22:57:17 +0100
 
