@@ -1,2 +1,4 @@
+card=PlaybackAudiointerneAnalogStereoPulseAudioMixer
+track=Master
 command=xfce4-mixer
 
