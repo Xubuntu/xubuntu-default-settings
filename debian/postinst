@@ -31,7 +31,7 @@ case "$1" in
         /usr/lib/gdm/gdm-set-default-session --keep-old xubuntu || true
     fi
     if dpkg --compare-versions "$2" lt-nl "10.04.1"; then
-        mv_conffile "/etc/xdg/xubuntu/helpers.rc" "/etc/xdg/xdg-xubuntu/helpers.rc"
+        mv_conffile "/etc/xdg/xubuntu/helpers.rc" "/etc/xdg/xdg-xubuntu/xfce4/helpers.rc"
         mv_conffile "/etc/xdg/xubuntu/exaile/settings.ini" "/etc/xdg/xdg-xubuntu/exaile/settings.ini"
         mv_conffile "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml" "/etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml"
         mv_conffile "/etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml" "/etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml"
@@ -52,12 +52,16 @@ case "$1" in
         mv_conffile "/etc/xdg/xubuntu/xfce4/panel/panels.xml" "/etc/xdg/xdg-xubuntu/xfce4/panel/panels.xml"
         mv_conffile "/etc/xdg/xubuntu/xfce4/panel/xfce4-menu-1.rc" "/etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-menu-1.rc"
         mv_conffile "/etc/xdg/xubuntu/Terminal/terminalrc" "/etc/xdg/xdg-xubuntu/Terminal/terminalrc"
-        mv_conffile "/etc/xdg/xubuntu/mount.rc" "/etc/xdg/xdg-xubuntu/mount.rc"
+        mv_conffile "/etc/xdg/xubuntu/mount.rc" "/etc/xdg/xdg-xubuntu/xfce4/mount.rc"
         mv_conffile "/etc/xdg/xubuntu/applications/defaults.list" "/etc/xdg/xdg-xubuntu/applications/defaults.list"
         mv_conffile "/etc/xdg/xubuntu/menus/xfce-applications.menu" "/etc/xdg/xdg-xubuntu/menus/xfce-applications.menu"
         mv_conffile "/etc/xdg/xubuntu/Thunar/volmanrc" "/etc/xdg/xdg-xubuntu/Thunar/volmanrc"
         mv_conffile "/etc/xdg/xubuntu/Thunar/thunarrc" "/etc/xdg/xdg-xubuntu/Thunar/thunarrc"
         mv_conffile "/etc/xdg/xubuntu/Thunar/uca.xml" "/etc/xdg/xdg-xubuntu/Thunar/uca.xml"
+    fi
+    if dpkg --compare-versions "$2" lt-nl "10.04.5"; then
+        mv_conffile "/etc/xdg/xdg-xubuntu/helpers.rc" "/etc/xdg/xdg-xubuntu/xfce4/helpers.rc"
+        mv_conffile "/etc/xdg/xdg-xubuntu/mount.rc" "/etc/xdg/xdg-xubuntu/xfce4/mount.rc"
     fi
     ;;
 esac

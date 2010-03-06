@@ -1,3 +1,13 @@
+xubuntu-default-settings (10.04.5) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/*.rc => etc/xdg/xdg-xubuntu/xfce4/*.rc,
+    debian/{pre,post}inst: fixed a bug introduced in a previous upload
+    (maybe 10.04.0), use correct config dir.
+  * etc/xdg/xdg-xubuntu/xfce4/mount.rc: fix default permissions with
+    vfat. lp: #193844
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 06 Mar 2010 11:25:01 +0100
+
 xubuntu-default-settings (10.04.4) lucid; urgency=low
 
   * Add a default Xdefaults settings file. lp: #361678

@@ -94,6 +94,11 @@ install|upgrade)
         prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/Thunar/thunarrc"
         prep_mv_conffile xubuntu-default-settings "/etc/xdg/xubuntu/Thunar/uca.xml"
     fi
+    if dpkg --compare-versions "$2" lt-nl "10.04.5"; then
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xdg-xubuntu/helpers.rc"
+        prep_mv_conffile xubuntu-default-settings "/etc/xdg/xdg-xubuntu/mount.rc"
+    fi
+    ;;
 esac
 
 #DEBHELPER#
