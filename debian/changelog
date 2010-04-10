@@ -1,3 +1,14 @@
+xubuntu-default-settings (10.04.6) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-mixer.xml,
+    etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-mixer-plugin-5.rc: revert changes
+    from 10.04.4, gstreamer pulseaudio bindings aren't really usable.
+    lp: #553925
+  * etc/xdg/xdg-xubuntu/Thunar/volmanrc: use the correct command to play
+    audio cds. lp: #559758
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 10 Apr 2010 15:23:18 +0200
+
 xubuntu-default-settings (10.04.5) lucid; urgency=low
 
   * etc/xdg/xdg-xubuntu/*.rc => etc/xdg/xdg-xubuntu/xfce4/*.rc,

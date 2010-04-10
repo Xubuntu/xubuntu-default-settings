@@ -98,6 +98,9 @@ install|upgrade)
         prep_mv_conffile xubuntu-default-settings "/etc/xdg/xdg-xubuntu/helpers.rc"
         prep_mv_conffile xubuntu-default-settings "/etc/xdg/xdg-xubuntu/mount.rc"
     fi
+    if dpkg --compare-versions "$2" le-nl "10.04.6"; then
+        rm_conffile xubuntu-default-settings "/etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-mixer.xml"
+    fi
     ;;
 esac
 
