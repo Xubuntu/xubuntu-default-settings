@@ -1,5 +1,6 @@
 xubuntu-default-settings (10.04.6) UNRELEASED; urgency=low
 
+  * Refreshed translations.
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-mixer.xml,
     etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-mixer-plugin-5.rc: revert changes
     from 10.04.4, gstreamer pulseaudio bindings aren't really usable.
