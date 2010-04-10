@@ -1,4 +1,4 @@
-xubuntu-default-settings (10.04.6) UNRELEASED; urgency=low
+xubuntu-default-settings (10.04.6) lucid; urgency=low
 
   * Refreshed translations.
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-mixer.xml,
@@ -8,7 +8,7 @@ xubuntu-default-settings (10.04.6) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/Thunar/volmanrc: use the correct command to play
     audio cds. lp: #559758
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 10 Apr 2010 15:23:18 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 10 Apr 2010 17:03:48 +0200
 
 xubuntu-default-settings (10.04.5) lucid; urgency=low
 
