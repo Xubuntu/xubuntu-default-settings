@@ -1,5 +1,6 @@
 xubuntu-default-settings (10.04.7) UNRELEASED; urgency=low
 
+  * Refreshed translations.
   * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: hide duplicates
     entries from the settings menu, as discussed in the previous meeting,
     and summed up at
