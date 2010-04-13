@@ -33,6 +33,7 @@
             <Category>Settings</Category>
         </Include>
         <Exclude>
+            <Category>X-XfceSettingsDialog</Category>
             <Category>System</Category>
         </Exclude>
         
@@ -134,6 +135,7 @@
             <All/>
         </Include>
         <Exclude>
+            <Category>X-XfceSettingsDialog</Category>
             <Category>Screensaver</Category>
             <Category>X-Xfce-Toplevel</Category>
         </Exclude>

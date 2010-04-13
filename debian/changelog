@@ -1,3 +1,12 @@
+xubuntu-default-settings (10.04.7) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: hide duplicates
+    entries from the settings menu, as discussed in the previous meeting,
+    and summed up at
+    <https://lists.ubuntu.com/archives/xubuntu-devel/2010-April/007435.html>.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 13 Apr 2010 20:41:20 +0200
+
 xubuntu-default-settings (10.04.6) lucid; urgency=low
 
   * Refreshed translations.
