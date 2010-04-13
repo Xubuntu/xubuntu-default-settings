@@ -1,4 +1,4 @@
-xubuntu-default-settings (10.04.7) UNRELEASED; urgency=low
+xubuntu-default-settings (10.04.7) lucid; urgency=low
 
   * Refreshed translations.
   * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: hide duplicate
@@ -6,7 +6,7 @@ xubuntu-default-settings (10.04.7) UNRELEASED; urgency=low
     and summed up at
     <https://lists.ubuntu.com/archives/xubuntu-devel/2010-April/007435.html>.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 13 Apr 2010 20:41:20 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 13 Apr 2010 21:22:44 +0200
 
 xubuntu-default-settings (10.04.6) lucid; urgency=low
 
