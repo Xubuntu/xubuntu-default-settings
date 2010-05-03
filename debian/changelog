@@ -1,3 +1,13 @@
+xubuntu-default-settings (10.04.8) UNRELEASED; urgency=low
+
+  * usr/share/xubuntu/session.sh:
+    - Do not forcefully set $XDG_CONFIG_DIRS, it creates issue with non-Xfce
+      applications, and 60xdg_path-on-session from gdm already takes care of
+      that. lp: #571133
+    - Ensure that /usr/local/share is present in $XDG_DATA_DIRS. lp: #574264
+
+ -- Lionel Le Folgoc <mrpouit@gmail.com>  Mon, 03 May 2010 20:15:27 +0200
+
 xubuntu-default-settings (10.04.7) lucid; urgency=low
 
   * Refreshed translations.
