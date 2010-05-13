@@ -3,6 +3,7 @@
 <channel name="xfce4-session" version="1.0">
   <property name="general" type="empty">
     <property name="FailsafeSessionName" type="string" value="Failsafe"/>
+    <property name="SaveOnExit" type="bool" value="false"/>
   </property>
   <property name="sessions" type="empty">
     <property name="Failsafe" type="empty">
@@ -36,5 +37,9 @@
   </property>
   <property name="splash" type="empty">
     <property name="Engine" type="string" value=""/>
+  </property>
+  <property name="shutdown" type="empty">
+    <property name="ShowHibernate" type="bool" value="false"/>
+    <property name="ShowSuspend" type="bool" value="false"/>
   </property>
 </channel>

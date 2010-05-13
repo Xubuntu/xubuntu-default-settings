@@ -1,3 +1,11 @@
+xubuntu-default-settings (10.10.0) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
+    - do not save the session on logout by default
+    - hide "hibernate" and "suspend" buttons. lp: #121737
+
+ -- Lionel Le Folgoc <mrpouit@gmail.com>  Thu, 13 May 2010 12:58:34 +0200
+
 xubuntu-default-settings (10.04.8) lucid-proposed; urgency=low
 
   * usr/share/xubuntu/session.sh:
