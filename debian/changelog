@@ -2,6 +2,10 @@ xubuntu-default-settings (10.10.1) UNRELEASED; urgency=low
 
   * etc/xdg/xdg-xubuntu/autostart/xfce4-tips-autostart.desktop: disable tips
     on login. lp: #584879
+  * etc/xdg/xdg-xubuntu/applications/defaults.list: replace 'totem.desktop'
+    by 'parole.desktop'.
+  * etc/xdg/xdg-xubuntu/Thunar/volmanrc: replace totem by parole and brasero
+    by xfburn.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 24 May 2010 11:54:16 +0200
 

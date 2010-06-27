@@ -5,12 +5,12 @@ Autobrowse=TRUE
 Autorun=TRUE
 Autoopen=TRUE
 Autoburn=FALSE
-AutoburnDataCommand=brasero
-AutoburnAudioCommand=brasero
+AutoburnDataCommand=xfburn -d
+AutoburnAudioCommand=xfburn -a
 AutoplayAudioCd=TRUE
 AutoplayAudioCdCommand=exaile
 AutoplayVideoCd=TRUE
-AutoplayVideoCdCommand=totem %d
+AutoplayVideoCdCommand=parole --device=%d
 Autoipod=FALSE
 AutoipodCommand=
 Autophoto=FALSE
