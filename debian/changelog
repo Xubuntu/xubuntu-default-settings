@@ -1,4 +1,4 @@
-xubuntu-default-settings (10.10.2) UNRELEASED; urgency=low
+xubuntu-default-settings (10.10.2) maverick; urgency=low
 
   * Refreshed translations.
   * debian/control: bumped Standard-Version to 3.9.1.
@@ -10,7 +10,7 @@ xubuntu-default-settings (10.10.2) UNRELEASED; urgency=low
     lp: #365083
   * etc/skel/.Xdefaults: set a correct OOo lcd filter. lp: #486315
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Aug 2010 16:49:59 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Aug 2010 17:22:46 +0200
 
 xubuntu-default-settings (10.10.1) maverick; urgency=low
 
