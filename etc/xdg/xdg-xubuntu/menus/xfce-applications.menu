@@ -15,11 +15,11 @@
     </Include>
 
     <Layout>
-        <Filename>ubuntu-software-center.desktop</Filename>
-        <Separator/>
         <Menuname>Settings</Menuname>
         <Separator/>
         <Merge type="all"/>
+        <Separator/>
+        <Filename>ubuntu-software-center.desktop</Filename>
         <Separator/>
         <Filename>xubuntu-help.desktop</Filename>
         <Filename>xfce4-about-xfce.desktop</Filename>
@@ -98,6 +98,9 @@
             <Category>Video</Category>
             <Category>AudioVideo</Category>
         </Include>
+        <Exclude>
+            <Filename>aumix.desktop</Filename>
+        </Exclude>
     </Menu>
     
     <Menu>
