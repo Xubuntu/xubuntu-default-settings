@@ -148,6 +148,7 @@ text/richtext=abiword.desktop
 text/rtf=abiword.desktop
 text/spreadsheet=gnumeric.desktop
 text/tab-separated-values=gnumeric.desktop
+text/x-apport=apport-gtk-mime.desktop
 text/x-comma-separated-values=gnumeric.desktop
 text/x-chdr=mousepad.desktop
 text/x-csrc=mousepad.desktop
