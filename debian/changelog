@@ -1,7 +1,10 @@
 xubuntu-default-settings (10.10.3) UNRELEASED; urgency=low
 
+  * Refreshed translations.
   * etc/xdg/xdg-xubuntu/applications/defaults.list: open crash files using
     apport by default instead of a text editor. lp: #610284
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml: switch to Bluebird.
+  * debian/control: depends on xubuntu-artwork (>> 10.10.0).
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Aug 2010 18:00:17 +0200
 

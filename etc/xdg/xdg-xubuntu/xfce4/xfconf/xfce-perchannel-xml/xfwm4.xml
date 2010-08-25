@@ -22,7 +22,7 @@
     <property name="show_frame_shadow" type="bool" value="false"/>
     <property name="show_popup_shadow" type="bool" value="false"/>
     <property name="snap_resist" type="bool" value="false"/>
-    <property name="theme" type="string" value="Albatross"/>
+    <property name="theme" type="string" value="Bluebird"/>
     <property name="toggle_workspaces" type="bool" value="false"/>
     <property name="unredirect_overlays" type="bool" value="false"/>
     <property name="use_compositing" type="bool" value="false"/>
