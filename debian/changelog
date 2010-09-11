@@ -1,3 +1,10 @@
+xubuntu-default-settings (10.10.4) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/applications: ship a screensaver desktop file whose
+    "Icon=" field doesn't contain a file extension, to workaround lp #603222.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 11 Sep 2010 15:34:22 +0200
+
 xubuntu-default-settings (10.10.3) maverick; urgency=low
 
   * Refreshed translations.
