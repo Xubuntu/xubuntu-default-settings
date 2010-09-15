@@ -1,3 +1,13 @@
+xubuntu-default-settings (10.10.4) UNRELEASED; urgency=low
+
+  * usr/share/applications/xubuntu-help.desktop: refreshed translations.
+  * usr/share/applications/xubuntu-logout.desktop: avoid using a light
+    monochrome icon on the light xfce menu.
+  * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: display
+    'xubuntu-logout.desktop' instead of 'xfce4-logout.desktop' by default.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 15 Sep 2010 21:37:22 +0200
+
 xubuntu-default-settings (10.10.3) maverick; urgency=low
 
   * Refreshed translations.

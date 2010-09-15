@@ -11,7 +11,7 @@
         <Filename>ubuntu-software-center.desktop</Filename>
         <Filename>xubuntu-help.desktop</Filename>
         <Filename>xfce4-about-xfce.desktop</Filename>
-        <Filename>xfce4-logout.desktop</Filename>
+        <Filename>xubuntu-logout.desktop</Filename>
     </Include>
 
     <Layout>
