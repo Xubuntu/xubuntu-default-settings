@@ -2,6 +2,13 @@
 
 set -e
 
+LASTVER="11.04.0~"
+
+if dpkg-maintscript-helper supports rm_conffile; then
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/applications/defaults.list "$LASTVER" -- "$@"
+fi
+
 case "$1" in
   upgrade)
     if [ -x /usr/lib/gdm/gdm-set-default-session ] ; then
