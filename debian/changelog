@@ -1,3 +1,10 @@
+xubuntu-default-settings (11.04.0) UNRELEASED; urgency=low
+
+  * Rename etc/xdg/xdg-xubuntu/applications to usr/share/xubuntu/applications:
+    - usr/share/xubuntu/session.sh: update XDG_DATA_DIRS consequently.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 25 Sep 2010 18:14:43 +0200
+
 xubuntu-default-settings (10.10.4) maverick; urgency=low
 
   * usr/share/applications/xubuntu-help.desktop: refreshed translations.

@@ -5,6 +5,6 @@
 if [ -z "$XDG_DATA_DIRS" ]; then
   XDG_DATA_DIRS="/usr/local/share"
 fi
-export XDG_DATA_DIRS="/etc/xdg/xdg-xubuntu:$XDG_DATA_DIRS"
+export XDG_DATA_DIRS="/usr/share/xubuntu:$XDG_DATA_DIRS"
 
 exec startxfce4
