@@ -9,9 +9,9 @@
     
     <Include>
         <Filename>ubuntu-software-center.desktop</Filename>
-        <Filename>xubuntu-help.desktop</Filename>
+        <Filename>xfce4-help.desktop</Filename>
         <Filename>xfce4-about-xfce.desktop</Filename>
-        <Filename>xubuntu-logout.desktop</Filename>
+        <Filename>xfce4-logout.desktop</Filename>
     </Include>
 
     <Layout>
@@ -21,9 +21,9 @@
         <Separator/>
         <Filename>ubuntu-software-center.desktop</Filename>
         <Separator/>
-        <Filename>xubuntu-help.desktop</Filename>
+        <Filename>xfce4-help.desktop</Filename>
         <Filename>xfce4-about-xfce.desktop</Filename>
-        <Filename>xubuntu-logout.desktop</Filename>
+        <Filename>xfce4-logout.desktop</Filename>
     </Layout>
     
     <Menu>
