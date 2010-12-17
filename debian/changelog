@@ -12,6 +12,8 @@ xubuntu-default-settings (11.04.0) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/thunar-volman.xml:
     added.
   * debian/{preinst,postinst,postrm}: handle removal of old xdg config files.
+  * usr/share/xubuntu/applications/aumix.desktop: added, only used to hide the
+    entry by default instead of adding another hack in the menu file.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 25 Sep 2010 18:14:43 +0200
 

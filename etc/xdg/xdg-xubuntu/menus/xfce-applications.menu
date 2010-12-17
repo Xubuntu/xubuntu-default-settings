@@ -9,9 +9,9 @@
     
     <Include>
         <Filename>ubuntu-software-center.desktop</Filename>
-        <Filename>xfce4-help.desktop</Filename>
-        <Filename>xfce4-about-xfce.desktop</Filename>
-        <Filename>xfce4-logout.desktop</Filename>
+        <Filename>xfhelp4.desktop</Filename>
+        <Filename>xfce4-about.desktop</Filename>
+        <Filename>xfce4-session-logout.desktop</Filename>
     </Include>
 
     <Layout>
@@ -21,9 +21,9 @@
         <Separator/>
         <Filename>ubuntu-software-center.desktop</Filename>
         <Separator/>
-        <Filename>xfce4-help.desktop</Filename>
-        <Filename>xfce4-about-xfce.desktop</Filename>
-        <Filename>xfce4-logout.desktop</Filename>
+        <Filename>xfhelp4.desktop</Filename>
+        <Filename>xfce4-about.desktop</Filename>
+        <Filename>xfce4-session-logout.desktop</Filename>
     </Layout>
     
     <Menu>
@@ -43,6 +43,13 @@
             <Merge type="all"/>
         </Layout>
         
+        <Menu>
+            <Name>Screensavers</Name>
+            <Directory>xfce-screensavers.directory</Directory>
+            <Include>
+                <Category>Screensaver</Category>
+            </Include>
+        </Menu>
     </Menu>
     
     <Menu>
@@ -98,9 +105,6 @@
             <Category>Video</Category>
             <Category>AudioVideo</Category>
         </Include>
-        <Exclude>
-            <Filename>aumix.desktop</Filename>
-        </Exclude>
     </Menu>
     
     <Menu>
@@ -118,12 +122,23 @@
             <Category>Office</Category>
         </Include>
     </Menu>
+
+    <Menu>
+        <Name>Science</Name>
+        <Directory>xfce-science.directory</Directory>
+        <Include>
+            <Category>Science</Category>
+        </Include>
+    </Menu>
     
     <Menu>
         <Name>System</Name>
         <Directory>xfce-system.directory</Directory>
         <Include>
-            <Category>System</Category>
+            <Or>
+                <Category>Emulator</Category>
+                <Category>System</Category>
+            </Or>
         </Include>
         <Exclude>
             <Filename>ubuntu-software-center.desktop</Filename>
@@ -139,7 +154,6 @@
         </Include>
         <Exclude>
             <Category>X-XfceSettingsDialog</Category>
-            <Category>Screensaver</Category>
             <Category>X-Xfce-Toplevel</Category>
         </Exclude>
     </Menu>
