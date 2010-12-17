@@ -9,6 +9,8 @@ if dpkg-maintscript-helper supports rm_conffile; then
     /etc/xdg/xdg-xubuntu/applications/defaults.list "$LASTVER" -- "$@"
   dpkg-maintscript-helper rm_conffile \
     /etc/xdg/xdg-xubuntu/Thunar/volmanrc "$LASTVER" -- "$@"
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/xfce4/mount.rc "$LASTVER" -- "$@"
 fi
 
 case "$1" in
