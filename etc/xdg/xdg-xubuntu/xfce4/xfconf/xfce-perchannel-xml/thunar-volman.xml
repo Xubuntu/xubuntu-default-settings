@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="thunar-volman" version="1.0">
+  <property name="automount-drives" type="empty">
+    <property name="enabled" type="bool" value="true"/>
+  </property>
+  <property name="automount-media" type="empty">
+    <property name="enabled" type="bool" value="true"/>
+  </property>
+  <property name="autobrowse" type="empty">
+    <property name="enabled" type="bool" value="true"/>
+  </property>
+  <property name="autoplay-video-cds" type="empty">
+    <property name="enabled" type="bool" value="true"/>
+    <property name="command" type="string" value="parole --device=%d"/>
+  </property>
+  <property name="autorun" type="empty">
+    <property name="enabled" type="bool" value="true"/>
+  </property>
+  <property name="autoopen" type="empty">
+    <property name="enabled" type="bool" value="true"/>
+  </property>
+  <property name="autoburn" type="empty">
+    <property name="enabled" type="bool" value="false"/>
+    <property name="data-cd-command" type="string" value="xfburn -d"/>
+    <property name="audio-cd-command" type="string" value="xfburn -a"/>
+  </property>
+  <property name="autoplay-audio-cds" type="empty">
+    <property name="enabled" type="bool" value="true"/>
+    <property name="command" type="string" value="exaile"/>
+  </property>
+  <property name="autoipod" type="empty">
+    <property name="enabled" type="bool" value="false"/>
+  </property>
+  <property name="autophoto" type="empty">
+    <property name="enabled" type="bool" value="false"/>
+  </property>
+  <property name="autoprinter" type="empty">
+    <property name="enabled" type="bool" value="false"/>
+  </property>
+  <property name="autokeyboard" type="empty">
+    <property name="enabled" type="bool" value="false"/>
+  </property>
+  <property name="automouse" type="empty">
+    <property name="enabled" type="bool" value="false"/>
+  </property>
+  <property name="autotablet" type="empty">
+    <property name="enabled" type="bool" value="false"/>
+  </property>
+</channel>
