@@ -1,4 +1,4 @@
-xubuntu-default-settings (11.04.0) UNRELEASED; urgency=low
+xubuntu-default-settings (11.04.0) natty; urgency=low
 
   * Rename etc/xdg/xdg-xubuntu/applications to usr/share/xubuntu/applications:
     - usr/share/xubuntu/session.sh: update XDG_DATA_DIRS consequently.
@@ -15,7 +15,7 @@ xubuntu-default-settings (11.04.0) UNRELEASED; urgency=low
   * usr/share/xubuntu/applications/aumix.desktop: added, only used to hide the
     entry by default instead of adding another hack in the menu file.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 25 Sep 2010 18:14:43 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 17 Dec 2010 21:17:45 +0100
 
 xubuntu-default-settings (10.10.4) maverick; urgency=low
 
