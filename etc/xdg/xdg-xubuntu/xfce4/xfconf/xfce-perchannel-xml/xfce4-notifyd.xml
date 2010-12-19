@@ -4,4 +4,5 @@
   <property name="notify-location" type="uint" value="2"/>
   <property name="theme" type="string" value="Default"/>
   <property name="initial-opacity" type="double" value="0.800000"/>
+  <property name="fade-transparency" type="bool" value="true"/>
 </channel>
