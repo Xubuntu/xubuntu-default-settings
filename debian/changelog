@@ -3,6 +3,9 @@ xubuntu-default-settings (11.04.1) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml:
     added, default config for xfce4-notifyd (top right corner, uses the user
     gtk theme, and 80% opacity).
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
+    put back the 'Hibernate' and 'Suspend' buttons by default, xfce4-session
+    now locks the screen automatically.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 19 Dec 2010 01:11:59 +0100
 
