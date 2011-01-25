@@ -1,4 +1,4 @@
-# Chinese (Traditional) translation for xubuntu-default-settings
+# Croatian translation for xubuntu-default-settings
 # Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
 # This file is distributed under the same license as the xubuntu-default-settings package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
@@ -8,35 +8,35 @@ msgstr ""
 "Project-Id-Version: xubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-04-11 21:32+0200\n"
-"PO-Revision-Date: 2010-12-18 04:52+0000\n"
-"Last-Translator: Lionel Le Folgoc <lionel@lefolgoc.net>\n"
-"Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
+"PO-Revision-Date: 2010-12-26 01:24+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-12-19 04:36+0000\n"
+"X-Launchpad-Export-Date: 2010-12-27 04:30+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #: places-2.rc.in.h:1
 msgid "Places"
-msgstr "位置"
+msgstr ""
 
 #: launcher-2.rc.in.h:1
 msgid "Firefox web browser"
-msgstr "Firefox 網路瀏覽器"
+msgstr ""
 
 #: launcher-2.rc.in.h:2
 msgid "Web browser"
-msgstr "網路瀏覽器"
+msgstr ""
 
 #: xfce4-menu-1.rc.in.h:1
 msgid "Applications"
-msgstr "應用程式"
+msgstr ""
 
 #: launcher-3.rc.in.h:1
 msgid "Help"
-msgstr "幫助"
+msgstr ""
 
 #: launcher-3.rc.in.h:2
 msgid "Xubuntu Desktop Guide"
-msgstr "Xubuntu 桌面指引"
+msgstr ""
