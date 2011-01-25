@@ -3,6 +3,10 @@ xubuntu-default-settings (11.04.2) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: refreshed for Xfce 4.8.
   * etc/xdg/xdg-xubuntu/Terminal/terminalrc: set Droid Sans Mono as default
     font.
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
+    - set Greybird as default gtk+ theme and put back elementary as default
+      icon theme
+    - set Droid Sans as default font.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 25 Jan 2011 21:36:33 +0100
 
