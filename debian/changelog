@@ -7,6 +7,14 @@ xubuntu-default-settings (11.04.2) UNRELEASED; urgency=low
     - set Greybird as default gtk+ theme and put back elementary as default
       icon theme
     - set Droid Sans as default font.
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml:
+    - clean up for Xfce 4.8
+    - set Droid Sans Bold as default font
+    - set Greybird as default theme, and “menu|title|min|max|close” as
+      default layout
+    - activate the compositor by default.
+  * debian/control: require xubuntu-artwork >> 11.04.1 for Greybird, and
+    ttf-droid.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 25 Jan 2011 21:36:33 +0100
 
