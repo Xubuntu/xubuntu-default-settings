@@ -1,3 +1,9 @@
+xubuntu-default-settings (11.04.2) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: refreshed for Xfce 4.8.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 25 Jan 2011 21:36:33 +0100
+
 xubuntu-default-settings (11.04.1) natty; urgency=low
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml:
