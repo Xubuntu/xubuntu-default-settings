@@ -2,7 +2,7 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="Greybird"/>
+    <property name="ThemeName" type="string" value="greybird"/>
     <property name="IconThemeName" type="string" value="elementary"/>
   </property>
   <property name="Xft" type="empty">
