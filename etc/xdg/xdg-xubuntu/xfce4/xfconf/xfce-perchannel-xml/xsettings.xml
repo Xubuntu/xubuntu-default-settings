@@ -3,7 +3,7 @@
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
     <property name="ThemeName" type="string" value="greybird"/>
-    <property name="IconThemeName" type="string" value="elementary"/>
+    <property name="IconThemeName" type="string" value="elementary-mono-dark"/>
   </property>
   <property name="Xft" type="empty">
     <property name="DPI" type="int" value="96"/>

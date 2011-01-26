@@ -2,7 +2,7 @@
 
 <channel name="xfce4-notifyd" version="1.0">
   <property name="notify-location" type="uint" value="2"/>
-  <property name="theme" type="string" value="Default"/>
+  <property name="theme" type="string" value="greybird"/>
   <property name="initial-opacity" type="double" value="0.800000"/>
   <property name="fade-transparency" type="bool" value="true"/>
 </channel>
