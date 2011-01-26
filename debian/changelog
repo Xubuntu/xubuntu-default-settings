@@ -1,4 +1,4 @@
-xubuntu-default-settings (11.04.4) UNRELEASED; urgency=low
+xubuntu-default-settings (11.04.4) natty; urgency=low
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml:
     set greybird as default theme as well.
@@ -13,7 +13,7 @@ xubuntu-default-settings (11.04.4) UNRELEASED; urgency=low
   * debian/postinst,debian/postrm,debian/preinst: handle the removal of the
     4.6 panel config.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 26 Jan 2011 21:24:04 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 26 Jan 2011 23:14:45 +0100
 
 xubuntu-default-settings (11.04.3) natty; urgency=low
 
