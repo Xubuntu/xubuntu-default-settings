@@ -1,0 +1,19 @@
+[PARAMETERS]
+Eventlist extra days=0
+Show Main Window Menu=true
+Select Always Today=false
+Show borders=true
+Show heading=true
+Show day names=true
+Show weeks=true
+Show todos=true
+Show event days=1
+Show in pager=false
+Show in systray=false
+Show in taskbar=false
+Start visible=false
+Start minimized=false
+Set sticked=true
+Set ontop=false
+Use dynamic icon=true
+Show days=false

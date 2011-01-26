@@ -2,7 +2,7 @@
 
 set -e
 
-LASTVER="11.04.0~"
+LASTVER="11.04.3"
 
 if dpkg-maintscript-helper supports rm_conffile; then
   dpkg-maintscript-helper rm_conffile \
@@ -11,6 +11,30 @@ if dpkg-maintscript-helper supports rm_conffile; then
     /etc/xdg/xdg-xubuntu/Thunar/volmanrc "$LASTVER" -- "$@"
   dpkg-maintscript-helper rm_conffile \
     /etc/xdg/xdg-xubuntu/xfce4/mount.rc "$LASTVER" -- "$@"
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/xfce4/panel/actions-6.rc "$LASTVER" -- "$@"
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/xfce4/panel/clock-5.rc "$LASTVER" -- "$@"
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/xfce4/panel/launcher-2.rc "$LASTVER" -- "$@"
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/xfce4/panel/launcher-3.rc "$LASTVER" -- "$@"
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/xfce4/panel/pager-3.rc "$LASTVER" -- "$@"
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/xfce4/panel/panels.xml "$LASTVER" -- "$@"
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/xfce4/panel/places-2.rc "$LASTVER" -- "$@"
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/xfce4/panel/separator-3.rc "$LASTVER" -- "$@"
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/xfce4/panel/systray-4.rc "$LASTVER" -- "$@"
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/xfce4/panel/tasklist-2.rc "$LASTVER" -- "$@"
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-menu-1.rc "$LASTVER" -- "$@"
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-mixer-plugin-5.rc "$LASTVER" -- "$@"
 fi
 
 case "$1" in

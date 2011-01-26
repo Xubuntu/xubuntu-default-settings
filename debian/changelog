@@ -4,6 +4,14 @@ xubuntu-default-settings (11.04.4) UNRELEASED; urgency=low
     set greybird as default theme as well.
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: use
     elementary-mono-dark instead of elementary by default.
+  * etc/xdg/xdg-xubuntu/orage/oragerc: added, default orage config.
+  * etc/xdg/xdg-xubuntu/xfce4/panel/*: dropped all rc files for the 4.6 panel.
+  * etc/xdg/xdg-xubuntu/xfce4/panel/cpugraph-3.rc,
+    etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-orageclock-plugin-7.rc,
+    etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml:
+    ship a new default layout for the 4.8 panel.
+  * debian/postinst,debian/postrm,debian/preinst: handle the removal of the
+    4.6 panel config.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 26 Jan 2011 21:24:04 +0100
 
