@@ -1,3 +1,11 @@
+xubuntu-default-settings (11.04.5) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: set
+    back elementaryXubuntu by default, we need to override a few elementary
+    icons anyway.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 29 Jan 2011 14:33:55 +0100
+
 xubuntu-default-settings (11.04.4) natty; urgency=low
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml:
