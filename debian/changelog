@@ -1,3 +1,11 @@
+xubuntu-default-settings (11.04.7) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-keyboard-shortcuts.xml:
+    resync default keyboard shortcuts with upstream; mostly add shortcuts
+    for 'xfce4-display-settings --minimal'.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 10 Feb 2011 00:25:22 +0100
+
 xubuntu-default-settings (11.04.6) natty; urgency=low
 
   * usr/share/xubuntu/applications/Thunar-bulk-rename.desktop,
