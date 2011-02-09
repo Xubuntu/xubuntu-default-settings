@@ -77,7 +77,11 @@
     <property name="plugin-6" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-7" type="string" value="xfce4-orageclock-plugin"/>
+    <property name="plugin-7" type="string" value="clock">
+      <property name="digital-format" type="string" value="%a, %d %b  %H:%M"/>
+      <property name="tooltip-format" type="string" value="%A %d %B %Y/%V"/>
+      <property name="command" type="string" value="orage"/>
+    </property>
     <property name="plugin-8" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
