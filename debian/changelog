@@ -11,6 +11,8 @@ xubuntu-default-settings (11.04.6) UNRELEASED; urgency=low
     double-clicking on the time, to reproduce a feature of orageclock.
   * etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-orageclock-plugin-7.rc: dropped,
     not needed anymore. Also handle its removal in maintainer scripts.
+  * etc/xdg/xdg-xubuntu/orage/oragerc: updated, start visible by default,
+    and don't use the dynamic icon in the systray, prefer a static one.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 08 Feb 2011 21:19:33 +0100
 
