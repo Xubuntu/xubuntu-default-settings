@@ -1,4 +1,4 @@
-xubuntu-default-settings (11.04.6) UNRELEASED; urgency=low
+xubuntu-default-settings (11.04.6) natty; urgency=low
 
   * usr/share/xubuntu/applications/Thunar-bulk-rename.desktop,
     usr/share/xubuntu/applications/Thunar.desktop: added (were previously
@@ -17,7 +17,7 @@ xubuntu-default-settings (11.04.6) UNRELEASED; urgency=low
     previously in xfce4-terminal); remove xfce4-terminal from the 'System'
     category.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 08 Feb 2011 21:19:33 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 09 Feb 2011 21:33:04 +0100
 
 xubuntu-default-settings (11.04.5) natty; urgency=low
 
