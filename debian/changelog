@@ -13,6 +13,9 @@ xubuntu-default-settings (11.04.6) UNRELEASED; urgency=low
     not needed anymore. Also handle its removal in maintainer scripts.
   * etc/xdg/xdg-xubuntu/orage/oragerc: updated, start visible by default,
     and don't use the dynamic icon in the systray, prefer a static one.
+  * usr/share/xubuntu/applications/xfce4-terminal.desktop: added (was
+    previously in xfce4-terminal); remove xfce4-terminal from the 'System'
+    category.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 08 Feb 2011 21:19:33 +0100
 
