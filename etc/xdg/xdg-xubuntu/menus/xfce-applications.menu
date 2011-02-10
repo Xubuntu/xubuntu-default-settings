@@ -8,12 +8,10 @@
     <DefaultDirectoryDirs/>
 
     <Include>
-        <Or>
-            <Filename>ubuntu-software-center.desktop</Filename>
-            <Filename>xfhelp4.desktop</Filename>
-            <Filename>xfce4-about.desktop</Filename>
-            <Filename>xfce4-session-logout.desktop</Filename>
-        </Or>
+        <Filename>ubuntu-software-center.desktop</Filename>
+        <Filename>xfhelp4.desktop</Filename>
+        <Filename>xfce4-about.desktop</Filename>
+        <Filename>xfce4-session-logout.desktop</Filename>
     </Include>
 
     <Layout>
@@ -32,29 +30,21 @@
         <Name>Settings</Name>
         <Directory>xfce-settings.directory</Directory>
         <Include>
-            <Category>Settings</Category>
+            <Filename>xfce-settings-manager.desktop</Filename>
+            <Filename>xfce4-settings-editor.desktop</Filename>
+            <And>
+                <Category>Settings</Category>
+                <Not><Category>X-XFCE</Category></Not>
+                <Not><Category>X-XfceSettingsDialog</Category></Not>
+                <Not><Category>System</Category></Not>
+            </And>
         </Include>
-        <Exclude>
-            <Or>
-                <Category>X-XfceSettingsDialog</Category>
-                <Category>System</Category>
-            </Or>
-        </Exclude>
-
 
         <Layout>
             <Filename>xfce-settings-manager.desktop</Filename>
             <Separator/>
             <Merge type="all"/>
         </Layout>
-
-        <Menu>
-            <Name>Screensavers</Name>
-            <Directory>xfce-screensavers.directory</Directory>
-            <Include>
-                <Category>Screensaver</Category>
-            </Include>
-        </Menu>
     </Menu>
 
     <Menu>
@@ -69,12 +59,9 @@
             </Or>
         </Include>
         <Exclude>
-            <Or>
-                <Filename>exo-file-manager.desktop</Filename>
-                <Filename>exo-terminal-emulator.desktop</Filename>
-                <Filename>xfce4-about.desktop</Filename>
-                <Filename>xfrun4.desktop</Filename>
-            </Or>
+            <Category>Settings</Category>
+            <Category>System</Category>
+            <Category>X-Xfce-Toplevel</Category>
         </Exclude>
     </Menu>
 
@@ -90,7 +77,10 @@
         <Name>Education</Name>
         <Directory>xfce-education.directory</Directory>
         <Include>
-            <Category>Education</Category>
+            <And>
+                <Category>Education</Category>
+                <Not><Category>Science</Category></Not>
+            </And>
         </Include>
     </Menu>
 
@@ -127,10 +117,7 @@
             <Category>Network</Category>
         </Include>
         <Exclude>
-            <Or>
-                <Filename>exo-mail-reader.desktop</Filename>
-                <Filename>exo-web-browser.desktop</Filename>
-            </Or>
+            <Category>X-Xfce-Toplevel</Category>
         </Exclude>
     </Menu>
 
@@ -146,7 +133,10 @@
         <Name>Science</Name>
         <Directory>xfce-science.directory</Directory>
         <Include>
-            <Category>Science</Category>
+            <And>
+                <Category>Education</Category>
+                <Category>Science</Category>
+            </And>
         </Include>
     </Menu>
 
@@ -160,10 +150,7 @@
             </Or>
         </Include>
         <Exclude>
-            <Or>
-                <Filename>xfce4-session-logout.desktop</Filename>
-                <Filename>ubuntu-software-center.desktop</Filename>
-            </Or>
+            <Filename>ubuntu-software-center.desktop</Filename>
         </Exclude>
     </Menu>
 
@@ -175,12 +162,10 @@
             <All/>
         </Include>
         <Exclude>
-            <Or>
-                <Category>X-XfceSettingsDialog</Category>
-                <Category>X-Xfce-Toplevel</Category>
-            </Or>
+            <Category>Settings</Category>
+            <Category>Screensaver</Category>
+            <Category>X-Xfce-Toplevel</Category>
         </Exclude>
-
     </Menu>
 
 </Menu>
