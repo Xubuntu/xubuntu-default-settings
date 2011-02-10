@@ -96,17 +96,17 @@
     </property>
     <property name="plugin-13" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="exo-web-browser.desktop"/>
       </property>
     </property>
     <property name="plugin-14" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="thunderbird.desktop"/>
+        <value type="string" value="exo-mail-reader.desktop"/>
       </property>
     </property>
     <property name="plugin-15" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="xfce4-terminal.desktop"/>
+        <value type="string" value="exo-terminal-emulator.desktop"/>
       </property>
     </property>
     <property name="plugin-16" type="string" value="launcher">
