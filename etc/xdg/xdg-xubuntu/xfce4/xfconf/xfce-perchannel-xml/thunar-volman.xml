@@ -15,10 +15,10 @@
     <property name="command" type="string" value="parole --device=%d"/>
   </property>
   <property name="autorun" type="empty">
-    <property name="enabled" type="bool" value="true"/>
+    <property name="enabled" type="bool" value="false"/>
   </property>
   <property name="autoopen" type="empty">
-    <property name="enabled" type="bool" value="true"/>
+    <property name="enabled" type="bool" value="false"/>
   </property>
   <property name="autoburn" type="empty">
     <property name="enabled" type="bool" value="false"/>
