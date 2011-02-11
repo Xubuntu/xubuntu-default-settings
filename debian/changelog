@@ -12,7 +12,7 @@ xubuntu-default-settings (11.04.7) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/thunar-volman.xml: disable
     'autoopen' and 'autorun' features by default.
   * usr/share/xubuntu/applications/defaults.list: replace gdebi by
-    ubuntu-software-center.
+    ubuntu-software-center and ooo2-* by libreoffice-*.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 12 Feb 2011 00:37:25 +0100
 
