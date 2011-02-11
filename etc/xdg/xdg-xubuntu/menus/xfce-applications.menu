@@ -6,6 +6,7 @@
 
     <DefaultAppDirs/>
     <DefaultDirectoryDirs/>
+    <DefaultMergeDirs/>
 
     <Include>
         <Filename>ubuntu-software-center.desktop</Filename>

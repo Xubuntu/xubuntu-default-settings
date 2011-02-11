@@ -4,13 +4,13 @@ xubuntu-default-settings (11.04.7) UNRELEASED; urgency=low
     resync default keyboard shortcuts with upstream; mostly add shortcuts
     for 'xfce4-display-settings --minimal'.
   * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: small cleanup; hide
-    more duplicate entries.
+    more duplicate entries. Also add a missing <DefaultMergeDirs/> tag.
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-panel.xml: use exo wrappers
     instead of firefox/thunderbird/xfce4-terminal directly; this allows
     users to change the preferred applications and to keep functional
     launchers.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 10 Feb 2011 00:25:22 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 12 Feb 2011 00:37:25 +0100
 
 xubuntu-default-settings (11.04.6) natty; urgency=low
 
