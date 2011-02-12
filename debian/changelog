@@ -2,7 +2,7 @@ xubuntu-default-settings (11.04.7) UNRELEASED; urgency=low
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-keyboard-shortcuts.xml:
     resync default keyboard shortcuts with upstream; mostly add shortcuts
-    for 'xfce4-display-settings --minimal'.
+    for 'xfce4-display-settings --minimal'. lp: #713967
   * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: small cleanup; hide
     more duplicate entries. Also add a missing <DefaultMergeDirs/> tag.
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-panel.xml: use exo wrappers
