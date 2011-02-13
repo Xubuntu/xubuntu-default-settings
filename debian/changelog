@@ -1,4 +1,4 @@
-xubuntu-default-settings (11.04.8) UNRELEASED; urgency=low
+xubuntu-default-settings (11.04.8) natty; urgency=low
 
   * usr/share/xubuntu/desktop-directories/,
     etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: put back the exo
@@ -6,7 +6,7 @@ xubuntu-default-settings (11.04.8) UNRELEASED; urgency=low
     they were hidden by the menu file and thus were not usable as launchers
     in the panel (see lp #718177).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 13 Feb 2011 19:49:12 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 13 Feb 2011 19:56:12 +0100
 
 xubuntu-default-settings (11.04.7) natty; urgency=low
 
