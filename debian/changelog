@@ -1,3 +1,13 @@
+xubuntu-default-settings (11.04.8) UNRELEASED; urgency=low
+
+  * usr/share/xubuntu/desktop-directories/,
+    etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: put back the exo
+    wrappers in a special submenu "Preferred Applications"; previously
+    they were hidden by the menu file and thus were not usable as launchers
+    in the panel (see lp #718177).
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 13 Feb 2011 19:49:12 +0100
+
 xubuntu-default-settings (11.04.7) natty; urgency=low
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-keyboard-shortcuts.xml:

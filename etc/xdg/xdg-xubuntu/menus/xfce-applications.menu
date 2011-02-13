@@ -16,6 +16,8 @@
     </Include>
 
     <Layout>
+        <Menuname>Preferred Applications</Menuname>
+        <Separator/>
         <Menuname>Settings</Menuname>
         <Separator/>
         <Merge type="all"/>
@@ -26,6 +28,17 @@
         <Filename>xfce4-about.desktop</Filename>
         <Filename>xfce4-session-logout.desktop</Filename>
     </Layout>
+
+    <Menu>
+        <Name>Preferred Applications</Name>
+        <Directory>xubuntu-preferred-applications.directory</Directory>
+        <Include>
+            <Filename>exo-terminal-emulator.desktop</Filename>
+            <Filename>exo-file-manager.desktop</Filename>
+            <Filename>exo-mail-reader.desktop</Filename>
+            <Filename>exo-web-browser.desktop</Filename>
+        </Include>
+    </Menu>
 
     <Menu>
         <Name>Settings</Name>
