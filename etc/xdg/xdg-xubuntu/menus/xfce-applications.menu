@@ -65,8 +65,11 @@
             </Or>
         </Include>
         <Exclude>
-            <Category>Settings</Category>
-            <Category>System</Category>
+            <Or>
+                <Filename>xfce4-about.desktop</Filename>
+                <Category>Settings</Category>
+                <Category>System</Category>
+            </Or>
         </Exclude>
     </Menu>
 
