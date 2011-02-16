@@ -71,6 +71,13 @@
                 <Category>System</Category>
             </Or>
         </Exclude>
+
+        <Layout>
+            <Filename>xfrun4.desktop</Filename>
+            <Filename>xfce4-appfinder.desktop</Filename>
+            <Separator/>
+            <Merge type="all"/>
+        </Layout>
     </Menu>
 
     <Menu>
