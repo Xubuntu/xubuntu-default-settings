@@ -1,7 +1,13 @@
 xubuntu-default-settings (11.04.9) UNRELEASED; urgency=low
 
-  * usr/share/xubuntu/applications/xfce4-session-logout.desktop: refreshed
-    translations.
+  * usr/share/xubuntu/applications/xfce4-session-logout.desktop:
+    refreshed translations.
+  * usr/share/xubuntu/desktop-directories/xfce-network.directory,
+    etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: renamed 'Network'
+    category to 'Internet'. lp: #79053
+  * usr/share/xubuntu/applications/*,
+    etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: reworked the menu
+    to show exo wrappers by default. lp: #718177
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 14 Feb 2011 21:57:59 +0100
 

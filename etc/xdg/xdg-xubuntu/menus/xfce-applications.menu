@@ -9,6 +9,8 @@
     <DefaultMergeDirs/>
 
     <Include>
+        <Filename>exo-web-browser.desktop</Filename>
+        <Filename>exo-mail-reader.desktop</Filename>
         <Filename>ubuntu-software-center.desktop</Filename>
         <Filename>xfhelp4.desktop</Filename>
         <Filename>xfce4-about.desktop</Filename>
@@ -16,7 +18,8 @@
     </Include>
 
     <Layout>
-        <Menuname>Preferred Applications</Menuname>
+        <Filename>exo-web-browser.desktop</Filename>
+        <Filename>exo-mail-reader.desktop</Filename>
         <Separator/>
         <Menuname>Settings</Menuname>
         <Separator/>
@@ -28,17 +31,6 @@
         <Filename>xfce4-about.desktop</Filename>
         <Filename>xfce4-session-logout.desktop</Filename>
     </Layout>
-
-    <Menu>
-        <Name>Preferred Applications</Name>
-        <Directory>xubuntu-preferred-applications.directory</Directory>
-        <Include>
-            <Filename>exo-terminal-emulator.desktop</Filename>
-            <Filename>exo-file-manager.desktop</Filename>
-            <Filename>exo-mail-reader.desktop</Filename>
-            <Filename>exo-web-browser.desktop</Filename>
-        </Include>
-    </Menu>
 
     <Menu>
         <Name>Settings</Name>
@@ -75,7 +67,6 @@
         <Exclude>
             <Category>Settings</Category>
             <Category>System</Category>
-            <Category>X-Xfce-Toplevel</Category>
         </Exclude>
     </Menu>
 
@@ -115,6 +106,20 @@
     </Menu>
 
     <Menu>
+        <Name>Internet</Name>
+        <Directory>xfce-network.directory</Directory>
+        <Include>
+            <Category>Network</Category>
+        </Include>
+        <Exclude>
+            <Or>
+                <Filename>exo-mail-reader.desktop</Filename>
+                <Filename>exo-web-browser.desktop</Filename>
+            </Or>
+        </Exclude>
+    </Menu>
+
+    <Menu>
         <Name>Multimedia</Name>
         <Directory>xfce-multimedia.directory</Directory>
         <Include>
@@ -122,17 +127,6 @@
             <Category>Video</Category>
             <Category>AudioVideo</Category>
         </Include>
-    </Menu>
-
-    <Menu>
-        <Name>Network</Name>
-        <Directory>xfce-network.directory</Directory>
-        <Include>
-            <Category>Network</Category>
-        </Include>
-        <Exclude>
-            <Category>X-Xfce-Toplevel</Category>
-        </Exclude>
     </Menu>
 
     <Menu>
@@ -164,7 +158,10 @@
             </Or>
         </Include>
         <Exclude>
-            <Filename>ubuntu-software-center.desktop</Filename>
+            <Or>
+                <Filename>xfce4-session-logout.desktop</Filename>
+                <Filename>ubuntu-software-center.desktop</Filename>
+            </Or>
         </Exclude>
     </Menu>
 
