@@ -1,13 +1,26 @@
-Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=196
-Upstream-Name: Xubuntu Default Settings
-Upstream-Maintainer: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
-Upstream-Source: https://launchpad.net/xubuntu-default-settings
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
+Name: Xubuntu Default Settings
+Maintainer: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
 
 Files: *
-Copyright: Copyright 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
-Copyright: Copyright 2007-2009, Lionel Le Folgoc <mrpouit@ubuntu.com>
-Copyright: Copyright 2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
-Copyright: Copyright 2005-2008, Jani Monoses <jani@ubuntu.com>
+Copyright: 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
+           2007-2011, Lionel Le Folgoc <mrpouit@ubuntu.com>
+           2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
+           2005-2008, Jani Monoses <jani@ubuntu.com>
 License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this package; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL' file.
