@@ -6,6 +6,8 @@ xubuntu-default-settings (11.04.10) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-panel.xml:
     - launchers: replace exaile by gmusicbrowser.
     - plugins: drop cpugraph and xfce4-mixer and use indicator instead.
+  * etc/xdg/xdg-xubuntu/exaile/settings.ini: dropped (handled in maintainer
+    scripts as well).
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 20 Feb 2011 23:27:36 +0100
 
