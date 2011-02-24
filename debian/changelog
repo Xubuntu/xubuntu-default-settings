@@ -1,3 +1,11 @@
+xubuntu-default-settings (11.04.11) UNRELEASED; urgency=low
+
+  * usr/share/glib-2.0/schemas/xubuntu-default-settings.gschema.override:
+    add gmusicbrowser to the interested media players, and disable sound
+    notifications on scroll, xfce4-volumed does that already.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 24 Feb 2011 22:55:37 +0100
+
 xubuntu-default-settings (11.04.10) natty; urgency=low
 
   * debian/copyright: refreshed, and updated to use current DEP5 draft
