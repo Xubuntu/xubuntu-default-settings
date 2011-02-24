@@ -1,4 +1,4 @@
-xubuntu-default-settings (11.04.10) UNRELEASED; urgency=low
+xubuntu-default-settings (11.04.10) natty; urgency=low
 
   * debian/copyright: refreshed, and updated to use current DEP5 draft
     format instead of an obsolete wiki draft (changes taken from
@@ -9,7 +9,7 @@ xubuntu-default-settings (11.04.10) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/exaile/settings.ini: dropped (handled in maintainer
     scripts as well).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 20 Feb 2011 23:27:36 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 24 Feb 2011 22:08:55 +0100
 
 xubuntu-default-settings (11.04.9) natty; urgency=low
 
