@@ -2,7 +2,7 @@
 
 set -e
 
-LASTVER="11.04.9"
+LASTVER="11.04.10"
 
 if dpkg-maintscript-helper supports rm_conffile; then
   dpkg-maintscript-helper rm_conffile \
@@ -39,6 +39,8 @@ if dpkg-maintscript-helper supports rm_conffile; then
     /etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-orageclock-plugin-7.rc "$LASTVER" -- "$@"
   dpkg-maintscript-helper rm_conffile \
     /etc/xdg/xdg-xubuntu/exaile/settings.ini "$LASTVER" -- "$@"
+  dpkg-maintscript-helper rm_conffile \
+    /etc/xdg/xdg-xubuntu/xfce4/panel/cpugraph-3.rc "$LASTVER" -- "$@"
 fi
 
 case "$1" in
