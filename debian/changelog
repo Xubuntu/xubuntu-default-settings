@@ -4,6 +4,8 @@ xubuntu-default-settings (11.04.11) UNRELEASED; urgency=low
     add gmusicbrowser to the interested media players, and disable sound
     notifications on scroll, xfce4-volumed does that already.
   * Correctly purge cpugraph config.
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-panel.xml: reintroduce the
+    workspace switcher.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 24 Feb 2011 22:55:37 +0100
 

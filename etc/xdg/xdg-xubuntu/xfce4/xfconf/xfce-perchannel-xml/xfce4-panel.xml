@@ -15,6 +15,8 @@
         <value type="int" value="6"/>
         <value type="int" value="7"/>
         <value type="int" value="8"/>
+        <value type="int" value="26"/>
+        <value type="int" value="27"/>
         <value type="int" value="9"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
@@ -85,6 +87,15 @@
       <property name="command" type="string" value="orage"/>
     </property>
     <property name="plugin-8" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-26" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="show-names" type="bool" value="false"/>
+      <property name="workspace-scrolling" type="bool" value="false"/>
+      <property name="miniature-view" type="bool" value="true"/>
+    </property>
+    <property name="plugin-27" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-9" type="string" value="xfsm-logout-plugin"/>
