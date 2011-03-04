@@ -1,4 +1,4 @@
-xubuntu-default-settings (11.04.11) UNRELEASED; urgency=low
+xubuntu-default-settings (11.04.11) natty; urgency=low
 
   * usr/share/glib-2.0/schemas/xubuntu-default-settings.gschema.override:
     add gmusicbrowser to the interested media players, and disable sound
@@ -7,7 +7,7 @@ xubuntu-default-settings (11.04.11) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-panel.xml: reintroduce the
     workspace switcher.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 24 Feb 2011 22:55:37 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 04 Mar 2011 19:03:20 +0100
 
 xubuntu-default-settings (11.04.10) natty; urgency=low
 
