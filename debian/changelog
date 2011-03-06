@@ -1,3 +1,10 @@
+xubuntu-default-settings (11.04.12) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfwm4.xml: really use only two
+    workspaces, the setting was probably lost at some point.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 07 Mar 2011 00:11:43 +0100
+
 xubuntu-default-settings (11.04.11) natty; urgency=low
 
   * usr/share/glib-2.0/schemas/xubuntu-default-settings.gschema.override:

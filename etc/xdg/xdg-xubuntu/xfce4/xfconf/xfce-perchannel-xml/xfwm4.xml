@@ -11,6 +11,8 @@
     <property name="workspace_names" type="array">
       <value type="string" value="1"/>
       <value type="string" value="2"/>
+      <value type="string" value="3"/>
+      <value type="string" value="4"/>
     </property>
     <property name="activate_action" type="string" value="bring"/>
     <property name="box_move" type="bool" value="true"/>
