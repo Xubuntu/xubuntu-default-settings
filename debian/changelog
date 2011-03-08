@@ -2,7 +2,7 @@ xubuntu-default-settings (11.04.13) UNRELEASED; urgency=low
 
   * usr/share/xubuntu/applications/aumix.desktop: dropped, aumix isn't in
     the default install anymore, no need to hide it.
-  * etc/xdg/xdg-xubuntu/panel/indicator-5.rc: ignore indicator-{appmenu,
+  * etc/xdg/xdg-xubuntu/xfce4/panel/indicator-5.rc: ignore indicator-{appmenu,
     datetime,me,session} by default.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 07 Mar 2011 23:52:28 +0100
