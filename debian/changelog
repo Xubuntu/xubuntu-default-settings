@@ -1,3 +1,10 @@
+xubuntu-default-settings (11.04.14) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-notifyd.xml: set initial opacity
+    value to 85%.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 11 Mar 2011 20:39:25 +0100
+
 xubuntu-default-settings (11.04.13) natty; urgency=low
 
   * usr/share/xubuntu/applications/aumix.desktop: dropped, aumix isn't in
