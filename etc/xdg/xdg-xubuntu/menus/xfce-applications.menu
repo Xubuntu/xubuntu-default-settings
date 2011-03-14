@@ -55,7 +55,7 @@
 
     <Menu>
         <Name>Accessories</Name>
-        <Directory>xfce-accessories.directory</Directory>
+        <Directory>Utility.directory</Directory>
         <Include>
             <Or>
                 <Category>Accessibility</Category>
@@ -90,7 +90,7 @@
 
     <Menu>
         <Name>Education</Name>
-        <Directory>xfce-education.directory</Directory>
+        <Directory>Education.directory</Directory>
         <Include>
             <And>
                 <Category>Education</Category>
@@ -117,7 +117,7 @@
 
     <Menu>
         <Name>Internet</Name>
-        <Directory>xfce-network.directory</Directory>
+        <Directory>Network.directory</Directory>
         <Include>
             <Category>Network</Category>
         </Include>
@@ -149,7 +149,7 @@
 
     <Menu>
         <Name>Science</Name>
-        <Directory>xfce-science.directory</Directory>
+        <Directory>GnomeScience.directory</Directory>
         <Include>
             <And>
                 <Category>Education</Category>
