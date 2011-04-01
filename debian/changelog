@@ -1,4 +1,4 @@
-xubuntu-default-settings (11.04.17) UNRELEASED; urgency=low
+xubuntu-default-settings (11.04.17) natty; urgency=low
 
   * Move etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-panel.xml to
     etc/xdg/xdg-xubuntu/xfce4/panel/default.xml: this is the correct place
@@ -6,7 +6,7 @@ xubuntu-default-settings (11.04.17) UNRELEASED; urgency=low
     a panel.                                                        lp: #747137
   * Handle the move in the maintainer scripts as well.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 01 Apr 2011 22:07:53 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 01 Apr 2011 22:31:55 +0200
 
 xubuntu-default-settings (11.04.16) natty; urgency=low
 
