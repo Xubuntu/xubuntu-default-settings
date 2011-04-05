@@ -1,3 +1,11 @@
+xubuntu-default-settings (11.04.18) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfwm4.xml: show the window content
+    on resize/move. lp: #749665
+  * Updated translations.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 03 Apr 2011 22:13:39 +0200
+
 xubuntu-default-settings (11.04.17) natty; urgency=low
 
   * Move etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-panel.xml to
