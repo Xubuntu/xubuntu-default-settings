@@ -1,3 +1,10 @@
+xubuntu-default-settings (11.10.0) UNRELEASED; urgency=low
+
+  * usr/share/xubuntu/applications/xfprint*desktop: added, to hide xfprint
+    from the menus (were previously in xfprint4, now the delta can be dropped).
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 29 May 2011 14:37:16 +0200
+
 xubuntu-default-settings (11.04.18) natty; urgency=low
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfwm4.xml: show the window content
