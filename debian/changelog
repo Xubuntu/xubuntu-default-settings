@@ -3,6 +3,7 @@ xubuntu-default-settings (11.10.0) UNRELEASED; urgency=low
   * usr/share/xubuntu/session.sh: export the correct XDG_CONFIG_DIRS.
   * usr/share/xubuntu/applications/defaults.list: updated for the latest seed
     changes.
+  * Rfreshed translations.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 29 May 2011 14:37:16 +0200
 
