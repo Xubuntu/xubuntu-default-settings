@@ -1,7 +1,8 @@
 xubuntu-default-settings (11.10.0) UNRELEASED; urgency=low
 
-  * usr/share/xubuntu/applications/xfprint*desktop: added, to hide xfprint
-    from the menus (were previously in xfprint4, now the delta can be dropped).
+  * usr/share/xubuntu/session.sh: export the correct XDG_CONFIG_DIRS.
+  * usr/share/xubuntu/applications/defaults.list: updated for the latest seed
+    changes.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 29 May 2011 14:37:16 +0200
 
