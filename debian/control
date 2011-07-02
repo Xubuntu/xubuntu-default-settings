@@ -11,8 +11,6 @@ Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-dev/xubuntu-default-settings/t
 Package: xubuntu-default-settings
 Architecture: all
 Depends: ${misc:Depends}, xubuntu-artwork (>= 11.04.0~), ttf-droid
-Recommends: lightdm | gdm
-Description: default settings for Xubuntu
- Various system settings tailored for Xubuntu:
-  * custom GDM settings
-  * custom Xfce desktop UI settings
+Recommends: xfce4-utils, lightdm | gdm
+Description: default settings for the Xubuntu desktop
+ This package contains the default settings used by Xubuntu.

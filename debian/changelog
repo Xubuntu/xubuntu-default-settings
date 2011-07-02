@@ -7,7 +7,9 @@ xubuntu-default-settings (11.10.1) UNRELEASED; urgency=low
   * usr/share/xsessions:
     - xubuntu.desktop.in, po/: dropped, not needed anymore.
     - xubuntu.desktop: added, generated from xfce.desktop.
-  * debian/control: recommends either lightm or gdm.
+  * debian/control:
+    - reword descriptions.
+    - recommends xfce4-utils, and either lightm or gdm.
   * usr/share/xubuntu/applications/defaults.list: updated for the latest seed
     changes.
 
