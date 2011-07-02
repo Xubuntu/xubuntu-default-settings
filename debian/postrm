@@ -43,19 +43,4 @@ if dpkg-maintscript-helper supports rm_conffile; then
     /etc/xdg/xdg-xubuntu/xfce4/panel/cpugraph-3.rc "$LASTVER" -- "$@"
 fi
 
-# Special care for the default panel config (lp: #747137)
-if dpkg-maintscript-helper supports mv_conffile; then
-  dpkg-maintscript-helper mv_conffile \
-    /etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml \
-    /etc/xdg/xdg-xubuntu/xfce4/panel/default.xml 11.04.16 -- "$@"
-fi
-
-case "$1" in
-  remove|purge)
-    if [ -x /usr/lib/gdm/gdm-set-default-session ] ; then
-        /usr/lib/gdm/gdm-set-default-session --remove xubuntu || true
-    fi
-    ;;
-esac
-
 #DEBHELPER#

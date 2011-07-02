@@ -1,3 +1,15 @@
+xubuntu-default-settings (11.10.1) UNRELEASED; urgency=low
+
+  * debian/{preinst,postint,postrm}: cleanup, remove natty-specific code, and
+    also gdm-specific code now that we use lightdm by default.
+  * usr/share/xubuntu/session.sh: dropped, now that lightdm sets the needed
+    XDG vars, using startxfce4 is enough.
+  * usr/share/xsessions:
+    - xubuntu.desktop.in, po/: dropped, not needed anymore.
+    - xubuntu.desktop: added, generated from xfce.desktop.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 02 Jul 2011 15:22:09 +0200
+
 xubuntu-default-settings (11.10.0) oneiric; urgency=low
 
   * usr/share/xubuntu/session.sh: export the correct XDG_CONFIG_DIRS.
