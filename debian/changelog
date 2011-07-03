@@ -12,8 +12,9 @@ xubuntu-default-settings (11.10.1) UNRELEASED; urgency=low
     - recommends xfce4-utils, and either lightm or gdm.
   * usr/share/xubuntu/applications/defaults.list: updated for the latest seed
     changes.
+  * etc/lightdm/lightdm-xubuntu.conf: added set default session to xubuntu.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 02 Jul 2011 15:22:09 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 03 Jul 2011 16:52:46 +0200
 
 xubuntu-default-settings (11.10.0) oneiric; urgency=low
 
