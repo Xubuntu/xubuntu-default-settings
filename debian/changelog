@@ -2,7 +2,7 @@ xubuntu-default-settings (11.10.1) UNRELEASED; urgency=low
 
   * debian/{preinst,postint,postrm}: cleanup, remove natty-specific code, and
     also gdm-specific code now that we use lightdm by default.
-  * usr/share/xubuntu/session.sh: dropped, now that lightdm sets the needed
+  * usr/share/xubuntu/session.sh: dropped, now that x11-common sets the needed
     XDG vars, using startxfce4 is enough.
   * usr/share/xsessions:
     - xubuntu.desktop.in, po/: dropped, not needed anymore.
@@ -12,7 +12,8 @@ xubuntu-default-settings (11.10.1) UNRELEASED; urgency=low
     - recommends xfce4-utils, and either lightm or gdm.
   * usr/share/xubuntu/applications/defaults.list: updated for the latest seed
     changes.
-  * etc/lightdm/lightdm-xubuntu.conf: added set default session to xubuntu.
+  * etc/lightdm/lightdm-xubuntu.conf: added set default session to xubuntu
+    (do not use dpkg-divert nor update-alternative until #799754 is closed).
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 03 Jul 2011 16:52:46 +0200
 
