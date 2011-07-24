@@ -1,4 +1,4 @@
-xubuntu-default-settings (11.10.1) UNRELEASED; urgency=low
+xubuntu-default-settings (11.10.1) oneiric; urgency=low
 
   * debian/{preinst,postint,postrm}: cleanup, remove natty-specific code, and
     also gdm-specific code now that we use lightdm by default.
@@ -9,14 +9,11 @@ xubuntu-default-settings (11.10.1) UNRELEASED; urgency=low
     - xubuntu.desktop: added, generated from xfce.desktop.
   * debian/control:
     - reword descriptions.
-    - recommends xfce4-utils, and either lightm or gdm.
+    - recommends xfce4-utils, and either lightdm or gdm.
   * usr/share/xubuntu/applications/defaults.list: updated for the latest seed
     changes.
-  * etc/lightdm/lightdm-xubuntu.conf: added, set default session to xubuntu
-    (only provided for testing purpose, do not dpkg-divert lightdm.conf, nor
-    play with update-alternative yet, as lp #799754 is still being discussed).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 03 Jul 2011 16:52:46 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 25 Jul 2011 00:02:20 +0200
 
 xubuntu-default-settings (11.10.0) oneiric; urgency=low
 
