@@ -3,7 +3,7 @@
 set -e
 
 case "$1" in
-  configure)
+  remove)
     update-alternatives --remove lightdm-config-derivative /usr/share/xubuntu/lightdm/lightdm.conf
     update-alternatives --remove default-xsession-derivative /usr/share/xsessions/xubuntu.desktop
     ;;
