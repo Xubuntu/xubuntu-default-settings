@@ -1,4 +1,4 @@
-xubuntu-default-settings (11.10.2) UNRELEASED; urgency=low
+xubuntu-default-settings (11.10.2) oneiric; urgency=low
 
   * debian/postinst,debian/prerm: set up alternatives for lightdm.conf and
     default.desktop.
@@ -6,7 +6,7 @@ xubuntu-default-settings (11.10.2) UNRELEASED; urgency=low
     for the features we use, and drop gdm from recommends.
   * usr/share/xubuntu/lightdm/lightdm.conf: added, disables guest session.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 01 Aug 2011 19:20:22 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 01 Aug 2011 19:47:18 +0200
 
 xubuntu-default-settings (11.10.1) oneiric; urgency=low
 
