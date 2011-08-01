@@ -1,3 +1,13 @@
+xubuntu-default-settings (11.10.2) UNRELEASED; urgency=low
+
+  * debian/postinst,debian/prerm: set up alternatives for lightdm.conf and
+    default.desktop.
+  * debian/control: depends on the proper revisions of x11-common and lightdm
+    for the features we use, and drop gdm from recommends.
+  * usr/share/xubuntu/lightdm/lightdm.conf: added, disables guest session.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 01 Aug 2011 19:20:22 +0200
+
 xubuntu-default-settings (11.10.1) oneiric; urgency=low
 
   * debian/{preinst,postint,postrm}: cleanup, remove natty-specific code, and

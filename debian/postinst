@@ -43,4 +43,11 @@ if dpkg-maintscript-helper supports rm_conffile; then
     /etc/xdg/xdg-xubuntu/xfce4/panel/cpugraph-3.rc "$LASTVER" -- "$@"
 fi
 
+case "$1" in
+  configure)
+    update-alternatives --install /etc/lightdm/lightdm.conf lightdm-config-derivative /usr/share/xubuntu/lightdm/lightdm.conf 50
+    update-alternatives --install /usr/share/xsessions/default.desktop default-xsession-derivative /usr/share/xsessions/xubuntu.desktop 50
+    ;;
+esac
+
 #DEBHELPER#
