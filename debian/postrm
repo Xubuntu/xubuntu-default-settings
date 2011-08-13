@@ -43,4 +43,13 @@ if dpkg-maintscript-helper supports rm_conffile; then
     /etc/xdg/xdg-xubuntu/xfce4/panel/cpugraph-3.rc "$LASTVER" -- "$@"
 fi
 
+case "$1" in
+  remove|purge)
+    if [ -x /usr/lib/lightdm/lightdm-set-defaults ] ; then
+      /usr/lib/lightdm/lightdm-set-defaults --remove --session=xubuntu || true
+      /usr/lib/lightdm/lightdm-set-defaults --remove --greeter=lightdm-gtk-greeter || true
+    fi
+    ;;
+esac
+
 #DEBHELPER#

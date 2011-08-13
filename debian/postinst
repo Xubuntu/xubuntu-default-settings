@@ -44,9 +44,11 @@ if dpkg-maintscript-helper supports rm_conffile; then
 fi
 
 case "$1" in
-  configure)
-    update-alternatives --install /etc/lightdm/lightdm.conf lightdm-config-derivative /usr/share/xubuntu/lightdm/lightdm.conf 50
-    update-alternatives --install /usr/share/xsessions/default.desktop default-xsession-derivative /usr/share/xsessions/xubuntu.desktop 50
+  configure|upgrade)
+    if [ -x /usr/lib/lightdm/lightdm-set-defaults ] ; then
+      /usr/lib/lightdm/lightdm-set-defaults --keep-old --session=xubuntu || true
+      /usr/lib/lightdm/lightdm-set-defaults --keep-old --greeter=lightdm-gtk-greeter || true
+    fi
     ;;
 esac
 

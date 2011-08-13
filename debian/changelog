@@ -1,3 +1,17 @@
+xubuntu-default-settings (11.10.3) UNRELEASED; urgency=low
+
+  * debian/control: bump minimal required lightdm version for
+    lightdm-set-defaults.
+  * usr/share/xubuntu/lightdm: dropped, probably not needed anymore, we'll
+    see.
+  * debian/postinst,debian/postrm: set xubuntu as the default session and
+    lightdm-gtk-greeter as the default greeter if they aren't set already.
+    Remove them on uninstall. (thanks Didier!)
+  * debian/preinst,debian/prerm,debian/postinst: clean up the alternatives
+    introduced in the previous upload.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 13 Aug 2011 19:31:57 +0200
+
 xubuntu-default-settings (11.10.2) oneiric; urgency=low
 
   * debian/postinst,debian/prerm: set up alternatives for lightdm.conf and
