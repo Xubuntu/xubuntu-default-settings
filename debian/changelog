@@ -1,9 +1,9 @@
-xubuntu-default-settings (11.10.4) UNRELEASED; urgency=low
+xubuntu-default-settings (11.10.4) oneiric; urgency=low
 
   * usr/share/xubuntu/applications/debian-{,u}xterm.desktop: added, hide them
     from the default Xubuntu menu. lp: #836311
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 02 Sep 2011 23:00:28 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 02 Sep 2011 23:05:34 +0200
 
 xubuntu-default-settings (11.10.3) oneiric; urgency=low
 
