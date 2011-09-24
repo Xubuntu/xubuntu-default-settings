@@ -1,3 +1,9 @@
+xubuntu-default-settings (11.10.5) UNRELEASED; urgency=low
+
+  * usr/share/xsessions/xubuntu.desktop: refreshed translations.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 24 Sep 2011 13:51:30 +0200
+
 xubuntu-default-settings (11.10.4) oneiric; urgency=low
 
   * usr/share/xubuntu/applications/debian-{,u}xterm.desktop: added, hide them
