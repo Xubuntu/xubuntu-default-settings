@@ -1,6 +1,8 @@
 xubuntu-default-settings (11.10.5) UNRELEASED; urgency=low
 
   * usr/share/xsessions/xubuntu.desktop: refreshed translations.
+  * debian/control: recommends gnome-menus, as our default menu uses some of
+    its files (but still works without them).
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 24 Sep 2011 13:51:30 +0200
 
