@@ -3,7 +3,8 @@ xubuntu-default-settings (11.10.5) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/Thunar/po,
     usr/share/xsessions/xubuntu.desktop: refreshed translations.
   * debian/control: recommends gnome-menus, as our default menu uses some of
-    its files (but still works without them).
+    its files (it still works without them, but some categories may appear
+    untranslated).
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 24 Sep 2011 13:51:30 +0200
 
