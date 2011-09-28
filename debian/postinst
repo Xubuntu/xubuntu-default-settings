@@ -52,4 +52,10 @@ case "$1" in
     ;;
 esac
 
+if [ "$1" = "configure" ] ; then
+  update-alternatives --install /etc/lightdm/lightdm-gtk-greeter.conf \
+    lightdm-gtk-greeter-config-derivative \
+    /etc/xdg/xdg-xubuntu/lightdm/lightdm-gtk-greeter.conf 30
+fi
+
 #DEBHELPER#
