@@ -1,4 +1,4 @@
-xubuntu-default-settings (11.10.6) UNRELEASED; urgency=low
+xubuntu-default-settings (11.10.6) oneiric; urgency=low
 
   * Finally add the lightdm greeter theme! lp: #861309
   * etc/xdg/xdg-xubuntu/lightdm/lightdm-gtk-greeter.conf: added.
@@ -8,7 +8,7 @@ xubuntu-default-settings (11.10.6) UNRELEASED; urgency=low
     - add depends on lightdm-gtk-greeter >= 1.0.0-0ubuntu2
     - provides lightdm-gtk-greeter-config.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 28 Sep 2011 12:36:47 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 28 Sep 2011 21:58:53 +0200
 
 xubuntu-default-settings (11.10.5) oneiric; urgency=low
 
