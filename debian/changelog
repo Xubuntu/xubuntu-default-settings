@@ -11,6 +11,7 @@ xubuntu-default-settings (12.04.0) UNRELEASED; urgency=low
     browse a device with blueman. lp: #882621
   * etc/xdg/xdg-xubuntu/Terminal/terminalrc: reduce the default font size
     for xfce4-terminal. lp: #752886
+  * etc/skel/.xscreensaver: added, set blank mode by default. lp: #799268
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Nov 2011 19:58:43 +0100
 
