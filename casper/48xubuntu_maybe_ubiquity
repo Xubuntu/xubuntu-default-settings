@@ -1,0 +1,30 @@
+#!/bin/sh
+
+PREREQ=""
+DESCRIPTION="Preparing for maybe-ubiquity mode..."
+
+. /scripts/casper-functions
+
+prereqs()
+{
+       echo "$PREREQ"
+}
+
+case $1 in
+# get pre-requisites
+prereqs)
+       prereqs
+       exit 0
+       ;;
+esac
+
+log_begin_msg "$DESCRIPTION"
+
+#should cover both maybe-ubiquity and only-ubiquity and automatic-ubiquity modes
+if grep "ubiquity" /proc/cmdline >/dev/null; then
+    mkdir -p /root/home/$USERNAME/.config
+    cp -R /root/etc/xdg/xdg-xubuntu/xfce4  /root/home/$USERNAME/.config
+    chroot /root chown -R $USERNAME:$USERNAME /home/$USERNAME/.config
+fi
+
+log_end_msg

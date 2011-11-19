@@ -1,3 +1,15 @@
+xubuntu-default-settings (12.04.0) UNRELEASED; urgency=low
+
+  * Fix broken theme in only-ubiquity mode (lp: #840094):
+    - debian/control: add a new xubuntu-live-settings binary package.
+    - debian/{gconf-defaults,post*,pre*}: renamed to
+      debian/xubuntu-default-settings.*.
+    - debian/*.install: added, now that we have several binary packages.
+    - casper/48xubuntu_maybe_ubiquity: added, stolen from
+      mythbuntu-live-autostart.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Nov 2011 19:58:43 +0100
+
 xubuntu-default-settings (11.10.6) oneiric; urgency=low
 
   * Finally add the lightdm greeter theme! lp: #861309
