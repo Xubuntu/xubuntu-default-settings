@@ -9,6 +9,8 @@ xubuntu-default-settings (12.04.0) UNRELEASED; urgency=low
       mythbuntu-live-autostart.
   * debian/xubuntu-default-settings.gconf-defaults: fix default command to
     browse a device with blueman. lp: #882621
+  * etc/xdg/xdg-xubuntu/Terminal/terminalrc: reduce the default font size
+    for xfce4-terminal. lp: #752886
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Nov 2011 19:58:43 +0100
 
