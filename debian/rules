@@ -3,5 +3,8 @@
 override_dh_gconf:
 	dh_gconf --priority=20
 
+override_dh_installgsettings:
+	dh_installgsettings --priority=20
+
 %:
 	dh $@
