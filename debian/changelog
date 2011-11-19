@@ -7,6 +7,8 @@ xubuntu-default-settings (12.04.0) UNRELEASED; urgency=low
     - debian/*.install: added, now that we have several binary packages.
     - casper/48xubuntu_maybe_ubiquity: added, stolen from
       mythbuntu-live-autostart.
+  * debian/xubuntu-default-settings.gconf-defaults: fix default command to
+    browse a device with blueman. lp: #882621
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Nov 2011 19:58:43 +0100
 
