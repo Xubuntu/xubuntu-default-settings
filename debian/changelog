@@ -1,3 +1,9 @@
+xubuntu-default-settings (12.04.1) UNRELEASED; urgency=low
+
+  * Use gsettings instead of gconf to set update-notifier's auto-launch key.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 21 Nov 2011 23:46:10 +0100
+
 xubuntu-default-settings (12.04.0) precise; urgency=low
 
   * Fix broken theme in only-ubiquity mode (lp: #840094):
