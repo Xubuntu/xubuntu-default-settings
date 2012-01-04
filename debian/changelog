@@ -1,4 +1,4 @@
-xubuntu-default-settings (12.04.1) UNRELEASED; urgency=low
+xubuntu-default-settings (12.04.1) precise; urgency=low
 
   * Use gsettings instead of gconf to set update-notifier's auto-launch key.
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-keyboard-shortcuts.xml: updated a
@@ -6,7 +6,7 @@ xubuntu-default-settings (12.04.1) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/thunar-volman.xml: fix default player
     for audio cds. lp: #901766
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 21 Nov 2011 23:46:10 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 05 Jan 2012 00:15:27 +0100
 
 xubuntu-default-settings (12.04.0) precise; urgency=low
 
