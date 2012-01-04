@@ -1,6 +1,8 @@
 xubuntu-default-settings (12.04.1) UNRELEASED; urgency=low
 
   * Use gsettings instead of gconf to set update-notifier's auto-launch key.
+  * e/x/x/x/x/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml: updated a
+    few shortcuts to work with latest gtk+2.0.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 21 Nov 2011 23:46:10 +0100
 
