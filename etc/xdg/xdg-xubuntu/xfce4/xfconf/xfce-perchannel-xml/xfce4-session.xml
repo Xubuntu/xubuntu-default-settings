@@ -11,6 +11,7 @@
       <property name="Count" type="int" value="5"/>
       <property name="Client0_Command" type="array">
         <value type="string" value="xfwm4"/>
+        <value type="string" value="--replace"/>
       </property>
       <property name="Client0_PerScreen" type="bool" value="false"/>
       <property name="Client1_Command" type="array">
