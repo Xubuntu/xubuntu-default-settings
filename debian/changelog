@@ -2,6 +2,9 @@ xubuntu-default-settings (12.04.2) UNRELEASED; urgency=low
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-session.xml: pass --replace to
     xfwm4 by default.
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xsettings.xml: set elementary-xfce-dark
+    as default icon theme.
+  * debian/control: bump dep on xubuntu-artwork to >= 12.04.0~.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 05 Jan 2012 22:11:43 +0100
 
