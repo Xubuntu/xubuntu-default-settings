@@ -1,6 +1,8 @@
 xubuntu-default-settings (12.04.3) UNRELEASED; urgency=low
 
   * Correctly set /Xft/* xfconf props.
+  * Try to set the correct settings so that qt apps look less ugly in the
+    default xubuntu session.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 04 Feb 2012 20:11:55 +0100
 
