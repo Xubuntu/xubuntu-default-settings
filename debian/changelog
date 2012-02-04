@@ -1,3 +1,9 @@
+xubuntu-default-settings (12.04.3) UNRELEASED; urgency=low
+
+  * Correctly set /Xft/* xfconf props.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 04 Feb 2012 20:11:55 +0100
+
 xubuntu-default-settings (12.04.2) precise; urgency=low
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-session.xml: pass --replace to
