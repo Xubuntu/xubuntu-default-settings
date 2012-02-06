@@ -55,7 +55,7 @@
 
     <Menu>
         <Name>Accessories</Name>
-        <Directory>Utility.directory</Directory>
+        <Directory>xfce-accessories.directory</Directory>
         <Include>
             <Or>
                 <Category>Accessibility</Category>
@@ -90,12 +90,9 @@
 
     <Menu>
         <Name>Education</Name>
-        <Directory>Education.directory</Directory>
+        <Directory>xfce-education.directory</Directory>
         <Include>
-            <And>
-                <Category>Education</Category>
-                <Not><Category>Science</Category></Not>
-            </And>
+            <Category>Education</Category>
         </Include>
     </Menu>
 
@@ -116,8 +113,18 @@
     </Menu>
 
     <Menu>
-        <Name>Internet</Name>
-        <Directory>Network.directory</Directory>
+        <Name>Multimedia</Name>
+        <Directory>xfce-multimedia.directory</Directory>
+        <Include>
+            <Category>Audio</Category>
+            <Category>Video</Category>
+            <Category>AudioVideo</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Network</Name>
+        <Directory>xfce-network.directory</Directory>
         <Include>
             <Category>Network</Category>
         </Include>
@@ -130,31 +137,10 @@
     </Menu>
 
     <Menu>
-        <Name>Multimedia</Name>
-        <Directory>xfce-multimedia.directory</Directory>
-        <Include>
-            <Category>Audio</Category>
-            <Category>Video</Category>
-            <Category>AudioVideo</Category>
-        </Include>
-    </Menu>
-
-    <Menu>
         <Name>Office</Name>
         <Directory>xfce-office.directory</Directory>
         <Include>
             <Category>Office</Category>
-        </Include>
-    </Menu>
-
-    <Menu>
-        <Name>Science</Name>
-        <Directory>GnomeScience.directory</Directory>
-        <Include>
-            <And>
-                <Category>Education</Category>
-                <Category>Science</Category>
-            </And>
         </Include>
     </Menu>
 
