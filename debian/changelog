@@ -1,4 +1,4 @@
-xubuntu-default-settings (12.04.4) UNRELEASED; urgency=low
+xubuntu-default-settings (12.04.4) precise; urgency=low
 
   * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: clean up to drop unneeded
     delta wrt to upstream, and stop using desktop-directory files from
@@ -7,7 +7,7 @@ xubuntu-default-settings (12.04.4) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-session.xml: set xscreensaver as
     the default screensaver.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 06 Feb 2012 17:40:01 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 06 Feb 2012 17:54:34 +0100
 
 xubuntu-default-settings (12.04.3) precise; urgency=low
 
