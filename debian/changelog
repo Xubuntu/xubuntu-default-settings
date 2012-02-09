@@ -1,3 +1,10 @@
+xubuntu-default-settings (12.04.5) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-keyboard-shortcuts.xml: update
+    default shortcuts, per 'other-p-xubuntu-default-shortcuts' spec.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 09 Feb 2012 22:18:37 +0100
+
 xubuntu-default-settings (12.04.4) precise; urgency=low
 
   * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: clean up to drop unneeded
