@@ -1,4 +1,4 @@
-xubuntu-default-settings (12.04.5) UNRELEASED; urgency=low
+xubuntu-default-settings (12.04.5) precise; urgency=low
 
   [ Lionel Le Folgoc ]
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-keyboard-shortcuts.xml: update
@@ -10,7 +10,7 @@ xubuntu-default-settings (12.04.5) UNRELEASED; urgency=low
     new enough version of dpkg rather than using 'dpkg-maintscript-helper
     supports' guards, leading to more predictable behaviour on upgrades.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 09 Feb 2012 22:18:37 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 12 Feb 2012 16:05:51 +0100
 
 xubuntu-default-settings (12.04.4) precise; urgency=low
 
