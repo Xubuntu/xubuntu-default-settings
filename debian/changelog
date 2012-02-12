@@ -1,7 +1,14 @@
 xubuntu-default-settings (12.04.5) UNRELEASED; urgency=low
 
+  [ Lionel Le Folgoc ]
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-keyboard-shortcuts.xml: update
     default shortcuts, per 'other-p-xubuntu-default-shortcuts' spec.
+
+  [ Colin Watson ]
+  * Use maintscript support in dh_installdeb rather than writing out
+    dpkg-maintscript-helper commands by hand.  We now simply Pre-Depend on a
+    new enough version of dpkg rather than using 'dpkg-maintscript-helper
+    supports' guards, leading to more predictable behaviour on upgrades.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 09 Feb 2012 22:18:37 +0100
 
