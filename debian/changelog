@@ -1,10 +1,10 @@
-xubuntu-default-settings (12.04.6) UNRELEASED; urgency=low
+xubuntu-default-settings (12.04.6) precise; urgency=low
 
   * Show language selector in lightdm.
   * Set new default wallpapers for precise.
   * Update default theme name.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 17 Feb 2012 10:12:28 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 19 Feb 2012 13:00:27 +0100
 
 xubuntu-default-settings (12.04.5) precise; urgency=low
 
