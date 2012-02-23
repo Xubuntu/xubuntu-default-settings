@@ -1,3 +1,23 @@
 [Configuration]
 FontName=Droid Sans Mono 10
-ScrollingAlternateScreen=TRUE
+ColorForeground=#404040404040
+ColorBackground=#cececececece
+ColorCursor=#a3d6a3d6a3d6
+TabActivityColor=#262656568080
+ColorSelectionUseDefault=FALSE
+ColorSelection=#e3d6e3d6e3d6
+ColorPalette2=#a78400000000
+ColorPalette3=#000066661999
+ColorPalette4=#4ecf2e2e6666
+ColorPalette5=#171734344d4d
+ColorPalette6=#800012d38000
+ColorPalette7=#000080008000
+ColorPalette8=#35337865b333
+ColorPalette9=#999999999999
+ColorPalette10=#cccc00000000
+ColorPalette11=#0000a6662999
+ColorPalette12=#9d9d5c5ccccc
+ColorPalette13=#262656568080
+ColorPalette14=#cccc1e6dcccc
+ColorPalette15=#0000aaaaaaaa
+ColorPalette16=#51eb9374cccc
