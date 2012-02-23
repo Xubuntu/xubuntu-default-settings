@@ -7,6 +7,8 @@ xubuntu-default-settings (12.04.7) UNRELEASED; urgency=low
     - add the exo wrappers as default scheme handlers, so that programs
       set through exo-preferred-applications are actually used by default.
       lp: #922264
+  * debian/xubuntu-default-settings.gconf-defaults: hide nm-applet from the
+    systray by default (required since yesterday's upload).
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 23 Feb 2012 19:57:55 +0100
 

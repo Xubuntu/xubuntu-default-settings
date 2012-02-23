@@ -1,3 +1,4 @@
 /desktop/gnome/interface/gtk_theme "Greybird"
 /desktop/gnome/interface/icon_theme "elementary-xfce-dark"
 /apps/blueman/transfer/browse_command "exo-open obex://[%d]"
+/apps/nm-applet/show-applet false
