@@ -1,9 +1,9 @@
-xubuntu-default-settings (12.04.8) UNRELEASED; urgency=low
+xubuntu-default-settings (12.04.8) precise; urgency=low
 
   * Revert r354 and show nm-applet again
     - update debian/xubuntu-default-settings.gconf-defaults
 
- -- Micah Gersten <micahg@ubuntu.com>  Tue, 28 Feb 2012 04:04:10 -0600
+ -- Micah Gersten <micahg@ubuntu.com>  Tue, 28 Feb 2012 04:11:39 -0600
 
 xubuntu-default-settings (12.04.7) precise; urgency=low
 
