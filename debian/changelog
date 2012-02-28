@@ -1,3 +1,10 @@
+xubuntu-default-settings (12.04.8) UNRELEASED; urgency=low
+
+  * Revert r354 and show nm-applet again
+    - update debian/xubuntu-default-settings.gconf-defaults
+
+ -- Micah Gersten <micahg@ubuntu.com>  Tue, 28 Feb 2012 04:04:10 -0600
+
 xubuntu-default-settings (12.04.7) precise; urgency=low
 
   * etc/xdg/xdg-xubuntu/Terminal/terminalrc: add a color theme matching
