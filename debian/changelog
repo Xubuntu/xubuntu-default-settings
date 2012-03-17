@@ -6,6 +6,8 @@ xubuntu-default-settings (12.04.9) UNRELEASED; urgency=low
     still using obsolete default apps.
   * debian/control: drop the explicit dependency on lightdm, it's confusing
     update-manager (which ends up installing unity-greeter first).
+  * etc/xdg/xdg-xubuntu/lightdm/lightdm-gtk-greeter.conf: switch to its special
+    Greybird-lightdm gtk+ theme.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 17 Mar 2012 16:53:22 +0100
 
