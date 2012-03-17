@@ -2,6 +2,10 @@ xubuntu-default-settings (12.04.9) UNRELEASED; urgency=low
 
   * etc/xdg/xdg-xubuntu/Terminal/terminalrc: small fix for the weird red color
     contrast to blue. lp: #955444
+  * usr/share/xubuntu/applications/defaults.list: updated a few associations
+    still using obsolete default apps.
+  * debian/control: drop the explicit dependency on lightdm, it's confusing
+    update-manager (which ends up installing unity-greeter first).
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 17 Mar 2012 16:53:22 +0100
 
