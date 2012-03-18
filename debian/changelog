@@ -1,4 +1,4 @@
-xubuntu-default-settings (12.04.9) UNRELEASED; urgency=low
+xubuntu-default-settings (12.04.9) precise; urgency=low
 
   * etc/xdg/xdg-xubuntu/Terminal/terminalrc: small fix for the weird red color
     contrast to blue. lp: #955444
@@ -9,7 +9,7 @@ xubuntu-default-settings (12.04.9) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/lightdm/lightdm-gtk-greeter.conf: switch to its special
     Greybird-lightdm gtk+ theme.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 17 Mar 2012 16:53:22 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 18 Mar 2012 13:21:01 +0100
 
 xubuntu-default-settings (12.04.8) precise; urgency=low
 
