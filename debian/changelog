@@ -1,3 +1,9 @@
+xubuntu-default-settings (12.04.10) UNRELEASED; urgency=low
+
+  * Refreshed translations.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 30 Mar 2012 23:29:38 +0200
+
 xubuntu-default-settings (12.04.9) precise; urgency=low
 
   * etc/xdg/xdg-xubuntu/Terminal/terminalrc: small fix for the weird red color
