@@ -1,6 +1,8 @@
 xubuntu-default-settings (12.04.10) UNRELEASED; urgency=low
 
   * Refreshed translations.
+  * debian/xubuntu-default-settings.gsettings-override: fix dbus service name
+    for indicator-sound. lp: #963114
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 30 Mar 2012 23:29:38 +0200
 

@@ -1,4 +1,4 @@
-[com.canonical.indicators.sound]
+[com.canonical.indicator.sound]
 interested-media-players=[ 'gmusicbrowser' ]
 show-notify-osd-on-scroll=false
 
