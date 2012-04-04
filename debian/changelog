@@ -1,3 +1,10 @@
+xubuntu-default-settings (12.04.11) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/xfce4/panel: replace clock with datetime (no visual
+    change, the same format string is used). lp: #972388,#972402
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 04 Apr 2012 18:38:54 +0200
+
 xubuntu-default-settings (12.04.10) precise; urgency=low
 
   * Refreshed translations.
