@@ -16,3 +16,4 @@ rm_conffile /etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-mixer-plugin-5.rc 11.04.10
 rm_conffile /etc/xdg/xdg-xubuntu/xfce4/panel/xfce4-orageclock-plugin-7.rc 11.04.10
 rm_conffile /etc/xdg/xdg-xubuntu/exaile/settings.ini 11.04.10
 rm_conffile /etc/xdg/xdg-xubuntu/xfce4/panel/cpugraph-3.rc 11.04.10
+rm_conffile /etc/xdg/xdg-xubuntu/xfce4/panel/indicator-5.rc 12.10.1~
