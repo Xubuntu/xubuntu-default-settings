@@ -3,6 +3,7 @@ xubuntu-default-settings (12.10.2) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-session.xml:
     - enable support of GNOME services for smooth integration with
       gnome-keyring. lp: #1008993
+    - replace xfce4-settings-helper with xfsettingsd.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 24 Jun 2012 13:38:51 +0200
 

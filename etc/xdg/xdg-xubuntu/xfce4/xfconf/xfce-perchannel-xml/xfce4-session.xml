@@ -15,20 +15,20 @@
       </property>
       <property name="Client0_PerScreen" type="bool" value="false"/>
       <property name="Client1_Command" type="array">
-        <value type="string" value="xfce4-panel"/>
+        <value type="string" value="xfsettingsd"/>
       </property>
       <property name="Client1_PerScreen" type="bool" value="false"/>
       <property name="Client2_Command" type="array">
-        <value type="string" value="Thunar"/>
-        <value type="string" value="--daemon"/>
+        <value type="string" value="xfce4-panel"/>
       </property>
       <property name="Client2_PerScreen" type="bool" value="false"/>
       <property name="Client3_Command" type="array">
-        <value type="string" value="xfdesktop"/>
+        <value type="string" value="Thunar"/>
+        <value type="string" value="--daemon"/>
       </property>
       <property name="Client3_PerScreen" type="bool" value="false"/>
       <property name="Client4_Command" type="array">
-        <value type="string" value="xfce4-settings-helper"/>
+        <value type="string" value="xfdesktop"/>
       </property>
       <property name="Client4_PerScreen" type="bool" value="false"/>
     </property>
