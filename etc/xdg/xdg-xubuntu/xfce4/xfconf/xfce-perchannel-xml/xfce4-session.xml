@@ -34,7 +34,7 @@
     </property>
   </property>
   <property name="compat" type="empty">
-    <property name="LaunchGNOME" type="bool" value="false"/>
+    <property name="LaunchGNOME" type="bool" value="true"/>
   </property>
   <property name="startup" type="empty">
     <property name="screensaver" type="empty">
