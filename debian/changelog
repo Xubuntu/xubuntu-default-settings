@@ -3,6 +3,8 @@ xubuntu-default-settings (12.10.3) UNRELEASED; urgency=low
   * Replace datetime by clock now that it features a calendar as well.
   * Switch gtk-greeter to Greybird+elementary-xfce until the fate of
     Greybird-lightdm is decided.
+  * usr/share/xubuntu/applications/xfhelp4.desktop: fixed to use exo-open
+    instead of xfbrowser4 (was part of xfce4-utils, obsolete with 4.10).
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 23 Aug 2012 20:14:47 +0200
 
