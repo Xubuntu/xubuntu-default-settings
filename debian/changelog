@@ -1,6 +1,8 @@
 xubuntu-default-settings (12.10.3) UNRELEASED; urgency=low
 
   * Replace datetime by clock now that it features a calendar as well.
+  * Switch gtk-greeter to Greybird+elementary-xfce until the fate of
+    Greybird-lightdm is decided.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 23 Aug 2012 20:14:47 +0200
 
