@@ -40,8 +40,8 @@
             <Filename>xfce4-settings-editor.desktop</Filename>
             <And>
                 <Category>Settings</Category>
-                <Not><Category>X-XFCE</Category></Not>
-                <Not><Category>X-XfceSettingsDialog</Category></Not>
+                <Not><Category>XFCE</Category></Not>
+                <Not><Category>X-XFCE-SettingsDialog</Category></Not>
                 <Not><Category>System</Category></Not>
             </And>
         </Include>

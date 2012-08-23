@@ -5,8 +5,10 @@ xubuntu-default-settings (12.10.3) UNRELEASED; urgency=low
     Greybird-lightdm is decided.
   * usr/share/xubuntu/applications/xfhelp4.desktop: fixed to use exo-open
     instead of xfbrowser4 (was part of xfce4-utils, obsolete with 4.10).
+  * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: updated settings items
+    to ignore with Xfce 4.10.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 23 Aug 2012 20:14:47 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 23 Aug 2012 20:52:28 +0200
 
 xubuntu-default-settings (12.10.2) quantal; urgency=low
 
