@@ -1,1 +1,2 @@
 rm_conffile /etc/xdg/xdg-xubuntu/xfce4/panel/indicator-5.rc 12.10.1~
+rm_conffile /etc/xdg/xdg-xubuntu/xfce4/panel/datetime-7.rc 12.10.2~

@@ -1,3 +1,9 @@
+xubuntu-default-settings (12.10.3) UNRELEASED; urgency=low
+
+  * Replace datetime by clock now that it features a calendar as well.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 23 Aug 2012 20:14:47 +0200
+
 xubuntu-default-settings (12.10.2) quantal; urgency=low
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/…/xfce4-session.xml:
