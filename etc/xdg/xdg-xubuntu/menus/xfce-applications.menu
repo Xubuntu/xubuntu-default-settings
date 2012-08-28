@@ -11,6 +11,7 @@
     <Include>
         <Filename>exo-web-browser.desktop</Filename>
         <Filename>exo-mail-reader.desktop</Filename>
+        <Filename>xfce-settings-manager.desktop</Filename>
         <Filename>ubuntu-software-center.desktop</Filename>
         <Filename>xfhelp4.desktop</Filename>
         <Filename>xfce4-about.desktop</Filename>
@@ -21,7 +22,7 @@
         <Filename>exo-web-browser.desktop</Filename>
         <Filename>exo-mail-reader.desktop</Filename>
         <Separator/>
-        <Menuname>Settings</Menuname>
+        <Filename>xfce-settings-manager.desktop</Filename>
         <Separator/>
         <Merge type="all"/>
         <Separator/>
@@ -31,27 +32,6 @@
         <Filename>xfce4-about.desktop</Filename>
         <Filename>xfce4-session-logout.desktop</Filename>
     </Layout>
-
-    <Menu>
-        <Name>Settings</Name>
-        <Directory>xfce-settings.directory</Directory>
-        <Include>
-            <Filename>xfce-settings-manager.desktop</Filename>
-            <Filename>xfce4-settings-editor.desktop</Filename>
-            <And>
-                <Category>Settings</Category>
-                <Not><Category>XFCE</Category></Not>
-                <Not><Category>X-XFCE-SettingsDialog</Category></Not>
-                <Not><Category>System</Category></Not>
-            </And>
-        </Include>
-
-        <Layout>
-            <Filename>xfce-settings-manager.desktop</Filename>
-            <Separator/>
-            <Merge type="all"/>
-        </Layout>
-    </Menu>
 
     <Menu>
         <Name>Accessories</Name>
@@ -73,7 +53,7 @@
         </Exclude>
 
         <Layout>
-            <Filename>xfrun4.desktop</Filename>
+            <Filename>xfce4-run.desktop</Filename>
             <Filename>xfce4-appfinder.desktop</Filename>
             <Separator/>
             <Merge type="all"/>
@@ -155,6 +135,7 @@
         </Include>
         <Exclude>
             <Or>
+                <Category>Settings</Category>
                 <Filename>xfce4-session-logout.desktop</Filename>
                 <Filename>ubuntu-software-center.desktop</Filename>
             </Or>

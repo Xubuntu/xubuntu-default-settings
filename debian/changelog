@@ -1,3 +1,12 @@
+xubuntu-default-settings (12.10.4) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/menus/*.menu:
+    - updated to show more Settings' apps in xfce4-settings-manager,
+    per other-q-xubuntu-settings-manager-launchers. lp: #1040902
+    - fix typo, xfrun4.desktop is actually named xfce4-run.desktop.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 29 Aug 2012 01:35:06 +0200
+
 xubuntu-default-settings (12.10.3) quantal; urgency=low
 
   * Replace datetime by clock now that it features a calendar as well.

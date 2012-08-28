@@ -1,0 +1,124 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+  <Name>Settings</Name>
+
+  <DefaultAppDirs/>
+  <DefaultDirectoryDirs/>
+  <DefaultMergeDirs/>
+
+   <Layout>
+     <Menuname>Personal</Menuname>
+     <Menuname>Hardware</Menuname>
+     <Menuname>System</Menuname>
+     <Menuname>Other</Menuname>
+     <Merge type="all" />
+   </Layout>
+
+  <Include>
+    <And>
+      <Category>Settings</Category>
+      <Not>
+        <Or>
+          <Category>X-XFCE-PersonalSettings</Category>
+          <Category>X-XFCE-HardwareSettings</Category>
+          <Category>X-XFCE-SystemSettings</Category>
+        </Or>
+      </Not>
+    </And>
+  </Include>
+
+  <Exclude>
+    <Filename>xfce-settings-manager.desktop</Filename>
+  </Exclude>
+
+  <Menu>
+    <Name>Personal</Name>
+    <Directory>xfce-personal.directory</Directory>
+    <Include>
+      <And>
+        <Category>Settings</Category>
+        <Category>X-XFCE-SettingsDialog</Category>
+        <Category>X-XFCE-PersonalSettings</Category>
+      </And>
+      <And>
+        <Category>Settings</Category>
+        <Category>DesktopSettings</Category>
+      </And>
+      <Filename>xscreensaver-properties.desktop</Filename>
+    </Include>
+    <Exclude>
+      <Category>X-XFCE-HardwareSettings</Category>
+      <Category>X-XFCE-SystemSettings</Category>
+      <Filename>xfce4-settings-editor.desktop</Filename>
+      <Filename>xfce-settings-manager.desktop</Filename>
+    </Exclude>
+  </Menu>
+
+  <Menu>
+    <Name>Hardware</Name>
+    <Directory>xfce-hardware.directory</Directory>
+    <Include>
+      <And>
+        <Category>Settings</Category>
+        <Category>X-XFCE-SettingsDialog</Category>
+        <Category>X-XFCE-HardwareSettings</Category>
+      </And>
+      <And>
+        <Category>Settings</Category>
+        <Category>HardwareSettings</Category>
+        <Not><Category>System</Category></Not>
+      </And>
+      <Filename>nm-connection-editor.desktop</Filename>
+      <Filename>system-config-printer.desktop</Filename>
+    </Include>
+  </Menu>
+
+  <Menu>
+    <Name>System</Name>
+    <Directory>xfce-system.directory</Directory>
+    <Include>
+      <And>
+        <Category>Settings</Category>
+        <Category>X-XFCE-SettingsDialog</Category>
+        <Category>X-XFCE-SystemSettings</Category>
+      </And>
+      <And>
+        <Category>Settings</Category>
+        <Category>System</Category>
+        <Not><Category>PackageManager</Category></Not>
+      </And>
+      <Filename>software-properties-gtk.desktop</Filename>
+    </Include>
+    <Exclude>
+      <Filename>system-config-printer.desktop</Filename>
+    </Exclude>
+  </Menu>
+
+  <Menu>
+    <Name>Other</Name>
+    <Directory>xfce-other.directory</Directory>
+    <Include>
+      <And>
+        <Category>Settings</Category>
+        <Not>
+          <Or>
+            <Category>X-XFCE-PersonalSettings</Category>
+            <Category>X-XFCE-SystemSettings</Category>
+            <Category>X-XFCE-HardwareSettings</Category>
+            <Category>DesktopSettings</Category>
+            <Category>HardwareSettings</Category>
+            <Category>System</Category>
+            <Filename>nm-connection-editor.desktop</Filename>
+            <Filename>software-properties-gtk.desktop</Filename>
+            <Filename>xscreensaver-properties.desktop</Filename>
+            <Filename>xfce-settings-manager.desktop</Filename>
+          </Or>
+        </Not>
+      </And>
+      <Filename>xfce4-settings-editor.desktop</Filename>
+    </Include>
+  </Menu>
+
+</Menu>
