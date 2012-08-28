@@ -4,6 +4,8 @@ xubuntu-default-settings (12.10.4) UNRELEASED; urgency=low
     - updated to show more Settings' apps in xfce4-settings-manager,
     per other-q-xubuntu-settings-manager-launchers. lp: #1040902
     - fix typo, xfrun4.desktop is actually named xfce4-run.desktop.
+  * etc/xdg/xdg-xubuntu/Terminal/terminalrc: updated, improved color scheme
+    and default font. lp: #1041892
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 29 Aug 2012 01:35:06 +0200
 
