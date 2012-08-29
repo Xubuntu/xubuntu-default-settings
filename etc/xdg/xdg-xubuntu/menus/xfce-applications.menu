@@ -134,8 +134,11 @@
             </Or>
         </Include>
         <Exclude>
-            <Or>
+            <And>
                 <Category>Settings</Category>
+                <Not><Category>PackageManager</Category></Not>
+            </And>
+            <Or>
                 <Filename>xfce4-session-logout.desktop</Filename>
                 <Filename>ubuntu-software-center.desktop</Filename>
             </Or>

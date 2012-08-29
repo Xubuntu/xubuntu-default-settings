@@ -1,3 +1,10 @@
+xubuntu-default-settings (12.10.5) UNRELEASED; urgency=low
+
+  * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: don't exclude package
+    managers. lp: #1043151
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 29 Aug 2012 18:44:18 +0200
+
 xubuntu-default-settings (12.10.4) quantal; urgency=low
 
   * etc/xdg/xdg-xubuntu/menus/*.menu:
