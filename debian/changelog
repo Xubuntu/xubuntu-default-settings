@@ -6,6 +6,7 @@ xubuntu-default-settings (12.10.5) UNRELEASED; urgency=low
     (lp: #1043176) and background image (lp: #1043170).
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml:
     update path to wallpaper. lp: #1043170
+  * debian/control: bump xubuntu-artwork dep to >= 12.10.2~ for the new wp.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 29 Aug 2012 18:44:18 +0200
 
