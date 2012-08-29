@@ -46,9 +46,9 @@
         <value type="int" value="19"/>
         <value type="int" value="20"/>
         <value type="int" value="21"/>
+        <value type="int" value="24"/>
         <value type="int" value="22"/>
         <value type="int" value="23"/>
-        <value type="int" value="24"/>
         <value type="int" value="25"/>
       </property>
       <property name="autohide" type="bool" value="true"/>
@@ -158,13 +158,17 @@
         <value type="string" value="gimp.desktop"/>
       </property>
     </property>
+    <property name="plugin-24" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="catfish.desktop"/>
+      </property>
+    </property>
     <property name="plugin-22" type="string" value="separator">
       <property name="style" type="uint" value="1"/>
     </property>
     <property name="plugin-23" type="string" value="directorymenu">
       <property name="base-directory" type="empty"/>
     </property>
-    <property name="plugin-24" type="string" value="thunar-tpa"/>
     <property name="plugin-25" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
