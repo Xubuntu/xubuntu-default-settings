@@ -1,4 +1,4 @@
-xubuntu-default-settings (12.10.5) UNRELEASED; urgency=low
+xubuntu-default-settings (12.10.5) quantal; urgency=low
 
   * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: don't exclude package
     managers. lp: #1043151
@@ -10,7 +10,7 @@ xubuntu-default-settings (12.10.5) UNRELEASED; urgency=low
   * etc/xdg/xdg-xubuntu/xfce4/panel/default.xml: drop thunar-tpa and include
     catfish in the bottom panel.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 29 Aug 2012 18:44:18 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 29 Aug 2012 19:41:42 +0200
 
 xubuntu-default-settings (12.10.4) quantal; urgency=low
 
