@@ -1,3 +1,9 @@
+xubuntu-default-settings (12.10.6) UNRELEASED; urgency=low
+
+  * Let lightdm-gtk-greeter use the dotless wallpaper. lp: #1043170
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 15 Sep 2012 15:41:53 +0200
+
 xubuntu-default-settings (12.10.5) quantal; urgency=low
 
   * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu: don't exclude package
