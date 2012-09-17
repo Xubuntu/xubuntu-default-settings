@@ -1,9 +1,9 @@
-xubuntu-default-settings (12.10.7) UNRELEASED; urgency=low
+xubuntu-default-settings (12.10.7) quantal; urgency=low
 
   * Remove the GIMP launcher from the bottom panel since it's not installed
     by default anymore. lp: #1051493
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 17 Sep 2012 21:15:35 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 17 Sep 2012 21:31:12 +0200
 
 xubuntu-default-settings (12.10.6) quantal; urgency=low
 
