@@ -1,3 +1,9 @@
+xubuntu-default-settings (13.04.0) UNRELEASED; urgency=low
+
+  * Handle the migration of xfce4-terminal's conffile to its new location.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 09 Jan 2013 19:39:31 +0100
+
 xubuntu-default-settings (12.10.7) quantal; urgency=low
 
   * Remove the GIMP launcher from the bottom panel since it's not installed
