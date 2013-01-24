@@ -1,5 +1,6 @@
 xubuntu-default-settings (13.04.0) UNRELEASED; urgency=low
 
+  * Updated translations.
   * Handle the migration of xfce4-terminal's conffile to its new location.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 09 Jan 2013 19:39:31 +0100
