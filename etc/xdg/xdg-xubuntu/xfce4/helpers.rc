@@ -1,4 +1,4 @@
 WebBrowser=firefox
 MailReader=thunderbird
 FileManager=Thunar
-TerminalEmulator=Terminal
+TerminalEmulator=xfce4-terminal

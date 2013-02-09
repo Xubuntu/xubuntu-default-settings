@@ -2,6 +2,8 @@ xubuntu-default-settings (13.04.0) UNRELEASED; urgency=low
 
   * Updated translations.
   * Handle the migration of xfce4-terminal's conffile to its new location.
+  * etc/xdg/xdg-xubuntu/xfce4/helpers.rc: updated, the default Terminal
+    helper has been renamed to xfce4-terminal.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 09 Jan 2013 19:39:31 +0100
 
