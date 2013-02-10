@@ -1,4 +1,4 @@
-xubuntu-default-settings (13.04.0) UNRELEASED; urgency=low
+xubuntu-default-settings (13.04.0) raring; urgency=low
 
   * Updated translations.
   * Handle the migration of xfce4-terminal's conffile to its new location.
@@ -6,7 +6,7 @@ xubuntu-default-settings (13.04.0) UNRELEASED; urgency=low
     helper has been renamed to xfce4-terminal.
   * Rebase our lightdm-gtk-greeter.conf against the upstream one.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 09 Jan 2013 19:39:31 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 10 Feb 2013 20:55:23 +0100
 
 xubuntu-default-settings (12.10.7) quantal; urgency=low
 
