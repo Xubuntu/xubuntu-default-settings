@@ -1,3 +1,14 @@
+xubuntu-default-settings (13.04.1) UNRELEASED; urgency=low
+
+  [ Lionel Le Folgoc ]
+  * Updated translations.
+  * Drop Thunar's conffile (thunarrc) as it now uses xfconf.
+
+  [ Simon Steinbeiß ]
+  * Switch default size of Thunar's sidebar icons to 16px.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 02 Mar 2013 19:10:05 +0100
+
 xubuntu-default-settings (13.04.0) raring; urgency=low
 
   * Updated translations.
