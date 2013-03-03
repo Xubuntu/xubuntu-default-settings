@@ -1,4 +1,4 @@
-xubuntu-default-settings (13.04.2) UNRELEASED; urgency=low
+xubuntu-default-settings (13.04.2) raring; urgency=low
 
   * Add a Contribute to Xubuntu menu entry linking to the Xubuntu website
     - add usr/share/xubuntu/applications/xubuntu-contribute.desktop
@@ -9,7 +9,7 @@ xubuntu-default-settings (13.04.2) UNRELEASED; urgency=low
   * Update link to GPLv2 license to appease lintian
     - update debian/copyright 
 
- -- Micah Gersten <micahg@ubuntu.com>  Sun, 03 Mar 2013 16:52:45 -0600
+ -- Micah Gersten <micahg@ubuntu.com>  Sun, 03 Mar 2013 16:54:43 -0600
 
 xubuntu-default-settings (13.04.1) raring; urgency=low
 
