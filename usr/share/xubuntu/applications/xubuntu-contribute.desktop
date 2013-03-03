@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=exo-open --launch WebBrowser http://xubuntu.org/contribute/
+Icon=gnome-help
+StartupNotify=false
+Terminal=false
+Categories=X-XFCE;X-Xfce-Toplevel;
+OnlyShowIn=XFCE;
+Name=Contribute to Xubuntu
+Comment=Read how you can make Xubuntu better!

@@ -1,3 +1,11 @@
+xubuntu-default-settings (13.04.2) UNRELEASED; urgency=low
+
+  * Add a Contribute to Xubuntu menu entry linking to the Xubuntu website
+    - add usr/share/xubuntu/applications/xubuntu-contribute.desktop
+    - update etc/xdg/xdg-xubuntu/menus/xfce-applications.menu
+
+ -- Micah Gersten <micahg@ubuntu.com>  Sun, 03 Mar 2013 16:11:26 -0600
+
 xubuntu-default-settings (13.04.1) raring; urgency=low
 
   [ Lionel Le Folgoc ]
