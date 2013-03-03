@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=exo-open --launch WebBrowser http://xubuntu.org/
+Icon=gnome-help
+StartupNotify=false
+Terminal=false
+Categories=X-XFCE;X-Xfce-Toplevel;
+OnlyShowIn=XFCE;
+Name=Xubuntu Website
+Comment=Learn more about Xubuntu on our website.
