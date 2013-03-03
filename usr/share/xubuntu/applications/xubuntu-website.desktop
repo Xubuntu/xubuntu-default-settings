@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Exec=exo-open --launch WebBrowser http://xubuntu.org/
-Icon=gnome-help
+Icon=distributor-logo
 StartupNotify=false
 Terminal=false
 Categories=X-XFCE;X-Xfce-Toplevel;
