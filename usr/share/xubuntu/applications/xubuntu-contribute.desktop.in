@@ -7,5 +7,5 @@ StartupNotify=false
 Terminal=false
 Categories=X-XFCE;X-Xfce-Toplevel;
 OnlyShowIn=XFCE;
-Name=Contribute to Xubuntu
-Comment=Read how you can make Xubuntu better!
+_Name=Contribute to Xubuntu
+_Comment=Read how you can make Xubuntu better!
