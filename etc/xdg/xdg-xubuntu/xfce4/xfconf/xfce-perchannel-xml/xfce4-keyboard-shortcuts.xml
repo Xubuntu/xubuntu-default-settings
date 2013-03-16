@@ -15,7 +15,7 @@
       <property name="&lt;Super&gt;f" type="string" value="exo-open --launch FileManager"/>
       <property name="&lt;Super&gt;t" type="string" value="exo-open --launch TerminalEmulator"/>
       <property name="&lt;Super&gt;r" type="string" value="xfce4-appfinder"/>
-      <property name="&lt;Super&gt;e" type="string" value="leafpad"/>
+      <property name="&lt;Super&gt;e" type="string" value="mousepad"/>
       <property name="&lt;Super&gt;1" type="string" value="gmusicbrowser"/>
       <property name="&lt;Super&gt;2" type="string" value="pidgin"/>
       <property name="&lt;Super&gt;3" type="string" value="abiword"/>

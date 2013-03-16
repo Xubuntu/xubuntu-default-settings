@@ -1,3 +1,10 @@
+xubuntu-default-settings (13.04.3) UNRELEASED; urgency=low
+
+  * Let Super+e point to mousepad, as leafpad isn't installed by default
+    anymore. lp: #1154030
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 16 Mar 2013 23:50:03 +0100
+
 xubuntu-default-settings (13.04.2) raring; urgency=low
 
   * Add a Contribute to Xubuntu menu entry linking to the Xubuntu website
