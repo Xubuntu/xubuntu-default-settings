@@ -1,8 +1,8 @@
-xubuntu-default-settings (13.10.0) UNRELEASED; urgency=low
+xubuntu-default-settings (13.10.0) saucy; urgency=low
 
   * Depend on fonts-droid rather than transitional ttf-droid (LP: #1181762).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Sun, 19 May 2013 22:32:12 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Sun, 19 May 2013 22:33:10 +0100
 
 xubuntu-default-settings (13.04.3) raring; urgency=low
 
