@@ -6,7 +6,6 @@
 
     <DefaultAppDirs/>
     <DefaultDirectoryDirs/>
-    <DefaultMergeDirs/>
 
     <Include>
         <Filename>exo-web-browser.desktop</Filename>
@@ -162,5 +161,6 @@
             <Category>X-Xfce-Toplevel</Category>
         </Exclude>
     </Menu>
+    <DefaultMergeDirs/>
 
 </Menu>
