@@ -3,6 +3,9 @@ xubuntu-default-settings (13.10.1) UNRELEASED; urgency=low
   [ Craig Hrabal ]
   * debian/control - Fixed typo in package description. lp: #1168391
 
+  [ Sean Davis ]
+  * xfce4-desktop.xml: use the correct path to the wallpaper.
+
   [ Len Ovens ]
   * Fix applications menu to allow menu merging (LP: #1187619).
 
