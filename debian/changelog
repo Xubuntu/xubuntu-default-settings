@@ -1,3 +1,9 @@
+xubuntu-default-settings (13.10.1) UNRELEASED; urgency=low
+
+  * Fix applications menu to allow menu merging (LP: #1187619).
+
+ -- Len Ovens <len@ovenwerks.net>  Tue, 04 Jun 2013 20:33:00 -0700
+
 xubuntu-default-settings (13.10.0) saucy; urgency=low
 
   * Depend on fonts-droid rather than transitional ttf-droid (LP: #1181762).
