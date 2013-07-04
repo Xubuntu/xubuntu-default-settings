@@ -1,5 +1,9 @@
 xubuntu-default-settings (13.10.1) UNRELEASED; urgency=low
 
+  [ Craig Hrabal ]
+  * debian/control - Fixed typo in package description. lp: #1168391
+
+  [ Len Ovens ]
   * Fix applications menu to allow menu merging (LP: #1187619).
 
  -- Len Ovens <len@ovenwerks.net>  Tue, 04 Jun 2013 20:33:00 -0700

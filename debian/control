@@ -22,4 +22,4 @@ Package: xubuntu-live-settings
 Architecture: all
 Depends: ${misc:Depends}, casper, xubuntu-default-settings
 Description: configuration for the Xubuntu live cd
- This package contains live cd customzations used by Xubuntu.
+ This package contains live cd customizations used by Xubuntu.
