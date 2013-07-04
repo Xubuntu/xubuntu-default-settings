@@ -1,4 +1,4 @@
-xubuntu-default-settings (13.10.1) UNRELEASED; urgency=low
+xubuntu-default-settings (13.10.1) saucy; urgency=low
 
   [ Craig Hrabal ]
   * debian/control - Fixed typo in package description. lp: #1168391
