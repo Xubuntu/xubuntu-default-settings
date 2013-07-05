@@ -1,4 +1,4 @@
-xubuntu-default-settings (13.10.2) UNRELEASED; urgency=low
+xubuntu-default-settings (13.10.2) saucy; urgency=low
 
   [ Simon Steinbeiss ]
   * Add Ctrl+Alt+T keyboard-shortcut to launch the default terminal emulator.
