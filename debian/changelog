@@ -1,9 +1,13 @@
 xubuntu-default-settings (13.10.2) UNRELEASED; urgency=low
 
+  [ Simon Steinbeiss ]
+  * Add Ctrl+Alt+T keyboard-shortcut to launch the default terminal emulator.
+
+  [ Lionel Le Folgoc ]
   * Set elementary-xfce-darker as the default icon theme.
   * Migrate some default settings from dh_gconf to dh_installgsettings.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 05 Jul 2013 18:56:53 +0200
+ -- Simon Steinbeiss <ochosi@shimmerproject.org>  Fri, 05 Jul 2013 18:56:53 +0200
 
 xubuntu-default-settings (13.10.1) saucy; urgency=low
 
