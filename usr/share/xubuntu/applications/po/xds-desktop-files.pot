@@ -32,3 +32,11 @@ msgstr ""
 #: ../xubuntu-website.desktop.in.h:2
 msgid "Learn more about Xubuntu on our website."
 msgstr ""
+
+#: ../jockey.desktop.in.h:1
+msgid "Additional Drivers"
+msgstr ""
+
+#: ../jockey.desktop.in.h:2
+msgid "Configure third-party and proprietary drivers"
+msgstr ""
