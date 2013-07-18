@@ -1,9 +1,9 @@
-xubuntu-default-settings (13.10.3) UNRELEASED; urgency=low
+xubuntu-default-settings (13.10.3) saucy; urgency=low
 
   * Added jockey/Additional Drivers launcher to settings.
   * Change Primary+Esc to call xfce4-popup-applicationsmenu (Application menu.)
 
- -- Unit 193 <unit193@ubuntu.com>  Wed, 17 Jul 2013 01:06:50 -0400
+ -- Unit 193 <unit193@ubuntu.com>  Thu, 18 Jul 2013 00:03:17 -0500
 
 xubuntu-default-settings (13.10.2) saucy; urgency=low
 
