@@ -1,3 +1,10 @@
+xubuntu-default-settings (13.10.4) saucy; urgency=low
+
+  * Added clock configuration to lightdm-gtk-greeter.conf
+  * Added on-screen keyboard for accessibility to lightdm-gtk-greeter.conf
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 27 Aug 2013 23:15:23 -0400
+
 xubuntu-default-settings (13.10.3) saucy; urgency=low
 
   * Added jockey/Additional Drivers launcher to settings.
