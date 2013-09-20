@@ -1,3 +1,12 @@
+xubuntu-default-settings (13.10.5) UNRELEASED; urgency=low
+
+  * New wallpaper for saucy (lp: #1228098):
+    - etc/xdg/xdg-xubuntu/lightdm/lightdm-gtk-greeter.conf,
+      etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml:
+      updated to point to the new wallpaper.
+
+ -- Simon Steinbeiss <ochosi@shimmerproject.org>  Fri, 20 Sep 2013 14:44:08 +0200
+
 xubuntu-default-settings (13.10.4) saucy; urgency=low
 
   * Added clock configuration to lightdm-gtk-greeter.conf
