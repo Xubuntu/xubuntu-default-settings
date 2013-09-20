@@ -1,4 +1,4 @@
-xubuntu-default-settings (13.10.5) UNRELEASED; urgency=low
+xubuntu-default-settings (13.10.5) saucy; urgency=low
 
   * New wallpaper for saucy (lp: #1228098):
     - etc/xdg/xdg-xubuntu/lightdm/lightdm-gtk-greeter.conf,
