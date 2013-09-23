@@ -1,3 +1,11 @@
+xubuntu-default-settings (13.10.6) UNRELEASED; urgency=low
+
+  * defaults.list - Use parole for mpegurl mimetype (lp: #1221426)
+  * xubuntu-default-settings.gsettings-override - Remove unsupported key (lp: #1227637)
+  * debian/control - Update standards version to 3.9.4
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 23 Sep 2013 19:28:58 -0400
+
 xubuntu-default-settings (13.10.5) saucy; urgency=low
 
   * New wallpaper for saucy (lp: #1228098):
