@@ -3,11 +3,11 @@ Upstream-Name: Xubuntu Default Settings
 Upstream-Contact: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
 
 Files: *
-Copyright: 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
+Copyright: 2013, Sean Davis <smd-seandavis@ubuntu.com>
            2007-2011, Lionel Le Folgoc <mrpouit@ubuntu.com>
+           2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
            2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
            2005-2008, Jani Monoses <jani@ubuntu.com>
-           2013, Sean Davis <smd-seandavis@ubuntu.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
