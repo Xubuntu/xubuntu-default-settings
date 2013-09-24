@@ -3,6 +3,7 @@ xubuntu-default-settings (13.10.6) UNRELEASED; urgency=low
   * defaults.list - Use parole for mpegurl mimetype (lp: #1221426)
   * xubuntu-default-settings.gsettings-override - Remove unsupported key (lp: #1227637)
   * debian/control - Update standards version to 3.9.4
+  * debian/copyright - Update to latest format specification
 
  -- Sean Davis <smd.seandavis@gmail.com>  Mon, 23 Sep 2013 19:28:58 -0400
 
