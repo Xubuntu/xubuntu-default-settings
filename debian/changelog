@@ -1,5 +1,6 @@
 xubuntu-default-settings (14.04.0) trusty; urgency=low
 
+  * Automated translations updates
   * Use /etc/lightdm.d/10-xubuntu.conf to set session, now that
     lightdm-set-defaults is gone. (LP: #1259525)
 
