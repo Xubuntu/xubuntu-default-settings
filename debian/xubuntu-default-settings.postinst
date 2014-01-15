@@ -2,15 +2,6 @@
 
 set -e
 
-case "$1" in
-  configure|upgrade)
-    if [ -x /usr/lib/lightdm/lightdm-set-defaults ] ; then
-      /usr/lib/lightdm/lightdm-set-defaults --keep-old --session=xubuntu || true
-      /usr/lib/lightdm/lightdm-set-defaults --keep-old --greeter=lightdm-gtk-greeter || true
-    fi
-    ;;
-esac
-
 if [ "$1" = "configure" ] ; then
   update-alternatives --install /etc/lightdm/lightdm-gtk-greeter.conf \
     lightdm-gtk-greeter-config-derivative \

@@ -1,3 +1,10 @@
+xubuntu-default-settings (14.04.0) trusty; urgency=low
+
+  * Use /etc/lightdm.d/10-xubuntu.conf to set session, now that
+    lightdm-set-defaults is gone. (LP: 1259525)
+
+ -- Unit 193 <unit193@ubuntu.com>  Wed, 15 Jan 2014 06:41:08 -0600
+
 xubuntu-default-settings (13.10.5) saucy; urgency=low
 
   * New wallpaper for saucy (lp: #1228098):
