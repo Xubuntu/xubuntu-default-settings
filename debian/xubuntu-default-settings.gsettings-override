@@ -2,9 +2,6 @@
 interested-media-players=[ 'gmusicbrowser' ]
 show-notify-osd-on-scroll=false
 
-[com.ubuntu.update-notifier]
-auto-launch=false
-
 [org.gnome.desktop.interface]
 gtk-theme='Greybird'
 icon-theme='elementary-xfce-darker'

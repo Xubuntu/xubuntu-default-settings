@@ -1,5 +1,9 @@
 xubuntu-default-settings (14.04.1) UNRELEASED; urgency=medium
 
+  * defaults.list - Use parole for mpegurl mimetype (lp: #1221426)
+  * xubuntu-default-settings.gsettings-override - Remove unsupported key (lp: #1227637)
+  * debian/control - Update standards version to 3.9.4
+  * debian/copyright - Update to latest format specification
   * debian/xubuntu-live-settings.install
   * debian/light-locker.desktop
     - Prevent autostart of light-locker in live session (see LP: #1281323)
