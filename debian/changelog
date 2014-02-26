@@ -7,6 +7,11 @@ xubuntu-default-settings (14.04.1) trusty; urgency=medium
   * debian/xubuntu-live-settings.install
   * debian/light-locker.desktop
     - Prevent autostart of light-locker in live session (see LP: #1281323)
+  * Update xfce4-panel layout
+  * Update keyboard-shortcuts
+  * Update default greeter settings
+  * New default terminal font: DejaVu Sans Mono 9
+  * Hide xfce4-powermanager's trayicon by default
 
  -- Sean Davis <smd.seandavis@gmail.com>  Tue, 18 Feb 2014 22:42:17 -0500
 
