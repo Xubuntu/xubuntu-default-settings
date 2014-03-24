@@ -11,7 +11,7 @@ xubuntu-default-settings (14.04.2) trusty; urgency=low
     these were confusing users
     - update etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
 
- -- Micah Gersten <micahg@ubuntu.com>  Mon, 24 Mar 2014 14:41:05 -0500
+ -- Micah Gersten <micahg@ubuntu.com>  Mon, 24 Mar 2014 14:46:30 -0500
 
 xubuntu-default-settings (14.04.1) trusty; urgency=medium
 
