@@ -5,8 +5,10 @@ xubuntu-default-settings (14.04.2) UNRELEASED; urgency=low
     - add usr/share/xfce4/whiskermenu/defaults.rc
     - remove etc/xdg/xdg-xubuntu/xfce4/panel/whiskermenu-1.rc
   * Update 14.04.1 changelog to reflect what was uploaded
+  * Fix wallpaper defaults (LP: #1271713)
+    - update etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
 
- -- Micah Gersten <micahg@ubuntu.com>  Mon, 24 Mar 2014 14:27:46 -0500
+ -- Micah Gersten <micahg@ubuntu.com>  Mon, 24 Mar 2014 14:29:44 -0500
 
 xubuntu-default-settings (14.04.1) trusty; urgency=medium
 
