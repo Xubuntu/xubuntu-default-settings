@@ -1,3 +1,13 @@
+xubuntu-default-settings (14.04.2) UNRELEASED; urgency=low
+
+  [ Simon Steinbeiß ]
+  * Update whiskermenu defaults for 14.04
+    - add usr/share/xfce4/whiskermenu/defaults.rc
+    - remove etc/xdg/xdg-xubuntu/xfce4/panel/whiskermenu-1.rc
+  * Update 14.04.1 changelog to reflect what was uploaded
+
+ -- Micah Gersten <micahg@ubuntu.com>  Mon, 24 Mar 2014 14:26:38 -0500
+
 xubuntu-default-settings (14.04.1) trusty; urgency=medium
 
   * defaults.list - Use parole for mpegurl mimetype (lp: #1221426)
@@ -7,6 +17,11 @@ xubuntu-default-settings (14.04.1) trusty; urgency=medium
   * debian/xubuntu-live-settings.install
   * debian/light-locker.desktop
     - Prevent autostart of light-locker in live session (see LP: #1281323)
+  * Update xfce4-panel layout
+  * Update keyboard-shortcuts
+  * Update default greeter settings
+  * New default terminal font: DejaVu Sans Mono 9
+  * Hide xfce4-powermanager's trayicon by default
 
  -- Sean Davis <smd.seandavis@gmail.com>  Tue, 18 Feb 2014 22:42:17 -0500
 
