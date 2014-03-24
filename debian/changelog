@@ -1,12 +1,12 @@
 xubuntu-default-settings (14.04.2) UNRELEASED; urgency=low
 
   [ Simon Steinbeiß ]
-  * Update whiskermenu defaults for 14.04
+  * Update whiskermenu defaults for 14.04 (UIFe: LP: #1295864)
     - add usr/share/xfce4/whiskermenu/defaults.rc
     - remove etc/xdg/xdg-xubuntu/xfce4/panel/whiskermenu-1.rc
   * Update 14.04.1 changelog to reflect what was uploaded
 
- -- Micah Gersten <micahg@ubuntu.com>  Mon, 24 Mar 2014 14:26:38 -0500
+ -- Micah Gersten <micahg@ubuntu.com>  Mon, 24 Mar 2014 14:27:46 -0500
 
 xubuntu-default-settings (14.04.1) trusty; urgency=medium
 
