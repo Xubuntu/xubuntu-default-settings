@@ -7,8 +7,11 @@ xubuntu-default-settings (14.04.2) UNRELEASED; urgency=low
   * Update 14.04.1 changelog to reflect what was uploaded
   * Fix wallpaper defaults (LP: #1271713)
     - update etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+  * Disable scroll-to-switch-workplace and scrolling to shade a window since
+    these were confusing users
+    - update etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
 
- -- Micah Gersten <micahg@ubuntu.com>  Mon, 24 Mar 2014 14:29:44 -0500
+ -- Micah Gersten <micahg@ubuntu.com>  Mon, 24 Mar 2014 14:31:47 -0500
 
 xubuntu-default-settings (14.04.1) trusty; urgency=medium
 
