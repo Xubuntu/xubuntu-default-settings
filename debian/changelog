@@ -1,3 +1,9 @@
+xubuntu-default-settings (14.04.2ubuntu1) UNRELEASED; urgency=medium
+
+  * Remove jockey.desktop as it is provided in software-properties now (LP: #1060543)
+
+ -- Simon Steinbeiß <ochosi@melanzane>  Fri, 04 Apr 2014 13:22:42 +0200
+
 xubuntu-default-settings (14.04.2) trusty; urgency=low
 
   [ Simon Steinbeiß ]
