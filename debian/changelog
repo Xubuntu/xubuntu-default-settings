@@ -1,4 +1,4 @@
-xubuntu-default-settings (14.04.2ubuntu1) UNRELEASED; urgency=medium
+xubuntu-default-settings (14.04.3) trusty; urgency=medium
 
   * Update keyboard-shortcut for appmenu to point to whiskermenu (new default)
   * Restore previous xfdesktop's default settings (LP: #1297170)
@@ -6,7 +6,7 @@ xubuntu-default-settings (14.04.2ubuntu1) UNRELEASED; urgency=medium
   * Associate docx files with Abiword (LP: #1141885)
   * Remove jockey.desktop as it is provided in software-properties now (LP: #1060543)
 
- -- Simon Steinbeiß <ochosi@shimmerproject.org>  Fri, 28 Mar 2014 02:36:25 +0100
+ -- Simon Steinbeiß <ochosi@shimmerproject.org>  Mon, 07 Apr 2014 14:59:32 +0100
 
 xubuntu-default-settings (14.04.2) trusty; urgency=low
 
