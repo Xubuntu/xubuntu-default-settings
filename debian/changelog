@@ -1,6 +1,7 @@
 xubuntu-default-settings (14.04.2ubuntu1) UNRELEASED; urgency=medium
 
   * Update keyboard-shortcut for appmenu to point to whiskermenu (new default)
+  * Remove jockey.desktop as it is provided in software-properties now (LP: #1060543)
 
  -- Simon Steinbeiß <ochosi@shimmerproject.org>  Fri, 28 Mar 2014 02:36:25 +0100
 
