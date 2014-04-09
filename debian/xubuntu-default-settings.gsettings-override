@@ -5,3 +5,6 @@ show-notify-osd-on-scroll=false
 [org.gnome.desktop.interface]
 gtk-theme='Greybird'
 icon-theme='elementary-xfce-darker'
+
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/xfce4/backdrops/xubuntu-wallpaper.png'
