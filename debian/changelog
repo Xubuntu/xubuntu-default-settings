@@ -1,9 +1,9 @@
-xubuntu-default-settings (14.04.4) UNRELEASED; urgency=medium
+xubuntu-default-settings (14.04.4) trusty; urgency=medium
 
   * Set default wallpaper key for gsettings based applications, e.g. such
     that ubiquity installer paints correct background. (LP: #1284910)
 
- -- Dimitri John Ledkov <xnox@ubuntu.com>  Wed, 09 Apr 2014 16:09:02 +0100
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Wed, 09 Apr 2014 16:10:38 +0100
 
 xubuntu-default-settings (14.04.3) trusty; urgency=medium
 
