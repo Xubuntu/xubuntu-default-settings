@@ -1,3 +1,13 @@
+xubuntu-default-settings (14.04.5) UNRELEASED; urgency=medium
+
+  * debian/60-xubuntu.conf:
+  * debian/xubuntu-default-settings.install:
+  * debian/xubuntu-default-settings.maintscript:
+    - Install lightdm configuration in /usr/share not /etc and give it higher
+      priority than the ubuntu settings (LP: #1311090)
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Wed, 23 Apr 2014 08:49:18 +1200
+
 xubuntu-default-settings (14.04.4) trusty; urgency=medium
 
   * Set default wallpaper key for gsettings based applications, e.g. such

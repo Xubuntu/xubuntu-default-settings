@@ -2,3 +2,4 @@ rm_conffile /etc/xdg/xdg-xubuntu/xfce4/panel/indicator-5.rc 12.10.1~
 rm_conffile /etc/xdg/xdg-xubuntu/xfce4/panel/datetime-7.rc 12.10.2~
 mv_conffile /etc/xdg/xdg-xubuntu/Terminal/terminalrc /etc/xdg/xdg-xubuntu/xfce4/terminal/terminalrc 13.04.0~
 rm_conffile /etc/xdg/xdg-xubuntu/Thunar/thunarrc 13.04.1~
+rm_conffile /etc/lightdm/lightdm.conf.d/10-xubuntu.conf 14.04.4
