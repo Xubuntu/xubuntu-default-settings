@@ -8,22 +8,22 @@ msgstr ""
 "Project-Id-Version: xubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-04-11 23:24+0200\n"
-"PO-Revision-Date: 2009-10-15 08:10+0000\n"
-"Last-Translator: Daniel Schury <das.surst@gmail.com>\n"
+"PO-Revision-Date: 2014-06-04 21:02+0000\n"
+"Last-Translator: Daan W. <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-05-23 04:30+0000\n"
-"X-Generator: Launchpad (build 17017)\n"
+"X-Launchpad-Export-Date: 2014-06-05 04:30+0000\n"
+"X-Generator: Launchpad (build 17031)\n"
 
 #: ../uca.xml.in.h:1
 msgid "Example for a custom action"
-msgstr "Beispiel für eine eigene Aktion"
+msgstr "Beispiel für eine benutzerdefinierte Aktion"
 
 #: ../uca.xml.in.h:2
 msgid "Find in this folder"
-msgstr "In diesem Verzeichnis suchen"
+msgstr "In diesem Ordner suchen"
 
 #: ../uca.xml.in.h:3
 msgid "Open Terminal Here"
@@ -31,4 +31,4 @@ msgstr "Terminal hier öffnen"
 
 #: ../uca.xml.in.h:4
 msgid "Search for files within this folder"
-msgstr "Nach Dateien in diesem Verzeichnis suchen"
+msgstr "Nach Dateien in diesem Ordner suchen"
