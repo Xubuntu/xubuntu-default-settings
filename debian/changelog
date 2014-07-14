@@ -1,4 +1,4 @@
-xubuntu-default-settings (14.04.5) UNRELEASED; urgency=medium
+xubuntu-default-settings (14.10.0) UNRELEASED; urgency=medium
 
   [ Robert Ancell ]
   * debian/60-xubuntu.conf:
@@ -10,6 +10,10 @@ xubuntu-default-settings (14.04.5) UNRELEASED; urgency=medium
   [ Unit 193 ]
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
     - Set default icon size to 32.
+    
+  [ Sean Davis ]
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
+    - Disable logind-handle-lid-switch for users of light-locker (LP: #1303736).
 
  -- Robert Ancell <robert.ancell@canonical.com>  Wed, 23 Apr 2014 08:49:18 +1200
 
