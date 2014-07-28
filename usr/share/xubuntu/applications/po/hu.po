@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-03-09 15:56+0100\n"
-"PO-Revision-Date: 2013-04-14 15:52+0000\n"
-"Last-Translator: Gabor Kelemen <kelemeng@openscope.org>\n"
+"PO-Revision-Date: 2014-07-27 17:24+0000\n"
+"Last-Translator: Úr Balázs <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-07-16 04:30+0000\n"
-"X-Generator: Launchpad (build 17112)\n"
+"X-Launchpad-Export-Date: 2014-07-28 04:30+0000\n"
+"X-Generator: Launchpad (build 17131)\n"
 
 #: ../xubuntu-contribute.desktop.in.h:1
 msgid "Contribute to Xubuntu"
@@ -35,8 +35,8 @@ msgstr "Tudjon meg többet a Xubunturól a weboldalunkon"
 
 #: ../jockey.desktop.in.h:1
 msgid "Additional Drivers"
-msgstr ""
+msgstr "További illesztőprogramok"
 
 #: ../jockey.desktop.in.h:2
 msgid "Configure third-party and proprietary drivers"
-msgstr ""
+msgstr "Külső fejlesztésű és zárt illesztőprogramok beállítása"
