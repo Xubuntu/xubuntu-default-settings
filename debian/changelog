@@ -1,8 +1,10 @@
 xubuntu-default-settings (14.10.1) utopic; urgency=medium
 
   * Add xfce4-battery-plugin to panel
+  * Add Settings menu to xfce-applications.menu to make Settings items
+    appear in Whisker menu (LP: #1310264)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sun, 27 Jul 2014 20:29:53 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 28 Jul 2014 07:07:52 -0400
 
 xubuntu-default-settings (14.10.0) utopic; urgency=medium
 
