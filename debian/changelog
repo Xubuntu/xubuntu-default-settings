@@ -1,3 +1,9 @@
+xubuntu-default-settings (14.10.1) utopic; urgency=medium
+
+  * Add xfce4-battery-plugin to panel
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 27 Jul 2014 20:29:53 -0400
+
 xubuntu-default-settings (14.10.0) utopic; urgency=medium
 
   [ Robert Ancell ]
