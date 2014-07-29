@@ -1,5 +1,7 @@
 xubuntu-default-settings (14.10.1) utopic; urgency=medium
 
+  * etc/skel/.Xdefaults
+    - Remove 20px border from xscreensaver
   * etc/xdg/xdg-xubuntu/xfce4/panel/default.xml
     - Add xfce4-battery-plugin to panel
   * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu
@@ -8,7 +10,7 @@ xubuntu-default-settings (14.10.1) utopic; urgency=medium
   * etc/xdg/xdg-xubuntu/compton.conf
     - Add default configuration for compton
 
- -- Sean Davis <smd.seandavis@gmail.com>  Mon, 28 Jul 2014 21:33:47 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 28 Jul 2014 22:08:25 -0400
 
 xubuntu-default-settings (14.10.0) utopic; urgency=medium
 

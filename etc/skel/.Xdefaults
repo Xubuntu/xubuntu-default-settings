@@ -19,7 +19,7 @@ xscreensaver.Dialog.Button.background:  #444
 xscreensaver.Dialog.text.foreground:    #EDEDFF
 xscreensaver.Dialog.text.background:    #444
 xscreensaver.Dialog.internalBorderWidth:24
-xscreensaver.Dialog.borderWidth:        20
+xscreensaver.Dialog.borderWidth:        0
 xscreensaver.Dialog.shadowThickness:    2
 !timeout bar (background is actually determined by Dialog.text.background)
 xscreensaver.passwd.thermometer.foreground:  #A9B7C4
