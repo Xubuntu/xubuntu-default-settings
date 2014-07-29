@@ -22,8 +22,6 @@
         <Filename>exo-web-browser.desktop</Filename>
         <Filename>exo-mail-reader.desktop</Filename>
         <Separator/>
-        <Menuname>Settings</Menuname>
-        <Separator/>
         <Merge type="all"/>
         <Separator/>
         <Filename>ubuntu-software-center.desktop</Filename>
@@ -34,26 +32,6 @@
         <Filename>xfce4-about.desktop</Filename>
         <Filename>xfce4-session-logout.desktop</Filename>
     </Layout>
-
-    <Menu>
-        <Name>Settings</Name>
-        <Directory>xfce-settings.directory</Directory>
-        <Include>
-            <Category>Settings</Category>
-        </Include>
-        <Exclude>
-            <Or>
-                <Filename>exo-mail-reader.desktop</Filename>
-                <Filename>exo-web-browser.desktop</Filename>
-            </Or>
-        </Exclude>
-
-        <Layout>
-            <Filename>xfce-settings-manager.desktop</Filename>
-            <Separator/>
-            <Merge type="all"/>
-        </Layout>
-    </Menu>
 
     <Menu>
         <Name>Accessories</Name>
@@ -144,6 +122,26 @@
         <Include>
             <Category>Office</Category>
         </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Settings</Name>
+        <Directory>xfce-settings.directory</Directory>
+        <Include>
+            <Category>Settings</Category>
+        </Include>
+        <Exclude>
+            <Or>
+                <Filename>exo-mail-reader.desktop</Filename>
+                <Filename>exo-web-browser.desktop</Filename>
+            </Or>
+        </Exclude>
+
+        <Layout>
+            <Filename>xfce-settings-manager.desktop</Filename>
+            <Separator/>
+            <Merge type="all"/>
+        </Layout>
     </Menu>
 
     <Menu>
