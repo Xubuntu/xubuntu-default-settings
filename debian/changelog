@@ -4,13 +4,15 @@ xubuntu-default-settings (14.10.1) utopic; urgency=medium
     - Remove 20px border from xscreensaver
   * etc/xdg/xdg-xubuntu/xfce4/panel/default.xml
     - Add xfce4-battery-plugin to panel
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/parole.xml
+    - Enable clutter as default videosink in parole
   * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu
     - Add Settings submenu to main menu to make launchers in the Settings
       category appear in Whisker menu (LP: #1310264)
   * etc/xdg/xdg-xubuntu/compton.conf
     - Add default configuration for compton
 
- -- Sean Davis <smd.seandavis@gmail.com>  Mon, 28 Jul 2014 22:08:25 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 29 Jul 2014 23:16:04 -0400
 
 xubuntu-default-settings (14.10.0) utopic; urgency=medium
 
