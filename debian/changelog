@@ -1,3 +1,10 @@
+xubuntu-default-settings (14.10.2) UNRELEASED; urgency=medium
+
+  * usr/share/polkit-1/*
+    - Add pkexec policies for mousepad and thunar
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 18 Aug 2014 21:43:14 -0400
+
 xubuntu-default-settings (14.10.1) utopic; urgency=medium
 
   * etc/skel/.Xdefaults

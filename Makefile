@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-SUBDIRS := etc/xdg/xdg-xubuntu/Thunar/po usr/share/xubuntu/applications/po
+SUBDIRS := etc/xdg/xdg-xubuntu/Thunar/po usr/share/xubuntu/applications/po usr/share/polkit-1/actions/po
 
 all:
 	@echo "Nothing to build, call 'make install' instead."
