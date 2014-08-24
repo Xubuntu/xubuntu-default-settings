@@ -1,9 +1,11 @@
-xubuntu-default-settings (14.10.3) UNRELEASED; urgency=medium
+xubuntu-default-settings (14.10.3) utopic; urgency=medium
 
   * usr/share/polkit-1/actions/com.ubuntu.pkexec.thunar.policy
     - Renamed to have com.ubuntu.pkexec prefix
+  * etc/xdg/xdg-xubuntu/xfce4/panel/default.xml
+    - Use new power manager plugin
 
- -- Sean Davis <smd.seandavis@gmail.com>  Tue, 19 Aug 2014 19:12:12 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 21 Aug 2014 05:54:08 -0400
 
 xubuntu-default-settings (14.10.2) utopic; urgency=medium
 

@@ -41,7 +41,7 @@
       <property name="show-frame" type="bool" value="false"/>
       <property name="size-max" type="uint" value="22"/>
     </property>
-    <property name="plugin-5" type="string" value="xfce4-battery-plugin"/>
+    <property name="plugin-5" type="string" value="power-manager-plugin"/>
     <property name="plugin-6" type="string" value="indicator">
       <property name="blacklist" type="array">
         <value type="string" value="libappmenu.so"/>
