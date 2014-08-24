@@ -1,3 +1,14 @@
+xubuntu-default-settings (14.10.4) utopic; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/autostart/light-locker.desktop
+    - Update default light-locker config to: enabled, lock on suspend,
+      and no auto-lock
+  * etc/xdg/xdg-xubuntu/lightdm/lightdm-gtk-greeter.conf
+    - Update to use similar appearance of previous releases
+    - Add screensaver-timeout=60 for locking
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 24 Aug 2014 09:43:06 -0400
+
 xubuntu-default-settings (14.10.3) utopic; urgency=medium
 
   * usr/share/polkit-1/actions/com.ubuntu.pkexec.thunar.policy
