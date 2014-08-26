@@ -1,3 +1,15 @@
+xubuntu-default-settings (14.10.5) utopic; urgency=medium
+
+  * debian/light-locker.desktop
+  * debian/xubuntu-live-settings.install
+    - Drop light-locker.desktop, default config no longer auto-locks
+  * etc/xdg/xdg-xubuntu/lightdm/lightdm-gtk-greeter.conf
+    - Update panel layout
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+    - Set desktop tooltip size to 64px.
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 26 Aug 2014 19:18:08 -0400
+
 xubuntu-default-settings (14.10.4) utopic; urgency=medium
 
   * etc/xdg/xdg-xubuntu/autostart/light-locker.desktop
