@@ -1,3 +1,14 @@
+xubuntu-default-settings (14.10.6) utopic; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
+    - Use saner defaults for DPMS timeouts
+    - Enable lock-screen on suspend and hibernate
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+    - Enable lock-screen on suspend and hibernate
+    - Remove reference to xscreensaver
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 31 Aug 2014 21:47:21 -0400
+
 xubuntu-default-settings (14.10.5) utopic; urgency=medium
 
   * debian/light-locker.desktop
