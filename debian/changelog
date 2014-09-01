@@ -1,3 +1,11 @@
+xubuntu-default-settings (14.10.7) UNRELEASED; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+    - Disable wrap workspaces on window drag since we do not have a visible
+      workspace switcher.
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 01 Sep 2014 07:25:48 -0400
+
 xubuntu-default-settings (14.10.6) utopic; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
