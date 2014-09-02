@@ -1,11 +1,13 @@
-xubuntu-default-settings (14.10.7) UNRELEASED; urgency=medium
+xubuntu-default-settings (14.10.7) utopic; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
     - Disable wrap workspaces on window drag since we do not have a visible
       workspace switcher.
     - Reduce number of workspaces to 1.
+  * usr/share/xfce4/whiskermenu/defaults.rc
+    - Add new "find" command to whiskermenu to start a search with Catfish
 
- -- Sean Davis <smd.seandavis@gmail.com>  Tue, 02 Sep 2014 06:03:59 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 02 Sep 2014 06:06:34 -0400
 
 xubuntu-default-settings (14.10.6) utopic; urgency=medium
 

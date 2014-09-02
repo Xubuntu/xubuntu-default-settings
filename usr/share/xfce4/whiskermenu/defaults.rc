@@ -47,3 +47,9 @@ pattern=^(file|http|https):\\/\\/(.*)$
 command=exo-open \\0
 regex=true
 
+[action4]
+name=Search for files
+pattern=find
+command=catfish %s --start
+regex=false
+
