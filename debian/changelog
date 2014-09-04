@@ -1,3 +1,10 @@
+xubuntu-default-settings (14.10.8) UNRELEASED; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+    - Reenable wrap workspaces on window drag.
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 04 Sep 2014 06:20:45 -0400
+
 xubuntu-default-settings (14.10.7) utopic; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
