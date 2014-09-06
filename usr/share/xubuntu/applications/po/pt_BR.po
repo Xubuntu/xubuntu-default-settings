@@ -1,16 +1,16 @@
-# Dutch translation for xubuntu-default-settings
-# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# Brazilian Portuguese translation for xubuntu-default-settings
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
 # This file is distributed under the same license as the xubuntu-default-settings package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-03-09 15:56+0100\n"
-"PO-Revision-Date: 2014-09-05 09:19+0000\n"
-"Last-Translator: Pjotr12345 <Unknown>\n"
-"Language-Team: Dutch <nl@li.org>\n"
+"PO-Revision-Date: 2014-09-05 18:29+0000\n"
+"Last-Translator: Eduardo Júnio S. Macêdo <eduardojuniosm@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,25 +19,24 @@ msgstr ""
 
 #: ../xubuntu-contribute.desktop.in.h:1
 msgid "Contribute to Xubuntu"
-msgstr "Werk mee aan Xubuntu"
+msgstr "Contribuir com o Xubuntu"
 
 #: ../xubuntu-contribute.desktop.in.h:2
 msgid "Read how you can make Xubuntu better!"
-msgstr "Lees hoe u Xubuntu beter kunt maken!"
+msgstr "Leia como você pode fazer o Xubuntu melhor!"
 
 #: ../xubuntu-website.desktop.in.h:1
 msgid "Xubuntu Website"
-msgstr "Webpagina van Xubuntu"
+msgstr "Xubuntu Website"
 
 #: ../xubuntu-website.desktop.in.h:2
 msgid "Learn more about Xubuntu on our website."
-msgstr "Kom meer te weten over Xubuntu op onze webpagina."
+msgstr "Aprenda mais sobre o Xubuntu em nosso website."
 
 #: ../jockey.desktop.in.h:1
 msgid "Additional Drivers"
-msgstr "Extra stuurprogramma's"
+msgstr "Drivers adicionais"
 
 #: ../jockey.desktop.in.h:2
 msgid "Configure third-party and proprietary drivers"
-msgstr ""
-"Configureer niet-vrije stuurprogramma's en stuurprogramma's van derden"
+msgstr "Configurar drivers de terceiros ou proprietários"

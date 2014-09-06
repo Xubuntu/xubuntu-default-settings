@@ -1,0 +1,26 @@
+# Spanish translation for xubuntu-default-settings
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the xubuntu-default-settings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xubuntu-default-settings\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-08-19 19:10-0400\n"
+"PO-Revision-Date: 2014-09-05 15:56+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-09-06 04:30+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
+
+#: ../com.ubuntu.pkexec.mousepad.policy.in.h:1
+msgid "Authentication is required to run mousepad as root"
+msgstr ""
+
+#: ../com.ubuntu.pkexec.thunar.policy.in.h:1
+msgid "Authentication is required to run thunar as root"
+msgstr ""
