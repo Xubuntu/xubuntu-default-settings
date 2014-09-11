@@ -9,7 +9,7 @@
       <property name="show-removable" type="bool" value="true"/>
       <property name="show-trash" type="bool" value="true"/>
     </property>
-    <property name="icon-size" type="uint" value="32"/>
+    <property name="icon-size" type="uint" value="48"/>
     <property name="tooltip-size" type="double" value="64.000000"/>
   </property>
   <property name="backdrop" type="empty">

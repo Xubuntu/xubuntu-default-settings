@@ -1,3 +1,10 @@
+xubuntu-default-settings (14.10.9) utopic; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+    - Set desktop icon size to 48px
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 10 Sep 2014 22:17:21 -0400
+
 xubuntu-default-settings (14.10.8) utopic; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
