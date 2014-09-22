@@ -1,3 +1,11 @@
+xubuntu-default-settings (14.10.10) utopic; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
+    etc/skel/.config/gtk-3.0/gtk.css:
+    - Color scheme refresh for 14.10 (LP: #1371554)
+
+ -- Unit 193 <unit193@ubuntu.com>  Thu, 11 Sep 2014 18:41:26 -0400
+
 xubuntu-default-settings (14.10.9) utopic; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
