@@ -1,3 +1,9 @@
+xubuntu-default-settings (14.10.11) utopic; urgency=medium
+
+  * Enable minimize and maximize on GtkHeaderbars (LP: #1373887)
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 25 Sep 2014 07:41:40 -0400
+
 xubuntu-default-settings (14.10.10) utopic; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
