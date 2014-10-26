@@ -2,8 +2,12 @@ xubuntu-default-settings (15.04.0) UNRELEASED; urgency=medium
 
   * etc/skel/.config/Trolltech.conf:
     - Set QT defaults to Gtk/Xubuntu defaults (LP: #1382741)
+  * debian/control:
+    - Update to Standards Version 3.9.6, no changes needed.
+  * debian/copyright:
+    - Update maintenance date, copyright email.
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sun, 26 Oct 2014 17:33:08 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 26 Oct 2014 18:36:04 -0400
 
 xubuntu-default-settings (14.10.11) utopic; urgency=medium
 
