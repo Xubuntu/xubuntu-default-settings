@@ -1,5 +1,0 @@
-/* select-on */
-@define-color selected_bg_color #d529c2;
-@define-color selected_fg_color #eeeeee;
-@define-color theme_selected_bg_color @selected_bg_color;
-@define-color theme_selected_fg_color @selected_fg_color;
