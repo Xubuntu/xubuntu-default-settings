@@ -1,7 +1,10 @@
-xubuntu-default-settings (15.04.0) UNRELEASED; urgency=medium
+xubuntu-default-settings (15.04.0) utopic; urgency=medium
 
   * etc/skel/.config/Trolltech.conf:
     - Set QT defaults to Gtk/Xubuntu defaults (LP: #1382741)
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml:
+    - Increase xfwm double-click time to 400ms to match defaults in
+      xfce4-settings.
   * debian/xubuntu-default-settings.maintscript:
   * etc/skel/.config/gtk-3.0/gtk.css:
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
@@ -11,7 +14,7 @@ xubuntu-default-settings (15.04.0) UNRELEASED; urgency=medium
   * debian/copyright:
     - Update maintenance date, copyright email.
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sun, 26 Oct 2014 20:38:26 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 26 Oct 2014 21:14:08 -0400
 
 xubuntu-default-settings (14.10.11) utopic; urgency=medium
 
