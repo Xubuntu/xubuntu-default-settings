@@ -1,4 +1,4 @@
-xubuntu-default-settings (15.04.0) utopic; urgency=medium
+xubuntu-default-settings (15.04.0) vivid; urgency=medium
 
   * etc/skel/.config/Trolltech.conf:
     - Set QT defaults to Gtk/Xubuntu defaults (LP: #1382741)
@@ -14,7 +14,7 @@ xubuntu-default-settings (15.04.0) utopic; urgency=medium
   * debian/copyright:
     - Update maintenance date, copyright email.
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sun, 26 Oct 2014 21:14:08 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 02 Nov 2014 19:27:10 -0500
 
 xubuntu-default-settings (14.10.11) utopic; urgency=medium
 
