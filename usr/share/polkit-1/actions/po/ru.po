@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2013-03-09 15:56+0100\n"
-"PO-Revision-Date: 2014-04-27 09:36+0000\n"
+"POT-Creation-Date: 2014-08-19 19:10-0400\n"
+"PO-Revision-Date: 2014-11-02 20:47+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,26 +17,10 @@ msgstr ""
 "X-Launchpad-Export-Date: 2014-11-03 04:30+0000\n"
 "X-Generator: Launchpad (build 17211)\n"
 
-#: ../xubuntu-contribute.desktop.in.h:1
-msgid "Contribute to Xubuntu"
+#: ../com.ubuntu.pkexec.mousepad.policy.in.h:1
+msgid "Authentication is required to run mousepad as root"
 msgstr ""
 
-#: ../xubuntu-contribute.desktop.in.h:2
-msgid "Read how you can make Xubuntu better!"
-msgstr ""
-
-#: ../xubuntu-website.desktop.in.h:1
-msgid "Xubuntu Website"
-msgstr ""
-
-#: ../xubuntu-website.desktop.in.h:2
-msgid "Learn more about Xubuntu on our website."
-msgstr ""
-
-#: ../jockey.desktop.in.h:1
-msgid "Additional Drivers"
-msgstr ""
-
-#: ../jockey.desktop.in.h:2
-msgid "Configure third-party and proprietary drivers"
+#: ../com.ubuntu.pkexec.thunar.policy.in.h:1
+msgid "Authentication is required to run thunar as root"
 msgstr ""
