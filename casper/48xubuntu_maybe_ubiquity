@@ -3,8 +3,6 @@
 PREREQ=""
 DESCRIPTION="Preparing for maybe-ubiquity mode..."
 
-. /scripts/casper-functions
-
 prereqs()
 {
        echo "$PREREQ"
@@ -17,6 +15,8 @@ prereqs)
        exit 0
        ;;
 esac
+
+. /scripts/casper-functions
 
 log_begin_msg "$DESCRIPTION"
 

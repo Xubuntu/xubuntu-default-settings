@@ -1,3 +1,9 @@
+xubuntu-default-settings (15.04.1) vivid; urgency=medium
+
+  * Move casper-functions script below prereq (LP: #1211933)
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 03 Dec 2014 20:20:55 -0500
+
 xubuntu-default-settings (15.04.0) vivid; urgency=medium
 
   * etc/skel/.config/Trolltech.conf:
