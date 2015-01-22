@@ -1,4 +1,13 @@
-xubuntu-default-settings (14.04.5) trusty; urgency=medium
+xubuntu-default-settings (14.04.6) trusty; urgency=medium
+
+  [ Bruno Nova ]
+  * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu
+  - Add Settings submenu to main menu to make launchers in the Settings
+    category appear in Whisker menu (LP: #1310264)
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Fri, 21 Nov 2014 15:19:10 +0100
+
+xubuntu-default-settings (14.04.5) trusty-proposed; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
     - Disable logind-handle-lid-switch for users of light-locker (LP: #1303736, #1342065)

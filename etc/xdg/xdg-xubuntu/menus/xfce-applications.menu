@@ -10,7 +10,6 @@
     <Include>
         <Filename>exo-web-browser.desktop</Filename>
         <Filename>exo-mail-reader.desktop</Filename>
-        <Filename>xfce-settings-manager.desktop</Filename>
         <Filename>ubuntu-software-center.desktop</Filename>
         <Filename>xfhelp4.desktop</Filename>
         <Filename>xubuntu-website.desktop</Filename>
@@ -22,8 +21,6 @@
     <Layout>
         <Filename>exo-web-browser.desktop</Filename>
         <Filename>exo-mail-reader.desktop</Filename>
-        <Separator/>
-        <Filename>xfce-settings-manager.desktop</Filename>
         <Separator/>
         <Merge type="all"/>
         <Separator/>
@@ -125,6 +122,26 @@
         <Include>
             <Category>Office</Category>
         </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Settings</Name>
+        <Directory>xfce-settings.directory</Directory>
+        <Include>
+            <Category>Settings</Category>
+        </Include>
+        <Exclude>
+            <Or>
+                <Filename>exo-mail-reader.desktop</Filename>
+                <Filename>exo-web-browser.desktop</Filename>
+            </Or>
+        </Exclude>
+
+        <Layout>
+            <Filename>xfce-settings-manager.desktop</Filename>
+            <Separator/>
+            <Merge type="all"/>
+        </Layout>
     </Menu>
 
     <Menu>
