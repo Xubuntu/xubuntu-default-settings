@@ -51,6 +51,7 @@
       <property name="&lt;Alt&gt;F7" type="string" value="maximize_window_key"/>
       <property name="&lt;Alt&gt;F8" type="string" value="stick_window_key"/>
       <property name="&lt;Alt&gt;F9" type="string" value="hide_window_key"/>
+      <property name="&lt;Alt&gt;F10" type="empty"/>
       <property name="&lt;Alt&gt;F11" type="string" value="fullscreen_key"/>
       <property name="&lt;Alt&gt;F12" type="string" value="above_key"/>
       <property name="&lt;Control&gt;&lt;Shift&gt;&lt;Alt&gt;Left" type="string" value="move_window_left_key"/>
