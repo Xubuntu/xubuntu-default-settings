@@ -1,3 +1,10 @@
+xubuntu-default-settings (14.10.12) utopic; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
+    - Fix window manager keybinding breakage after reboot (LP: #1292290)
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 28 Jan 2015 06:31:52 -0500
+
 xubuntu-default-settings (14.10.11) utopic; urgency=medium
 
   * Enable minimize and maximize on GtkHeaderbars (LP: #1373887)
