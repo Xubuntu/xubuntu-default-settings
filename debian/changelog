@@ -1,9 +1,15 @@
+xubuntu-default-settings (14.04.8) trusty; urgency=medium
+
+  * Really fix window manager keybinding breakage after reboot (LP: #1292290)
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 29 Jan 2015 07:09:28 -0500
+
 xubuntu-default-settings (14.04.7) trusty; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
     - Fix window manager keybinding breakage after reboot (LP: #1292290)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Wed, 21 Jan 2015 20:33:00 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 21 Jan 2015 20:47:33 -0500
 
 xubuntu-default-settings (14.04.6) trusty; urgency=medium
 
