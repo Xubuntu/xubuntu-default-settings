@@ -1,6 +1,5 @@
 [com.canonical.indicator.sound]
 interested-media-players=[ 'gmusicbrowser' ]
-show-notify-osd-on-scroll=false
 
 [org.gnome.desktop.interface]
 gtk-theme='Greybird'

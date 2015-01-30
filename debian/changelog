@@ -1,3 +1,10 @@
+xubuntu-default-settings (15.04.3) UNRELEASED; urgency=medium
+
+  * debian/xubuntu-default-settings.gsettings-override:
+    - Remove override for show-notify-osd-on-scroll, key removed.
+
+ -- Unit 193 <unit193@ubuntu.com>  Fri, 30 Jan 2015 02:41:01 -0500
+
 xubuntu-default-settings (15.04.2) vivid; urgency=medium
 
   * Prevent redefinition of maximize window in keyboard shortcuts
