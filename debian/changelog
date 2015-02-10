@@ -1,9 +1,14 @@
 xubuntu-default-settings (15.04.3) UNRELEASED; urgency=medium
 
+  [ Unit 193 ]
   * debian/xubuntu-default-settings.gsettings-override:
     - Remove override for show-notify-osd-on-scroll, key removed.
 
- -- Unit 193 <unit193@ubuntu.com>  Fri, 30 Jan 2015 02:41:01 -0500
+  [ Sean Davis ]
+  * usr/share/xubuntu/applications/thunar-settings.desktop
+    - Remove thunar-settings from the menu, redundant (LP: #1396804)
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 09 Feb 2015 22:13:54 -0500
 
 xubuntu-default-settings (15.04.2) vivid; urgency=medium
 
