@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-19 19:10-0400\n"
+"POT-Creation-Date: 2015-02-09 22:36-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,8 +19,4 @@ msgstr ""
 
 #: ../com.ubuntu.pkexec.mousepad.policy.in.h:1
 msgid "Authentication is required to run mousepad as root"
-msgstr ""
-
-#: ../com.ubuntu.pkexec.thunar.policy.in.h:1
-msgid "Authentication is required to run thunar as root"
 msgstr ""
