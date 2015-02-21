@@ -1,4 +1,4 @@
-xubuntu-default-settings (15.04.3) UNRELEASED; urgency=medium
+xubuntu-default-settings (15.04.3) vivid; urgency=medium
 
   [ Unit 193 ]
   * debian/xubuntu-default-settings.gsettings-override:
@@ -12,7 +12,7 @@ xubuntu-default-settings (15.04.3) UNRELEASED; urgency=medium
   * usr/share/polkit-1/actions/com.ubuntu.pkexec.thunar.policy.in
     - Dropped, policy included upstream in thunar package
 
- -- Sean Davis <smd.seandavis@gmail.com>  Mon, 09 Feb 2015 22:36:47 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 21 Feb 2015 14:39:39 -0500
 
 xubuntu-default-settings (15.04.2) vivid; urgency=medium
 
