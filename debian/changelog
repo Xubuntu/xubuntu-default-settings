@@ -1,3 +1,10 @@
+xubuntu-default-settings (15.04.4) UNRELEASED; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/xfce4/terminal/terminalrc:
+    - Use the new xubuntu-dark colorscheme
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 10 Mar 2015 06:52:25 -0400
+
 xubuntu-default-settings (15.04.3) vivid; urgency=medium
 
   [ Unit 193 ]
