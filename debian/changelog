@@ -1,9 +1,12 @@
 xubuntu-default-settings (15.04.4) UNRELEASED; urgency=medium
 
+  * debian/xubuntu-default-settings.gsettings-override:
+    - Use the new xubuntu-light colorscheme in mousepad
+    - Set search direction to Both (LP: #1390933)
   * etc/xdg/xdg-xubuntu/xfce4/terminal/terminalrc:
-    - Use the new xubuntu-dark colorscheme
+    - Use the new xubuntu-dark colorscheme in the terminal
 
- -- Sean Davis <smd.seandavis@gmail.com>  Tue, 10 Mar 2015 06:52:25 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 10 Mar 2015 07:12:09 -0400
 
 xubuntu-default-settings (15.04.3) vivid; urgency=medium
 
