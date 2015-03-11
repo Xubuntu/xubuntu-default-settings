@@ -18,5 +18,8 @@ color-scheme='xubuntu_light'
 font-name='DejaVu Sans Mono 10'
 use-default-monospace-font=false
 
+[org.xfce.mousepad.preferences.window]
+path-in-title=true
+
 [org.xfce.mousepad.state.search]
 direction=2
