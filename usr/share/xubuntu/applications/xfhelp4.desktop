@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Exec=exo-open --launch WebBrowser /usr/share/xubuntu-docs/about/xubuntu-index.html
+Exec=exo-open --launch WebBrowser /usr/share/xubuntu-docs/index.html
 Icon=gnome-help
 StartupNotify=false
 Terminal=false
