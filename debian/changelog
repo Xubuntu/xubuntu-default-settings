@@ -1,3 +1,11 @@
+xubuntu-default-settings (15.04.5) vivid; urgency=medium
+
+  [ Simon Steinbeiß ]
+  * usr/share/xubuntu/applications/xfhelp4.desktop
+    - Point to the correct page in the Help launcher
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 01 Apr 2015 06:06:50 -0400
+
 xubuntu-default-settings (15.04.4) vivid; urgency=medium
 
   [ Sean Davis ]
