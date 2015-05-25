@@ -1,3 +1,11 @@
+xubuntu-default-settings (15.10.0) UNRELEASED; urgency=medium
+
+  * /usr/share/xfce4/whiskermenu
+    - Moved to /etc/xdg/xdg-xubuntu/xfce4/whiskermenu,
+      configuration directories moved upstream
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 25 May 2015 10:36:42 -0400
+
 xubuntu-default-settings (15.04.5) vivid; urgency=medium
 
   [ Simon Steinbeiß ]
