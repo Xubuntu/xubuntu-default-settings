@@ -27,8 +27,8 @@
       <property name="&lt;Super&gt;1" type="string" value="gmusicbrowser"/>
       <property name="XF86Messenger" type="string" value="pidgin"/>
       <property name="&lt;Super&gt;2" type="string" value="pidgin"/>
-      <property name="&lt;Super&gt;3" type="string" value="abiword"/>
-      <property name="&lt;Super&gt;4" type="string" value="gnumeric"/>
+      <property name="&lt;Super&gt;3" type="string" value="libreoffice --writer"/>
+      <property name="&lt;Super&gt;4" type="string" value="libreoffice --calc"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

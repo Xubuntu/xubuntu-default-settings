@@ -1,4 +1,14 @@
-xubuntu-default-settings (15.10.0) UNRELEASED; urgency=medium
+xubuntu-default-settings (15.10.1) UNRELEASED; urgency=medium
+
+  [ Sean Davis ]
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+  * etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc
+  * usr/share/xubuntu/applications/defaults.list
+    - Replace Abiword and Gnumeric with LibreOffice
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 30 May 2015 10:11:27 -0400
+
+xubuntu-default-settings (15.10.0) wily; urgency=medium
 
   * /usr/share/xfce4/whiskermenu
     - Moved to /etc/xdg/xdg-xubuntu/xfce4/whiskermenu,
