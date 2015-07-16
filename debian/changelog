@@ -5,8 +5,14 @@ xubuntu-default-settings (15.10.1) UNRELEASED; urgency=medium
   * etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc
   * usr/share/xubuntu/applications/defaults.list
     - Replace Abiword and Gnumeric with LibreOffice
+  * debian/xubuntu-default-settings.preinst
+  * debian/xubuntu-default-settings.postinst
+  * debian/xubuntu-default-settings.postrm
+  * etc/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf
+  * etc/xdg/xdg-xubuntu/lightdm/lightdm-gtk-greeter.conf
+    - Transition to new lightdm-gtk-greeter config
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 30 May 2015 10:11:27 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 15 Jul 2015 22:04:25 -0400
 
 xubuntu-default-settings (15.10.0) wily; urgency=medium
 

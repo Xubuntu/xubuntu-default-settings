@@ -2,7 +2,7 @@ Source: xubuntu-default-settings
 Section: x11
 Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
-Build-Depends: debhelper (>= 8.1.3~), intltool
+Build-Depends: debhelper (>= 9), intltool
 Standards-Version: 3.9.6
 Homepage: https://launchpad.net/xubuntu-default-settings
 Vcs-Bzr: lp:xubuntu-default-settings
@@ -12,7 +12,7 @@ Package: xubuntu-default-settings
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, xubuntu-artwork (>= 12.10.1~), fonts-droid,
- x11-common (>= 1:7.6+7ubuntu2), lightdm-gtk-greeter (>= 1.0.0-0ubuntu2)
+ x11-common (>= 1:7.6+7ubuntu2), lightdm-gtk-greeter (>= 2.0.1-1)
 Recommends: xfce4-session, libxfce4ui-utils
 Provides: lightdm-gtk-greeter-config
 Description: default settings for the Xubuntu desktop
