@@ -14,8 +14,10 @@ xubuntu-default-settings (15.10.1) UNRELEASED; urgency=medium
   * etc/X11/Xsession.d/56xubuntu-session
     - Disable Gtk 3.16 overlay scrollbars
     - Use GTK theme for QT5 applications
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/parole.xml
+    - Workaround for parole freezing at startup (LP: #1462445)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 18 Jul 2015 09:20:51 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 18 Jul 2015 09:29:03 -0400
 
 xubuntu-default-settings (15.10.0) wily; urgency=medium
 
