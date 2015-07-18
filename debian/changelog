@@ -11,8 +11,11 @@ xubuntu-default-settings (15.10.1) UNRELEASED; urgency=medium
   * etc/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf
   * etc/xdg/xdg-xubuntu/lightdm/lightdm-gtk-greeter.conf
     - Transition to new lightdm-gtk-greeter config
+  * etc/X11/Xsession.d/56xubuntu-session
+    - Disable Gtk 3.16 overlay scrollbars
+    - Use GTK theme for QT5 applications
 
- -- Sean Davis <smd.seandavis@gmail.com>  Wed, 15 Jul 2015 22:04:25 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 18 Jul 2015 09:20:51 -0400
 
 xubuntu-default-settings (15.10.0) wily; urgency=medium
 
