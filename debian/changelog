@@ -1,6 +1,5 @@
-xubuntu-default-settings (15.10.1) UNRELEASED; urgency=medium
+xubuntu-default-settings (15.10.1) wily; urgency=medium
 
-  [ Sean Davis ]
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
   * etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc
   * usr/share/xubuntu/applications/defaults.list
@@ -17,7 +16,7 @@ xubuntu-default-settings (15.10.1) UNRELEASED; urgency=medium
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/parole.xml
     - Workaround for parole freezing at startup (LP: #1462445)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 18 Jul 2015 09:29:03 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 19 Jul 2015 00:03:49 -0400
 
 xubuntu-default-settings (15.10.0) wily; urgency=medium
 
