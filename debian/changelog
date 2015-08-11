@@ -1,3 +1,12 @@
+xubuntu-default-settings (15.10.2) wily; urgency=medium
+
+  [ Robert Ancell ]
+  * debian/60-xubuntu.conf:
+    - Use [Seat:*] section for LightDM configuration instead of
+      deprecated [SeatDefaults]
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 10 Aug 2015 20:27:49 -0400
+
 xubuntu-default-settings (15.10.1) wily; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
