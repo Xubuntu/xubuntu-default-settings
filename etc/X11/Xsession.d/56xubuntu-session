@@ -4,4 +4,6 @@ if [ "$DESKTOP_SESSION" = xubuntu ]; then
     export GTK_OVERLAY_SCROLLING=0
     # QT5 apps to use GTK style
     export QT_STYLE_OVERRIDE=gtk
+    # Workaround clutter issue (LP: #1462445)
+    export CLUTTER_BACKEND=x11
 fi
