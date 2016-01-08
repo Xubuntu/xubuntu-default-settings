@@ -4,4 +4,7 @@
   <property name="video" type="empty">
     <property name="videosink" type="string" value="cluttersink"/>
   </property>
+  <property name="parole" type="empty">
+    <property name="plugins" type="string" value="/usr/lib/x86_64-linux-gnu/parole-0/parole-mpris2.so"/>
+  </property>
 </channel>
