@@ -5,6 +5,6 @@
     <property name="videosink" type="string" value="cluttersink"/>
   </property>
   <property name="parole" type="empty">
-    <property name="plugins" type="string" value="parole-mpris2"/>
+    <property name="plugins" type="string" value="parole-mpris2.so"/>
   </property>
 </channel>

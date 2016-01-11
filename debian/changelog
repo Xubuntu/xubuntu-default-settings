@@ -1,3 +1,15 @@
+xubuntu-default-settings (16.04.0) xenial; urgency=medium
+
+  * debian/xubuntu-default-settings.gsettings-override
+    - Remove gmusicbrowser from indicator-sound
+    - Add parole to indicator-sound
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/parole.xml
+    - Enable Parole MPRIS2 plugin by default
+  * debian/compat
+    - Bump debhelper version
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 10 Jan 2016 22:34:13 -0500
+
 xubuntu-default-settings (15.10.3) wily; urgency=medium
 
   * etc/X11/Xsession.d/56xubuntu-session
