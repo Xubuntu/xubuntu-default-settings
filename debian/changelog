@@ -1,3 +1,10 @@
+xubuntu-default-settings (16.04.1) UNRELEASED; urgency=medium
+
+  * etc/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf
+    - Use new Plymouth themes directory (LP: #1533200)
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 09 Feb 2016 20:07:23 -0500
+
 xubuntu-default-settings (16.04.0) xenial; urgency=medium
 
   * debian/xubuntu-default-settings.gsettings-override
