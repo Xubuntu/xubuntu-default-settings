@@ -1,3 +1,2 @@
 debian/tmp/etc
 debian/tmp/usr
-debian/60-xubuntu.conf	usr/share/lightdm/lightdm.conf.d/

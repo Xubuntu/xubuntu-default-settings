@@ -1,13 +1,22 @@
 xubuntu-default-settings (16.04.1) UNRELEASED; urgency=medium
 
-  * etc/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf
+  * Migrated lightdm config locations:
+    - debian/60-xubuntu.conf => usr/share/lightdm/lightdm.conf.d/
+    - etc/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf =>
+      usr/share/lightdm/lightdm-gtk-greeter.conf.d/
+  * Updated maintscripts for lightdm migration:
+    - debian/xubuntu-default-settings.install
+    - debian/xubuntu-default-settings.postinst
+    - debian/xubuntu-default-settings.postrm
+    - debian/xubuntu-default-settings.preinst
+  * usr/share/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf
     - Use new Plymouth themes directory (LP: #1533200)
   * etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
   * usr/share/xubuntu/applications/defaults.list
     - Replace gmusicbrowser references with parole where appropriate.
 
- -- Sean Davis <smd.seandavis@gmail.com>  Tue, 09 Feb 2016 20:15:10 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 09 Feb 2016 20:36:41 -0500
 
 xubuntu-default-settings (16.04.0) xenial; urgency=medium
 
