@@ -2,8 +2,12 @@ xubuntu-default-settings (16.04.1) UNRELEASED; urgency=medium
 
   * etc/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf
     - Use new Plymouth themes directory (LP: #1533200)
+  * etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+  * usr/share/xubuntu/applications/defaults.list
+    - Replace gmusicbrowser references with parole where appropriate.
 
- -- Sean Davis <smd.seandavis@gmail.com>  Tue, 09 Feb 2016 20:07:23 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 09 Feb 2016 20:15:10 -0500
 
 xubuntu-default-settings (16.04.0) xenial; urgency=medium
 
