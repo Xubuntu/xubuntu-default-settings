@@ -1,4 +1,4 @@
-xubuntu-default-settings (16.04.1) wily; urgency=medium
+xubuntu-default-settings (16.04.1) UNRELEASED; urgency=medium
 
   * Updated lightdm config locations:
     - debian/60-xubuntu.conf => usr/share/lightdm/lightdm.conf.d/
@@ -18,7 +18,7 @@ xubuntu-default-settings (16.04.1) wily; urgency=medium
   * usr/share/xubuntu/applications/defaults.list
     - Replace gmusicbrowser references with parole where appropriate.
 
- -- Sean Davis <smd.seandavis@gmail.com>  Thu, 11 Feb 2016 02:15:43 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 11 Feb 2016 02:17:41 -0500
 
 xubuntu-default-settings (16.04.0) xenial; urgency=medium
 
