@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-04-11 23:24+0200\n"
-"PO-Revision-Date: 2013-06-15 08:11+0000\n"
+"PO-Revision-Date: 2016-02-11 09:51+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <sr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-01-16 04:30+0000\n"
-"X-Generator: Launchpad (build 17886)\n"
+"X-Launchpad-Export-Date: 2016-02-12 04:30+0000\n"
+"X-Generator: Launchpad (build 17923)\n"
 
 #: ../uca.xml.in.h:1
 msgid "Example for a custom action"
@@ -23,11 +23,11 @@ msgstr "Пример за произвољну радњу"
 
 #: ../uca.xml.in.h:2
 msgid "Find in this folder"
-msgstr "Проађи у овој фасцикли"
+msgstr "Пронађи у овој фасцикли"
 
 #: ../uca.xml.in.h:3
 msgid "Open Terminal Here"
-msgstr "Отвори терминал овде"
+msgstr "Овде отвори терминал"
 
 #: ../uca.xml.in.h:4
 msgid "Search for files within this folder"
