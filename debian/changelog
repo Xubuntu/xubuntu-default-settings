@@ -1,3 +1,12 @@
+xubuntu-default-settings (16.04.2) UNRELEASED; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu,
+    etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc,
+    usr/share/xubuntu/applications/defaults.list:
+    - Change ubuntu-software-center → gnome-software.
+
+ -- Unit 193 <unit193@ubuntu.com>  Thu, 18 Feb 2016 05:27:28 -0500
+
 xubuntu-default-settings (16.04.1) xenial; urgency=medium
 
   * Updated lightdm config locations:

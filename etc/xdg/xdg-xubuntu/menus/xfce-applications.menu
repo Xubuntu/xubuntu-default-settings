@@ -11,7 +11,7 @@
         <Filename>exo-web-browser.desktop</Filename>
         <Filename>exo-mail-reader.desktop</Filename>
         <Filename>xfce-settings-manager.desktop</Filename>
-        <Filename>ubuntu-software-center.desktop</Filename>
+        <Filename>org.gnome.Software.desktop</Filename>
         <Filename>xfhelp4.desktop</Filename>
         <Filename>xubuntu-website.desktop</Filename>
         <Filename>xubuntu-contribute.desktop</Filename>
@@ -27,7 +27,7 @@
         <Separator/>
         <Merge type="all"/>
         <Separator/>
-        <Filename>ubuntu-software-center.desktop</Filename>
+        <Filename>org.gnome.Software.desktop</Filename>
         <Separator/>
         <Filename>xfhelp4.desktop</Filename>
         <Filename>xubuntu-website.desktop</Filename>
@@ -158,7 +158,7 @@
             </And>
             <Or>
                 <Filename>xfce4-session-logout.desktop</Filename>
-                <Filename>ubuntu-software-center.desktop</Filename>
+                <Filename>org.gnome.Software.desktop</Filename>
             </Or>
         </Exclude>
     </Menu>
