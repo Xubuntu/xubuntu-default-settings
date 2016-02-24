@@ -17,7 +17,7 @@
     <property name="CursorThemeName" type="string" value="Human"/>
     <property name="CursorThemeSize" type="int" value="24"/>
     <property name="DecorationLayout" type="string" value="menu:minimize,maximize,close"/>
-    <property name="FontName" type="string" value="Droid Sans 10"/>
+    <property name="FontName" type="string" value="Noto Sans 9"/>
     <property name="IconSizes" type="string" value="gtk-button=16,16"/>
   </property>
 </channel>
