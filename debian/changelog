@@ -1,3 +1,14 @@
+xubuntu-default-settings (16.04.2) xenial; urgency=medium
+
+  * Update font to Noto Sans:
+    - debian/control
+    - etc/skel/.config/Trolltech.conf
+    - etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+    - etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+    - usr/share/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 25 Feb 2016 21:07:36 -0500
+
 xubuntu-default-settings (16.04.1) xenial; urgency=medium
 
   * Updated lightdm config locations:
