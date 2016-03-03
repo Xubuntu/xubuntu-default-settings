@@ -1,4 +1,4 @@
-xubuntu-default-settings (16.04.3) UNRELEASED; urgency=medium
+xubuntu-default-settings (16.04.3) xenial; urgency=medium
 
   [ Unit 193 ]
   * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu,
@@ -6,7 +6,7 @@ xubuntu-default-settings (16.04.3) UNRELEASED; urgency=medium
     usr/share/xubuntu/applications/defaults.list:
     - Change ubuntu-software-center → gnome-software.
 
- -- Sean Davis <smd.seandavis@gmail.com>  Wed, 02 Mar 2016 19:11:40 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 02 Mar 2016 20:05:52 -0500
 
 xubuntu-default-settings (16.04.2) xenial; urgency=medium
 
