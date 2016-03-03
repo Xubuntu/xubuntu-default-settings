@@ -1,3 +1,13 @@
+xubuntu-default-settings (16.04.3) UNRELEASED; urgency=medium
+
+  [ Unit 193 ]
+  * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu,
+    etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc,
+    usr/share/xubuntu/applications/defaults.list:
+    - Change ubuntu-software-center → gnome-software.
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 02 Mar 2016 19:11:40 -0500
+
 xubuntu-default-settings (16.04.2) xenial; urgency=medium
 
   * Update font to Noto Sans:
