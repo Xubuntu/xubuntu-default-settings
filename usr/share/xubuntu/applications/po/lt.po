@@ -8,35 +8,35 @@ msgstr ""
 "Project-Id-Version: xubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-03-09 15:56+0100\n"
-"PO-Revision-Date: 2015-04-08 23:07+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-03-11 21:13+0000\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-03-04 04:30+0000\n"
-"X-Generator: Launchpad (build 17936)\n"
+"X-Launchpad-Export-Date: 2016-03-12 04:30+0000\n"
+"X-Generator: Launchpad (build 17939)\n"
 
 #: ../xubuntu-contribute.desktop.in.h:1
 msgid "Contribute to Xubuntu"
-msgstr ""
+msgstr "Talkinti Xubuntu"
 
 #: ../xubuntu-contribute.desktop.in.h:2
 msgid "Read how you can make Xubuntu better!"
-msgstr ""
+msgstr "Skaitykite kaip jūs galite padaryti Xubuntu geresne!"
 
 #: ../xubuntu-website.desktop.in.h:1
 msgid "Xubuntu Website"
-msgstr ""
+msgstr "Xubuntu svetainė"
 
 #: ../xubuntu-website.desktop.in.h:2
 msgid "Learn more about Xubuntu on our website."
-msgstr ""
+msgstr "Sužinokite daugiau apie Xubuntu mūsų svetainėje"
 
 #: ../jockey.desktop.in.h:1
 msgid "Additional Drivers"
-msgstr ""
+msgstr "Papildomos tvarkyklės"
 
 #: ../jockey.desktop.in.h:2
 msgid "Configure third-party and proprietary drivers"
-msgstr ""
+msgstr "Konfigūruoti trečiųjų šalių bei nuosavybines tvarkykles"
