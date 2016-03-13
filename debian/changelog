@@ -1,3 +1,10 @@
+xubuntu-default-settings (16.04.4) UNRELEASED; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/parole.xml
+    - Set default video sink to XV
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 13 Mar 2016 18:06:21 -0400
+
 xubuntu-default-settings (16.04.3) xenial; urgency=medium
 
   [ Unit 193 ]
