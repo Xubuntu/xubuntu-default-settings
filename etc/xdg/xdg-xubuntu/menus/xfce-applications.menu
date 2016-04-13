@@ -30,8 +30,6 @@
         <Filename>org.gnome.Software.desktop</Filename>
         <Separator/>
         <Filename>xfhelp4.desktop</Filename>
-        <Filename>xubuntu-website.desktop</Filename>
-        <Filename>xubuntu-contribute.desktop</Filename>
         <Filename>xfce4-about.desktop</Filename>
         <Filename>xfce4-session-logout.desktop</Filename>
     </Layout>

@@ -1,3 +1,15 @@
+xubuntu-default-settings (16.04.5) UNRELEASED; urgency=medium
+
+  * Drop "Contribute to Xubuntu" and "Xubuntu Website"
+    links, now included in documentation (LP: #1537742)
+    - etc/xdg/xdg-xubuntu/menus/xfce-applications.menu
+    - usr/share/xubuntu/applications/po/POTFILES.in
+    - usr/share/xubuntu/applications/po/xds-desktop-files.pot
+    - usr/share/xubuntu/applications/xubuntu-contribute.desktop.in
+    - usr/share/xubuntu/applications/xubuntu-website.desktop.in
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 13 Apr 2016 07:26:35 -0400
+
 xubuntu-default-settings (16.04.4) xenial; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/parole.xml
