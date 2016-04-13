@@ -91,6 +91,12 @@
         <Include>
             <Category>Graphics</Category>
         </Include>
+        <Exclude>
+            <Or>
+                <Filename>display-im6.q16.desktop</Filename>
+                <Filename>display-im6.desktop</Filename>
+            </Or>
+        </Exclude>
     </Menu>
 
     <Menu>

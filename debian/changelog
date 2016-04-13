@@ -7,8 +7,10 @@ xubuntu-default-settings (16.04.5) UNRELEASED; urgency=medium
     - usr/share/xubuntu/applications/po/xds-desktop-files.pot
     - usr/share/xubuntu/applications/xubuntu-contribute.desktop.in
     - usr/share/xubuntu/applications/xubuntu-website.desktop.in
+  * Hide ImageMagick Q16 links from the menu (LP: #1549732)
+    - etc/xdg/xdg-xubuntu/menus/xfce-applications.menu
 
- -- Sean Davis <smd.seandavis@gmail.com>  Wed, 13 Apr 2016 07:26:35 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 13 Apr 2016 07:44:50 -0400
 
 xubuntu-default-settings (16.04.4) xenial; urgency=medium
 
