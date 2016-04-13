@@ -1,14 +1,14 @@
 # Turkish translation for xubuntu-default-settings
-# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
 # This file is distributed under the same license as the xubuntu-default-settings package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2009-04-11 23:24+0200\n"
-"PO-Revision-Date: 2016-03-21 23:32+0000\n"
+"POT-Creation-Date: 2015-02-09 22:36-0500\n"
+"PO-Revision-Date: 2016-03-21 23:33+0000\n"
 "Last-Translator: Enes UNAL <aenesunal@gmail.com>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,18 +17,7 @@ msgstr ""
 "X-Launchpad-Export-Date: 2016-03-23 04:30+0000\n"
 "X-Generator: Launchpad (build 17958)\n"
 
-#: ../uca.xml.in.h:1
-msgid "Example for a custom action"
-msgstr "Örnek bir eylem için örnek"
-
-#: ../uca.xml.in.h:2
-msgid "Find in this folder"
-msgstr "Bu dizinde bul"
-
-#: ../uca.xml.in.h:3
-msgid "Open Terminal Here"
-msgstr "Burada Terminal Aç"
-
-#: ../uca.xml.in.h:4
-msgid "Search for files within this folder"
-msgstr "Bu dizin içerisinde dosyaları ara"
+#: ../com.ubuntu.pkexec.mousepad.policy.in.h:1
+msgid "Authentication is required to run mousepad as root"
+msgstr ""
+"Mousepad'i kök kullanıcı olarak çalıştırmak için yetkilendirme gerekli"
