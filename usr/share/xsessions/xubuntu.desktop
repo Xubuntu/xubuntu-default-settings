@@ -85,6 +85,6 @@ Comment[ug]=مەزكۇر session دا  ئۈستەل يۈزى ئۈچۈن Xubuntu 
 Comment[uk]=Використовуйте цю сесію для запуску Xubuntu як Вашого робочого середовища
 Comment[zh_CN]=使用此会话运行 Xubuntu 作为您默认的桌面环境
 Comment[zh_TW]=使用 Xubuntu 作為此作業階段的桌面環境
-Exec=startxfce4
+Exec=/usr/share/xfce4/scripts/run-systemd-session xubuntu-session.target
 Icon=
 Type=Application
