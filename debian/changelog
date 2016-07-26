@@ -6,6 +6,8 @@ xubuntu-default-settings (16.10.1) UNRELEASED; urgency=medium
     Bump xfce4-session dependency accordingly.
   * Add a Breaks: for the upstart versions that don't yet have the necessary
     Xsession.d fixes for systemd user sessions yet.
+  * Depend on dbus-user-session and the systemd version that provides
+    graphical-session.target.
 
  -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 25 Jul 2016 22:18:00 +0200
 
