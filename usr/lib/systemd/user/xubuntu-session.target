@@ -1,6 +1,6 @@
 [Unit]
-Description=User systemd services for XFCE graphical session
-# start/tear down graphical-session.target along with the XFCE session
+Description=User systemd services for Xfce graphical session
+# start/tear down graphical-session.target along with the Xfce session
 BindsTo=graphical-session.target
 # session leader -- if this dies, die along with it
 BindsTo=xfce4-session.service
