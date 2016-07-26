@@ -4,6 +4,8 @@ xubuntu-default-settings (16.10.1) UNRELEASED; urgency=medium
   * usr/share/xsessions/xubuntu.desktop: Switch Exec= line from direct
     startxfce4 execution to running xubuntu-session.target through systemd.
     Bump xfce4-session dependency accordingly.
+  * Add a Breaks: for the upstart versions that don't yet have the necessary
+    Xsession.d fixes for systemd user sessions yet.
 
  -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 25 Jul 2016 22:18:00 +0200
 

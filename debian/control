@@ -15,6 +15,7 @@ Depends: ${misc:Depends}, xubuntu-artwork (>= 12.10.1~), fonts-noto-hinted,
  x11-common (>= 1:7.6+7ubuntu2), lightdm-gtk-greeter (>= 2.0.1-1),
  xfce4-session (>= 4.12.1-3ubuntu2~)
 Recommends: libxfce4ui-utils
+Breaks: upstart (<< 1.13.2-0ubuntu28~)
 Provides: lightdm-gtk-greeter-config
 Description: default settings for the Xubuntu desktop
  This package contains the default settings used by Xubuntu.
