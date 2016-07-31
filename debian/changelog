@@ -1,4 +1,4 @@
-xubuntu-default-settings (16.10.1) UNRELEASED; urgency=medium
+xubuntu-default-settings (16.10.1) yakkety; urgency=medium
 
   * Add xubuntu-session.target user systemd unit.
   * usr/share/xsessions/xubuntu.desktop: Switch Exec= line from direct
@@ -9,7 +9,7 @@ xubuntu-default-settings (16.10.1) UNRELEASED; urgency=medium
   * Depend on dbus-user-session and the systemd version that provides
     graphical-session.target.
 
- -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 25 Jul 2016 22:18:00 +0200
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Sun, 31 Jul 2016 12:00:45 +0200
 
 xubuntu-default-settings (16.04.6) xenial; urgency=medium
 
