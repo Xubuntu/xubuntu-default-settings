@@ -1,3 +1,11 @@
+xubuntu-default-settings (16.10.2) yakkety; urgency=medium
+
+  * Revert systemd user unit changes (LP: #1622303)
+  * usr/share/xsessions/xubuntu.desktop: Switch Exec= line back to
+    direct startxfce4 execution.
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 28 Sep 2016 06:02:49 -0400
+
 xubuntu-default-settings (16.10.1) yakkety; urgency=medium
 
   * Add xubuntu-session.target user systemd unit.
