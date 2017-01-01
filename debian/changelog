@@ -1,3 +1,9 @@
+xubuntu-default-settings (17.04.0) UNRELEASED; urgency=medium
+
+  * Add default templates
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 01 Jan 2017 16:53:33 -0500
+
 xubuntu-default-settings (16.10.2) yakkety; urgency=medium
 
   * Revert systemd user unit changes (LP: #1622303)
@@ -340,7 +346,7 @@ xubuntu-default-settings (14.10.0) utopic; urgency=medium
   [ Unit 193 ]
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
     - Set default icon size to 32.
-    
+
   [ Sean Davis ]
   * debian/changelog:
     - Update Standards-Version to 3.9.5
@@ -480,7 +486,7 @@ xubuntu-default-settings (13.04.2) raring; urgency=low
     - add usr/share/xubuntu/applications/xubuntu-website.desktop
     - update etc/xdg/xdg-xubuntu/menus/xfce-applications.menu
   * Update link to GPLv2 license to appease lintian
-    - update debian/copyright 
+    - update debian/copyright
 
  -- Micah Gersten <micahg@ubuntu.com>  Sun, 03 Mar 2013 16:54:43 -0600
 
@@ -1228,7 +1234,7 @@ xubuntu-default-settings (0.66) karmic; urgency=low
 
   [ Lionel Le Folgoc ]
   * Pull in new translations: Spanish.
-  
+
   [ Cody A.W. Somerville ]
   * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml:
     - Set Albatross as default xfce4 window manager theme.
@@ -1282,7 +1288,7 @@ xubuntu-default-settings (0.62) karmic; urgency=low
       'computer' as we don't have an SVG of the Xubuntu logo so it looks
       blocky when scaled.
   * etc/xdg/xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-    - Set default theme to MurrinaXubuntu temporarily for wider testing.    
+    - Set default theme to MurrinaXubuntu temporarily for wider testing.
 
  -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Sun, 13 Sep 2009 02:59:10 -0300
 
@@ -1376,7 +1382,7 @@ xubuntu-default-settings (0.55) jaunty; urgency=low
 
 xubuntu-default-settings (0.54) jaunty; urgency=low
 
-  * etc/xdg/xubuntu/menus/xfce-applications.menu: Don't show the 
+  * etc/xdg/xubuntu/menus/xfce-applications.menu: Don't show the
     Screensavers menu.  It has no purpose. Instead we should be showing the
     screensavers preferences utility. (LP: #350962)
 
@@ -1661,7 +1667,7 @@ xubuntu-default-settings (0.26) feisty; urgency=low
 
   * Enable thunar volume manager by default
   * Make gxine the default audio CD and DVD player for newly inserted discs
-  * Fix thunar launcher description  
+  * Fix thunar launcher description
 
  -- Jani Monoses <jani@ubuntu.com>  Wed, 21 Mar 2007 12:30:35 +0200
 
@@ -1675,7 +1681,7 @@ xubuntu-default-settings (0.25) feisty; urgency=low
 
 xubuntu-default-settings (0.24) feisty; urgency=low
 
-  * Add etc/xdg/xfce4/desktop/xfdesktoprc: only show the 
+  * Add etc/xdg/xfce4/desktop/xfdesktoprc: only show the
     removable devices icons on the desktop.
 
  -- Gauvain Pocentek <gauvainpocentek@ubuntu.com>  Sat, 23 Dec 2006 10:52:56 +0100
@@ -1685,7 +1691,7 @@ xubuntu-default-settings (0.23) edgy; urgency=low
   * etc/xdg/xfce4/mcs_settings/desktop.xml: Do not show system menu by default
     on right click. Enable latest edgy wallpaper
   * etc/xdg/xfce4/panel/tasklist-2.rc: Do not make buttons flat in taskbar,
-    keep it how it was in dapper. 
+    keep it how it was in dapper.
 
  -- Jani Monoses <jani@ubuntu.com>  Mon, 23 Oct 2006 13:22:49 +0300
 
@@ -1751,19 +1757,19 @@ xubuntu-default-settings (0.15) dapper; urgency=low
 
 xubuntu-default-settings (0.14) dapper; urgency=low
 
-  * Make Clearlooks the default theme 
+  * Make Clearlooks the default theme
 
  -- Jani Monoses <jani@ubuntu.com>  Mon,  1 May 2006 12:25:53 +0300
 
 xubuntu-default-settings (0.13) dapper; urgency=low
 
-  * gdm theme colour tweaks, thumbnail and credits 
+  * gdm theme colour tweaks, thumbnail and credits
 
  -- Jani Monoses <jani@ubuntu.com>  Sat, 29 Apr 2006 11:28:44 +0300
 
 xubuntu-default-settings (0.12) dapper; urgency=low
 
-  * New gdm theme from Jozsef Mak 
+  * New gdm theme from Jozsef Mak
 
  -- Jani Monoses <jani@ubuntu.com>  Fri, 28 Apr 2006 08:10:22 +0300
 
@@ -1806,8 +1812,8 @@ xubuntu-default-settings (0.7) dapper; urgency=low
 
 xubuntu-default-settings (0.6) dapper; urgency=low
 
-  * Add default config file for the UI settings and set tango as the 
-    icon theme 
+  * Add default config file for the UI settings and set tango as the
+    icon theme
 
  -- Jani Monoses <jani@ubuntu.com>  Wed, 19 Apr 2006 10:08:46 +0300
 
@@ -1815,7 +1821,7 @@ xubuntu-default-settings (0.5) dapper; urgency=low
 
   * Change gdm root window color from brown to the same as the background
     of the Xfce splash to avoid too many color changes during startup
-  * Add default config file for xfdesktop and set it to use desktop icons 
+  * Add default config file for xfdesktop and set it to use desktop icons
     by default (friendlier than upstream default of not using them, and needed
     for the espresso launcher icon anyway)
 
@@ -1823,7 +1829,7 @@ xubuntu-default-settings (0.5) dapper; urgency=low
 
 xubuntu-default-settings (0.4) dapper; urgency=low
 
-  * Fix gdm theme name, take two. 
+  * Fix gdm theme name, take two.
 
  -- Jani Monoses <jani@ubuntu.com>  Sat, 18 Feb 2006 10:28:34 +0200
 
@@ -1847,4 +1853,3 @@ xubuntu-default-settings (0.1) dapper; urgency=low
     a GDM theme
 
  -- Jani Monoses <jani@ubuntu.com>  Fri,  9 Dec 2005 16:21:22 +0200
-
