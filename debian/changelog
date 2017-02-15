@@ -1,4 +1,4 @@
-xubuntu-default-settings (17.04.0) UNRELEASED; urgency=medium
+xubuntu-default-settings (17.04.0) zesty; urgency=medium
 
   * Add default document templates
     - debian/copyright
@@ -12,7 +12,7 @@ xubuntu-default-settings (17.04.0) UNRELEASED; urgency=medium
     - Use new QT5 environment variable for GTK theme integration 
       (requires installation of qt5-style-plugins)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Wed, 15 Feb 2017 06:02:29 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 15 Feb 2017 07:33:59 -0500
 
 xubuntu-default-settings (16.10.2) yakkety; urgency=medium
 
