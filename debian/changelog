@@ -1,8 +1,14 @@
-xubuntu-default-settings (17.04.0) UNRELEASED; urgency=medium
+xubuntu-default-settings (17.04.0) zesty; urgency=medium
 
-  * Add default templates
+  * Add default document templates
+    - etc/xdg/xdg-xubuntu/autostart/xdg-xubuntu-templates.desktop
+    - usr/share/xubuntu/templates/*
+    - usr/share/xubuntu/templates/po/*
+  * debian/control:
+    - Bump to Standards Version 3.9.8
+    - Add python3 dependencies for new xdg-xubuntu-templates script
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sun, 01 Jan 2017 16:53:33 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 14 Feb 2017 21:18:08 -0500
 
 xubuntu-default-settings (16.10.2) yakkety; urgency=medium
 

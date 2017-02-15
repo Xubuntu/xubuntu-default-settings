@@ -7,4 +7,4 @@ override_dh_installgsettings:
 	dh_installgsettings --priority=20
 
 %:
-	dh $@
+	dh $@ --with python3
