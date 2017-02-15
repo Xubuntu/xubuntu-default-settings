@@ -1,0 +1,109 @@
+#!/usr/bin/python3
+# -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
+#   Copyright (C) 2017 Sean Davis <bluesabre@ubuntu.com>
+#
+#   This program is free software: you can redistribute it and/or modify it
+#   under the terms of the GNU General Public License as published by
+#   the Free Software Foundation, either version 2 of the License, or
+#   (at your option) any later version.
+#
+#   This program is distributed in the hope that it will be useful, but
+#   WITHOUT ANY WARRANTY; without even the implied warranties of
+#   MERCHANTABILITY, SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR
+#   PURPOSE.  See the GNU General Public License for more details.
+#
+#   You should have received a copy of the GNU General Public License along
+#   with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+import os
+import subprocess
+import shutil
+
+from locale import gettext as _
+
+config_dir = os.path.join(
+    os.getenv('XDG_CONFIG_HOME', os.path.expanduser("~/.config/")), "xubuntu")
+config_file = "xdg-xubuntu-templates.cfg"
+
+source_directory = "/usr/share/xubuntu/templates/"
+templates = {
+    "OpenDocument Text.odt": _("OpenDocument Text"),
+    "OpenDocument Spreadsheet.ods": _("OpenDocument Spreadsheet"),
+    "Plain Text.txt": _("Plain Text"),
+}
+
+
+def get_template_directory():
+    templates = subprocess.check_output(["xdg-user-dir", "TEMPLATES"]).strip()
+    templates = templates.decode("utf-8")
+    home = os.path.expanduser("~")
+    if home != templates:
+        return templates
+    if os.path.exists(templates):
+        return templates
+    return False
+
+
+def read_config():
+    global config_dir
+    global config_file
+
+    filename = os.path.join(config_dir, config_file)
+
+    created = []
+    if os.path.exists(filename):
+        with open(filename, 'r') as config:
+            for line in config.readlines():
+                created.append(line.strip())
+
+    print("Already created: " + ", ".join(created))
+    return created
+
+
+def write_config(created):
+    global config_dir
+    global config_file
+
+    filename = os.path.join(config_dir, config_file)
+
+    try:
+        if not os.path.exists(config_dir):
+            os.makedirs(config_dir)
+
+        with open(filename, 'w') as config:
+            for template in created:
+                config.write(template + "\n")
+    except PermissionError:
+        print("Unable to write config to %s" % filename)
+
+previous = read_config()
+created = previous
+
+template_dir = get_template_directory()
+if template_dir:
+    print("Found template directory: '%s'" % template_dir)
+    for filename in templates.keys():
+        if filename in previous:
+            print("'%s' already created" % filename)
+            continue
+
+        print("Copying template file: '%s'" % filename)
+
+        extension = os.path.splitext(filename)[1]
+
+        source_filename = os.path.join(source_directory, filename)
+        if not os.path.exists(source_filename):
+            print("'%s' does not exist" % source_filename)
+            continue
+
+        target_filename = templates[filename] + extension
+        target_filename = os.path.join(template_dir, target_filename)
+        if os.path.exists(target_filename):
+            print("'%s' already exists" % target_filename)
+            continue
+
+        print("%s => %s" % (source_filename, target_filename))
+        shutil.copy2(source_filename, target_filename)
+        created.append(filename)
+
+write_config(created)
