@@ -8,8 +8,11 @@ xubuntu-default-settings (17.04.0) UNRELEASED; urgency=medium
   * debian/control, debian/rules:
     - Bump to Standards Version 3.9.8
     - Add python3 dependencies for new xdg-xubuntu-templates script
+  * etc/X11/Xsession.d/56xubuntu-session
+    - Use new QT5 environment variable for GTK theme integration 
+      (requires installation of qt5-style-plugins)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Tue, 14 Feb 2017 21:22:54 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 15 Feb 2017 06:02:29 -0500
 
 xubuntu-default-settings (16.10.2) yakkety; urgency=medium
 
