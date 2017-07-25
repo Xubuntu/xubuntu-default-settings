@@ -13,6 +13,17 @@ picture-uri='file:///usr/share/xfce4/backdrops/xubuntu-wallpaper.png'
 gtk-theme='Greybird'
 icon-theme='elementary-xfce-darker'
 
+[org.onboard]
+layout='Compact'
+theme='Nightshade'
+key-label-font='Noto Sans'
+key-label-overrides=['RWIN:⌘:super-group', 'LWIN:⌘:super-group']
+xembed-onboard=true
+
+[org.onboard.window]
+docking-enabled=true
+force-to-top=true
+
 [org.xfce.mousepad.preferences.view]
 color-scheme='xubuntu_light'
 font-name='DejaVu Sans Mono 10'
