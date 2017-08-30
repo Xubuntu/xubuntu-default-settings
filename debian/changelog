@@ -1,4 +1,4 @@
-xubuntu-default-settings (17.10.0) UNRELEASED; urgency=medium
+xubuntu-default-settings (17.10.0) artful; urgency=medium
 
   [ Sean Davis ]
   * Include Onboard overrides (LP: #1703116)
