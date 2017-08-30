@@ -5,6 +5,11 @@ xubuntu-default-settings (17.10.0) UNRELEASED; urgency=medium
 
   [ Unit 193 ]
   * Run wrap-and-sort -s
+  * d/control, d/copyright, etc/xdg/xdg-xubuntu/compton.conf,
+    etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc,
+    usr/share/polkit-1/actions/com.ubuntu.pkexec.mousepad.policy.in,
+    usr/share/xubuntu/templates/xdg-xubuntu-templates:
+    - Use https where possible.
 
  -- Unit 193 <unit193@ubuntu.com>  Tue, 29 Aug 2017 20:36:45 -0400
 

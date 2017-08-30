@@ -5,7 +5,7 @@
 <policyconfig>
 
   <vendor>Xubuntu Developers</vendor>
-  <vendor_url>http://www.xubuntu.org/</vendor_url>
+  <vendor_url>https://www.xubuntu.org/</vendor_url>
 
   <action id="com.ubuntu.pkexec.mousepad">
     <_message>Authentication is required to run mousepad as root</_message>

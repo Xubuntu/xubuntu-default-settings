@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 9), intltool, python3
 Standards-Version: 3.9.8
 Homepage: https://launchpad.net/xubuntu-default-settings
 Vcs-Bzr: lp:xubuntu-default-settings
-Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-dev/xubuntu-default-settings/trunk/files
+Vcs-Browser: https://bazaar.launchpad.net/~xubuntu-dev/xubuntu-default-settings/trunk/
 
 Package: xubuntu-default-settings
 Architecture: all
