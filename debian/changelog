@@ -10,6 +10,7 @@ xubuntu-default-settings (17.10.0) UNRELEASED; urgency=medium
     usr/share/polkit-1/actions/com.ubuntu.pkexec.mousepad.policy.in,
     usr/share/xubuntu/templates/xdg-xubuntu-templates:
     - Use https where possible.
+  * Bump Standards-Version to 4.1.0.
 
  -- Unit 193 <unit193@ubuntu.com>  Tue, 29 Aug 2017 20:36:45 -0400
 

@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 Build-Depends: debhelper (>= 9), intltool, python3
-Standards-Version: 3.9.8
+Standards-Version: 4.1.0
 Homepage: https://launchpad.net/xubuntu-default-settings
 Vcs-Bzr: lp:xubuntu-default-settings
 Vcs-Browser: https://bazaar.launchpad.net/~xubuntu-dev/xubuntu-default-settings/trunk/
