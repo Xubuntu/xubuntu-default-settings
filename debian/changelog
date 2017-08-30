@@ -1,8 +1,12 @@
 xubuntu-default-settings (17.10.0) UNRELEASED; urgency=medium
 
+  [ Sean Davis ]
   * Include Onboard overrides (LP: #1703116)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Tue, 25 Jul 2017 19:45:17 -0400
+  [ Unit 193 ]
+  * Run wrap-and-sort -s
+
+ -- Unit 193 <unit193@ubuntu.com>  Tue, 29 Aug 2017 20:36:45 -0400
 
 xubuntu-default-settings (17.04.0) zesty; urgency=medium
 
