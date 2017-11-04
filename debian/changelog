@@ -1,10 +1,10 @@
-xubuntu-default-settings (18.04) UNRELEASED; urgency=medium
+xubuntu-default-settings (18.04.0) bionic; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/panel/default.xml:
     - Add xfce4-pulseaudio-plugin and xfce4-statusnotifier-plugin,
       rearrange panel
 
- -- Sean Davis <smd.seandavis@gmail.com>  Fri, 03 Nov 2017 06:48:44 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 04 Nov 2017 07:43:11 -0400
 
 xubuntu-default-settings (17.10.0) artful; urgency=medium
 
