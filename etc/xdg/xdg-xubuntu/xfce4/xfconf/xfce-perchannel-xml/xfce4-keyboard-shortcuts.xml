@@ -22,7 +22,7 @@
       <property name="&lt;Super&gt;t" type="string" value="exo-open --launch TerminalEmulator"/>
       <property name="&lt;Super&gt;r" type="string" value="xfce4-appfinder"/>
       <property name="&lt;Super&gt;e" type="string" value="mousepad"/>
-      <property name="XF86Calculator" type="string" value="gnome-calculator"/>
+      <property name="XF86Calculator" type="string" value="mate-calc"/>
       <property name="XF86Music" type="string" value="parole"/>
       <property name="&lt;Super&gt;1" type="string" value="parole"/>
       <property name="XF86Messenger" type="string" value="pidgin"/>

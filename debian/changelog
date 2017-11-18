@@ -8,8 +8,12 @@ xubuntu-default-settings (18.04.1) UNRELEASED; urgency=medium
   [ Sean Davis ]
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml:
     - Add show-panel-label=0 to hide battery charge time label
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
+    usr/share/xubuntu/applications/defaults.list:
+    - Migrate evince, file-roller, and gnome-calculator to atril, engrampa,
+      and mate-calc
 
- -- Sean Davis <smd.seandavis@gmail.com>  Fri, 17 Nov 2017 20:32:31 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Fri, 17 Nov 2017 20:41:01 -0500
 
 xubuntu-default-settings (18.04.0) bionic; urgency=medium
 
