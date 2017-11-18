@@ -11,5 +11,6 @@
     <property name="dpms-on-ac-off" type="uint" value="60"/>
     <property name="dpms-on-battery-sleep" type="uint" value="15"/>
     <property name="dpms-on-battery-off" type="uint" value="30"/>
+    <property name="show-panel-label" type="int" value="0"/>
   </property>
 </channel>
