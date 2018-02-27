@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Authors: Simon Steinbeiß <simon@xfce.org>
+#          Florian Schüller <florian.schueller@gmail.com>
+
 IFS=$(echo -en "\n\b")
 CUPS_FILTER_FILE=/usr/share/cups/mime/cupsfilters.convs
 LIBREOFFICE_MIME_FILE=/usr/share/mime-info/libreoffice.mime
