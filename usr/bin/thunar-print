@@ -1,0 +1,60 @@
+#!/usr/bin/env bash
+
+IFS=$(echo -en "\n\b")
+CUPS_FILTER_FILE=/usr/share/cups/mime/cupsfilters.convs
+LIBREOFFICE_MIME_FILE=/usr/share/mime-info/libreoffice.mime
+
+for File in $*
+do
+  mimetype="$(file --brief --mime-type "$File")"
+  echo $mimetype detected
+
+  # will fail on missing CUPS_FILTER_FILE anyway
+  if grep "$mimetype" $CUPS_FILTER_FILE >/dev/null 2>&1; then
+    lpr "$File" && continue
+  fi
+
+  if grep "$mimetype" $LIBREOFFICE_MIME_FILE >/dev/null 2>&1; then
+    notify-send "Printing $File" "Printing with LibreOffice." -i document-print
+    if [ -x "$(command -v libreoffice)" ]; then
+      libreoffice --nologo -p "$File" && continue
+    else
+      notify-send "Printing $File failed" "LibreOffice does not seem to be installed." -i document-print && continue
+    fi;
+  fi
+
+  if [ x"$mimetype" == x"image/x-xcf" ]; then
+    if [ -x "$(command -v gimp)" ]; then
+      gimp --no-interface --new-instance --batch="(file-print-gtk 0 (car (gimp-file-load 1 \"$File\" \"$File\")))" --batch="(gimp-quit 1)" && continue
+    else
+      notify-send "Printing $File failed" "Gimp does not seem to be installed." -i document-print && continue
+    fi;
+  fi
+
+  if [ x"$mimetype" == x"image/svg+xml" ]; then
+    if [ -x "$(command -v inkscape)" ]; then
+      inkscape --without-gui --export-pdf=/dev/stdout "$File"| lpr && continue
+    else
+      notify-send "Printing $File failed" "Inkscape does not seem to be installed." -i document-print && continue
+    fi;
+  fi
+
+  # just some incomplete useability hints for possible errors
+  case ${File,,} in
+    *.doc|*.docx|*.xls|*.xlsx|*.odt|*.ods)
+      # either libreoffice call failed or $LIBREOFFICE_MIME_FILE is missing
+      notify-send "Printing $File failed" "LibreOffice does not seem to be installed, or failed." -i document-print
+      ;;
+    *.xcf)
+      notify-send "Printing $File failed" "Gimp does not seem to be installed, or failed." -i document-print
+      ;;
+    *.svg)
+      notify-send "Printing $File failed" "Inkscape does not seem to be installed, or failed." -i document-print
+      ;;
+    *)
+      notify-send "Printing $File failed" "The File $File seems to be of type '$mimetype'\nand can't be printed directly." -i document-print
+      ;;
+  esac
+done
+
+exit 0
