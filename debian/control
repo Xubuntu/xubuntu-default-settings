@@ -2,8 +2,8 @@ Source: xubuntu-default-settings
 Section: x11
 Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
-Build-Depends: debhelper (>= 9), intltool, python3
-Standards-Version: 4.1.0
+Build-Depends: debhelper (>= 11), intltool, python3
+Standards-Version: 4.1.3
 Homepage: https://launchpad.net/xubuntu-default-settings
 Vcs-Bzr: lp:xubuntu-default-settings
 Vcs-Browser: https://bazaar.launchpad.net/~xubuntu-dev/xubuntu-default-settings/trunk/
