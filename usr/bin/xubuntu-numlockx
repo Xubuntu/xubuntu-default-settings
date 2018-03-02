@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ -x "$(command -v numlockx)" ]; then
-  numlockx $1
+  numlockx $@
 fi;
 
 exit 0;
