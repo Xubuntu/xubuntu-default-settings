@@ -37,7 +37,7 @@
     <patterns>*</patterns>
     <_name>Open Terminal Here</_name>
     <command>exo-open --working-directory %d --launch TerminalEmulator</command>
-    <_description>Open terminal in the folder of the selected file</_description>
+    <_description>Open terminal at selected file's folder</_description>
     <audio-files/>
     <image-files/>
     <other-files/>
