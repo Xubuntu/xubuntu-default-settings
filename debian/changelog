@@ -7,6 +7,7 @@ xubuntu-default-settings (18.04.1) bionic; urgency=medium
   * Add new custom action for Thunar to "Print file/s", affected/new files:
     - usr/bin/thunar-print
     - etc/xdg/xdg-xubuntu/Thunar/uca.xml.in
+  * Drop superfluous whitespaces from changelog
 
   [ Sean Davis ]
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml:
