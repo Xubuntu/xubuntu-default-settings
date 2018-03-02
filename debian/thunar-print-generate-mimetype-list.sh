@@ -12,8 +12,9 @@
 MIMETYPES=$(cat /usr/share/cups/mime/cupsfilters.convs|grep -Po "^[^#\t]+"|while read mime;do grep "^$mime" /etc/mime.types ;done|grep -Po "\t.*$")
 LO_MIMETYPES=$(cat /usr/share/mime-info/libreoffice.mime|grep -Po "(?<=ext: ).*"|sort|uniq)
 
-for ext in $MIMETYPES+$LO_MIMETYPES; do
+for ext in $MIMETYPES $LO_MIMETYPES; do
   echo $ext;
 done|sort|uniq|while read ext; do
   echo -n ",*.$ext";
 done|tail -c +2
+echo
