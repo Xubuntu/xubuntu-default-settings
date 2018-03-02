@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ -x "$(command -v numlockx)" ]; then
+  numlockx $1
+fi;
+
+exit 0;

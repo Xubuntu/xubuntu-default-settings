@@ -1,3 +1,12 @@
+xubuntu-default-settings (18.04.3) UNRELEASED; urgency=medium
+
+  * usr/bin/xubuntu-numlockx,
+    usr/share/lightdm/lightdm.conf.d/50-xubuntu-numlock.conf:
+    - Add numlockx wrapper so greeter will run even without
+      numlockx being installed
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 01 Mar 2018 22:02:37 -0500
+
 xubuntu-default-settings (18.04.2) bionic; urgency=medium
 
   [ Sean Davis ]
