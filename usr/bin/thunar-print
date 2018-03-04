@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+
+# Authors: Simon Steinbeiß <simon@xfce.org>
+#          Florian Schüller <florian.schueller@gmail.com>
+
+IFS=$(echo -en "\n\b")
+
+for File in "$@"
+do
+  # just some incomplete useability hints for possible errors
+  case ${File,,} in
+    # The list of extensions is based on the LibreOffice Mimetype List, adding some that were missing (e.g. .rtf):
+    # LIBREOFFICE_MIME_FILE=/usr/share/mime-info/libreoffice.mime
+    *.doc|*.docm|*.docx|*.dotm|*.dotx|*.fodg|*.fodp|*.fods|*.fodt|*.odb|*.odf|*.odg|*.odm|*.odp|*.ods|*.odt|*.otg|*.oth|*.otp|*.ots|*.ott|*.potm|*.potx|*.ppt|*.pptm|*.pptx|*.rtf|*.xls|*.xlsb|*.xlsm|*.xlsx|*.xltm|*.xltx)
+      # either libreoffice call failed or $LIBREOFFICE_MIME_FILE is missing
+      if [ -x "$(command -v libreoffice)" ]; then
+        libreoffice --nologo -p "$File"
+      else
+        notify-send "Printing $File failed" "LibreOffice does not seem to be installed." -i document-print
+      fi;
+      ;;
+    *.xcf)
+      if [ -x "$(command -v gimp)" ]; then
+        gimp --no-interface --new-instance --batch="(file-print-gtk 0 (car (gimp-file-load 1 \"$File\" \"$File\")))" --batch="(gimp-quit 1)"
+      else
+        notify-send "Printing $File failed" "Gimp does not seem to be installed." -i document-print
+      fi;
+      ;;
+    *.svg)
+      if [ -x "$(command -v inkscape)" ]; then
+        inkscape --without-gui --export-pdf=/dev/stdout "$File"| lpr
+      else
+        notify-send "Printing $File failed" "Inkscape does not seem to be installed." -i document-print
+      fi;
+      ;;
+    # The CUPS extensions are based on the CUPS_FILTER_FILE
+    # CUPS_FILTER_FILE=/usr/share/cups/mime/cupsfilters.convs
+    *.asc|*.brf|*.css|*.gif|*.htm|*.html|*.jpe|*.jpeg|*.jpg|*.pbm|*.pdf|*.pgm|*.png|*.pnm|*.pot|*.ppm|*.shtml|*.srt|*.text|*.tif|*.tiff|*.txt|*.xbm|*.xpm|*.xwd)
+      if [ -x "$(command -v lpr)" ]; then
+        lpr "$File"
+      else
+        notify-send "Printing $File failed" "CUPS does not seem to be installed." -i document-print
+      fi;
+      ;;
+    *)
+      notify-send "Printing $File failed" "The File $File cannot be printed directly." -i document-print
+      ;;
+  esac
+done
+
+exit 0
