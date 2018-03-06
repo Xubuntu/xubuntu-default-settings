@@ -9,11 +9,11 @@ xubuntu-default-settings (18.04.3) bionic; urgency=medium
   [ Simon Steinbeiß ]
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
     - Add default shortcuts for window tiling
-  * Add new custom action for Thunar to "Print file/s", affected/new files:
+  * Add new custom action for Thunar to "Print file/s" (LP: #1753015)
     - usr/bin/thunar-print
     - etc/xdg/xdg-xubuntu/Thunar/uca.xml.in
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sun, 04 Mar 2018 06:56:03 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 06 Mar 2018 18:32:55 -0500
 
 xubuntu-default-settings (18.04.2) bionic; urgency=medium
 
