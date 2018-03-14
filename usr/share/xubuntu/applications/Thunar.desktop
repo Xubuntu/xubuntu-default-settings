@@ -1,4 +1,4 @@
 [Desktop Entry]
 Type=Application
-Exec=thunar -B
+Exec=thunar
 NoDisplay=true
