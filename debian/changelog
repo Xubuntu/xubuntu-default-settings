@@ -1,3 +1,15 @@
+xubuntu-default-settings (18.04.4) UNRELEASED; urgency=medium
+
+  * Fix invalid desktop files (LP: #1754888)
+    - usr/share/xubuntu/applications/Thunar-bulk-rename.desktop
+    - usr/share/xubuntu/applications/Thunar.desktop
+    - usr/share/xubuntu/applications/debian-uxterm.desktop
+    - usr/share/xubuntu/applications/debian-xterm.desktop
+    - usr/share/xubuntu/applications/thunar-settings.desktop
+    - usr/share/xubuntu/applications/xfce4-terminal.desktop
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 13 Mar 2018 20:19:07 -0400
+
 xubuntu-default-settings (18.04.3) bionic; urgency=medium
 
   [ Sean Davis ]

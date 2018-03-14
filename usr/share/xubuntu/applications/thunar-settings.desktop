@@ -1,2 +1,4 @@
 [Desktop Entry]
+Type=Application
+Exec=thunar-settings
 NoDisplay=true

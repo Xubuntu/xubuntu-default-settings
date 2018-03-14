@@ -1,2 +1,4 @@
 [Desktop Entry]
+Type=Application
+Exec=xfce4-terminal
 NoDisplay=true
