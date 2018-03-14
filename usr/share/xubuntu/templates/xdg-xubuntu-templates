@@ -103,7 +103,11 @@ if template_dir:
             continue
 
         print("%s => %s" % (source_filename, target_filename))
-        shutil.copy2(source_filename, target_filename)
-        created.append(filename)
+        try:
+            shutil.copy2(source_filename, target_filename)
+            created.append(filename)
+        except FileNotFoundError as not_found:
+            # LP: #1694471
+            print("'%s' not found" % not_found.filename)
 
 write_config(created)
