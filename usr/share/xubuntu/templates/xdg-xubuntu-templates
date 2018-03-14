@@ -52,7 +52,8 @@ def read_config():
 
     created = []
     if os.path.exists(filename):
-        with open(filename, 'r') as config:
+        # LP: #1668191, force UTF-8 encoding; ignore further encoding errors
+        with open(filename, 'r', encoding='utf-8', errors='ignore') as config:
             for line in config.readlines():
                 created.append(line.strip())
 

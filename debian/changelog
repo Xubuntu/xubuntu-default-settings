@@ -7,9 +7,11 @@ xubuntu-default-settings (18.04.4) UNRELEASED; urgency=medium
     - usr/share/xubuntu/applications/debian-xterm.desktop
     - usr/share/xubuntu/applications/thunar-settings.desktop
     - usr/share/xubuntu/applications/xfce4-terminal.desktop
-  * xdg-xubuntu-templates: Fix FileNotFound error (LP: #1694471)
+  * usr/share/xubuntu/templates/xdg-xubuntu-templates: 
+    - Fix FileNotFound error (LP: #1694471)
+    - Fix UnicodeDecode error (LP: #1668191)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Tue, 13 Mar 2018 22:07:24 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 13 Mar 2018 22:24:26 -0400
 
 xubuntu-default-settings (18.04.3) bionic; urgency=medium
 
