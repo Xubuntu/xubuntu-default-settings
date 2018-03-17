@@ -1,4 +1,4 @@
-xubuntu-default-settings (18.04.4) bionic; urgency=medium
+xubuntu-default-settings (18.04.4) UNRELEASED; urgency=medium
 
   * Fix invalid desktop files (LP: #1754888)
     - usr/share/xubuntu/applications/Thunar-bulk-rename.desktop
@@ -14,7 +14,7 @@ xubuntu-default-settings (18.04.4) bionic; urgency=medium
     - Set Net/FallbackIconTheme for correct icon inheritance
       on GTK+ 2 (LP: #1756187)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 17 Mar 2018 08:26:42 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 17 Mar 2018 08:28:44 -0400
 
 xubuntu-default-settings (18.04.3) bionic; urgency=medium
 
