@@ -4,6 +4,7 @@
   <property name="Net" type="empty">
     <property name="ThemeName" type="string" value="Greybird"/>
     <property name="IconThemeName" type="string" value="elementary-xfce-darker"/>
+    <property name="FallbackIconTheme" type="string" value="gnome"/>
   </property>
   <property name="Xft" type="empty">
     <property name="DPI" type="int" value="96"/>
