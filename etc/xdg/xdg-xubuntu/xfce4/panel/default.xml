@@ -17,6 +17,7 @@
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
+        <value type="int" value="11"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
       <property name="background-alpha" type="uint" value="80"/>
@@ -43,12 +44,13 @@
       <property name="show-frame" type="bool" value="false"/>
       <property name="size-max" type="uint" value="22"/>
     </property>
-    <property name="plugin-5" type="string" value="indicator">
+    <property name="plugin-5" type="string" value="notification-plugin"/>
+    <property name="plugin-6" type="string" value="indicator">
       <property name="blacklist" type="array">
         <value type="string" value="libappmenu.so"/>
       </property>
     </property>
-    <property name="plugin-6" type="string" value="statusnotifier">
+    <property name="plugin-7" type="string" value="statusnotifier">
       <property name="icon-size" type="uint" value="22"/>
       <property name="menu-is-primary" type="bool" value="true"/>
       <property name="mode-whitelist" type="bool" value="false"/>
@@ -56,19 +58,19 @@
       <property name="square-icons" type="bool" value="false"/>
       <property name="symbolic-icons" type="bool" value="true"/>
     </property>
-    <property name="plugin-7" type="string" value="power-manager-plugin"/>
-    <property name="plugin-8" type="string" value="pulseaudio">
+    <property name="plugin-8" type="string" value="power-manager-plugin"/>
+    <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
       <property name="mpris-players" type="string" value="parole"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
-    <property name="plugin-9" type="string" value="separator">
+    <property name="plugin-10" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="false"/>
     </property>
-    <property name="plugin-10" type="string" value="clock">
+    <property name="plugin-11" type="string" value="clock">
       <property name="digital-format" type="string" value="%d %b, %H:%M"/>
     </property>
   </property>
