@@ -1,4 +1,4 @@
-xubuntu-default-settings (18.04.4) UNRELEASED; urgency=medium
+xubuntu-default-settings (18.04.4) bionic; urgency=medium
 
   * Fix invalid desktop files (LP: #1754888)
     - usr/share/xubuntu/applications/Thunar-bulk-rename.desktop
@@ -16,7 +16,7 @@ xubuntu-default-settings (18.04.4) UNRELEASED; urgency=medium
   * etc/xdg/xdg-xubuntu/xfce4/panel/default.xml:
     - Add notification plugin to panel
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 17 Mar 2018 08:36:23 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 17 Mar 2018 09:05:16 -0400
 
 xubuntu-default-settings (18.04.3) bionic; urgency=medium
 
