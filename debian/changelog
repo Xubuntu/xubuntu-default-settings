@@ -1,9 +1,9 @@
-xubuntu-default-settings (18.04.5) UNRELEASED; urgency=medium
+xubuntu-default-settings (18.04.5) bionic; urgency=medium
 
   [ Krytarik Raido ]
-  * Use 55numlockx for not enable numlock for laptops (LP: #1759112)
+  * Use 55numlockx to not enable numlock for laptops (LP: #1759112)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Tue, 27 Mar 2018 20:11:38 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 27 Mar 2018 20:21:14 -0400
 
 xubuntu-default-settings (18.04.4) bionic; urgency=medium
 
