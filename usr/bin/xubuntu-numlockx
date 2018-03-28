@@ -1,7 +1,8 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
-if [ -x "$(command -v numlockx)" ]; then
-  numlockx $@
-fi;
+xf=/etc/X11/Xsession.d/55numlockx
+if [ -r $xf ]; then
+    . $xf
+fi
 
-exit 0;
+exit 0
