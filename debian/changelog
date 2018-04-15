@@ -1,3 +1,16 @@
+xubuntu-default-settings (18.04.6) bionic; urgency=medium
+
+  [ Simon Steinbeiß ]
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml:
+    - Set the default value for fadeout in xfce4-notifyd (LP: #1763674) 
+
+  [ Sean Davis ]
+  * Add dh-python to build depends for recent python packaging
+    changes.
+  * Run wrap-and-sort
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 15 Apr 2018 07:09:03 -0400
+
 xubuntu-default-settings (18.04.5) bionic; urgency=medium
 
   [ Krytarik Raido ]
