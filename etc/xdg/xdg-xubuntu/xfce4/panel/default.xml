@@ -42,6 +42,7 @@
     <property name="plugin-4" type="string" value="systray">
       <property name="names-visible" type="empty"/>
       <property name="show-frame" type="bool" value="false"/>
+      <property name="square-icons" type="bool" value="true"/>
       <property name="size-max" type="uint" value="22"/>
     </property>
     <property name="plugin-5" type="string" value="notification-plugin"/>
@@ -49,13 +50,14 @@
       <property name="blacklist" type="array">
         <value type="string" value="libappmenu.so"/>
       </property>
+      <property name="square-icons" type="bool" value="true"/>
     </property>
     <property name="plugin-7" type="string" value="statusnotifier">
       <property name="icon-size" type="uint" value="22"/>
       <property name="menu-is-primary" type="bool" value="true"/>
       <property name="mode-whitelist" type="bool" value="false"/>
       <property name="single-row" type="bool" value="false"/>
-      <property name="square-icons" type="bool" value="false"/>
+      <property name="square-icons" type="bool" value="true"/>
       <property name="symbolic-icons" type="bool" value="true"/>
     </property>
     <property name="plugin-8" type="string" value="power-manager-plugin"/>
