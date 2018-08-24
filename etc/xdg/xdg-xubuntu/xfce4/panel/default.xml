@@ -20,7 +20,8 @@
         <value type="int" value="11"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
-      <property name="background-alpha" type="uint" value="80"/>
+      <property name="enter-opacity" type="uint" value="80"/>
+      <property name="leave-opacity" type="uint" value="80"/>
       <property name="size" type="uint" value="24"/>
       <property name="autohide" type="bool" value="false"/>
       <property name="length-adjust" type="bool" value="true"/>

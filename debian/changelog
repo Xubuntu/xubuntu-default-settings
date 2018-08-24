@@ -1,3 +1,11 @@
+xubuntu-default-settings (18.10) UNRELEASED; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/xfce4/panel/default.xml:
+    - Replace deprecated background-alpha with {enter,leave}-opacity
+      for a semi-transparent panel with xfce4-panel 4.13+
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Fri, 24 Aug 2018 19:17:14 -0400
+
 xubuntu-default-settings (18.04.6) bionic; urgency=medium
 
   [ Simon Steinbeiß ]
