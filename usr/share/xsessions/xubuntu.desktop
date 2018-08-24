@@ -88,3 +88,4 @@ Comment[zh_TW]=使用 Xubuntu 作為此作業階段的桌面環境
 Exec=startxfce4
 Icon=
 Type=Application
+DesktopNames=XFCE

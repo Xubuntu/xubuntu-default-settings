@@ -11,8 +11,11 @@ xubuntu-default-settings (18.10) UNRELEASED; urgency=medium
       for a semi-transparent panel with xfce4-panel 4.13+
     - Add separator and hide window list handle for cleaner panel
       appearance
+  * usr/share/xsessions/xubuntu.desktop:
+    - Add DesktopNames=XFCE to xubuntu.desktop to correctly set
+      XDG_CURRENT_DESKTOP (LP: #1590089)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Fri, 24 Aug 2018 19:29:30 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Fri, 24 Aug 2018 19:36:40 -0400
 
 xubuntu-default-settings (18.04.6) bionic; urgency=medium
 
