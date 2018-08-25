@@ -6,6 +6,8 @@ xubuntu-default-settings (18.10) UNRELEASED; urgency=medium
       status icons are of the same size/shape
 
   [ Sean Davis ]
+  * etc/xdg/xdg-xubuntu/orage/oragerc:
+    - Use paplay for the sound application (LP: #1054396)
   * etc/xdg/xdg-xubuntu/xfce4/panel/default.xml:
     - Replace deprecated background-alpha with {enter,leave}-opacity
       for a semi-transparent panel with xfce4-panel 4.13+
@@ -15,7 +17,7 @@ xubuntu-default-settings (18.10) UNRELEASED; urgency=medium
     - Add DesktopNames=XFCE to xubuntu.desktop to correctly set
       XDG_CURRENT_DESKTOP (LP: #1590089)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Fri, 24 Aug 2018 19:36:40 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 25 Aug 2018 07:20:49 -0400
 
 xubuntu-default-settings (18.04.6) bionic; urgency=medium
 

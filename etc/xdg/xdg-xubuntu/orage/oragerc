@@ -17,3 +17,4 @@ Set sticked=true
 Set ontop=false
 Use dynamic icon=false
 Show days=false
+Sound application=paplay
