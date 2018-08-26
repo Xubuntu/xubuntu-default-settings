@@ -1,4 +1,4 @@
-xubuntu-default-settings (18.10) UNRELEASED; urgency=medium
+xubuntu-default-settings (18.10) cosmic; urgency=medium
 
   [ Simon Steinbeiß ]
   * etc/xdg/xdg-xubuntu/xfce4/panel/default.xml:
@@ -17,7 +17,7 @@ xubuntu-default-settings (18.10) UNRELEASED; urgency=medium
     - Add DesktopNames=XFCE to xubuntu.desktop to correctly set
       XDG_CURRENT_DESKTOP (LP: #1590089)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 25 Aug 2018 07:20:49 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 25 Aug 2018 21:35:47 -0400
 
 xubuntu-default-settings (18.04.6) bionic; urgency=medium
 
