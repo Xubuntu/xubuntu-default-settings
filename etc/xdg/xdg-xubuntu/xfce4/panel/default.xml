@@ -25,8 +25,6 @@
       <property name="autohide" type="bool" value="false"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="span-monitors" type="bool" value="false"/>
-      <property name="enter-opacity" type="uint" value="80"/>
-      <property name="leave-opacity" type="uint" value="80"/>
       <property name="mode" type="uint" value="0"/>
     </property>
   </property>
