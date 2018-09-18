@@ -1,1 +1,2 @@
 casper/* usr/share/initramfs-tools/scripts/casper-bottom/
+debian/light-locker.desktop  etc/xdg/xdg-xubuntu/autostart/
