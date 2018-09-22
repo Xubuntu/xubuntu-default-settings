@@ -22,6 +22,7 @@ command-lockscreen=xflock4
 show-command-lockscreen=true
 command-logout=xfce4-session-logout
 show-command-logout=true
+search-actions=5
 
 [action0]
 name=Man Pages
@@ -49,7 +50,7 @@ regex=true
 
 [action4]
 name=Search for files
-pattern=find
-command=catfish %s --start
+pattern=-
+command=catfish --path=~ --start %s
 regex=false
 
