@@ -11,6 +11,7 @@
       <property name="&lt;Primary&gt;Escape" type="string" value="xfce4-popup-whiskermenu"/>
       <property name="Print" type="string" value="xfce4-screenshooter -f"/>
       <property name="&lt;Alt&gt;Print" type="string" value="xfce4-screenshooter -w"/>
+      <property name="&lt;Shift&gt;Print" type="string" value="xfce4-screenshooter -r"/>
       <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
       <property name="XF86HomePage" type="string" value="exo-open --launch WebBrowser"/>
       <property name="&lt;Super&gt;w" type="string" value="exo-open --launch WebBrowser"/>
