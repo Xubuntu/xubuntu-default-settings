@@ -1,9 +1,10 @@
 xubuntu-default-settings (19.04) UNRELEASED; urgency=medium
 
-  * Removed obsolete configuration files:
+  * Removed obsolete files:
     - etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfprint.xml (LP: #1805007)
+    - etc/xdg/xdg-xubuntu/autostart/xfce4-tips-autostart.desktop (LP: #1805005)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Mon, 28 Jan 2019 05:43:58 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 28 Jan 2019 05:48:06 -0500
 
 xubuntu-default-settings (18.10.2) cosmic; urgency=medium
 
