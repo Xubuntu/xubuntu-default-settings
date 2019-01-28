@@ -4,7 +4,7 @@ xubuntu-default-settings (19.04) UNRELEASED; urgency=medium
     - etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfprint.xml (LP: #1805007)
     - etc/xdg/xdg-xubuntu/autostart/xfce4-tips-autostart.desktop (LP: #1805005)
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
-    - Add shortcut for xfce4-screensaver region capture (Shift+Print) (LP: #1812234)
+    - Add shortcut for xfce4-screenshooter region capture (Shift+Print) (LP: #1812234)
   * etc/xdg/xdg-xubuntu/Thunar/uca.xml.in:
     - Enable startup-notify in Thunar's uca.xml (LP: #1794118)
   * usr/share/xubuntu/applications/defaults.list:
@@ -13,7 +13,7 @@ xubuntu-default-settings (19.04) UNRELEASED; urgency=medium
     - etc/xdg/xdg-xubuntu/Thunar/accels.scm
     - etc/xdg/xdg-xubuntu/Thunar/uca.xml.in
 
- -- Sean Davis <smd.seandavis@gmail.com>  Mon, 28 Jan 2019 06:20:35 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 28 Jan 2019 06:24:06 -0500
 
 xubuntu-default-settings (18.10.2) cosmic; urgency=medium
 
