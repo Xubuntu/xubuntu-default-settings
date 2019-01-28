@@ -9,8 +9,11 @@ xubuntu-default-settings (19.04) UNRELEASED; urgency=medium
     - Enable startup-notify in Thunar's uca.xml (LP: #1794118)
   * usr/share/xubuntu/applications/defaults.list:
     - Replace invalid macroEnabled mimetypes (LP: #1802582)
+  * Add Terminal (F4) and Find (Primary+Shift+F) shortcuts to Thunar (LP: #1793395)
+    - etc/xdg/xdg-xubuntu/Thunar/accels.scm
+    - etc/xdg/xdg-xubuntu/Thunar/uca.xml.in
 
- -- Sean Davis <smd.seandavis@gmail.com>  Mon, 28 Jan 2019 06:03:19 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 28 Jan 2019 06:20:35 -0500
 
 xubuntu-default-settings (18.10.2) cosmic; urgency=medium
 
