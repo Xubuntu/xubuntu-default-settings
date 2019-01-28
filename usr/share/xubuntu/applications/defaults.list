@@ -178,7 +178,6 @@ video/x-msvideo=parole.desktop
 video/x-ms-wmv=parole.desktop
 video/x-nsv=parole.desktop
 x-directory/normal=exo-file-manager.desktop
-x-scheme-handler/file=exo-file-manager.desktop
 x-scheme-handler/ftp=exo-web-browser.desktop
 x-scheme-handler/http=exo-web-browser.desktop
 x-scheme-handler/https=exo-web-browser.desktop
