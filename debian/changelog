@@ -7,6 +7,8 @@ xubuntu-default-settings (19.04) UNRELEASED; urgency=medium
     - Set GNOME/GTK 3 dconf keys for fonts (LP: #1769774)
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
     - Add shortcut for xfce4-screenshooter region capture (Shift+Print) (LP: #1812234)
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml:
+    - Set default inactivity mode to Suspend on AC and battery (LP: #1768038)
   * etc/xdg/xdg-xubuntu/Thunar/uca.xml.in:
     - Enable startup-notify in Thunar's uca.xml (LP: #1794118)
   * usr/share/xubuntu/applications/defaults.list:
@@ -16,7 +18,7 @@ xubuntu-default-settings (19.04) UNRELEASED; urgency=medium
     - etc/xdg/xdg-xubuntu/Thunar/accels.scm
     - etc/xdg/xdg-xubuntu/Thunar/uca.xml.in
 
- -- Sean Davis <smd.seandavis@gmail.com>  Mon, 28 Jan 2019 22:25:59 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 28 Jan 2019 22:36:04 -0500
 
 xubuntu-default-settings (18.10.2) cosmic; urgency=medium
 
