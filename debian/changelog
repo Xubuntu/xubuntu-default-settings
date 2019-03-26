@@ -1,3 +1,11 @@
+xubuntu-default-settings (19.04.1) disco; urgency=medium
+
+  * usr/share/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf:
+    - Default to the Xubuntu desktop wallpaper now that Plymouth
+      is release-agnostic.
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 25 Mar 2019 21:20:52 -0400
+
 xubuntu-default-settings (19.04) disco; urgency=medium
 
   * Add Terminal (F4) and Find (Primary+Shift+F) shortcuts to Thunar (LP: #1793395)
