@@ -49,7 +49,4 @@
       <property name="type" type="string" value="xscreensaver"/>
     </property>
   </property>
-  <property name="splash" type="empty">
-    <property name="Engine" type="string" value=""/>
-  </property>
 </channel>
