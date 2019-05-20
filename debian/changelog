@@ -1,3 +1,11 @@
+xubuntu-default-settings (19.10) eoan; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
+    - Set xfce4-session client priority from upstream
+    - Drop session splash property, no longer available as of xfce4-session 4.13.2
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 19 May 2019 23:06:28 -0400
+
 xubuntu-default-settings (19.04.1) disco; urgency=medium
 
   * usr/share/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf:
