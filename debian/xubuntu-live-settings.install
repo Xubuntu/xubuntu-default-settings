@@ -1,2 +1,3 @@
 casper/* usr/share/initramfs-tools/scripts/casper-bottom/
-debian/light-locker.desktop  etc/xdg/xdg-xubuntu/autostart/
+debian/light-locker.desktop etc/xdg/xdg-xubuntu/autostart/
+debian/xfce4-screensaver.xml etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/

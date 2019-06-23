@@ -1,3 +1,11 @@
+xubuntu-default-settings (19.10.1) UNRELEASED; urgency=medium
+
+  * debian/xfce4-screensaver.xml,
+    debian/xubuntu-live-settings.install:
+    - Disable xfce4-screensaver lock screen in the live session
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 22 Jun 2019 20:06:16 -0400
+
 xubuntu-default-settings (19.10) eoan; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
