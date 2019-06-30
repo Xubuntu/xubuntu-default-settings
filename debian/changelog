@@ -1,4 +1,4 @@
-xubuntu-default-settings (19.10.1) UNRELEASED; urgency=medium
+xubuntu-default-settings (19.10.1) eoan; urgency=medium
 
   * debian/xfce4-screensaver.xml,
     debian/xubuntu-live-settings.install:
@@ -7,7 +7,7 @@ xubuntu-default-settings (19.10.1) UNRELEASED; urgency=medium
     - Add Super+L shortcut to lock the screen
     - Replace Ctrl+Alt+D with Super+D to show the desktop
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 22 Jun 2019 20:30:04 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 30 Jun 2019 13:16:23 -0400
 
 xubuntu-default-settings (19.10) eoan; urgency=medium
 
