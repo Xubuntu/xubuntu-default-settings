@@ -24,6 +24,16 @@
         <property name="image-style" type="int" value="5"/>
         <property name="image-show" type="bool" value="true"/>
       </property>
+      <property name="monitor2" type="empty">
+        <property name="image-path" type="string" value="/usr/share/xfce4/backdrops/xubuntu-wallpaper.png"/>
+        <property name="image-style" type="int" value="5"/>
+        <property name="image-show" type="bool" value="true"/>
+      </property>
+      <property name="monitor3" type="empty">
+        <property name="image-path" type="string" value="/usr/share/xfce4/backdrops/xubuntu-wallpaper.png"/>
+        <property name="image-style" type="int" value="5"/>
+        <property name="image-show" type="bool" value="true"/>
+      </property>
     </property>
   </property>
 </channel>

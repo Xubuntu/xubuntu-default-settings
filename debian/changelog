@@ -1,9 +1,11 @@
-xubuntu-default-settings (19.10.2) eoan; urgency=medium
+xubuntu-default-settings (19.10.2) UNRELEASED; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml:
     - Drop workspace labels, inconsistent with 5+ workspaces (LP: #1829778)
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml:
+    - Set the Xubuntu wallpaper as default for up to 4 displays
 
- -- Sean Davis <smd.seandavis@gmail.com>  Fri, 01 Nov 2019 06:42:22 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Fri, 01 Nov 2019 06:48:16 -0400
 
 xubuntu-default-settings (19.10.1) eoan; urgency=medium
 
