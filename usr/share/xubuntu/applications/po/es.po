@@ -3,19 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-01 22:10-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2019-11-02 03:42+0000\n"
+"Last-Translator: Sean Davis <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-11-02 03:48+0000\n"
+"X-Generator: Launchpad (build 469f241f4e73cc0bdffa4e30654052a2af068e06)\n"
+"Language: \n"
 
 #: ../xfhelp4.desktop.in.h:1
 msgid "Help"
@@ -24,3 +25,21 @@ msgstr "Ayuda"
 #: ../xfhelp4.desktop.in.h:2
 msgid "Help using Xfce"
 msgstr "Ayuda usando Xfce"
+
+#~ msgid "Configure third-party and proprietary drivers"
+#~ msgstr "Configure controladores privativos y de terceros"
+
+#~ msgid "Xubuntu Website"
+#~ msgstr "Sitio web de Xubuntu"
+
+#~ msgid "Read how you can make Xubuntu better!"
+#~ msgstr "Lea cómo puede ayudar a mejorar Xubuntu."
+
+#~ msgid "Additional Drivers"
+#~ msgstr "Controladores adicionales"
+
+#~ msgid "Learn more about Xubuntu on our website."
+#~ msgstr "Aprenda más sobre Xubuntu en nuestro sitio web."
+
+#~ msgid "Contribute to Xubuntu"
+#~ msgstr "Colaborar con Xubuntu"
