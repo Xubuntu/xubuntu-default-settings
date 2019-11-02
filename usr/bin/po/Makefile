@@ -11,7 +11,7 @@ generate-locales:
 	for i in $$(find $$1 -name *.po); do \
 		code=$$(echo $$i | sed 's/.po//'); \
 		mkdir -p locale/$$code/LC_MESSAGES/; \
-    msgfmt -o locale/$$code/LC_MESSAGES/thunar-print.mo $$i; \
+	msgfmt -o locale/$$code/LC_MESSAGES/thunar-print.mo $$i; \
 	done; \
 	mv locale ../../../
 
