@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-02 10:18-0400\n"
+"POT-Creation-Date: 2019-11-02 11:12-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,26 +17,17 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../thunar-print:12
-msgid "Printing '%s' failed"
+#: ../thunar-print:16
+#, sh-format
+msgid "Printing '$FILENAME' failed"
 msgstr ""
 
-#: ../thunar-print:27
-msgid "LibreOffice does not seem to be installed."
+#: ../thunar-print:27 ../thunar-print:36 ../thunar-print:45 ../thunar-print:56
+#, sh-format
+msgid "$PROGNAME does not seem to be installed."
 msgstr ""
 
-#: ../thunar-print:35
-msgid "Gimp does not seem to be installed."
-msgstr ""
-
-#: ../thunar-print:43
-msgid "Inkscape does not seem to be installed."
-msgstr ""
-
-#: ../thunar-print:53
-msgid "CUPS does not seem to be installed."
-msgstr ""
-
-#: ../thunar-print:58
+#: ../thunar-print:61
+#, sh-format
 msgid "The file cannot be printed directly."
 msgstr ""

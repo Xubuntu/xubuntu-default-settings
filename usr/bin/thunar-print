@@ -4,17 +4,16 @@
 #          Florian Schüller <florian.schueller@gmail.com>
 #          Sean Davis <bluesabre@ubuntu.com>
 
-shopt -s expand_aliases
+. gettext.sh
 
-alias GETTEXT='gettext "thunar-print"'
+TEXTDOMAIN=thunar-print
 
 IFS=$(echo -en "\n\b")
-MSG_FMT=$(GETTEXT "Printing '%s' failed")
 
 for File in "$@"
 do
   FILENAME="$(basename -- $File)"
-  MSG_TITLE=$(printf "$MSG_FMT" "$FILENAME")
+  MSG_TITLE="$(eval_gettext "Printing '\$FILENAME' failed")"
   # just some incomplete useability hints for possible errors
   case ${File,,} in
     # The list of extensions is based on the LibreOffice Mimetype List, adding some that were missing (e.g. .rtf):
@@ -24,7 +23,8 @@ do
       if [ -x "$(command -v libreoffice)" ]; then
         libreoffice --nologo -p "$File"
       else
-        MSG_CONTENT=$(GETTEXT "LibreOffice does not seem to be installed.")
+        PROGNAME="LibreOffice"
+        MSG_CONTENT="$(eval_gettext "\$PROGNAME does not seem to be installed.")"
         notify-send "$MSG_TITLE" "$MSG_CONTENT" -i document-print
       fi;
       ;;
@@ -32,7 +32,8 @@ do
       if [ -x "$(command -v gimp)" ]; then
         gimp --no-interface --new-instance --batch="(file-print-gtk 0 (car (gimp-file-load 1 \"$File\" \"$File\")))" --batch="(gimp-quit 1)"
       else
-        MSG_CONTENT=$(GETTEXT "Gimp does not seem to be installed.")
+        PROGNAME="Gimp"
+        MSG_CONTENT="$(eval_gettext "\$PROGNAME does not seem to be installed.")"
         notify-send "$MSG_TITLE" "$MSG_CONTENT" -i document-print
       fi;
       ;;
@@ -40,7 +41,8 @@ do
       if [ -x "$(command -v inkscape)" ]; then
         inkscape --without-gui --export-pdf=/dev/stdout "$File"| lpr
       else
-        MSG_CONTENT=$(GETTEXT "Inkscape does not seem to be installed.")
+        PROGNAME="Inkscape"
+        MSG_CONTENT="$(eval_gettext "\$PROGNAME does not seem to be installed.")"
         notify-send "$MSG_TITLE" "$MSG_CONTENT" -i document-print
       fi;
       ;;
@@ -50,12 +52,13 @@ do
       if [ -x "$(command -v lpr)" ]; then
         lpr "$File"
       else
-        MSG_CONTENT=$(GETTEXT "CUPS does not seem to be installed.")
+        PROGNAME="CUPS"
+        MSG_CONTENT="$(eval_gettext "\$PROGNAME does not seem to be installed.")"
         notify-send "$MSG_TITLE" "$MSG_CONTENT" -i document-print
       fi;
       ;;
     *)
-      MSG_CONTENT=$(GETTEXT "The file cannot be printed directly.")
+      MSG_CONTENT="$(eval_gettext "The file cannot be printed directly.")"
       notify-send "$MSG_TITLE" "$MSG_CONTENT" -i document-print
       ;;
   esac
