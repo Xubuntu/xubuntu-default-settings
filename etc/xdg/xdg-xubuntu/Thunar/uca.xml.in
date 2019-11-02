@@ -64,7 +64,7 @@
 
   <action>
     <icon>document-print</icon>
-    <_name>Print file/s</_name>
+    <_name>Print file(s)</_name>
     <unique-id>4-4</unique-id>
     <command>thunar-print %F</command>
     <_description>Send one or multiple files to the default printer</_description>

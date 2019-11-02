@@ -35,7 +35,7 @@ msgid "Search for files within this folder"
 msgstr ""
 
 #: ../uca.xml.in.h:6
-msgid "Print file/s"
+msgid "Print file(s)"
 msgstr ""
 
 #: ../uca.xml.in.h:7
