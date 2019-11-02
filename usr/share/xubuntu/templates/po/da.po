@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-02-09 22:36-0500\n"
-"PO-Revision-Date: 2019-05-25 10:24+0000\n"
+"POT-Creation-Date: 2019-11-01 21:41-0400\n"
+"PO-Revision-Date: 2019-11-02 04:33+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <da@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,14 @@ msgstr ""
 "X-Launchpad-Export-Date: 2019-11-02 11:05+0000\n"
 "X-Generator: Launchpad (build 469f241f4e73cc0bdffa4e30654052a2af068e06)\n"
 
-#: ../com.ubuntu.pkexec.mousepad.policy.in.h:1
-msgid "Authentication is required to run mousepad as root"
-msgstr "Der kræves autentifikation for at køre mousepad som root"
+#: ../xdg-xubuntu-templates:30
+msgid "OpenDocument Text"
+msgstr "OpenDocument-tekst"
+
+#: ../xdg-xubuntu-templates:31
+msgid "OpenDocument Spreadsheet"
+msgstr "OpenDocument-regneark"
+
+#: ../xdg-xubuntu-templates:32
+msgid "Plain Text"
+msgstr "Ren tekst"
