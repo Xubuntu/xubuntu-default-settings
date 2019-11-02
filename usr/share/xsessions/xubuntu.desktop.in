@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+_Name=Xubuntu Session
+_Comment=Use this session to run Xubuntu as your desktop environment
+Exec=startxfce4
+Icon=
+Type=Application
+DesktopNames=XFCE
