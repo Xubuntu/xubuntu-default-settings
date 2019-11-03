@@ -8,13 +8,14 @@
   <DefaultDirectoryDirs/>
   <DefaultMergeDirs/>
 
-   <Layout>
-     <Menuname>Personal</Menuname>
-     <Menuname>Hardware</Menuname>
-     <Menuname>System</Menuname>
-     <Menuname>Other</Menuname>
-     <Merge type="all" />
-   </Layout>
+  <Layout>
+    <Menuname>Personal</Menuname>
+    <Menuname>Hardware</Menuname>
+    <Menuname>System</Menuname>
+    <Menuname>Other</Menuname>
+    <Merge type="menus"/>
+    <Merge type="files"/>
+  </Layout>
 
   <Include>
     <And>

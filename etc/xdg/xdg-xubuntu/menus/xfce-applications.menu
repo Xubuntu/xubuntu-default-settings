@@ -25,7 +25,8 @@
         <Separator/>
         <Filename>xfce-settings-manager.desktop</Filename>
         <Separator/>
-        <Merge type="all"/>
+        <Merge type="menus"/>
+        <Merge type="files"/>
         <Separator/>
         <Filename>org.gnome.Software.desktop</Filename>
         <Separator/>
@@ -57,7 +58,8 @@
             <Filename>xfce4-run.desktop</Filename>
             <Filename>xfce4-appfinder.desktop</Filename>
             <Separator/>
-            <Merge type="all"/>
+            <Merge type="menus"/>
+            <Merge type="files"/>
         </Layout>
     </Menu>
 
