@@ -1,4 +1,3 @@
 debian/live/casper/* usr/share/initramfs-tools/scripts/casper-bottom/
 debian/live/defaults.rc etc/xdg/xdg-xubuntu/xfce4/whiskermenu/
-debian/live/light-locker.desktop etc/xdg/xdg-xubuntu/autostart/
 debian/live/xfce4-screensaver.xml etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/
