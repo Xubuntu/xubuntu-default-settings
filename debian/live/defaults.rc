@@ -1,0 +1,56 @@
+favorites=exo-web-browser.desktop,exo-mail-reader.desktop,exo-file-manager.desktop,libreoffice-writer.desktop,libreoffice-calc.desktop,pidgin.desktop,org.gnome.Software.desktop,exo-terminal-emulator.desktop,xfhelp4.desktop
+button-title=Applications Menu
+button-icon=xubuntu-logo-menu
+show-button-title=false
+show-button-icon=true
+load-hierarchy=true
+launcher-show-name=true
+launcher-show-description=false
+item-icon-size=1
+category-icon-size=0
+hover-switch-category=false
+favorites-in-recent=true
+display-recent-default=false
+position-search-alternate=true
+command-switchuser=dm-tool switch-to-greeter
+show-command-switchuser=false
+command-settings=xfce4-settings-manager
+show-command-settings=true
+command-menueditor=menulibre
+show-command-menueditor=true
+command-lockscreen=xflock4
+show-command-lockscreen=false
+command-logout=xfce4-session-logout
+show-command-logout=true
+search-actions=5
+
+[action0]
+name=Man Pages
+pattern=#
+command=exo-open --launch TerminalEmulator man %s
+regex=false
+
+[action1]
+name=Wikipedia
+pattern=!w
+command=exo-open --launch WebBrowser https://en.wikipedia.org/wiki/%u
+regex=false
+
+[action2]
+name=Run in Terminal
+pattern=!
+command=exo-open --launch TerminalEmulator %s
+regex=false
+
+[action3]
+name=Open URI
+pattern=^(file|http|https):\\/\\/(.*)$
+command=exo-open \\0
+regex=true
+
+[action4]
+name=Search for files
+pattern=-
+command=catfish --path=~ --start %s
+regex=false
+
