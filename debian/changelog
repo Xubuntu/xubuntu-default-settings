@@ -1,4 +1,4 @@
-xubuntu-default-settings (19.10.2) UNRELEASED; urgency=medium
+xubuntu-default-settings (20.04) UNRELEASED; urgency=medium
 
   * debian/live/*:
     - Move live config files to subdirectory
