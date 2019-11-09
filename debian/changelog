@@ -1,5 +1,11 @@
 xubuntu-default-settings (20.04) UNRELEASED; urgency=medium
 
+  * debian/control:
+    - Bump Standards-Version to 4.4.0
+    - Add Rules-Requires-Root: no
+    - Update Vcs- locations
+  * debian/control, debian/compat:
+    - Bump debhelper to version 12
   * debian/live/*:
     - Move live config files to subdirectory
   * debian/live/whiskermenu-1.rc,
@@ -8,6 +14,8 @@ xubuntu-default-settings (20.04) UNRELEASED; urgency=medium
   * debian/live/light-locker.desktop,
     debian/xubuntu-live-settings.install:
     - Remove light-locker autostart entry since we no longer ship it
+  * debian/source/lintian-overrides:
+    - Add override for testsuite-autopkgtest-missing
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml:
     - Drop workspace labels, inconsistent with 5+ workspaces (LP: #1829778)
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml:
@@ -16,7 +24,7 @@ xubuntu-default-settings (20.04) UNRELEASED; urgency=medium
     etc/xdg/xdg-xubuntu/menus/xfce-settings-manager.menu:
     - Workaround menu handling errors in pyxdg (LP: #1833863)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sun, 03 Nov 2019 06:04:43 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 09 Nov 2019 06:49:24 -0500
 
 xubuntu-default-settings (19.10.1) eoan; urgency=medium
 
