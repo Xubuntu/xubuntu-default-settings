@@ -1,0 +1,33 @@
+# Hebrew translation for xubuntu-default-settings
+# Copyright (c) 2019 Rosetta Contributors and Canonical Ltd 2019
+# This file is distributed under the same license as the xubuntu-default-settings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xubuntu-default-settings\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-11-02 11:12-0400\n"
+"PO-Revision-Date: 2019-11-06 16:05+0000\n"
+"Last-Translator: Yaron <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-11-09 11:20+0000\n"
+"X-Generator: Launchpad (build c597c3229eb023b1e626162d5947141bf7befb13)\n"
+
+#: ../thunar-print:16
+#, sh-format
+msgid "Printing '$FILENAME' failed"
+msgstr "ההדפסה של ‚$FILENAME’ נכשלה"
+
+#: ../thunar-print:27 ../thunar-print:36 ../thunar-print:45 ../thunar-print:56
+#, sh-format
+msgid "$PROGNAME does not seem to be installed."
+msgstr "נראה כי $PROGNAME לא מותקן."
+
+#: ../thunar-print:61
+#, sh-format
+msgid "The file cannot be printed directly."
+msgstr "לא ניתן להדפיס את הקובץ ישירות."

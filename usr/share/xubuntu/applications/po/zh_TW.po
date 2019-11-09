@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-11-02 11:05+0000\n"
-"X-Generator: Launchpad (build 469f241f4e73cc0bdffa4e30654052a2af068e06)\n"
+"X-Launchpad-Export-Date: 2019-11-09 11:20+0000\n"
+"X-Generator: Launchpad (build c597c3229eb023b1e626162d5947141bf7befb13)\n"
 "Language: \n"
 
 #: ../xfhelp4.desktop.in.h:1
@@ -25,21 +25,3 @@ msgstr "幫助"
 #: ../xfhelp4.desktop.in.h:2
 msgid "Help using Xfce"
 msgstr "幫助您使用 Xfce"
-
-#~ msgid "Configure third-party and proprietary drivers"
-#~ msgstr "設定第三方或專有驅動程式"
-
-#~ msgid "Additional Drivers"
-#~ msgstr "額外驅動程式"
-
-#~ msgid "Contribute to Xubuntu"
-#~ msgstr "為 Xubuntu 作出貢獻"
-
-#~ msgid "Xubuntu Website"
-#~ msgstr "Xubuntu 網站"
-
-#~ msgid "Read how you can make Xubuntu better!"
-#~ msgstr "看看如何令 Xubuntu 變得更好！"
-
-#~ msgid "Learn more about Xubuntu on our website."
-#~ msgstr "在我們的網站瞭解 Xubuntu 多一些。"

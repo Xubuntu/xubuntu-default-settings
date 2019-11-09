@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-01 21:52-0400\n"
-"PO-Revision-Date: 2014-06-04 21:02+0000\n"
-"Last-Translator: Daan W. <Unknown>\n"
+"PO-Revision-Date: 2019-11-04 20:01+0000\n"
+"Last-Translator: Torsten Franz <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-11-02 11:05+0000\n"
-"X-Generator: Launchpad (build 469f241f4e73cc0bdffa4e30654052a2af068e06)\n"
+"X-Launchpad-Export-Date: 2019-11-09 11:20+0000\n"
+"X-Generator: Launchpad (build c597c3229eb023b1e626162d5947141bf7befb13)\n"
 "Language: de\n"
 
 #: ../uca.xml.in.h:1
@@ -28,7 +28,7 @@ msgstr "Beispiel für eine benutzerdefinierte Aktion"
 
 #: ../uca.xml.in.h:3
 msgid "Open terminal in containing directory"
-msgstr ""
+msgstr "Terminal im aktuellen Verzeichnis öffnen"
 
 #: ../uca.xml.in.h:4
 msgid "Find in this folder"
@@ -40,8 +40,8 @@ msgstr "Nach Dateien in diesem Ordner suchen"
 
 #: ../uca.xml.in.h:6
 msgid "Print file(s)"
-msgstr ""
+msgstr "Datei(en) drucken"
 
 #: ../uca.xml.in.h:7
 msgid "Send one or multiple files to the default printer"
-msgstr ""
+msgstr "Eine oder mehrere Dateien an den Standarddrucker senden"

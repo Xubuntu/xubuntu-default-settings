@@ -8,37 +8,19 @@ msgstr ""
 "Project-Id-Version: xubuntu-default-settings\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-11-01 22:10-0400\n"
-"PO-Revision-Date: 2014-03-04 21:28+0000\n"
-"Last-Translator: Piotr Łukomiak <Unknown>\n"
+"PO-Revision-Date: 2019-11-03 21:38+0000\n"
+"Last-Translator: Piotr Strębski <strebski@gmail.com>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-11-02 11:05+0000\n"
-"X-Generator: Launchpad (build 469f241f4e73cc0bdffa4e30654052a2af068e06)\n"
+"X-Launchpad-Export-Date: 2019-11-09 11:20+0000\n"
+"X-Generator: Launchpad (build c597c3229eb023b1e626162d5947141bf7befb13)\n"
 
 #: ../xfhelp4.desktop.in.h:1
 msgid "Help"
-msgstr ""
+msgstr "Pomoc"
 
 #: ../xfhelp4.desktop.in.h:2
 msgid "Help using Xfce"
-msgstr ""
-
-#~ msgid "Learn more about Xubuntu on our website."
-#~ msgstr "Dowiedz się więcej o Xubuntu na naszej stronie internetowej."
-
-#~ msgid "Xubuntu Website"
-#~ msgstr "Strona internetowa Xubuntu"
-
-#~ msgid "Contribute to Xubuntu"
-#~ msgstr "Pomoc dla Xubuntu"
-
-#~ msgid "Additional Drivers"
-#~ msgstr "Dodatkowe sterowniki"
-
-#~ msgid "Configure third-party and proprietary drivers"
-#~ msgstr "Konfiguracja sterowników własnościowych oraz zastrzeżonych"
-
-#~ msgid "Read how you can make Xubuntu better!"
-#~ msgstr "Dowiedz się jak możesz uczynić Xubuntu lepszym!"
+msgstr "Pomoc dla Xfce"
