@@ -8,6 +8,7 @@ all:
 install:
 	mkdir -pv $(DESTDIR)
 	cp -a etc usr $(DESTDIR)/.
+	mkdir -pv $(DESTDIR)/usr/share/locale
 	# po generation
 	for i in $(SUBDIRS); do \
 		make -C $(DESTDIR)/$$i; \
