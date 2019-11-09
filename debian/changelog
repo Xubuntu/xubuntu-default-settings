@@ -24,7 +24,7 @@ xubuntu-default-settings (20.04) UNRELEASED; urgency=medium
     etc/xdg/xdg-xubuntu/menus/xfce-settings-manager.menu:
     - Workaround menu handling errors in pyxdg (LP: #1833863)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 09 Nov 2019 06:49:24 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 09 Nov 2019 11:16:12 -0500
 
 xubuntu-default-settings (19.10.1) eoan; urgency=medium
 
