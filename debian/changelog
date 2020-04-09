@@ -1,12 +1,14 @@
 xubuntu-default-settings (20.04.1) UNRELEASED; urgency=medium
 
+  * debian/control:
+    - Bump Standards-Version to 4.5.0
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
     - Fix Super+D shortcut by blocking the original (LP: #1866537)
   * usr/share/polkit-1/*
     - Dropped, Mousepad now provides its own polkit actions
   * Refresh translations from Launchpad
 
- -- Sean Davis <smd.seandavis@gmail.com>  Thu, 09 Apr 2020 06:40:03 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 09 Apr 2020 06:48:24 -0400
 
 xubuntu-default-settings (20.04) focal; urgency=medium
 
