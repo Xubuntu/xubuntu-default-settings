@@ -1,4 +1,4 @@
-xubuntu-default-settings (20.04.1) UNRELEASED; urgency=medium
+xubuntu-default-settings (20.04.1) focal; urgency=medium
 
   * debian/control:
     - Bump Standards-Version to 4.5.0
@@ -8,7 +8,7 @@ xubuntu-default-settings (20.04.1) UNRELEASED; urgency=medium
     - Dropped, Mousepad now provides its own polkit actions
   * Refresh translations from Launchpad
 
- -- Sean Davis <smd.seandavis@gmail.com>  Thu, 09 Apr 2020 06:48:24 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 09 Apr 2020 06:56:50 -0400
 
 xubuntu-default-settings (20.04) focal; urgency=medium
 
