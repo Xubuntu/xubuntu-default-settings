@@ -82,6 +82,7 @@
       <property name="&lt;Alt&gt;space" type="string" value="popup_menu_key"/>
       <property name="&lt;Shift&gt;&lt;Alt&gt;Page_Up" type="string" value="raise_window_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Right" type="string" value="right_workspace_key"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;d" type="empty"/>
       <property name="&lt;Super&gt;d" type="string" value="show_desktop_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Up" type="string" value="up_workspace_key"/>
       <property name="&lt;Super&gt;Tab" type="string" value="switch_window_key"/>
