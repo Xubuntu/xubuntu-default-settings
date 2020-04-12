@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Exec=feh %F
+NoDisplay=true
