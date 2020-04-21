@@ -1,2 +1,7 @@
 debian/tmp/etc
-debian/tmp/usr
+debian/tmp/usr/bin
+debian/tmp/usr/lib
+debian/tmp/usr/share/lightdm
+debian/tmp/usr/share/locale
+debian/tmp/usr/share/xsessions
+debian/tmp/usr/share/xubuntu

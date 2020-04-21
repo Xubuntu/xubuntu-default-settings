@@ -2,4 +2,4 @@ debian/live/casper/* usr/share/initramfs-tools/scripts/casper-bottom/
 debian/live/whiskermenu-1.rc etc/skel/.config/xfce4/panel/
 debian/live/xfce4-screensaver.xml etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/
 debian/live/feh.desktop usr/share/xubuntu/applications/
-usr/share/ubiquity/pixmaps/ubuntu_installed.png
+debian/tmp/usr/share/ubiquity/pixmaps/ubuntu_installed.png

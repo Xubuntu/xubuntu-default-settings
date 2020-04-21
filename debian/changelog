@@ -1,3 +1,13 @@
+xubuntu-default-settings (20.04.4) focal; urgency=medium
+
+  * debian/xubuntu-default-settings.install: be more explicit on what to
+    install, as otherwise we're picking up the recently added
+    ubuntu_installed.png on both the default and live packages.
+  * debian/rules: add dh_missing --fail-missing to catch potential files that
+    we forgot to install.
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Mon, 20 Apr 2020 18:55:55 +0200
+
 xubuntu-default-settings (20.04.3) focal; urgency=medium
 
   * debian/xubuntu-live-settings.{install,preinst,postrm},
