@@ -9,3 +9,6 @@ and artwork for Xfce and other Xubuntu apps. Packages provided include:
 
 Find the latest version packaged for each release at [Launchpad](https://launchpad.net/ubuntu/+source/xubuntu-default-settings).\
 Each Xubuntu release includes its own [branch](https://github.com/Xubuntu-Team/xubuntu-default-settings/branches). In-development releases are maintained on master.
+
+Report issues at [Launchpad](https://bugs.launchpad.net/ubuntu/+source/xubuntu-default-settings) or with \
+`ubuntu-bug xubuntu-default-settings`
