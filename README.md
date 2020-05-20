@@ -12,3 +12,5 @@ Each Xubuntu release includes its own [branch](https://github.com/Xubuntu-Team/x
 
 Report issues at [Launchpad](https://bugs.launchpad.net/ubuntu/+source/xubuntu-default-settings) or with \
 `ubuntu-bug xubuntu-default-settings`
+
+Contribute to translations at [Transifex](https://www.transifex.com/xubuntu/xubuntu-default-settings/)
