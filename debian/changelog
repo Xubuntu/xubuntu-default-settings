@@ -1,7 +1,7 @@
 xubuntu-default-settings (20.10.0) UNRELEASED; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-    - Set Gtk/CursorThemeName to DMZ-White
+    - Set Gtk/CursorThemeName to DMZ-White (LP: #1838008)
 
  -- Sean Davis <smd.seandavis@gmail.com>  Mon, 18 May 2020 19:33:40 -0400
 
