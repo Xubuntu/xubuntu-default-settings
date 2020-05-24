@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Xubuntu Default Settings
+    url: https://bugs.launchpad.net/ubuntu/+source/xubuntu-default-settings
+    about: Please report issues for xubuntu-default-settings and xubuntu-live-settings here.
