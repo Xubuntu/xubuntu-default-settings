@@ -144,6 +144,7 @@
                 <Filename>exo-mail-reader.desktop</Filename>
                 <Filename>exo-web-browser.desktop</Filename>
                 <Filename>xfce-settings-manager.desktop</Filename>
+                <Filename>xfce4-terminal-settings.desktop</Filename>
             </Or>
         </Exclude>
     </Menu>

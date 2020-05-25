@@ -2,8 +2,12 @@ xubuntu-default-settings (20.10.0) UNRELEASED; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
     - Set Gtk/CursorThemeName to DMZ-White (LP: #1838008)
+  * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu:
+    - Hide confusing xfce4-terminal-settings.desktop
+  * usr/share/xubuntu/applications/xfce4-terminal.desktop:
+    - Dropped, enable showing in the menu (LP: #1851387)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Mon, 18 May 2020 19:33:40 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 25 May 2020 19:00:07 -0400
 
 xubuntu-default-settings (20.04.4) focal; urgency=medium
 
