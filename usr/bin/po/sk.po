@@ -22,12 +22,12 @@ msgstr ""
 #: ../thunar-print:16
 #, sh-format
 msgid "Printing '$FILENAME' failed"
-msgstr "Tlač '$ FILENAME' zlyhala"
+msgstr "Tlač '$FILENAME' zlyhala"
 
 #: ../thunar-print:27 ../thunar-print:36 ../thunar-print:45 ../thunar-print:56
 #, sh-format
 msgid "$PROGNAME does not seem to be installed."
-msgstr "$Zdá sa, že program nie je nainštalovaný. "
+msgstr "Zdá sa, že $PROGNAME nie je nainštalovaný."
 
 #: ../thunar-print:61
 #, sh-format
