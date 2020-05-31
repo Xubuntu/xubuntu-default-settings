@@ -35,7 +35,7 @@ msgstr "فتح الطرفية في الدليل الذي يحتوي على"
 
 #: ../uca.xml.in.h:4
 msgid "Find in this folder"
-msgstr "ابحث في هذا المجلد"
+msgstr "البحث في هذا المجلد"
 
 #: ../uca.xml.in.h:5
 msgid "Search for files within this folder"
