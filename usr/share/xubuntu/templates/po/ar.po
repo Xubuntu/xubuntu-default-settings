@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../xdg-xubuntu-templates:30
 msgid "OpenDocument Text"
-msgstr "نص OpenDocument"
+msgstr "فتح ملف نصي"
 
 #: ../xdg-xubuntu-templates:31
 msgid "OpenDocument Spreadsheet"
