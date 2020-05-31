@@ -47,4 +47,4 @@ msgstr "طباعة ملف (ملفات)"
 
 #: ../uca.xml.in.h:7
 msgid "Send one or multiple files to the default printer"
-msgstr "أرسل ملفًا واحدًا أو أكثر إلى الطابعة الافتراضية"
+msgstr "إرسال ملفًا واحدًا أو أكثر إلى الطابعة الافتراضية"
