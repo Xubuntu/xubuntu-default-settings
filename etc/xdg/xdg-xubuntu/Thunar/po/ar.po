@@ -31,7 +31,7 @@ msgstr "مثال لإجراء مخصص"
 
 #: ../uca.xml.in.h:3
 msgid "Open terminal in containing directory"
-msgstr "افتح الطرفية في الدليل الذي يحتوي على"
+msgstr "فتح الطرفية في الدليل الذي يحتوي على"
 
 #: ../uca.xml.in.h:4
 msgid "Find in this folder"
