@@ -1,0 +1,35 @@
+# 
+# Translators:
+# Moo, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-02 11:12-0400\n"
+"PO-Revision-Date: 2020-05-20 02:54+0000\n"
+"Last-Translator: Moo, 2020\n"
+"Language-Team: Lithuanian (https://www.transifex.com/xubuntu/teams/110148/lt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Launchpad (build 2e26c9bbd21cdca248baaea29aeffb920afcc32a)\n"
+"X-Launchpad-Export-Date: 2020-04-09 10:16+0000\n"
+
+#: ../thunar-print:16
+#, sh-format
+msgid "Printing '$FILENAME' failed"
+msgstr "Nepavyko spausdinti \"$FILENAME\""
+
+#: ../thunar-print:27 ../thunar-print:36 ../thunar-print:45 ../thunar-print:56
+#, sh-format
+msgid "$PROGNAME does not seem to be installed."
+msgstr "Atrodo, kad $PROGNAME nėra įdiegta."
+
+#: ../thunar-print:61
+#, sh-format
+msgid "The file cannot be printed directly."
+msgstr "Failas negali būti spausdinamas tiesiogiai."
