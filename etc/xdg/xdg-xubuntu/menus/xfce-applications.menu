@@ -49,6 +49,7 @@
         <Exclude>
             <Or>
                 <Filename>xfce4-about.desktop</Filename>
+                <Filename>info.desktop</Filename>
                 <Category>Settings</Category>
                 <Category>System</Category>
             </Or>
@@ -77,6 +78,11 @@
         <Include>
             <Category>Education</Category>
         </Include>
+        <Exclude>
+            <Or>
+                <Filename>libreoffice-math.desktop</Filename>
+            </Or>
+        </Exclude>
     </Menu>
 
     <Menu>
@@ -109,6 +115,11 @@
             <Category>Video</Category>
             <Category>AudioVideo</Category>
         </Include>
+        <Exclude>
+            <Or>
+                <Filename>pavucontrol.desktop</Filename>
+            </Or>
+        </Exclude>
     </Menu>
 
     <Menu>
@@ -166,6 +177,7 @@
             <Or>
                 <Filename>xfce4-session-logout.desktop</Filename>
                 <Filename>org.gnome.Software.desktop</Filename>
+                <Filename>thunar-bulk-rename.desktop</Filename>
             </Or>
         </Exclude>
     </Menu>
