@@ -26,11 +26,11 @@ msgstr "Otwórz w terminalu"
 
 #: ../uca.xml.in.h:2
 msgid "Example for a custom action"
-msgstr "Otwiera terminal we wskazanym katalogu roboczym"
+msgstr "Przykład niestandardowej akcji"
 
 #: ../uca.xml.in.h:3
 msgid "Open terminal in containing directory"
-msgstr "Otwórz terminal w bieżącym katalogu"
+msgstr "Otwiera terminal w bieżącym katalogu"
 
 #: ../uca.xml.in.h:4
 msgid "Find in this folder"
