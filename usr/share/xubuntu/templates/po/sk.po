@@ -29,4 +29,4 @@ msgstr "OpenDocument Tabuľkový zošit"
 
 #: ../xdg-xubuntu-templates:32
 msgid "Plain Text"
-msgstr "Obyčajný Text"
+msgstr "Neformátovaný text"
