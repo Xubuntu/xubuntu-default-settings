@@ -28,7 +28,7 @@ msgstr "Ha fallado la impresión de «$FILENAME»"
 #: ../thunar-print:27 ../thunar-print:36 ../thunar-print:45 ../thunar-print:56
 #, sh-format
 msgid "$PROGNAME does not seem to be installed."
-msgstr "$PROGNAME no parece estar instalado."
+msgstr "Parece que $PROGNAME no está instalado."
 
 #: ../thunar-print:61
 #, sh-format
