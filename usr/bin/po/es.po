@@ -1,6 +1,5 @@
 # 
 # Translators:
-# Sean Davis <bluesabre@ubuntu.com>, 2020
 # Toni Estévez <toni.estevez@gmail.com>, 2020
 # 
 #, fuzzy
@@ -33,4 +32,4 @@ msgstr "Parece que $PROGNAME no está instalado."
 #: ../thunar-print:61
 #, sh-format
 msgid "The file cannot be printed directly."
-msgstr "El archivo no puede imprimirse directamente."
+msgstr "No puede imprimirse directamente el archivo."
