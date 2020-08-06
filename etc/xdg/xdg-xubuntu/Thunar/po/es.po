@@ -30,7 +30,7 @@ msgstr "Ejemplo de una acción personalizada"
 
 #: ../uca.xml.in.h:3
 msgid "Open terminal in containing directory"
-msgstr "Abrir terminal en la carpeta contenedora"
+msgstr "Abrir un terminal en la carpeta contenedora"
 
 #: ../uca.xml.in.h:4
 msgid "Find in this folder"
