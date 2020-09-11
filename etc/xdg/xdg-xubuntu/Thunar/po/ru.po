@@ -1,22 +1,24 @@
-# Russian translation for xubuntu-default-settings
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the xubuntu-default-settings package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
+# 
+# Translators:
+# Sean Davis <bluesabre@ubuntu.com>, 2020
+# Sergey Boroditsky <serge.boroditsky@gmail.com>, 2020
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: xubuntu-default-settings\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-01 21:52-0400\n"
-"PO-Revision-Date: 2015-05-15 07:48+0000\n"
-"Last-Translator: Dmitry Kireev <Unknown>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"PO-Revision-Date: 2020-05-20 02:55+0000\n"
+"Last-Translator: Sergey Boroditsky <serge.boroditsky@gmail.com>, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/xubuntu/teams/110148/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-04-09 10:16+0000\n"
-"X-Generator: Launchpad (build 2e26c9bbd21cdca248baaea29aeffb920afcc32a)\n"
 "Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Launchpad (build 2e26c9bbd21cdca248baaea29aeffb920afcc32a)\n"
+"X-Launchpad-Export-Date: 2020-04-09 10:16+0000\n"
 
 #: ../uca.xml.in.h:1
 msgid "Open Terminal Here"
@@ -28,7 +30,7 @@ msgstr "Пример для пользовательского действия"
 
 #: ../uca.xml.in.h:3
 msgid "Open terminal in containing directory"
-msgstr ""
+msgstr "Открыть терминал в этом каталоге."
 
 #: ../uca.xml.in.h:4
 msgid "Find in this folder"
@@ -40,8 +42,8 @@ msgstr "Поискать в файлах внутри этого каталог�
 
 #: ../uca.xml.in.h:6
 msgid "Print file(s)"
-msgstr ""
+msgstr "Распечатать файл(ы)"
 
 #: ../uca.xml.in.h:7
 msgid "Send one or multiple files to the default printer"
-msgstr ""
+msgstr "Отправить файл(ы) на основной принтер по умолчанию"
