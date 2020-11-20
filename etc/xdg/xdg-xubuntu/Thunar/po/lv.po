@@ -1,0 +1,48 @@
+# 
+# Translators:
+# Gatis Ieviņš <ievinsgatis@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-01 21:52-0400\n"
+"PO-Revision-Date: 2020-05-20 02:55+0000\n"
+"Last-Translator: Gatis Ieviņš <ievinsgatis@gmail.com>, 2020\n"
+"Language-Team: Latvian (https://www.transifex.com/xubuntu/teams/110148/lv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"X-Generator: Launchpad (build 2e26c9bbd21cdca248baaea29aeffb920afcc32a)\n"
+"X-Launchpad-Export-Date: 2020-04-09 10:16+0000\n"
+
+#: ../uca.xml.in.h:1
+msgid "Open Terminal Here"
+msgstr "Atvērt Termināli Šeit"
+
+#: ../uca.xml.in.h:2
+msgid "Example for a custom action"
+msgstr "Custom darbības piemērs"
+
+#: ../uca.xml.in.h:3
+msgid "Open terminal in containing directory"
+msgstr "Atvērt termināli ietvertajā direktorijā"
+
+#: ../uca.xml.in.h:4
+msgid "Find in this folder"
+msgstr "Atrast šajā mapē"
+
+#: ../uca.xml.in.h:5
+msgid "Search for files within this folder"
+msgstr "Meklēt datnes šajā mapē"
+
+#: ../uca.xml.in.h:6
+msgid "Print file(s)"
+msgstr "Izvadīt datni(es)"
+
+#: ../uca.xml.in.h:7
+msgid "Send one or multiple files to the default printer"
+msgstr "Nosūtīt vienu vai vairāk failus uz noklusējuma printeri"
