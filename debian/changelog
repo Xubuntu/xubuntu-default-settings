@@ -1,4 +1,4 @@
-xubuntu-default-settings (20.10.0) UNRELEASED; urgency=medium
+xubuntu-default-settings (21.04.0) UNRELEASED; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
     - Set Gtk/CursorThemeName to DMZ-White (LP: #1838008)
@@ -6,8 +6,10 @@ xubuntu-default-settings (20.10.0) UNRELEASED; urgency=medium
     - Hide confusing xfce4-terminal-settings.desktop
   * usr/share/xubuntu/applications/xfce4-terminal.desktop:
     - Dropped, enable showing in the menu (LP: #1851387)
+  * etc/xdg/xdg-xubuntu/xfce4/panel/default.xml:
+    - Migrate statusnotifier to systray and remove from panel (LP: #1907871)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Mon, 25 May 2020 19:00:07 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 12 Dec 2020 07:47:25 -0500
 
 xubuntu-default-settings (20.04.4) focal; urgency=medium
 
