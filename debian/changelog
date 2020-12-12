@@ -8,8 +8,10 @@ xubuntu-default-settings (21.04.0) UNRELEASED; urgency=medium
     - Dropped, enable showing in the menu (LP: #1851387)
   * etc/xdg/xdg-xubuntu/xfce4/panel/default.xml:
     - Migrate statusnotifier to systray and remove from panel (LP: #1907871)
+  * etc/xdg/xdg-xubuntu/xfce4/helpers.rc:
+    - Change FileManager key to lowercase thunar to fix defaults
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 12 Dec 2020 07:47:25 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 12 Dec 2020 07:56:53 -0500
 
 xubuntu-default-settings (20.04.4) focal; urgency=medium
 
