@@ -17,7 +17,6 @@
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
-        <value type="int" value="11"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
       <property name="size" type="uint" value="24"/>
@@ -64,12 +63,8 @@
       <property name="mpris-players" type="string" value="parole"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
-    <property name="plugin-10" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-      <property name="expand" type="bool" value="false"/>
-    </property>
-    <property name="plugin-11" type="string" value="clock">
-      <property name="digital-format" type="string" value="%d %b, %H:%M"/>
+    <property name="plugin-10" type="string" value="clock">
+      <property name="digital-format" type="string" value=" %d %b, %H:%M "/>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>
