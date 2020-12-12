@@ -20,8 +20,12 @@ xubuntu-default-settings (21.04.0) UNRELEASED; urgency=medium
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml:
     - Hide default icons: File System and Removable Devices
     - Exclude applications menu on desktop right click
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/thunar.xml:
+    - Switch default location selector to path bar
+    - Enabled opening folders in new tab on middle click
+    - Disabled changing window icon for special folders
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 12 Dec 2020 12:39:24 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 12 Dec 2020 13:18:38 -0500
 
 xubuntu-default-settings (20.04.4) focal; urgency=medium
 
