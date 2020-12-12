@@ -17,8 +17,11 @@ xubuntu-default-settings (21.04.0) UNRELEASED; urgency=medium
     etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc,
     usr/share/xubuntu/applications/defaults.list:
     - Replace exo-* with xfce4-* commands
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml:
+    - Hide default icons: File System and Removable Devices
+    - Exclude applications menu on desktop right click
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 12 Dec 2020 12:24:38 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 12 Dec 2020 12:39:24 -0500
 
 xubuntu-default-settings (20.04.4) focal; urgency=medium
 

@@ -5,8 +5,8 @@
     <property name="style" type="int" value="2"/>
     <property name="file-icons" type="empty">
       <property name="show-home" type="bool" value="true"/>
-      <property name="show-filesystem" type="bool" value="true"/>
-      <property name="show-removable" type="bool" value="true"/>
+      <property name="show-filesystem" type="bool" value="false"/>
+      <property name="show-removable" type="bool" value="false"/>
       <property name="show-trash" type="bool" value="true"/>
     </property>
     <property name="icon-size" type="uint" value="48"/>
@@ -35,5 +35,8 @@
         <property name="image-show" type="bool" value="true"/>
       </property>
     </property>
+  </property>
+  <property name="desktop-menu" type="empty">
+    <property name="show" type="bool" value="false"/>
   </property>
 </channel>
