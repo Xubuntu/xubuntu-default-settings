@@ -59,6 +59,7 @@
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
+      <property name="enable-wnck" type="bool" value="true"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
       <property name="mpris-players" type="string" value="parole"/>
       <property name="show-notifications" type="bool" value="true"/>

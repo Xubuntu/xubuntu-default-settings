@@ -9,6 +9,7 @@ xubuntu-default-settings (21.04.0) UNRELEASED; urgency=medium
   * etc/xdg/xdg-xubuntu/xfce4/panel/default.xml:
     - Migrate statusnotifier to systray and remove from panel (LP: #1907871)
     - Remove separator between clock and tray, add padding
+    - Enable pulseaudio plugin window focus support
   * etc/xdg/xdg-xubuntu/xfce4/helpers.rc:
     - Change FileManager key to lowercase thunar to fix defaults
   * debian/live/whiskermenu-1.rc,
@@ -17,7 +18,7 @@ xubuntu-default-settings (21.04.0) UNRELEASED; urgency=medium
     usr/share/xubuntu/applications/defaults.list:
     - Replace exo-* with xfce4-* commands
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 12 Dec 2020 12:15:02 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 12 Dec 2020 12:24:38 -0500
 
 xubuntu-default-settings (20.04.4) focal; urgency=medium
 
