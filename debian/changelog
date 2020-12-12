@@ -1,4 +1,4 @@
-xubuntu-default-settings (21.04.0) UNRELEASED; urgency=medium
+xubuntu-default-settings (21.04.0) hirsute; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
     - Set Gtk/CursorThemeName to DMZ-White (LP: #1838008)
@@ -31,7 +31,7 @@ xubuntu-default-settings (21.04.0) UNRELEASED; urgency=medium
       - Super+R: xfrun4
       - Super+E, Ctrl+Alt+F: exo-open --launch FileManager
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 12 Dec 2020 13:53:24 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 12 Dec 2020 14:26:01 -0500
 
 xubuntu-default-settings (20.04.4) focal; urgency=medium
 
