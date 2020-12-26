@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../uca.xml.in.h:1
 msgid "Open Terminal Here"
-msgstr "Burada Terminal Aç"
+msgstr "Burada Uçbirim Aç"
 
 #: ../uca.xml.in.h:2
 msgid "Example for a custom action"
