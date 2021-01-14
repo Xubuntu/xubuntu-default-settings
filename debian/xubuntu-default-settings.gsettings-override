@@ -17,6 +17,7 @@ monospace-font-name='Monospace 10'
 
 [org.gtk.settings.file-chooser]
 window-size='(764, 482)'
+window-position='(19, 61)'
 
 [org.onboard]
 layout='Compact'
