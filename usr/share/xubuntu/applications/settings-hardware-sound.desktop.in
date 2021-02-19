@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+_Name=Sound
+_Comment=Adjust the volume level
+_Keywords=Microphone;Volume;Fade;Balance;Headset;Speakers;Headphones;Audio;Mixer;Output;Input;Devices;Playback;Recording;System Sounds;Sound Card;Settings;Preferences;
+Icon=preferences-sound
+Exec=pavucontrol
+Actions=
+OnlyShowIn=XFCE;
+Categories=Settings;X-XFCE-HardwareSettings;X-XFCE-SettingsDialog;
+StartupNotify=true

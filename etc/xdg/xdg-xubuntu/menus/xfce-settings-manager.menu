@@ -73,6 +73,7 @@
       </And>
       <Filename>nm-connection-editor.desktop</Filename>
       <Filename>system-config-printer.desktop</Filename>
+      <Filename>settings-hardware-sound.desktop</Filename>
     </Include>
   </Menu>
 
