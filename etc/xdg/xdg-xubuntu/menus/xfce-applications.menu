@@ -78,11 +78,6 @@
         <Include>
             <Category>Education</Category>
         </Include>
-        <Exclude>
-            <Or>
-                <Filename>libreoffice-math.desktop</Filename>
-            </Or>
-        </Exclude>
     </Menu>
 
     <Menu>
@@ -177,7 +172,6 @@
             <Or>
                 <Filename>xfce4-session-logout.desktop</Filename>
                 <Filename>org.gnome.Software.desktop</Filename>
-                <Filename>thunar-bulk-rename.desktop</Filename>
             </Or>
         </Exclude>
     </Menu>
