@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+_Name=About System
+_Comment=Displays details of the distribution, OS, CPU, graphics, memory, and Xfce
+_Keywords=operating system;hostname;desktop environment;hardware device;CPU;processor;GPU;graphics card driver;OpenGL;Mesa;RAM;memory;
+Icon=help-info
+Exec=xfce4-about
+Categories=Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+OnlyShowIn=XFCE;
+StartupNotify=true
+Terminal=false
+
