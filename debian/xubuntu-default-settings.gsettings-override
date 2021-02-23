@@ -15,6 +15,10 @@ icon-theme='elementary-xfce-darker'
 font-name='Noto Sans 9'
 monospace-font-name='Monospace 10'
 
+[org.gtk.settings.file-chooser]
+window-size='(764, 482)'
+window-position='(19, 61)'
+
 [org.onboard]
 layout='Compact'
 theme='Nightshade'
