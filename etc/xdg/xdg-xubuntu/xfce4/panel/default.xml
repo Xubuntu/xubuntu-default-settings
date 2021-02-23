@@ -19,11 +19,12 @@
         <value type="int" value="10"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
-      <property name="size" type="uint" value="24"/>
+      <property name="size" type="uint" value="32"/>
       <property name="autohide" type="bool" value="false"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="span-monitors" type="bool" value="false"/>
       <property name="mode" type="uint" value="0"/>
+      <property name="icon-size" type="uint" value="22"/>
     </property>
   </property>
   <property name="plugins" type="empty">
