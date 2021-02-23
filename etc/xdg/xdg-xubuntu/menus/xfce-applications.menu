@@ -49,6 +49,7 @@
         <Exclude>
             <Or>
                 <Filename>xfce4-about.desktop</Filename>
+                <Filename>info.desktop</Filename>
                 <Category>Settings</Category>
                 <Category>System</Category>
             </Or>
@@ -109,6 +110,11 @@
             <Category>Video</Category>
             <Category>AudioVideo</Category>
         </Include>
+        <Exclude>
+            <Or>
+                <Filename>pavucontrol.desktop</Filename>
+            </Or>
+        </Exclude>
     </Menu>
 
     <Menu>
