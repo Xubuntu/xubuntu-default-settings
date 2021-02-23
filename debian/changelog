@@ -1,3 +1,19 @@
+xubuntu-default-settings (21.04.1) hirsute; urgency=medium
+
+  * debian/xubuntu-default-settings.gsettings-override:
+    - Set window size of file dialog to ensure it fits on screen
+  * etc/xdg/xdg-xubuntu/menus/xfce-settings-manager.menu,
+    usr/share/xubuntu/applications/settings-hardware-sound.desktop.in,
+    usr/share/xubuntu/applications/po/POTFILES.in:
+    - Add Sound entry to Hardware section of Settings Manager
+  * etc/xdg/xdg-xubuntu/menus/xfce-applications.menu:
+    - Exclude Texinfo and Pavucontrol from menu
+  * etc/skel/.config/hexchat/hexchat.conf,
+    etc/skel/.config/hexchat/servlist.conf:
+    - Add hexchat config to preselect freenode and join #xubuntu
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 22 Feb 2021 22:37:02 -0500
+
 xubuntu-default-settings (21.04.0) hirsute; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
