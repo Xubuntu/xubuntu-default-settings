@@ -1,0 +1,48 @@
+# 
+# Translators:
+# Jihwan Ahn <eric0823ahn@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-01 21:52-0400\n"
+"PO-Revision-Date: 2020-05-20 02:55+0000\n"
+"Last-Translator: Jihwan Ahn <eric0823ahn@gmail.com>, 2021\n"
+"Language-Team: Korean (https://www.transifex.com/xubuntu/teams/110148/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Launchpad (build 2e26c9bbd21cdca248baaea29aeffb920afcc32a)\n"
+"X-Launchpad-Export-Date: 2020-04-09 10:16+0000\n"
+
+#: ../uca.xml.in.h:1
+msgid "Open Terminal Here"
+msgstr "이 디렉토리에서 터미널 열기"
+
+#: ../uca.xml.in.h:2
+msgid "Example for a custom action"
+msgstr "커스텀 동작의 예시"
+
+#: ../uca.xml.in.h:3
+msgid "Open terminal in containing directory"
+msgstr "포함하는 디렉토리에서 터미널 열기"
+
+#: ../uca.xml.in.h:4
+msgid "Find in this folder"
+msgstr "이 폴더에서 찾기"
+
+#: ../uca.xml.in.h:5
+msgid "Search for files within this folder"
+msgstr "이 폴더에서 파일 찾기"
+
+#: ../uca.xml.in.h:6
+msgid "Print file(s)"
+msgstr "파일(들) 프린트하기"
+
+#: ../uca.xml.in.h:7
+msgid "Send one or multiple files to the default printer"
+msgstr "하나 이상의 파일 시본 프린터기에 보내기"
