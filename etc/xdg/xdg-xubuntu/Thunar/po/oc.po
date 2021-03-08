@@ -1,22 +1,24 @@
-# Occitan (post 1500) translation for xubuntu-default-settings
-# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
-# This file is distributed under the same license as the xubuntu-default-settings package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
-#
+# 
+# Translators:
+# Sean Davis <bluesabre@ubuntu.com>, 2020
+# Quentin PAGÈS, 2021
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: xubuntu-default-settings\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-01 21:52-0400\n"
-"PO-Revision-Date: 2013-11-09 08:03+0000\n"
-"Last-Translator: Cédric VALMARY (Tot en òc) <cvalmary@yahoo.fr>\n"
-"Language-Team: Occitan (post 1500) <oc@li.org>\n"
+"PO-Revision-Date: 2020-05-20 02:55+0000\n"
+"Last-Translator: Quentin PAGÈS, 2021\n"
+"Language-Team: Occitan (post 1500) (https://www.transifex.com/xubuntu/teams/110148/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-04-09 10:16+0000\n"
+"Language: oc\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Launchpad (build 2e26c9bbd21cdca248baaea29aeffb920afcc32a)\n"
-"Language: \n"
+"X-Launchpad-Export-Date: 2020-04-09 10:16+0000\n"
 
 #: ../uca.xml.in.h:1
 msgid "Open Terminal Here"
@@ -28,7 +30,7 @@ msgstr "Exemple d'una accion personalizada"
 
 #: ../uca.xml.in.h:3
 msgid "Open terminal in containing directory"
-msgstr ""
+msgstr "Dobrir un terminal dins lo repertòri contenedor"
 
 #: ../uca.xml.in.h:4
 msgid "Find in this folder"
@@ -40,8 +42,8 @@ msgstr "Recercar de fichièrs dins aqueste dorsièr"
 
 #: ../uca.xml.in.h:6
 msgid "Print file(s)"
-msgstr ""
+msgstr "Imprimir fichièr(s)"
 
 #: ../uca.xml.in.h:7
 msgid "Send one or multiple files to the default printer"
-msgstr ""
+msgstr "Enviar un o mai d’un fichièr a l’imprimenta per defaut"
