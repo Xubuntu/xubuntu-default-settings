@@ -1,23 +1,25 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Moo, 2020
+# Moo, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-01 22:10-0400\n"
+"POT-Creation-Date: 2021-03-09 05:43-0500\n"
 "PO-Revision-Date: 2020-05-20 02:54+0000\n"
-"Last-Translator: Moo, 2020\n"
+"Last-Translator: Moo, 2021\n"
 "Language-Team: Lithuanian (https://www.transifex.com/xubuntu/teams/110148/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lt\n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Launchpad (build 2e26c9bbd21cdca248baaea29aeffb920afcc32a)\n"
-"X-Launchpad-Export-Date: 2020-04-09 10:16+0000\n"
 
 #: ../xfhelp4.desktop.in.h:1
 msgid "Help"
@@ -26,3 +28,20 @@ msgstr "Žinynas"
 #: ../xfhelp4.desktop.in.h:2
 msgid "Help using Xfce"
 msgstr "Pagalba besinaudojant Xfce"
+
+#: ../settings-hardware-sound.desktop.in.h:1
+msgid "Sound"
+msgstr "Garsas"
+
+#: ../settings-hardware-sound.desktop.in.h:2
+msgid "Adjust the volume level"
+msgstr "Reguliuoti garsio lygį"
+
+#: ../settings-hardware-sound.desktop.in.h:3
+msgid ""
+"Microphone;Volume;Fade;Balance;Headset;Speakers;Headphones;Audio;Mixer;Output;Input;Devices;Playback;Recording;System"
+" Sounds;Sound Card;Settings;Preferences;"
+msgstr ""
+"Mikrofonas;Garsis;Garsumas;Išblukimas;Balansas;Ausinės su "
+"mikrofonu;Ausinės;Garsiakalbiai;Audio;Maišiklis;Išvestis;Išvedimas;Įvestis;Įvedimas;Įrenginiai;Atkūrimas;Grojimas;Įrašymas;Įrašas;Sistemos"
+" garsai;Garso plokštė;Nustatymai;Nuostatos;Parinktys;"
