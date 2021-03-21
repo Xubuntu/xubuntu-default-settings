@@ -36,7 +36,7 @@ msgstr "Geluid"
 
 #: ../settings-hardware-sound.desktop.in.h:2
 msgid "Adjust the volume level"
-msgstr "Pas het volumeniveau aan."
+msgstr "Pas het volumeniveau aan"
 
 #: ../settings-hardware-sound.desktop.in.h:3
 msgid ""
