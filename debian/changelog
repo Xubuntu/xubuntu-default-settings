@@ -1,3 +1,12 @@
+xubuntu-default-settings (21.04.2) hirsute; urgency=medium
+
+  * usr/share/xubuntu/applications/po/xds-desktop-files.pot:
+    - Make the new Sound entry translateable
+  * Translation updates: ar, de, en, es, fr, hi, hu, id, it, ko, lt,
+    nl, oc, pl, pt, sk, tr, ur
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 17 Apr 2021 05:58:03 -0400
+
 xubuntu-default-settings (21.04.1) hirsute; urgency=medium
 
   * debian/xubuntu-default-settings.gsettings-override:
