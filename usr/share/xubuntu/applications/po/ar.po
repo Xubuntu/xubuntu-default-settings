@@ -6,7 +6,6 @@
 # Translators:
 # Leonardo Muñoz <leonardoptc2015@gmail.com>, 2020
 # Abdul Rahman Vassouf <aubad22@gmail.com>, 2021
-# Zakaria Farhati <zakariafarhati18@gmail.com>, 2021
 # Muadh Abdulaziz <m_abdulaziz@tutamail.com>, 2021
 # 
 #, fuzzy
@@ -45,5 +44,6 @@ msgid ""
 "Microphone;Volume;Fade;Balance;Headset;Speakers;Headphones;Audio;Mixer;Output;Input;Devices;Playback;Recording;System"
 " Sounds;Sound Card;Settings;Preferences;"
 msgstr ""
-"ميكروفون؛صوت؛تلاشي؛توازن؛سماعة؛مكبرات الصوت؛سماعة الرأس؛اوديو؛مهندس "
-"الصوت؛مخرج؛مذخل؛أجهزة؛تشغيل؛تسجيل؛نظام الأصوات؛كارت الصوت؛إعدادات؛تخصيصات"
+"ميكروفون؛حجم الصوت؛تلاش؛توازن؛سماعة؛مكبرات الصوت؛سماعة الرأس؛الصوت؛خلاط "
+"الصوت؛مخرج؛مدخل؛أجهزة؛تشغيل؛تسجيل؛أصوات النظام؛بطاقة "
+"الصوت؛الإعدادات؛التفضيلات؛"
