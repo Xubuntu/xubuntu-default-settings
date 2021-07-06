@@ -27,7 +27,7 @@ msgstr "Druk van '$FILENAME' het misluk"
 #: ../thunar-print:27 ../thunar-print:36 ../thunar-print:45 ../thunar-print:56
 #, sh-format
 msgid "$PROGNAME does not seem to be installed."
-msgstr "Dit lyk nie of $PROGNAME geïinstalleer is nie"
+msgstr "Dit lyk nie of $PROGNAME geïinstalleer is nie."
 
 #: ../thunar-print:61
 #, sh-format
