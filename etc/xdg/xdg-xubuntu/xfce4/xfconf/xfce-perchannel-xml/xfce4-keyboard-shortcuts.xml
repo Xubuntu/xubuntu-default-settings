@@ -30,8 +30,6 @@
       <property name="XF86Calculator" type="string" value="mate-calc"/>
       <property name="XF86Music" type="string" value="parole"/>
       <property name="&lt;Super&gt;1" type="string" value="parole"/>
-      <property name="XF86Messenger" type="string" value="pidgin"/>
-      <property name="&lt;Super&gt;2" type="string" value="pidgin"/>
       <property name="&lt;Super&gt;3" type="string" value="libreoffice --writer"/>
       <property name="&lt;Super&gt;4" type="string" value="libreoffice --calc"/>
     </property>
