@@ -28,7 +28,7 @@
       <property name="&lt;Super&gt;e" type="string" value="exo-open --launch FileManager"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;f" type="string" value="exo-open --launch FileManager"/>
       <property name="XF86Calculator" type="string" value="mate-calc"/>
-      <property name="XF86Music" type="string" value="parole"/>
+      <property name="XF86Music" type="string" value="rhythmbox"/>
       <property name="&lt;Super&gt;1" type="string" value="parole"/>
       <property name="&lt;Super&gt;3" type="string" value="libreoffice --writer"/>
       <property name="&lt;Super&gt;4" type="string" value="libreoffice --calc"/>

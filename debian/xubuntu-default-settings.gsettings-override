@@ -4,7 +4,7 @@ lock-after-screensaver=0
 lock-on-suspend=true
 
 [com.canonical.indicator.sound]
-interested-media-players=[ 'parole' ]
+interested-media-players=[ 'parole', 'rhythmbox' ]
 
 [org.gnome.desktop.background]
 picture-uri='file:///usr/share/xfce4/backdrops/xubuntu-wallpaper.png'
