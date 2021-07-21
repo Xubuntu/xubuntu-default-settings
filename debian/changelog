@@ -1,3 +1,19 @@
+xubuntu-default-settings (21.10.0) UNRELEASED; urgency=medium
+
+  * debian/xubuntu-default-settings.gsettings-override,
+    etc/xdg/xdg-xubuntu/xfce4/panel/default.xml,
+    etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
+    usr/share/xubuntu/applications/defaults.list:
+    - Integrate rhythmbox (LP: #1934926)
+  * debian/live/whiskermenu-1.rc,
+    etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc,
+    etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
+    - Remove shortcuts for pidgin (LP: #1936417)
+  * etc/skel/.config/hexchat/servlist.conf:
+    - Switch Freenode to Libera
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 21 Jul 2021 17:01:25 -0400
+
 xubuntu-default-settings (21.04.2) hirsute; urgency=medium
 
   * usr/share/xubuntu/applications/po/xds-desktop-files.pot:
