@@ -11,8 +11,13 @@ xubuntu-default-settings (21.10.0) UNRELEASED; urgency=medium
     - Remove shortcuts for pidgin (LP: #1936417)
   * etc/skel/.config/hexchat/servlist.conf:
     - Switch Freenode to Libera
+  * debian/control:
+    - Bump Standards-Version to 4.5.1
+    - Bump debhelper-compat to 13
+  * debian/source/lintian-overrides:
+    - Deleted, no longer needed
 
- -- Sean Davis <smd.seandavis@gmail.com>  Wed, 21 Jul 2021 17:01:25 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 21 Jul 2021 17:12:59 -0400
 
 xubuntu-default-settings (21.04.2) hirsute; urgency=medium
 
