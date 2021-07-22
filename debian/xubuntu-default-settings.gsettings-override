@@ -39,4 +39,5 @@ use-default-monospace-font=false
 path-in-title=true
 
 [org.xfce.mousepad.state.search]
-direction=2
+direction=1
+wrap-around=true
