@@ -1,3 +1,10 @@
+xubuntu-default-settings (21.10.1) UNRELEASED; urgency=medium
+
+  * debian/xubuntu-default-settings.gsettings-override:
+    - Enable rhythmbox alternative-toolbar plugin
+
+ -- Sean Davis <sean@bluesabre.org>  Sat, 31 Jul 2021 19:12:05 -0400
+
 xubuntu-default-settings (21.10.0) impish; urgency=medium
 
   * debian/xubuntu-default-settings.gsettings-override,

@@ -15,6 +15,9 @@ icon-theme='elementary-xfce-darker'
 font-name='Noto Sans 9'
 monospace-font-name='Monospace 10'
 
+[org.gnome.rhythmbox.plugins]
+active-plugins=[ 'alternative-toolbar', 'android', 'artsearch', 'audiocd', 'audioscrobbler', 'daap', 'dbus-media-server', 'generic-player', 'ipod', 'iradio', 'mmkeys', 'mpris', 'mtpdevice', 'notification', 'power-manager', 'rb' ]
+
 [org.gtk.settings.file-chooser]
 window-size='(764, 482)'
 window-position='(19, 61)'
