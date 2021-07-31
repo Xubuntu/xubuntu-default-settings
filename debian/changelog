@@ -1,4 +1,4 @@
-xubuntu-default-settings (21.10.1) UNRELEASED; urgency=medium
+xubuntu-default-settings (21.10.1) impish; urgency=medium
 
   * debian/xubuntu-default-settings.gsettings-override:
     - Enable rhythmbox alternative-toolbar plugin
@@ -10,7 +10,7 @@ xubuntu-default-settings (21.10.1) UNRELEASED; urgency=medium
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-screensaver.xml:
     - Set 'onboard -e' as default on-screen keyboard command
 
- -- Sean Davis <sean@bluesabre.org>  Sat, 31 Jul 2021 19:12:05 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sat, 31 Jul 2021 19:38:45 -0400
 
 xubuntu-default-settings (21.10.0) impish; urgency=medium
 
