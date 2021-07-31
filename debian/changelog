@@ -2,6 +2,13 @@ xubuntu-default-settings (21.10.1) UNRELEASED; urgency=medium
 
   * debian/xubuntu-default-settings.gsettings-override:
     - Enable rhythmbox alternative-toolbar plugin
+    - Replace obsolete 'Both' setting for org.xfce.mousepad.state.search
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/thunar.xml:
+    - Enable full path in Thunar titlebar
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
+    - Remove obsolete Super+{1,3,4} keyboard shortcuts
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-screensaver.xml:
+    - Set 'onboard -e' as default on-screen keyboard command
 
  -- Sean Davis <sean@bluesabre.org>  Sat, 31 Jul 2021 19:12:05 -0400
 
