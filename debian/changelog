@@ -1,3 +1,10 @@
+xubuntu-default-settings (21.10.2) impish; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-screensaver.xml:
+    - Removed, conflicting package with xubuntu-live-settings breaks builds.
+
+ -- Sean Davis <sean@bluesabre.org>  Mon, 02 Aug 2021 21:53:26 -0400
+
 xubuntu-default-settings (21.10.1) impish; urgency=medium
 
   * debian/xubuntu-default-settings.gsettings-override:
