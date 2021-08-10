@@ -3,7 +3,6 @@
 # Sean Davis <bluesabre@ubuntu.com>, 2020
 # Leonardo Muñoz <leonardoptc2015@gmail.com>, 2020
 # Oukiki Saleh <salehoukiki@gmail.com>, 2020
-# Abdul Rahman Vassouf <aubad22@gmail.com>, 2021
 # Muadh Abdulaziz <m_abdulaziz@tutamail.com>, 2021
 # 
 #, fuzzy
@@ -33,7 +32,7 @@ msgstr "مثال لإجراء مخصص"
 
 #: ../uca.xml.in.h:3
 msgid "Open terminal in containing directory"
-msgstr "فتح الطرفية في المجلد المحتوي"
+msgstr "فتح الطرفية في المجلد المحتوي على هذا الملف"
 
 #: ../uca.xml.in.h:4
 msgid "Find in this folder"
