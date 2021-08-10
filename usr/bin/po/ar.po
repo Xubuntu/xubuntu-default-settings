@@ -1,7 +1,6 @@
 # 
 # Translators:
 # Leonardo Muñoz <leonardoptc2015@gmail.com>, 2020
-# Oukiki Saleh <salehoukiki@gmail.com>, 2020
 # Muadh Abdulaziz <m_abdulaziz@tutamail.com>, 2021
 # 
 #, fuzzy
@@ -24,7 +23,7 @@ msgstr ""
 #: ../thunar-print:16
 #, sh-format
 msgid "Printing '$FILENAME' failed"
-msgstr "فشل طباعة \"$ FILENAME\""
+msgstr "فشل طباعة '$FILENAME'"
 
 #: ../thunar-print:27 ../thunar-print:36 ../thunar-print:45 ../thunar-print:56
 #, sh-format
