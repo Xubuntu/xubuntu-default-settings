@@ -1,9 +1,9 @@
-xubuntu-default-settings (21.10.3) UNRELEASED; urgency=medium
+xubuntu-default-settings (21.10.3) impish; urgency=medium
 
   * etc/xdg/xdg-xubuntu/autostart/xcape-super-binding.desktop:
     - Add Super key binding to open Whisker Menu
 
- -- Sean Davis <sean@bluesabre.org>  Thu, 19 Aug 2021 07:34:48 -0400
+ -- Sean Davis <sean@bluesabre.org>  Thu, 19 Aug 2021 07:36:58 -0400
 
 xubuntu-default-settings (21.10.2) impish; urgency=medium
 
