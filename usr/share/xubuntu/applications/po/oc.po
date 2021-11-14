@@ -1,3 +1,7 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Quentin PAGÈS, 2021
@@ -7,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-01 22:10-0400\n"
+"POT-Creation-Date: 2021-03-09 05:43-0500\n"
 "PO-Revision-Date: 2020-05-20 02:54+0000\n"
 "Last-Translator: Quentin PAGÈS, 2021\n"
 "Language-Team: Occitan (post 1500) (https://www.transifex.com/xubuntu/teams/110148/oc/)\n"
@@ -16,8 +20,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: oc\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Launchpad (build 2e26c9bbd21cdca248baaea29aeffb920afcc32a)\n"
-"X-Launchpad-Export-Date: 2020-04-09 10:16+0000\n"
 
 #: ../xfhelp4.desktop.in.h:1
 msgid "Help"
@@ -26,3 +28,18 @@ msgstr "Ajuda"
 #: ../xfhelp4.desktop.in.h:2
 msgid "Help using Xfce"
 msgstr "Ajuda a l’utilizacion de Xfce"
+
+#: ../settings-hardware-sound.desktop.in.h:1
+msgid "Sound"
+msgstr "Son"
+
+#: ../settings-hardware-sound.desktop.in.h:2
+msgid "Adjust the volume level"
+msgstr "Ajustar lo nivèl de son"
+
+#: ../settings-hardware-sound.desktop.in.h:3
+msgid ""
+"Microphone;Volume;Fade;Balance;Headset;Speakers;Headphones;Audio;Mixer;Output;Input;Devices;Playback;Recording;System"
+" Sounds;Sound Card;Settings;Preferences;"
+msgstr ""
+"microfòn;volum;balance;escotador;escotaire;parlaire;naut;àudio;audio;mixer;sortida;entrada;periferics;enregistrament;son;sistèma;carta;paramètres;preferéncias;"
