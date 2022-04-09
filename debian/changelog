@@ -4,8 +4,10 @@ xubuntu-default-settings (22.04.0) UNRELEASED; urgency=medium
     - Update desktop files to current names (LP: #1967112)
     - Set associations for mimetypes with multiple handlers
     - Replace unsupported mimetype associations (LP: #1764124)
+  * etc/xdg/xdg-xubuntu/autostart/xcape-super-binding.desktop:
+    - Add Type=Application to show in startup apps (LP: #1963850)
 
- -- Sean Davis <sean@bluesabre.org>  Sat, 09 Apr 2022 09:17:29 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sat, 09 Apr 2022 09:21:51 -0400
 
 xubuntu-default-settings (21.10.3) impish; urgency=medium
 

@@ -1,4 +1,5 @@
 [Desktop Entry]
+Type=Application
 Name=Bind Super Key
 Exec=xcape -e 'Super_L=Control_L|Escape'
 OnlyShowIn=XFCE;
