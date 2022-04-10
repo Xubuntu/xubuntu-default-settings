@@ -1,4 +1,4 @@
-xubuntu-default-settings (22.04.0) UNRELEASED; urgency=medium
+xubuntu-default-settings (22.04.0) jammy; urgency=medium
 
   * usr/share/xubuntu/applications/defaults.list:
     - Update desktop files to current names (LP: #1967112)
@@ -10,7 +10,7 @@ xubuntu-default-settings (22.04.0) UNRELEASED; urgency=medium
     debian/rules:
     - Drop obsolete blueman gconf defaults
 
- -- Sean Davis <sean@bluesabre.org>  Sun, 10 Apr 2022 06:28:06 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sun, 10 Apr 2022 06:30:04 -0400
 
 xubuntu-default-settings (21.10.3) impish; urgency=medium
 
