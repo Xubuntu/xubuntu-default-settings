@@ -6,8 +6,11 @@ xubuntu-default-settings (22.04.0) UNRELEASED; urgency=medium
     - Replace unsupported mimetype associations (LP: #1764124)
   * etc/xdg/xdg-xubuntu/autostart/xcape-super-binding.desktop:
     - Add Type=Application to show in startup apps (LP: #1963850)
+  * debian/xubuntu-default-settings.gconf-defaults,
+    debian/rules:
+    - Drop obsolete blueman gconf defaults
 
- -- Sean Davis <sean@bluesabre.org>  Sat, 09 Apr 2022 09:21:51 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sun, 10 Apr 2022 06:28:06 -0400
 
 xubuntu-default-settings (21.10.3) impish; urgency=medium
 
