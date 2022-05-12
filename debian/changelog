@@ -1,3 +1,10 @@
+xubuntu-default-settings (22.04.0ubuntu1) UNRELEASED; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/picom.conf:
+    - Add configuration file for picom (compton replacement)
+
+ -- Sean Davis <sean@bluesabre.org>  Thu, 12 May 2022 18:41:13 -0400
+
 xubuntu-default-settings (22.04.0) jammy; urgency=medium
 
   * usr/share/xubuntu/applications/defaults.list:
