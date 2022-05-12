@@ -1,4 +1,4 @@
-xubuntu-default-settings (22.04.0ubuntu1) UNRELEASED; urgency=medium
+xubuntu-default-settings (22.10) UNRELEASED; urgency=medium
 
   * etc/xdg/xdg-xubuntu/picom.conf:
     - Add configuration file for picom (compton replacement)
