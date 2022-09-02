@@ -2,8 +2,10 @@ xubuntu-default-settings (22.10) UNRELEASED; urgency=medium
 
   * etc/xdg/xdg-xubuntu/picom.conf:
     - Add configuration file for picom (compton replacement)
+  * usr/share/xubuntu/applications/xfhelp4.desktop.in:
+    - Use help-browser for xfhelp4 icon (LP: #1983747)
 
- -- Sean Davis <sean@bluesabre.org>  Thu, 12 May 2022 18:41:13 -0400
+ -- Sean Davis <sean@bluesabre.org>  Fri, 02 Sep 2022 19:14:34 -0400
 
 xubuntu-default-settings (22.04.0) jammy; urgency=medium
 
