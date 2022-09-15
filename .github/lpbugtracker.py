@@ -66,7 +66,7 @@ def get_lp_bugs():
 
     for task in bug_tasks:
         id = str(task.bug.id)
-        title = task.title.split(": ")[1]
+        title = task.title.split(": ", 1)[1]
         status = task.status
         closed = status in ["Invalid", "Won't Fix", "Expired", "Fix Released"]
         link = "https://bugs.launchpad.net/ubuntu/+source/{}/+bug/{}".format(LP_SOURCE_URL_NAME, id)
