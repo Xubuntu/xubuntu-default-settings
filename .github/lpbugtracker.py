@@ -10,6 +10,7 @@ Based on https://github.com/ubuntu/yaru/blob/master/.github/lpbugtracker.py
 import os
 import subprocess
 import logging
+
 from launchpadlib.launchpad import Launchpad
 
 log = logging.getLogger("lpbugtracker")
