@@ -2,10 +2,12 @@ name: Sync Launchpad issues to GitHub
 on:
   push:
     branches:
-      - lp-import-updates
+      - master
     paths:
       - '.github/workflows/track-lp-issues.yaml'
       - '.github/lpbugtracker.py'
+  schedule:
+    - cron: '0 21 * * *'
 
 jobs:
   add-lp-issues:
