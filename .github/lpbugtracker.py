@@ -92,8 +92,10 @@ def get_gh_bugs():
     bugs = {}
     for line in output.decode().split("\n"):
         if "LP#" in line:
+            print(line)
             id, status, labels, lp = line.strip().split("|", 4)
             labels = labels.split(",")
+            print(id, status, labels, lp)
             lpid, title = lp.split(" ", 2)
             lpid = lpid[3:]
             bugs[lpid] = {"id": id, "status": status, "title": title, "labels": labels}
