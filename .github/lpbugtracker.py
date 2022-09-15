@@ -140,7 +140,7 @@ def create_issue(id, title, weblink, status):
 
 
 def update_issue(id, current_labels, status):
-    """ Create a new Bug using HUB """
+    """ Update a Bug using HUB """
     print("updating:", id, status)
 
     new_labels = ["Launchpad", status] + current_labels
@@ -150,6 +150,7 @@ def update_issue(id, current_labels, status):
             "hub",
             "issue",
             "update",
+            id,
             "-l",
             ",".join(new_labels),
         ]
