@@ -94,7 +94,7 @@ def get_gh_bugs():
         if "LP#" in line:
             id, status, labels, lp = line.strip().split("|", 4)
             labels = labels.split(",")
-            lpid, title = lp.split(" ")
+            lpid, title = lp.split(" ", 2)
             lpid = lpid[3:]
             bugs[lpid] = {"id": id, "status": status, "title": title, "labels": labels}
     return bugs
