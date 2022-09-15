@@ -10,6 +10,7 @@ Based on https://github.com/ubuntu/yaru/blob/master/.github/lpbugtracker.py
 import os
 import subprocess
 import logging
+
 from launchpadlib.launchpad import Launchpad
 
 log = logging.getLogger("lpbugtracker")
@@ -34,10 +35,13 @@ def main():
 
     for id in lp_bugs:
         if id in gh_bugs.keys():
+            gh_labels = parse_gh_labels(gh_bugs[id]["labels"])
             if lp_bugs[id]["closed"] and gh_bugs[id]["status"] != "closed":
-                close_issue(gh_bugs[id]["id"], lp_bugs[id]["status"])
+                close_issue(gh_bugs[id]["id"], gh_labels["labels"], lp_bugs[id]["status"])
+            elif lp_bugs[id]["status"] != gh_labels["status"]:
+                update_issue(gh_bugs[id]["id"], gh_labels["labels"], lp_bugs[id]["status"])
         elif not lp_bugs[id]["closed"] and lp_bugs[id]["status"] != "Incomplete":
-            create_issue(id, lp_bugs[id]["title"], lp_bugs[id]["link"])
+            create_issue(id, lp_bugs[id]["title"], lp_bugs[id]["link"], lp_bugs[id]["status"])
 
 
 def get_lp_bugs():
@@ -63,7 +67,7 @@ def get_lp_bugs():
 
     for task in bug_tasks:
         id = str(task.bug.id)
-        title = task.title.split(": ")[1]
+        title = task.title.split(": ", 1)[1]
         status = task.status
         closed = status in ["Invalid", "Won't Fix", "Expired", "Fix Released"]
         link = "https://bugs.launchpad.net/ubuntu/+source/{}/+bug/{}".format(LP_SOURCE_URL_NAME, id)
@@ -84,20 +88,42 @@ def get_gh_bugs():
     """
 
     output = subprocess.check_output(
-        ["hub", "issue", "--labels", "Launchpad", "--state", "all", "--format", "%I %S %t%n"]
+        ["hub", "issue", "--labels", "Launchpad", "--state", "all", "--format", "%I|%S|%L|%t%n"]
     )
     bugs = {}
     for line in output.decode().split("\n"):
         if "LP#" in line:
-            id, status, lpid, title = line.strip().split(" ", 3)
+            id, status, labels, lp = line.strip().split("|", 3)
+            labels = labels.split(", ")
+            lpid, title = lp.split(" ", 1)
             lpid = lpid[3:]
-            bugs[lpid] = {"id": id, "status": status, "title": title}
+            bugs[lpid] = {"id": id, "status": status, "title": title, "labels": labels}
     return bugs
 
 
-def create_issue(id, title, weblink):
+def parse_gh_labels(labels):
+    result = {
+        "status": "Unknown",
+        "labels": []
+    }
+    for label in labels:
+        if label == "Launchpad":
+            continue
+        elif label in ["New", "Opinion",
+                       "Invalid", "Won't Fix",
+                       "Expired", "Confirmed",
+                       "Triaged", "In Progress",
+                       "Fix Committed", "Fix Released",
+                       "Incomplete"]:
+            result["status"] = label
+        else:
+            result["labels"].append(label)
+    return result
+
+
+def create_issue(id, title, weblink, status):
     """ Create a new Bug using HUB """
-    print("creating:", id, title, weblink)
+    print("creating:", id, title, weblink, status)
     subprocess.run(
         [
             "hub",
@@ -108,14 +134,35 @@ def create_issue(id, title, weblink):
             "--message",
             "Reported first on Launchpad at {}".format(weblink),
             "-l",
-            "Launchpad",
+            "Launchpad,%s" % status,
         ]
     )
 
 
-def close_issue(id, status):
+def update_issue(id, current_labels, status):
+    """ Update a Bug using HUB """
+    print("updating:", id, status)
+
+    new_labels = ["Launchpad", status] + current_labels
+
+    subprocess.run(
+        [
+            "hub",
+            "issue",
+            "update",
+            id,
+            "-l",
+            ",".join(new_labels),
+        ]
+    )
+
+
+def close_issue(id, current_labels, status):
     """ Close the Bug using HUB and leave a comment """
     print("closing:", id, status)
+
+    new_labels = ["Launchpad", status] + current_labels
+
     subprocess.run(
         [
             "hub",
@@ -133,7 +180,9 @@ def close_issue(id, status):
             "update",
             id,
             "--state",
-            "closed"
+            "closed",
+            "-l",
+            ",".join(new_labels),
         ]
     )
 
