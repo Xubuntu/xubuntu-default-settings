@@ -124,9 +124,6 @@ def add_comments(issue_id, last_comment_id, comments):
         if id > last_comment_id:
             print("comment:", issue_id, id)
             gh_add_comment(issue_id, format_lp_comment(comments[id]))
-            if len(comments[id]["attachments"]) > 0:
-                print("attachments")
-                sys.exit(0)
 
 
 def format_lp_comment(message):
