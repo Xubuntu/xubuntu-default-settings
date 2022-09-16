@@ -69,7 +69,7 @@ def get_lp_bugs():
     open_bugs = lp_package_get_bugs(package, LP_OPEN_STATUS_LIST, True)
     closed_bugs = lp_package_get_bugs(package, LP_CLOSED_STATUS_LIST, False)
 
-    return open_bugs + closed_bugs
+    return {**open_bugs, **closed_bugs}
 
 
 def get_gh_bugs():
