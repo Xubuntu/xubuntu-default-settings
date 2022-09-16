@@ -131,12 +131,17 @@ def add_comments(issue_id, last_comment_id, comments):
 
 
 def format_lp_comment(message):
-    output = "[LP#{}]({}): *{} ({}) wrote on {}:*\n\n```\n{}```".format(message["id"],
+    content = []
+    for line in message["content"].split("\n"):
+        content.append("> {}".format(line))
+    content = "\n".join(content)
+
+    output = "[LP#{}]({}): *{} ({}) wrote on {}:*\n\n{}".format(message["id"],
                                                                 message["link"],
                                                                 message["author"]["display_name"],
                                                                 message["author"]["name"],
                                                                 message["date"],
-                                                                message["content"])
+                                                                content)
     if len(message["attachments"]) > 0:
         output += "\n\nAttachments:"
         for attachment in message["attachments"]:
