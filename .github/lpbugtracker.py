@@ -49,7 +49,6 @@ def main():
     for id in lp_bugs:
         if id in gh_bugs.keys():
             last_comment_id = get_gh_last_lp_comment(gh_bugs[id]["id"])
-            print("last_comment_id:", last_comment_id)
             add_comments(gh_bugs[id]["id"], last_comment_id, lp_bugs[id]["messages"])
 
             gh_labels = parse_gh_labels(gh_bugs[id]["labels"])
@@ -120,7 +119,7 @@ def close_issue(id, current_labels, status):
 def add_comments(issue_id, last_comment_id, comments):
     for id in comments:
         if id > last_comment_id:
-            print("comment:", issue_id, id)
+            print("adding comment:", issue_id, id)
             gh_add_comment(issue_id, format_lp_comment(comments[id]))
 
 
@@ -141,9 +140,8 @@ def format_lp_comment(message):
     if len(message["attachments"]) > 0:
         output += "\n\nAttachments:"
         for attachment in message["attachments"]:
-            output += "\n- [{}]({}) ({})".format(attachment["title"],
-                                                 attachment["link"],
-                                                 attachment["type"])
+            output += "\n- [{}]({})".format(attachment["title"],
+                                            attachment["link"])
     return output
 
 
@@ -268,8 +266,7 @@ def lp_message_get_attachments(message):
     for attach in message.bug_attachments:
         attachments.append({
             "link": attach.data_link,
-            "title": attach.title,
-            "type": attach.type
+            "title": attach.title
         })
     return attachments
 
