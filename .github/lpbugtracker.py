@@ -127,10 +127,11 @@ def add_comments(issue_id, last_comment_id, comments):
             if len(comments[id]["attachments"]) > 0:
                 print("attachments")
                 sys.exit(0)
+            sys.exit(0)
 
 
 def format_lp_comment(message):
-    output = "[LP#{}]({}): *{} ({}) wrote on {}:*\n\n{}".format(message["id"],
+    output = "[LP#{}]({}): *{} ({}) wrote on {}:*\n\n```{}```".format(message["id"],
                                                                 message["link"],
                                                                 message["author"]["display_name"],
                                                                 message["author"]["name"],
@@ -264,9 +265,8 @@ def lp_message_get_date_time(message):
 def lp_message_get_attachments(message):
     attachments = []
     for attach in message.bug_attachments:
-        download_link = "{}/+files/{}".format(attach.web_link, attach.title)
         attachments.append({
-            "link": download_link,
+            "link": attach.data_link,
             "title": attach.title,
             "type": attach.type
         })
@@ -339,7 +339,6 @@ def gh_list_comments(issue_id):
             "repos/{}/{}/issues/{}/comments".format(GH_OWNER, GH_REPO, issue_id)
         ]
     )
-    print("comment output:", output)
     return json.loads(output)
 
 
