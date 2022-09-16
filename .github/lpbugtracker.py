@@ -127,7 +127,7 @@ def add_comments(issue_id, last_comment_id, comments):
 
 
 def format_lp_comment(message):
-    output = "[LP#{}]({}): On {}, {} ({}) wrote:\n\n{}".format(message["id"],
+    output = "*[LP#{}]({}): On {}, {} ({}) wrote:*\n\n{}".format(message["id"],
                                                                message["link"],
                                                                message["date"],
                                                                message["author"]["display_name"],
@@ -171,9 +171,10 @@ def get_gh_last_lp_comment(issue_id):
     comments = gh_list_comments(issue_id)
     last_comment_id = -1
     for comment in comments:
-        if comment["body"][0:4] == "[LP#":
+        if comment["body"][0:4] == "*[LP#":
             comment_id = comment["body"].split("]")[0]
-            comment_id = int(comment_id[4:])
+            print("comment id:", comment_id)
+            comment_id = int(comment_id[5:])
             if comment_id > last_comment_id:
                 last_comment_id = comment_id
     return last_comment_id
@@ -317,14 +318,13 @@ def gh_close_issue(id, labels):
 
 
 def gh_add_comment(issue_id, comment):
-    comment = comment.replace("`", "")
     subprocess.run(
         [
             "hub",
             "api",
             "repos/{}/{}/issues/{}/comments".format(GH_OWNER, GH_REPO, issue_id),
             "--field",
-            "body=`{}`".format(comment)
+            "body={}".format(comment)
         ]
     )
 
