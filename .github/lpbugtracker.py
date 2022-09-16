@@ -127,7 +127,6 @@ def add_comments(issue_id, last_comment_id, comments):
             if len(comments[id]["attachments"]) > 0:
                 print("attachments")
                 sys.exit(0)
-            sys.exit(0)
 
 
 def format_lp_comment(message):
