@@ -11,7 +11,6 @@ import os
 import subprocess
 import logging
 import json
-import sys
 
 from launchpadlib.launchpad import Launchpad
 
@@ -41,8 +40,6 @@ LP_CLOSED_STATUS_LIST = ["Invalid",
 
 
 def main():
-    create_issue("12345", "Test Issue", "https://bluesabre.org", "New")
-    sys.exit(0)
     lp_bugs = get_lp_bugs()
     if len(lp_bugs) == 0:
         return
@@ -61,8 +58,8 @@ def main():
             elif lp_bugs[id]["status"] != gh_labels["status"]:
                 update_issue(gh_bugs[id]["id"], gh_labels["labels"], lp_bugs[id]["status"])
         elif not lp_bugs[id]["closed"] and lp_bugs[id]["status"] != "Incomplete":
-            create_issue(id, lp_bugs[id]["title"], lp_bugs[id]["link"], lp_bugs[id]["status"])
-            #todo Need to get ID
+            bug_id = create_issue(id, lp_bugs[id]["title"], lp_bugs[id]["link"], lp_bugs[id]["status"])
+            add_comments(bug_id, -1, lp_bugs[id]["messages"])
 
 
 def get_lp_bugs():
@@ -100,10 +97,9 @@ def get_gh_bugs():
 def create_issue(id, title, weblink, status):
     """ Create a new Bug using HUB """
     print("creating:", id, title, weblink, status)
-    gh_create_issue("LP#{} {}".format(id, title),
-                    "Reported first on Launchpad at {}".format(weblink),
-                    "Launchpad,%s" % status)
-    sys.exit(0)
+    return gh_create_issue("LP#{} {}".format(id, title),
+                           "Reported first on Launchpad at {}".format(weblink),
+                           "Launchpad,%s" % status)
 
 
 def update_issue(id, current_labels, status):
@@ -128,18 +124,20 @@ def add_comments(issue_id, last_comment_id, comments):
             gh_add_comment(issue_id, format_lp_comment(comments[id]))
 
 
-def format_lp_comment(message):
+def quote_str(string):
     content = []
-    for line in message["content"].split("\n"):
+    for line in string.split("\n"):
         content.append("> {}".format(line))
-    content = "\n".join(content)
+    return "\n".join(content)
 
+
+def format_lp_comment(message):
     output = "[LP#{}]({}): *{} ({}) wrote on {}:*\n\n{}".format(message["id"],
                                                                 message["link"],
                                                                 message["author"]["display_name"],
                                                                 message["author"]["name"],
                                                                 message["date"],
-                                                                content)
+                                                                quote_str(message["content"]))
     if len(message["attachments"]) > 0:
         output += "\n\nAttachments:"
         for attachment in message["attachments"]:
@@ -278,7 +276,7 @@ def lp_message_get_attachments(message):
 
 # GitHub API
 def gh_create_issue(summary, description, labels):
-    create_output = subprocess.check_output(
+    url = subprocess.check_output(
         [
             "hub",
             "issue",
@@ -291,7 +289,10 @@ def gh_create_issue(summary, description, labels):
             labels
         ]
     )
-    print(create_output)
+    url = url.decode("utf-8")
+    url = url.strip()
+    id = url.split("/")[-1]
+    return id
 
 
 def gh_set_issue_labels(id, labels):
