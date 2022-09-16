@@ -17,7 +17,7 @@ from launchpadlib.launchpad import Launchpad
 log = logging.getLogger("lpbugtracker")
 log.setLevel(logging.DEBUG)
 
-GH_OWNER = "bluesabre"
+GH_OWNER = "Xubuntu"
 GH_REPO = "xubuntu-default-settings"
 
 LP_SOURCE_NAME = "xubuntu-default-settings"
