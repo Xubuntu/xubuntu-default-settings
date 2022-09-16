@@ -131,7 +131,7 @@ def add_comments(issue_id, last_comment_id, comments):
 
 
 def format_lp_comment(message):
-    output = "[LP#{}]({}): *{} ({}) wrote on {}:*\n\n```{}```".format(message["id"],
+    output = "[LP#{}]({}): *{} ({}) wrote on {}:*\n\n```\n{}```".format(message["id"],
                                                                 message["link"],
                                                                 message["author"]["display_name"],
                                                                 message["author"]["name"],
