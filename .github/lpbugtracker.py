@@ -50,6 +50,7 @@ def main():
     for id in lp_bugs:
         if id in gh_bugs.keys():
             last_comment_id = get_gh_last_lp_comment(gh_bugs[id]["id"])
+            print("last_comment_id:", last_comment_id)
             add_comments(gh_bugs[id]["id"], last_comment_id, lp_bugs[id]["messages"])
 
             gh_labels = parse_gh_labels(gh_bugs[id]["labels"])
@@ -171,6 +172,7 @@ def get_gh_last_lp_comment(issue_id):
     comments = gh_list_comments(issue_id)
     last_comment_id = -1
     for comment in comments:
+        print("comment:", comment)
         if comment["body"][0:4] == "[LP#":
             comment_id = comment["body"].split("]")[0]
             print("comment id:", comment_id)
@@ -339,6 +341,7 @@ def gh_list_comments(issue_id):
             "repos/{}/{}/issues/{}/comments".format(GH_OWNER, GH_REPO, issue_id)
         ]
     )
+    print("comment output:", output)
     return json.loads(output)
 
 
