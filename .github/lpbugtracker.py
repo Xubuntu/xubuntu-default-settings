@@ -41,6 +41,8 @@ LP_CLOSED_STATUS_LIST = ["Invalid",
 
 
 def main():
+    create_issue("12345", "Test Issue", "https://bluesabre.org", "New")
+    sys.exit(0)
     lp_bugs = get_lp_bugs()
     if len(lp_bugs) == 0:
         return
