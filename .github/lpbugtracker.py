@@ -128,12 +128,12 @@ def add_comments(issue_id, last_comment_id, comments):
 
 
 def format_lp_comment(message):
-    output = "[LP#{}]({}): *On {}, {} ({}) wrote:*\n\n{}".format(message["id"],
-                                                               message["link"],
-                                                               message["date"],
-                                                               message["author"]["display_name"],
-                                                               message["author"]["name"],
-                                                               message["content"])
+    output = "[LP#{}]({}): *{} ({}) wrote on {}:*\n\n{}".format(message["id"],
+                                                                message["link"],
+                                                                message["author"]["display_name"],
+                                                                message["author"]["name"],
+                                                                message["date"],
+                                                                message["content"])
     if len(message["attachments"]) > 0:
         output += "\n\nAttachments:"
         for attachment in message["attachments"]:
@@ -257,18 +257,17 @@ def lp_message_get_id(message):
 
 def lp_message_get_date_time(message):
     dt = message.date_created
-    tz = dt.isoformat().split("+")[1]
     dt = dt.isoformat().split(".")[0]
-    dt = dt.replace("T", " ")
-    dt = dt[0:19] + "+" + tz
+    dt = dt.split("T")[0]
     return dt
 
 
 def lp_message_get_attachments(message):
     attachments = []
     for attach in message.bug_attachments:
+        download_link = "{}/+files/{}".format(attach.web_link, attach.title)
         attachments.append({
-            "link": attach.web_link,
+            "link": download_link,
             "title": attach.title,
             "type": attach.type
         })
