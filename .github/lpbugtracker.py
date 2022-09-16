@@ -10,13 +10,15 @@ Based on https://github.com/ubuntu/yaru/blob/master/.github/lpbugtracker.py
 import os
 import subprocess
 import logging
+import json
+import sys
 
 from launchpadlib.launchpad import Launchpad
 
 log = logging.getLogger("lpbugtracker")
 log.setLevel(logging.DEBUG)
 
-GH_OWNER = "Xubuntu"
+GH_OWNER = "bluesabre"
 GH_REPO = "xubuntu-default-settings"
 
 LP_SOURCE_NAME = "xubuntu-default-settings"
@@ -24,6 +26,18 @@ LP_SOURCE_URL_NAME = "xubuntu-default-settings"
 
 HOME = os.path.expanduser("~")
 CACHEDIR = os.path.join(HOME, ".launchpadlib", "cache")
+
+LP_OPEN_STATUS_LIST = ["New",
+                       "Opinion",
+                       "Confirmed",
+                       "Triaged",
+                       "In Progress",
+                       "Fix Committed",
+                       "Incomplete"]
+LP_CLOSED_STATUS_LIST = ["Invalid",
+                         "Won't Fix",
+                         "Expired",
+                         "Fix Released"]
 
 
 def main():
@@ -35,6 +49,9 @@ def main():
 
     for id in lp_bugs:
         if id in gh_bugs.keys():
+            last_comment_id = get_gh_last_lp_comment(gh_bugs[id]["id"])
+            add_comments(gh_bugs[id]["id"], last_comment_id, lp_bugs[id]["messages"])
+
             gh_labels = parse_gh_labels(gh_bugs[id]["labels"])
             if lp_bugs[id]["closed"] and gh_bugs[id]["status"] != "closed":
                 close_issue(gh_bugs[id]["id"], gh_labels["labels"], lp_bugs[id]["status"])
@@ -42,38 +59,17 @@ def main():
                 update_issue(gh_bugs[id]["id"], gh_labels["labels"], lp_bugs[id]["status"])
         elif not lp_bugs[id]["closed"] and lp_bugs[id]["status"] != "Incomplete":
             create_issue(id, lp_bugs[id]["title"], lp_bugs[id]["link"], lp_bugs[id]["status"])
+            #todo Need to get ID
 
 
 def get_lp_bugs():
     """Get a list of bugs from Launchpad"""
 
-    lp = Launchpad.login_anonymously(
-        "%s LP bug checker" % LP_SOURCE_NAME, "production", CACHEDIR, version="devel"
-    )
+    package = lp_get_package(LP_SOURCE_NAME)
+    open_bugs = lp_package_get_bugs(package, LP_OPEN_STATUS_LIST, True)
+    closed_bugs = lp_package_get_bugs(package, LP_CLOSED_STATUS_LIST, False)
 
-    ubuntu = lp.distributions["ubuntu"]
-    archive = ubuntu.main_archive
-
-    packages = archive.getPublishedSources(source_name=LP_SOURCE_NAME)
-    package = ubuntu.getSourcePackage(name=packages[0].source_package_name)
-
-    bug_tasks = package.searchTasks(status=["New", "Opinion",
-                                            "Invalid", "Won't Fix",
-                                            "Expired", "Confirmed",
-                                            "Triaged", "In Progress",
-                                            "Fix Committed", "Fix Released",
-                                            "Incomplete"])
-    bugs = {}
-
-    for task in bug_tasks:
-        id = str(task.bug.id)
-        title = task.title.split(": ", 1)[1]
-        status = task.status
-        closed = status in ["Invalid", "Won't Fix", "Expired", "Fix Released"]
-        link = "https://bugs.launchpad.net/ubuntu/+source/{}/+bug/{}".format(LP_SOURCE_URL_NAME, id)
-        bugs[id] = {"title": title, "link": link, "status": status, "closed": closed}
-
-    return bugs
+    return open_bugs + closed_bugs
 
 
 def get_gh_bugs():
@@ -92,13 +88,68 @@ def get_gh_bugs():
     )
     bugs = {}
     for line in output.decode().split("\n"):
-        if "LP#" in line:
-            id, status, labels, lp = line.strip().split("|", 3)
-            labels = labels.split(", ")
-            lpid, title = lp.split(" ", 1)
-            lpid = lpid[3:]
-            bugs[lpid] = {"id": id, "status": status, "title": title, "labels": labels}
+        issue = parse_gh_issue(line)
+        if issue is not None:
+            bugs[issue["lpid"]] = issue
     return bugs
+
+
+def create_issue(id, title, weblink, status):
+    """ Create a new Bug using HUB """
+    print("creating:", id, title, weblink, status)
+    gh_create_issue("LP#{} {}".format(id, title),
+                    "Reported first on Launchpad at {}".format(weblink),
+                    "Launchpad,%s" % status)
+    sys.exit(0)
+
+
+def update_issue(id, current_labels, status):
+    """ Update a Bug using HUB """
+    print("updating:", id, status)
+    new_labels = ["Launchpad", status] + current_labels
+    gh_set_issue_labels(id, ",".join(new_labels))
+
+
+def close_issue(id, current_labels, status):
+    """ Close the Bug using HUB and leave a comment """
+    print("closing:", id, status)
+    new_labels = ["Launchpad", status] + current_labels
+    gh_add_comment(id, "Issue closed on Launchpad with status: {}".format(status))
+    gh_close_issue(id, ",".join(new_labels))
+
+
+def add_comments(issue_id, last_comment_id, comments):
+    for id in comments:
+        if id > last_comment_id:
+            print("comment:", issue_id, id)
+            gh_add_comment(issue_id, format_lp_comment(comments[id]))
+            sys.exit(0)
+
+
+def format_lp_comment(message):
+    output = "[LP#{}]({}): On {}, {} ({}) wrote:\n\n{}".format(message["id"],
+                                                               message["link"],
+                                                               message["date"],
+                                                               message["author"]["display_name"],
+                                                               message["author"]["name"],
+                                                               message["content"])
+    if len(message["attachments"]) > 0:
+        output += "\n\nAttachments:"
+        for attachment in message["attachments"]:
+            output += "\n- [{}]({}) ({})".format(attachment["title"],
+                                                 attachment["link"],
+                                                 attachment["type"])
+    return output
+
+
+def parse_gh_issue(issue):
+    if "LP#" in issue:
+        id, status, labels, lp = issue.strip().split("|", 3)
+        labels = labels.split(", ")
+        lpid, title = lp.split(" ", 1)
+        lpid = lpid[3:]
+        return {"id": id, "lpid": lpid, "status": status, "title": title, "labels": labels}
+    return None
 
 
 def parse_gh_labels(labels):
@@ -109,42 +160,135 @@ def parse_gh_labels(labels):
     for label in labels:
         if label == "Launchpad":
             continue
-        elif label in ["New", "Opinion",
-                       "Invalid", "Won't Fix",
-                       "Expired", "Confirmed",
-                       "Triaged", "In Progress",
-                       "Fix Committed", "Fix Released",
-                       "Incomplete"]:
+        elif label in LP_OPEN_STATUS_LIST + LP_CLOSED_STATUS_LIST:
             result["status"] = label
         else:
             result["labels"].append(label)
     return result
 
 
-def create_issue(id, title, weblink, status):
-    """ Create a new Bug using HUB """
-    print("creating:", id, title, weblink, status)
-    subprocess.run(
+def get_gh_last_lp_comment(issue_id):
+    comments = gh_list_comments(issue_id)
+    last_comment_id = -1
+    for comment in comments:
+        if comment["body"][0:4] == "[LP#":
+            comment_id = comment["body"].split("]")[0]
+            comment_id = int(comment_id[4:])
+            if comment_id > last_comment_id:
+                last_comment_id = comment_id
+    return last_comment_id
+
+
+# Launchpad API
+def lp_get_package(source_name):
+    lp = Launchpad.login_anonymously(
+        "%s LP bug checker" % LP_SOURCE_NAME, "production", CACHEDIR, version="devel"
+    )
+
+    ubuntu = lp.distributions["ubuntu"]
+    archive = ubuntu.main_archive
+
+    packages = archive.getPublishedSources(source_name=source_name)
+    package = ubuntu.getSourcePackage(name=packages[0].source_package_name)
+
+    return package
+
+
+def lp_package_get_bugs(package, status_list, get_messages = False):
+    """Get a list of bugs from Launchpad"""
+
+    bug_tasks = package.searchTasks(status=status_list)
+    bugs = {}
+
+    for task in bug_tasks:
+        bug = lp_task_get_bug(task, get_messages)
+        if bug is not None:
+            bugs[bug["id"]] = bug
+
+    return bugs
+
+
+def lp_task_get_bug(task, get_messages = False):
+    try:
+        id = str(task.bug.id)
+        title = task.title.split(": ", 1)[1]
+        status = task.status
+        closed = status in LP_CLOSED_STATUS_LIST
+        link = "https://bugs.launchpad.net/ubuntu/+source/{}/+bug/{}".format(LP_SOURCE_URL_NAME, id)
+        if get_messages:
+            messages = lp_bug_get_messages(task.bug)
+        else:
+            messages = {}
+        return {"id": id, "title": title, "link": link, "status": status, "closed": closed, "messages": messages}
+    except:
+        return None
+
+
+def lp_bug_get_messages(bug):
+    messages = {}
+    for message in bug.messages:
+        message_id = lp_message_get_id(message)
+        messages[message_id] = {
+            "id": str(message_id),
+            "link": message.web_link,
+            "content": message.content,
+            "date": lp_message_get_date_time(message),
+            "author": lp_message_get_author(message),
+            "attachments": lp_message_get_attachments(message)
+        }
+    return messages
+
+
+def lp_message_get_author(message):
+    return {
+        "name": message.owner.name,
+        "display_name": message.owner.display_name,
+    }
+
+
+def lp_message_get_id(message):
+    return int(message.web_link.split("/")[-1])
+
+
+def lp_message_get_date_time(message):
+    dt = message.date_created
+    tz = dt.isoformat().split("+")[1]
+    dt = dt.isoformat().split(".")[0]
+    dt = dt.replace("T", " ")
+    dt = dt[0:19] + "+" + tz
+    return dt
+
+
+def lp_message_get_attachments(message):
+    attachments = []
+    for attach in message.bug_attachments:
+        attachments.append({
+            "link": attach.web_link,
+            "title": attach.title,
+            "type": attach.type
+        })
+    return attachments
+
+
+# GitHub API
+def gh_create_issue(summary, description, labels):
+    create_output = subprocess.check_output(
         [
             "hub",
             "issue",
             "create",
             "--message",
-            "LP#{} {}".format(id, title),
+            summary,
             "--message",
-            "Reported first on Launchpad at {}".format(weblink),
+            description,
             "-l",
-            "Launchpad,%s" % status,
+            labels
         ]
     )
+    print(create_output)
 
 
-def update_issue(id, current_labels, status):
-    """ Update a Bug using HUB """
-    print("updating:", id, status)
-
-    new_labels = ["Launchpad", status] + current_labels
-
+def gh_set_issue_labels(id, labels):
     subprocess.run(
         [
             "hub",
@@ -152,27 +296,12 @@ def update_issue(id, current_labels, status):
             "update",
             id,
             "-l",
-            ",".join(new_labels),
+            labels,
         ]
     )
 
 
-def close_issue(id, current_labels, status):
-    """ Close the Bug using HUB and leave a comment """
-    print("closing:", id, status)
-
-    new_labels = ["Launchpad", status] + current_labels
-
-    subprocess.run(
-        [
-            "hub",
-            "api",
-            "repos/{}/{}/issues/{}/comments".format(GH_OWNER, GH_REPO, id),
-            "--field",
-            "body=Issue closed on Launchpad with status: {}".format(status)
-        ]
-    )
-
+def gh_close_issue(id, labels):
     subprocess.run(
         [
             "hub",
@@ -182,9 +311,33 @@ def close_issue(id, current_labels, status):
             "--state",
             "closed",
             "-l",
-            ",".join(new_labels),
+            labels,
         ]
     )
+
+
+def gh_add_comment(issue_id, comment):
+    comment = comment.replace("`", "")
+    subprocess.run(
+        [
+            "hub",
+            "api",
+            "repos/{}/{}/issues/{}/comments".format(GH_OWNER, GH_REPO, issue_id),
+            "--field",
+            "body=`{}`".format(comment)
+        ]
+    )
+
+
+def gh_list_comments(issue_id):
+    output = subprocess.check_output(
+        [
+            "hub",
+            "api",
+            "repos/{}/{}/issues/{}/comments".format(GH_OWNER, GH_REPO, issue_id)
+        ]
+    )
+    return json.loads(output)
 
 
 if __name__ == "__main__":
