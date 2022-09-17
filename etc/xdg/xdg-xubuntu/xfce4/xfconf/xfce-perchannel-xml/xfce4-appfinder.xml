@@ -12,6 +12,7 @@
       <property name="pattern" type="string" value="^(file|http|https):\/\/(.*)$"/>
       <property name="command" type="string" value="exo-open \0"/>
       <property name="save" type="bool" value="false"/>
+      <property name="type" type="int" value="1"/>
     </property>
     <property name="action-2" type="empty">
       <property name="pattern" type="string" value="!"/>
