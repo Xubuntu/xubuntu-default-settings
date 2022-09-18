@@ -1,5 +1,7 @@
 xubuntu-default-settings (22.10) UNRELEASED; urgency=medium
 
+  * debian/control:
+    - Bump Standards-Version to 4.6.0.1
   * etc/xdg/xdg-xubuntu/picom.conf:
     - Add configuration file for picom (compton replacement)
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml:
@@ -9,7 +11,7 @@ xubuntu-default-settings (22.10) UNRELEASED; urgency=medium
   * usr/share/xubuntu/applications/xfhelp4.desktop.in:
     - Use help-browser for xfhelp4 icon (LP: #1983747)
 
- -- Sean Davis <sean@bluesabre.org>  Sun, 18 Sep 2022 05:31:09 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sun, 18 Sep 2022 05:57:34 -0400
 
 xubuntu-default-settings (22.04.0) jammy; urgency=medium
 
