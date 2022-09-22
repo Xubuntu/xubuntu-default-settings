@@ -13,7 +13,6 @@ Package: xubuntu-default-settings
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: dbus-user-session,
-         fonts-noto-hinted,
          lightdm-gtk-greeter (>= 2.0.1-1),
          systemd (>= 231-1~),
          x11-common (>= 1:7.6+7ubuntu2),
@@ -21,7 +20,8 @@ Depends: dbus-user-session,
          xubuntu-artwork (>= 12.10.1~),
          ${misc:Depends},
          ${python3:Depends}
-Recommends: libxfce4ui-utils
+Recommends: libxfce4ui-utils,
+         fonts-noto-core
 Breaks: upstart (<< 1.13.2-0ubuntu28~)
 Provides: lightdm-gtk-greeter-config
 Description: default settings for the Xubuntu desktop
