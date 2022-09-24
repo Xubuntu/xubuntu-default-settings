@@ -2,12 +2,13 @@ xubuntu-default-settings (22.10.1) UNRELEASED; urgency=medium
 
   * debian/control:
     - Move Noto fonts to Recommends, switch to fonts-noto-core (LP: #1891714)
-  * etc/xdg/xdg-xubuntu/Thunar/uca.xml.in:
+  * etc/xdg/xdg-xubuntu/Thunar/uca.xml.in,
+    etc/xdg/xdg-xubuntu/Thunar/accels.scm:
     - Update Thunar custom actions to current template
   * Makefile:
     - Add easier po file regeneration
 
- -- Sean Davis <sean@bluesabre.org>  Sat, 24 Sep 2022 07:49:08 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sat, 24 Sep 2022 07:54:45 -0400
 
 xubuntu-default-settings (22.10.0) kinetic; urgency=medium
 
