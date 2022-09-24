@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-24 08:44-0400\n"
+"POT-Creation-Date: 2022-09-24 08:48-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,14 +17,26 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../xdg-xubuntu-templates:30
-msgid "OpenDocument Text"
+#: ../whiskermenu-1.rc.in.h:1
+msgid "Applications Menu"
 msgstr ""
 
-#: ../xdg-xubuntu-templates:31
-msgid "OpenDocument Spreadsheet"
+#: ../whiskermenu-1.rc.in.h:2
+msgid "Man Pages"
 msgstr ""
 
-#: ../xdg-xubuntu-templates:32
-msgid "Plain Text"
+#: ../whiskermenu-1.rc.in.h:3
+msgid "Wikipedia"
+msgstr ""
+
+#: ../whiskermenu-1.rc.in.h:4
+msgid "Run in Terminal"
+msgstr ""
+
+#: ../whiskermenu-1.rc.in.h:5
+msgid "Open URI"
+msgstr ""
+
+#: ../whiskermenu-1.rc.in.h:6
+msgid "Search for files"
 msgstr ""

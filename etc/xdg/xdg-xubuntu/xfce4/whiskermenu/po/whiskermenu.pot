@@ -17,14 +17,26 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../xdg-xubuntu-templates:30
-msgid "OpenDocument Text"
+#: ../defaults.rc.in.h:1
+msgid "Applications Menu"
 msgstr ""
 
-#: ../xdg-xubuntu-templates:31
-msgid "OpenDocument Spreadsheet"
+#: ../defaults.rc.in.h:2
+msgid "Man Pages"
 msgstr ""
 
-#: ../xdg-xubuntu-templates:32
-msgid "Plain Text"
+#: ../defaults.rc.in.h:3
+msgid "Wikipedia"
+msgstr ""
+
+#: ../defaults.rc.in.h:4
+msgid "Run in Terminal"
+msgstr ""
+
+#: ../defaults.rc.in.h:5
+msgid "Open URI"
+msgstr ""
+
+#: ../defaults.rc.in.h:6
+msgid "Search for files"
 msgstr ""

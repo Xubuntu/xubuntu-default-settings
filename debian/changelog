@@ -7,8 +7,11 @@ xubuntu-default-settings (22.10.1) UNRELEASED; urgency=medium
     - Update Thunar custom actions to current template
   * Makefile:
     - Add easier po file regeneration
+  * debian/live/whiskermenu-1.rc.in,
+    etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc.in:
+    - Enable translations for Whisker Menu (LP: #1926180)
 
- -- Sean Davis <sean@bluesabre.org>  Sat, 24 Sep 2022 07:54:45 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sat, 24 Sep 2022 08:51:23 -0400
 
 xubuntu-default-settings (22.10.0) kinetic; urgency=medium
 
