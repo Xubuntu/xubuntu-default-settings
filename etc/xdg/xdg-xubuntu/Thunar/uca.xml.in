@@ -1,63 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE actions [
-  <!ELEMENT actions (action)+>
-
-  <!ELEMENT action (icon|patterns|name|unique-id|command|description|directories|audio-files|image-files|other-files|text-files|video-files)*>
-
-  <!ELEMENT icon (#PCDATA)>
-  <!ELEMENT command (#PCDATA)>
-  <!ELEMENT patterns (#PCDATA)>
-
-  <!ELEMENT name (#PCDATA)>
-  <!ATTLIST name xml:lang CDATA #IMPLIED>
-
-  <!ELEMENT unique-id (#PCDATA)>
-
-  <!ELEMENT description (#PCDATA)>
-  <!ATTLIST description xml:lang CDATA #IMPLIED>
-  
-  <!ELEMENT startup-notify EMPTY>
-
-  <!ELEMENT directories EMPTY>
-  <!ELEMENT audio-files EMPTY>
-  <!ELEMENT image-files EMPTY>
-  <!ELEMENT other-files EMPTY>
-  <!ELEMENT text-files EMPTY>
-  <!ELEMENT video-files EMPTY>
-]>
 <actions>
-
   <action>
-    <icon>Terminal</icon>
-    <patterns>*</patterns>
+    <icon>utilities-terminal</icon>
     <_name>Open Terminal Here</_name>
+    <submenu></submenu>
     <unique-id>1-1</unique-id>
     <command>exo-open --working-directory %f --launch TerminalEmulator</command>
-    <_description>Example for a custom action</_description>
+    <_description>Open terminal in containing directory</_description>
+    <range></range>
+    <patterns>*</patterns>
     <startup-notify/>
     <directories/>
   </action>
 
   <action>
-    <icon>Terminal</icon>
-    <patterns>*</patterns>
-    <_name>Open Terminal Here</_name>
-    <unique-id>2-2</unique-id>
-    <command>exo-open --working-directory %d --launch TerminalEmulator</command>
-    <_description>Open terminal in containing directory</_description>
-    <audio-files/>
-    <image-files/>
-    <other-files/>
-    <text-files/>
-    <video-files/>
-  </action>
-
-  <action>
-    <icon>filefind</icon>
+    <icon>edit-find</icon>
     <_name>Find in this folder</_name>
-    <unique-id>3-3</unique-id>
+    <submenu></submenu>
+    <unique-id>2-2</unique-id>
     <command>catfish --path=%f</command>
     <_description>Search for files within this folder</_description>
+    <range></range>
     <patterns>*</patterns>
     <directories/>
   </action>
@@ -65,13 +28,14 @@
   <action>
     <icon>document-print</icon>
     <_name>Print file(s)</_name>
-    <unique-id>4-4</unique-id>
+    <submenu></submenu>
+    <unique-id>3-3</unique-id>
     <command>thunar-print %F</command>
     <_description>Send one or multiple files to the default printer</_description>
+    <range></range>
     <patterns>*.asc;*.brf;*.css;*.doc;*.docm;*.docx;*.dotm;*.dotx;*.fodg;*.fodp;*.fods;*.fodt;*.gif;*.htm;*.html;*.jpe;*.jpeg;*.jpg;*.odb;*.odf;*.odg;*.odm;*.odp;*.ods;*.odt;*.otg;*.oth;*.otp;*.ots;*.ott;*.pbm;*.pdf;*.pgm;*.png;*.pnm;*.pot;*.potm;*.potx;*.ppm;*.ppt;*.pptm;*.pptx;*.rtf;*.shtml;*.srt;*.text;*.tif;*.tiff;*.txt;*.xbm;*.xls;*.xlsb;*.xlsm;*.xlsx;*.xltm;*.xltx;*.xpm;*.xwd</patterns>
     <image-files/>
     <other-files/>
     <text-files/>
   </action>
-
 </actions>
