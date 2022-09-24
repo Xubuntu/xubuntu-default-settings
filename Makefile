@@ -5,6 +5,11 @@ SUBDIRS := etc/xdg/xdg-xubuntu/Thunar/po usr/bin/po/ usr/share/xsessions/po usr/
 all:
 	@echo "Nothing to build, call 'make install' instead."
 
+generate-pot:
+	for i in $(SUBDIRS); do \
+		make -C $$i generate-pot; \
+	done
+
 install:
 	mkdir -pv $(DESTDIR)
 	cp -a etc usr $(DESTDIR)/.
