@@ -1,4 +1,4 @@
-xubuntu-default-settings (22.10.1) UNRELEASED; urgency=medium
+xubuntu-default-settings (22.10.1) kinetic; urgency=medium
 
   * debian/control:
     - Move Noto fonts to Recommends, switch to fonts-noto-core (LP: #1891714)
@@ -8,7 +8,7 @@ xubuntu-default-settings (22.10.1) UNRELEASED; urgency=medium
   * Makefile:
     - Add easier po file regeneration
 
- -- Sean Davis <sean@bluesabre.org>  Sat, 24 Sep 2022 07:54:45 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sun, 25 Sep 2022 04:47:01 -0400
 
 xubuntu-default-settings (22.10.0) kinetic; urgency=medium
 
