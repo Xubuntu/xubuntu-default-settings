@@ -1,47 +1,46 @@
-# Czech translation for xubuntu-default-settings
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the xubuntu-default-settings package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sean Davis <bluesabre@ubuntu.com>, 2020
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: xubuntu-default-settings\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-01 21:52-0400\n"
-"PO-Revision-Date: 2020-01-20 16:28+0000\n"
-"Last-Translator: Pavel Borecki <Unknown>\n"
-"Language-Team: Czech <cs@li.org>\n"
+"POT-Creation-Date: 2022-09-24 07:37-0400\n"
+"PO-Revision-Date: 2020-05-20 02:55+0000\n"
+"Last-Translator: Sean Davis <bluesabre@ubuntu.com>, 2020\n"
+"Language-Team: Czech (https://www.transifex.com/xubuntu/teams/110148/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-04-09 10:16+0000\n"
-"X-Generator: Launchpad (build 2e26c9bbd21cdca248baaea29aeffb920afcc32a)\n"
 "Language: cs\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: ../uca.xml.in.h:1
 msgid "Open Terminal Here"
 msgstr "Otevřít terminál zde"
 
 #: ../uca.xml.in.h:2
-msgid "Example for a custom action"
-msgstr "Příklad vlastní akce"
-
-#: ../uca.xml.in.h:3
 msgid "Open terminal in containing directory"
 msgstr "Otevřít terminál v adresáři, ve kterém se nacházíte"
 
-#: ../uca.xml.in.h:4
+#: ../uca.xml.in.h:3
 msgid "Find in this folder"
 msgstr "Hledat v této složce"
 
-#: ../uca.xml.in.h:5
+#: ../uca.xml.in.h:4
 msgid "Search for files within this folder"
 msgstr "Hledat soubory v této složce"
 
-#: ../uca.xml.in.h:6
+#: ../uca.xml.in.h:5
 msgid "Print file(s)"
 msgstr "Vytisknout soubor(y)"
 
-#: ../uca.xml.in.h:7
+#: ../uca.xml.in.h:6
 msgid "Send one or multiple files to the default printer"
 msgstr "Odeslat jeden nebo vícero souborů na výchozí tiskárnu"
