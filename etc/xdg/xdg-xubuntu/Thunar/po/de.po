@@ -1,3 +1,7 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Sean Davis <bluesabre@ubuntu.com>, 2020
@@ -7,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-01 21:52-0400\n"
+"POT-Creation-Date: 2022-09-24 07:37-0400\n"
 "PO-Revision-Date: 2020-05-20 02:55+0000\n"
 "Last-Translator: Sean Davis <bluesabre@ubuntu.com>, 2020\n"
 "Language-Team: German (https://www.transifex.com/xubuntu/teams/110148/de/)\n"
@@ -16,33 +20,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Launchpad (build 2e26c9bbd21cdca248baaea29aeffb920afcc32a)\n"
-"X-Launchpad-Export-Date: 2020-04-09 10:16+0000\n"
 
 #: ../uca.xml.in.h:1
 msgid "Open Terminal Here"
 msgstr "Terminal hier öffnen"
 
 #: ../uca.xml.in.h:2
-msgid "Example for a custom action"
-msgstr "Beispiel für eine benutzerdefinierte Aktion"
-
-#: ../uca.xml.in.h:3
 msgid "Open terminal in containing directory"
 msgstr "Terminal im aktuellen Verzeichnis öffnen"
 
-#: ../uca.xml.in.h:4
+#: ../uca.xml.in.h:3
 msgid "Find in this folder"
 msgstr "In diesem Ordner suchen"
 
-#: ../uca.xml.in.h:5
+#: ../uca.xml.in.h:4
 msgid "Search for files within this folder"
 msgstr "Nach Dateien in diesem Ordner suchen"
 
-#: ../uca.xml.in.h:6
+#: ../uca.xml.in.h:5
 msgid "Print file(s)"
 msgstr "Datei(en) drucken"
 
-#: ../uca.xml.in.h:7
+#: ../uca.xml.in.h:6
 msgid "Send one or multiple files to the default printer"
 msgstr "Eine oder mehrere Dateien an den Standarddrucker senden"
