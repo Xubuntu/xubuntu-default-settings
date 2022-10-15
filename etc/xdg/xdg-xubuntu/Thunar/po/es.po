@@ -5,7 +5,6 @@
 # 
 # Translators:
 # Sean Davis <bluesabre@ubuntu.com>, 2020
-# Ignacio Poggi <ignaciop.3@gmail.com>, 2021
 # Toni Estévez <toni.estevez@gmail.com>, 2022
 # 
 #, fuzzy
@@ -41,7 +40,7 @@ msgstr "Buscar archivos en esta carpeta"
 
 #: ../uca.xml.in.h:5
 msgid "Print file(s)"
-msgstr "Imprimir archivo(s)"
+msgstr "Imprimir archivos"
 
 #: ../uca.xml.in.h:6
 msgid "Send one or multiple files to the default printer"
