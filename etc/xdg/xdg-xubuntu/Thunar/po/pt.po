@@ -44,4 +44,4 @@ msgstr "Imprimir ficheiro(s)"
 
 #: ../uca.xml.in.h:6
 msgid "Send one or multiple files to the default printer"
-msgstr "Envie um ou vários ficheiros para a impressora predefinida"
+msgstr "Enviar um ou vários ficheiros para a impressora predefinida"
