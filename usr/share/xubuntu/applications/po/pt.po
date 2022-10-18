@@ -28,7 +28,7 @@ msgstr "Ajuda"
 
 #: ../xfhelp4.desktop.in.h:2
 msgid "Help using Xfce"
-msgstr "Ajuda para usar o Xfce"
+msgstr "Ajuda ao usar o Xfce"
 
 #: ../settings-hardware-sound.desktop.in.h:1
 msgid "Sound"
