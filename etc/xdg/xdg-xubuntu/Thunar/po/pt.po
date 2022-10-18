@@ -28,7 +28,7 @@ msgstr "Abrir o Terminal aqui"
 
 #: ../uca.xml.in.h:2
 msgid "Open terminal in containing directory"
-msgstr "Abre o terminal no diretório de conteúdo"
+msgstr "Abre o terminal no diretório do conteúdo"
 
 #: ../uca.xml.in.h:3
 msgid "Find in this folder"
