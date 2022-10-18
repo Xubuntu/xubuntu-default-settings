@@ -40,7 +40,7 @@ msgstr "Procurar ficheiros dentro desta pasta"
 
 #: ../uca.xml.in.h:5
 msgid "Print file(s)"
-msgstr "Imprimir ficheiros(s)"
+msgstr "Imprimir ficheiro(s)"
 
 #: ../uca.xml.in.h:6
 msgid "Send one or multiple files to the default printer"
