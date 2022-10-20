@@ -39,7 +39,7 @@ msgstr "Ejecutar en un terminal"
 
 #: ../defaults.rc.in.h:5
 msgid "Open URI"
-msgstr "Obrir una ubicación"
+msgstr "Abrir una ubicación"
 
 #: ../defaults.rc.in.h:6
 msgid "Search for files"
