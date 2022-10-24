@@ -1,10 +1,12 @@
-xubuntu-default-settings (22.10.1ubuntu1) UNRELEASED; urgency=medium
+xubuntu-default-settings (23.04.0) UNRELEASED; urgency=medium
 
   * debian/rules,
     etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc.in:
-    - Enable translations for Whisker Menu (LP: #1926180) 
+    - Enable translations for Whisker Menu (LP: #1926180)
+  * usr/share/xubuntu/applications/defaults.list:
+    - Fix default association for debian packages (LP: #1993063)
 
- -- Sean Davis <sean@bluesabre.org>  Thu, 13 Oct 2022 06:16:08 -0400
+ -- Sean Davis <sean@bluesabre.org>  Mon, 24 Oct 2022 07:29:13 -0400
 
 xubuntu-default-settings (22.10.1) kinetic; urgency=medium
 
