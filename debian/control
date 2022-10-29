@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 Build-Depends: debhelper-compat (= 13), dh-python, intltool, python3
-Standards-Version: 4.6.0.1
+Standards-Version: 4.6.1.0
 Homepage: https://github.com/Xubuntu/xubuntu-default-settings
 Rules-Requires-Root: no
 Vcs-Git: https://github.com/Xubuntu/xubuntu-default-settings.git
