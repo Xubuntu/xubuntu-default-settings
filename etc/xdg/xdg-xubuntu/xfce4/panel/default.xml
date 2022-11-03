@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">
-  <property name="panels" type="uint" value="1">
+  <property name="panels" type="array">
+    <value type="int" value="0"/>
     <property name="panel-0" type="empty">
       <property name="position" type="string" value="p=6;x=0;y=0"/>
       <property name="length" type="uint" value="100"/>
@@ -20,10 +21,10 @@
       </property>
       <property name="background-style" type="uint" value="0"/>
       <property name="size" type="uint" value="24"/>
-      <property name="autohide" type="bool" value="false"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="span-monitors" type="bool" value="false"/>
       <property name="mode" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -42,7 +43,6 @@
     </property>
     <property name="plugin-5" type="string" value="systray">
       <property name="menu-is-primary" type="bool" value="true"/>
-      <property name="names-visible" type="empty"/>
       <property name="show-frame" type="bool" value="false"/>
       <property name="square-icons" type="bool" value="true"/>
       <property name="size-max" type="uint" value="22"/>
