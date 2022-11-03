@@ -47,6 +47,7 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="size-max" type="uint" value="22"/>
       <property name="symbolic-icons" type="bool" value="true"/>
+      <property name="icon-size" type="int" value="0"/>
     </property>
     <property name="plugin-6" type="string" value="notification-plugin"/>
     <property name="plugin-7" type="string" value="indicator">

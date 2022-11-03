@@ -7,12 +7,13 @@ xubuntu-default-settings (23.04.0) UNRELEASED; urgency=medium
     - Fix default association for debian packages (LP: #1993063)
   * etc/xdg/xdg-xubuntu/xfce4/panel/default.xml:
     - Update panel and plugin properties (LP: #1993186)
+    - Use automatic icon size for systray
   * etc/xdg/xdg-xubuntu/xfce4/terminal/terminalrc:
     - Increase terminal font size to 10 (LP: #1819466)
   * debian/control:
     - Bump Standards-Version to 4.6.1.0
 
- -- Sean Davis <sean@bluesabre.org>  Wed, 02 Nov 2022 21:43:21 -0400
+ -- Sean Davis <sean@bluesabre.org>  Thu, 03 Nov 2022 06:05:15 -0400
 
 xubuntu-default-settings (22.10.1) kinetic; urgency=medium
 
