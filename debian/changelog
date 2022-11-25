@@ -1,4 +1,4 @@
-xubuntu-default-settings (23.04.0) UNRELEASED; urgency=medium
+xubuntu-default-settings (23.04.0) lunar; urgency=medium
 
   * debian/rules,
     etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc.in:
@@ -13,7 +13,7 @@ xubuntu-default-settings (23.04.0) UNRELEASED; urgency=medium
   * debian/control:
     - Bump Standards-Version to 4.6.1.0
 
- -- Sean Davis <sean@bluesabre.org>  Thu, 03 Nov 2022 06:05:15 -0400
+ -- Sean Davis <sean@bluesabre.org>  Fri, 25 Nov 2022 06:13:46 -0500
 
 xubuntu-default-settings (22.10.1) kinetic; urgency=medium
 
