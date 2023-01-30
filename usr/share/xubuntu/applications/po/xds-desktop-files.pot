@@ -24,18 +24,3 @@ msgstr ""
 #: ../xfhelp4.desktop.in.h:2
 msgid "Help using Xfce"
 msgstr ""
-
-#: ../settings-hardware-sound.desktop.in.h:1
-msgid "Sound"
-msgstr ""
-
-#: ../settings-hardware-sound.desktop.in.h:2
-msgid "Adjust the volume level"
-msgstr ""
-
-#: ../settings-hardware-sound.desktop.in.h:3
-msgid ""
-"Microphone;Volume;Fade;Balance;Headset;Speakers;Headphones;Audio;Mixer;"
-"Output;Input;Devices;Playback;Recording;System Sounds;Sound Card;Settings;"
-"Preferences;"
-msgstr ""
