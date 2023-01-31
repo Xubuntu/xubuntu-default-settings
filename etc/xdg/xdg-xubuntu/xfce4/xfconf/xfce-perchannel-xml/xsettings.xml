@@ -21,4 +21,7 @@
     <property name="FontName" type="string" value="Noto Sans 9"/>
     <property name="IconSizes" type="string" value="gtk-button=16,16"/>
   </property>
+  <property name="Xfce" type="empty">
+    <property name="SyncThemes" type="bool" value="true"/>
+  </property>
 </channel>
