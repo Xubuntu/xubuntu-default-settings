@@ -5,17 +5,15 @@
 # 
 # Translators:
 # Leonardo Muñoz <leonardoptc2015@gmail.com>, 2020
-# Abdul Rahman Vassouf <aubad22@gmail.com>, 2021
-# Muadh Abdulaziz <m_abdulaziz@tutamail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-09 05:43-0500\n"
+"POT-Creation-Date: 2022-09-24 07:37-0400\n"
 "PO-Revision-Date: 2020-05-20 02:54+0000\n"
-"Last-Translator: Muadh Abdulaziz <m_abdulaziz@tutamail.com>, 2021\n"
+"Last-Translator: Leonardo Muñoz <leonardoptc2015@gmail.com>, 2020\n"
 "Language-Team: Arabic (https://www.transifex.com/xubuntu/teams/110148/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,20 +28,3 @@ msgstr "مساعدة"
 #: ../xfhelp4.desktop.in.h:2
 msgid "Help using Xfce"
 msgstr "مساعدة في استخدام Xfce"
-
-#: ../settings-hardware-sound.desktop.in.h:1
-msgid "Sound"
-msgstr "الصوت"
-
-#: ../settings-hardware-sound.desktop.in.h:2
-msgid "Adjust the volume level"
-msgstr "تحديد مستوى الصوت"
-
-#: ../settings-hardware-sound.desktop.in.h:3
-msgid ""
-"Microphone;Volume;Fade;Balance;Headset;Speakers;Headphones;Audio;Mixer;Output;Input;Devices;Playback;Recording;System"
-" Sounds;Sound Card;Settings;Preferences;"
-msgstr ""
-"ميكروفون؛حجم الصوت؛تلاش؛توازن؛سماعة؛مكبرات الصوت؛سماعة الرأس؛الصوت؛خلاط "
-"الصوت؛مخرج؛مدخل؛أجهزة؛تشغيل؛تسجيل؛أصوات النظام؛بطاقة "
-"الصوت؛الإعدادات؛التفضيلات؛"
