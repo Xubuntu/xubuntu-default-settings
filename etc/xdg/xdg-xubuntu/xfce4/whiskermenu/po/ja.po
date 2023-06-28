@@ -43,4 +43,4 @@ msgstr "URI を開く"
 
 #: ../defaults.rc.in.h:6
 msgid "Search for files"
-msgstr "ファイルを検索"
+msgstr "ファイルを検索する"
