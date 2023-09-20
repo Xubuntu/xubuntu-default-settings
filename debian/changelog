@@ -10,8 +10,10 @@ xubuntu-default-settings (23.10.0) UNRELEASED; urgency=medium
   * debian/xubuntu-default-settings.gsettings-override,
     etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
     - Use elementary-xfce-dark instead of darker
+  * debian/control:
+    - Bump Standards-Version to 4.6.2
 
- -- Sean Davis <sean@bluesabre.org>  Tue, 19 Sep 2023 21:22:57 -0400
+ -- Sean Davis <sean@bluesabre.org>  Tue, 19 Sep 2023 21:23:54 -0400
 
 xubuntu-default-settings (23.04.0) lunar; urgency=medium
 
