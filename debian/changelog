@@ -1,3 +1,18 @@
+xubuntu-default-settings (23.10.0) UNRELEASED; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/menus/xfce-settings-manager.menu,
+    usr/share/xubuntu/applications/po/POTFILES.in,
+    usr/share/xubuntu/applications/po/xds-desktop-files.pot,
+    usr/share/xubuntu/applications/settings-hardware-sound.desktop.in:
+    - Remove duplicate "Sound" .desktop file
+  * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
+    - Set matching Xfwm4 theme when selecting Gtk theme
+  * debian/xubuntu-default-settings.gsettings-override,
+    etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
+    - Use elementary-xfce-dark instead of darker
+
+ -- Sean Davis <sean@bluesabre.org>  Tue, 19 Sep 2023 21:22:57 -0400
+
 xubuntu-default-settings (23.04.0) lunar; urgency=medium
 
   * debian/rules,
