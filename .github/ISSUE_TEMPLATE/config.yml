@@ -1,4 +1,4 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
   - name: Xubuntu Default Settings
     url: https://bugs.launchpad.net/ubuntu/+source/xubuntu-default-settings
