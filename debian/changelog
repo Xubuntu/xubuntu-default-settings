@@ -1,11 +1,11 @@
-xubuntu-default-settings (24.04.0) UNRELEASED; urgency=medium
+xubuntu-default-settings (24.04.0) noble; urgency=medium
 
   * debian/live/desktop-provision,
     debian/xubuntu-live-settings.install:
     - Install desktop-provision/whitelabel.yaml for the new
       ubuntu-desktop-bootstrap installer
 
- -- Sean Davis <sean@bluesabre.org>  Fri, 23 Feb 2024 08:00:04 -0500
+ -- Sean Davis <sean@bluesabre.org>  Fri, 23 Feb 2024 08:03:36 -0500
 
 xubuntu-default-settings (23.10.1) mantic; urgency=medium
 
