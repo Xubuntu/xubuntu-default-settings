@@ -1,3 +1,4 @@
+debian/live/desktop-provision usr/share/
 debian/live/casper/* usr/share/initramfs-tools/scripts/casper-bottom/
 debian/live/whiskermenu-1.rc etc/skel/.config/xfce4/panel/
 debian/live/xfce4-screensaver.xml etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/
