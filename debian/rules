@@ -12,5 +12,8 @@ override_dh_install:
 	sed -i 's/show-command-lockscreen=true/show-command-lockscreen=false/g' debian/live/whiskermenu-1.rc
 	dh_install
 
+override_dh_installsystemduser:
+	dh_installsystemduser --name=xubuntu-installer
+
 %:
 	dh $@ --with python3
