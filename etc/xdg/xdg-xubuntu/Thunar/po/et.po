@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Priit Jõerüüt <transifex@joeruut.com>, 2024
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-24 07:37-0400\n"
+"PO-Revision-Date: 2020-05-20 02:55+0000\n"
+"Last-Translator: Priit Jõerüüt <transifex@joeruut.com>, 2024\n"
+"Language-Team: Estonian (https://app.transifex.com/xubuntu/teams/110148/et/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../uca.xml.in.h:1
+msgid "Open Terminal Here"
+msgstr "Ava terminal siin"
+
+#: ../uca.xml.in.h:2
+msgid "Open terminal in containing directory"
+msgstr "Ava terminal selles kaustas"
+
+#: ../uca.xml.in.h:3
+msgid "Find in this folder"
+msgstr "Otsi selles kaustas"
+
+#: ../uca.xml.in.h:4
+msgid "Search for files within this folder"
+msgstr "Otsi faile selles kaustas"
+
+#: ../uca.xml.in.h:5
+msgid "Print file(s)"
+msgstr "Trüki fail(id)"
+
+#: ../uca.xml.in.h:6
+msgid "Send one or multiple files to the default printer"
+msgstr "Saada üks või mitu faili printerisse"
