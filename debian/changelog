@@ -1,10 +1,10 @@
-xubuntu-default-settings (24.04.1) UNRELEASED; urgency=medium
+xubuntu-default-settings (24.04.1) noble; urgency=medium
 
   * debian/rules,
     debian/xubuntu-live-settings.xubuntu-installer.user.service:
     - Boot ISO with try-or-install screen
 
- -- Sean Davis <sean@bluesabre.org>  Fri, 08 Mar 2024 10:25:30 -0500
+ -- Sean Davis <sean@bluesabre.org>  Fri, 08 Mar 2024 10:34:29 -0500
 
 xubuntu-default-settings (24.04.0) noble; urgency=medium
 
