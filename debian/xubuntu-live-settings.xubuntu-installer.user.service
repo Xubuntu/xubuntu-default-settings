@@ -1,0 +1,12 @@
+[Unit]
+Description=Xubuntu Installer
+PartOf=graphical-session.target
+After=graphical-session.target
+
+# Never run in GDM
+Conflicts=gnome-session@gnome-login.target
+
+[Service]
+Type=oneshot
+ExecStart=sh -c "/snap/bin/ubuntu-desktop-bootstrap --try-or-install"
+Restart=no
