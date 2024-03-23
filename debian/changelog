@@ -1,4 +1,4 @@
-xubuntu-default-settings (24.04.2) UNRELEASED; urgency=medium
+xubuntu-default-settings (24.04.2) noble; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc.in:
     - Replace GNOME Software favorite with Snap Store
@@ -7,7 +7,7 @@ xubuntu-default-settings (24.04.2) UNRELEASED; urgency=medium
     - Switch audio/video generic ogg handler to Parole
     - Add newly-supported MIME types
 
- -- Sean Davis <sean@bluesabre.org>  Sat, 23 Mar 2024 05:50:56 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sat, 23 Mar 2024 06:18:33 -0400
 
 xubuntu-default-settings (24.04.1) noble; urgency=medium
 
