@@ -4,8 +4,10 @@ xubuntu-default-settings (24.04.2) UNRELEASED; urgency=medium
     - Replace GNOME Software favorite with Snap Store
   * usr/share/xubuntu/applications/defaults.list:
     - Drop/replace non-existent launcher associations
+    - Switch audio/video generic ogg handler to Parole
+    - Add newly-supported MIME types
 
- -- Sean Davis <sean@bluesabre.org>  Fri, 22 Mar 2024 21:14:35 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sat, 23 Mar 2024 05:50:56 -0400
 
 xubuntu-default-settings (24.04.1) noble; urgency=medium
 
