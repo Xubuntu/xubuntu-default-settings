@@ -2,9 +2,9 @@ flavor: xubuntu
 
 pages:
   locale:
-    image: "Xubuntu-Wordmark.png"
+    image: "mascot.png"
   try-or-install:
-    image: "Xubuntu-Wordmark.png"
+    image: "mascot.png"
   accessibility:
     visible: false
   done:
