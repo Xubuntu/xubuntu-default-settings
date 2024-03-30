@@ -1,3 +1,11 @@
+xubuntu-default-settings (24.04.3) noble; urgency=medium
+
+  * debian/live/desktop-provision/images/mascot.png,
+    debian/live/desktop-provision/whitelabel.yaml:
+    - Customize the flutter installer screens
+
+ -- Sean Davis <sean@bluesabre.org>  Sat, 30 Mar 2024 06:54:20 -0400
+
 xubuntu-default-settings (24.04.2) noble; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/whiskermenu/defaults.rc.in:
