@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   id="svg3681"
+   version="1.1"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="xubuntu_icon.svg"
+   inkscape:export-filename="/data/knome/Open/Xubuntu/Logo/2017/icon-1024.png"
+   inkscape:export-xdpi="1439.9995"
+   inkscape:export-ydpi="1439.9995">
+  <defs
+     id="defs3683" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9999996"
+     inkscape:cx="56.538823"
+     inkscape:cy="29.93832"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1151"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="false" />
+  <metadata
+     id="metadata3686">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-501.31203,-494.03164)">
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="M 32 0 A 32 32 0 0 0 0 32 A 32 32 0 0 0 32 64 A 32 32 0 0 0 64 32 A 32 32 0 0 0 32 0 z M 42.53125 11.931641 C 43.421916 12.09366 42.817075 16.299359 42.578125 18.857422 C 42.361865 21.172562 42.241394 21.935154 41.808594 24.490234 C 41.672604 25.293054 41.272961 26.321298 40.025391 26.173828 C 38.978881 26.041168 38.811203 24.318171 38.845703 23.519531 C 38.904983 22.148161 39.653971 18.807732 39.894531 17.607422 C 40.203321 16.066662 41.145221 12.389908 42.332031 11.955078 C 42.405246 11.928253 42.471872 11.920839 42.53125 11.931641 z M 50.886719 13.828125 C 52.671559 13.571685 49.966342 18.406638 48.882812 20.923828 C 48.146293 22.634868 47.618713 24.005268 46.664062 26.267578 C 46.347493 27.017768 45.373647 28.096923 44.248047 27.539062 C 43.303587 27.070984 43.627137 25.694709 44.310547 24.099609 C 45.294817 21.802259 46.103681 20.266756 47.144531 18.535156 C 47.951801 17.186956 49.635589 14.007885 50.886719 13.828125 z M 26.283203 15.072266 C 27.114573 15.130626 27.807723 15.496606 28.283203 16.072266 C 30.336223 18.557856 29.902831 22.824106 30.082031 26.066406 C 33.282301 26.240536 35.922211 26.62875 39.332031 27.625 C 41.930761 28.38428 45.527034 29.655818 47.632812 31.023438 C 49.730784 32.385998 51.304662 34.150238 51.632812 36.523438 C 51.836433 37.996057 50.716931 39.472956 49.181641 40.822266 C 47.648831 42.169386 45.644162 43.435707 43.482422 44.623047 C 41.321732 45.809817 39.074883 46.887216 37.283203 47.722656 C 33.373413 49.545756 29.240162 51.322394 24.169922 51.833984 C 10.423462 53.221014 11.923741 40.746187 12.457031 36.623047 C 12.872451 33.411197 14.591453 28.777734 14.876953 27.933594 C 14.502753 26.745034 14.211272 25.742806 13.982422 24.472656 C 13.787982 23.393486 13.683131 22.149526 13.931641 21.072266 C 14.176531 20.010736 14.890486 18.827724 16.072266 18.333984 C 17.009076 17.942584 17.696726 18.097315 18.572266 18.890625 C 19.293076 19.543735 19.897432 20.511168 20.482422 21.523438 C 21.328152 22.986887 21.672504 24.505627 22.396484 25.992188 C 22.536474 26.279507 23.259781 26.411872 23.681641 26.289062 C 23.779821 26.260482 23.888131 26.013956 23.832031 25.822266 C 22.902901 22.645116 22.238672 20.018056 22.701172 17.722656 C 23.130502 15.591886 24.947133 15.126066 26.283203 15.072266 z "
+       transform="translate(501.31203,494.03164)"
+       id="path12878" />
+  </g>
+</svg>

@@ -1,0 +1,366 @@
+/*
+ *  CSS Reset
+ *
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+hr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1.2em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+img {
+	vertical-align: middle;
+}
+
+
+/*
+ *  Self-clearing floats
+ *
+ */
+
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+::selection {
+	background-color: transparent;
+}
+
+/*
+ *  Slideshow size
+ *
+ */
+
+#wrapper {
+	position: absolute;
+
+	width: 650px;
+	height: 100%;
+}
+
+#slideshow {
+	color: #fff;
+
+	width: 650px;
+	min-height: 380px;
+	height: 100%;
+
+	overflow: hidden;
+}
+
+#slideshow > div {
+	position: absolute;
+
+	height: 100%;
+	width: 100%;
+}
+
+/*
+ *  Slideshow controls
+ *
+ */
+
+.control-arrow {
+	position: absolute;
+	z-index: 100;
+
+	bottom: 30px;
+	right: 45px;
+
+	display: inline-block;
+	width: 20px;
+	height: 24px;
+
+	background: transparent;
+	background-position: 0 0;
+
+	text-align: center;
+	border: none;
+}
+	.control-arrow:after {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+
+		font-size: 300%;
+		color: rgba( 255, 255, 255, 0.5 );
+		transition: all 300ms;
+	}
+	.control-arrow:hover:after, .control-arrow:active:after, .control-arrow:focus:after {
+		color: rgba( 255, 255, 255, 0.9 );
+	}
+.control-arrow.disabled {
+	cursor: default;
+}
+.control-arrow:hover, .control-arrow:focus {
+	background-position: 0 -20px;
+}
+.control-arrow:active {
+	background-position: 0 -40px;
+}
+	#prev-slide:after { content: "‹"; }
+	#next-slide { right: 20px; }
+	#next-slide:after { content: "›"; }
+
+
+
+/*
+ *  Main
+ *
+ */
+
+html, body {
+	font-family: "Noto Sans", sans-serif;
+}
+
+body {
+	background: #1692b1 radial-gradient( circle farthest-corner at -20% 120%, #1692b1 0%, #006882 90% );
+	font-size: 85%;
+	line-height: 1.6em;
+}
+	body #hilight {
+		content: "";
+		position: absolute;
+
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+
+		display: none;
+	}
+
+.slide {
+	box-sizing: border-box;
+	padding: 30px;
+	height: 420px;
+}
+
+.content {
+	float: left;
+	box-sizing: border-box;
+	padding-right: 1em;
+	width: 80%;
+}
+
+.right { text-align: right; }
+
+
+/*
+ *  Elements
+ *
+ */
+
+a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid rgba( 255, 255, 255, 0.75 );
+}
+
+em {
+	font-style: italic;
+}
+
+p, ul, ol {
+	margin-bottom: 1.2em;
+}
+
+h1 {
+	clear: both;
+
+	font-size: 240%;
+	font-weight: normal;
+	line-height: 1.3em;
+
+	box-sizing: border-box;
+	margin-bottom: 1em;
+}
+
+h2 {
+	margin: 1.5em 0 0.5em 0;
+}
+
+
+/*
+ *  Slide-specific styles
+ *
+ */
+
+/*  Background images that span over multiple slides  */
+.slide.mouse_left { background: transparent url(../images/bg_mouse_left.png) 100% 100% no-repeat; }
+.slide.mouse_right { background: transparent url(../images/bg_mouse_right.png) 0 100% no-repeat; }
+
+
+/*  Welcome  */
+.slide#welcome .content {
+	width: 70%;
+}
+	.slide#welcome #xubuntu_icon {
+		position: absolute;
+		top: 40px;
+		right: 40px;
+		height: 130px;
+		width: auto;
+		opacity: 0.95;
+	}
+
+.slide#welcome {
+/*	background: transparent linear-gradient( 60deg, rgba( 55, 200, 55, 0.3 ) 0, transparent 75% ); */
+}
+
+/*  Support  */
+.slide#support .buttons {
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+	max-width: 80%;
+}
+	.slide#support .buttons a {
+		display: inline-block;
+		margin: 0 0.5em 0.5em 0;
+		padding: 0.5em 0.75em;
+		background-color: rgba( 255, 255, 255, 0.9 );
+		color: #2c82dd;
+		box-shadow: 0 0 5px rgba( 0, 0, 0, 0.1 );
+		border-bottom: 2px solid #7cb8f7;
+		transition: color 0.3s ease-in-out, border 0.3s ease-in-out;
+	}
+		.slide#support .buttons a:hover {
+			color: #13385e;
+			box-shadow: 0 0 5px rgba( 0, 0, 0, 0.3 );
+			border-bottom: 2px solid #2c82dd;
+		}
+		.slide#support .buttons a::after {
+			display: block;
+			float: right;
+			content: "›";
+			font-weight: 300;
+			font-size: 140%;
+			margin: -0.1em 0 0 0.5em;
+			color: #555;
+		}
+
+/*  Real-time support  */
+.slide#support-live h1 {
+	float: right;
+}
+
+.slide#support-live .bubble {
+	background-color: rgba( 0, 0, 0, 0.2 );
+	border-radius: 3px;
+	padding: 2em 1.5em;
+}
+	.slide#support-live .bubble:after {
+		position: absolute;
+		left: 40px;
+		bottom: -40px;
+
+		content: "";
+		display: block;
+
+		width: 60px;
+		height: 40px;
+
+		background: transparent url(triangledown.png) 100% 0 no-repeat;
+	}
+	.slide#support-live .bubble :first-child { margin-top: 0; }
+	.slide#support-live .bubble :last-child { margin-bottom: 0; }
+
+	.slide#support-live .bubble.small { padding: 0.5em 0.75em; }
+		.slide#support-live .bubble.small:after {
+			left: 0;
+			bottom: -20px;
+
+			width: 30px;
+			height: 20px;
+
+			background-size: 50%;
+		}
+	.slide#support-live .bubble.xsmall { padding: 0.2em 0.5em; }
+		.slide#support-live .bubble.xsmall:after {
+			left: 5px;
+			bottom: -10px;
+
+			width: 15px;
+			height: 10px;
+
+			background-size: 75%;
+		}
+
+	.slide#support-live .bubble.online {
+		position: absolute;
+		top: 100px;
+		right: 30px;
+
+		box-sizing: border-box;
+		width: 45%;
+	}
+
+	.slide#support-live .bubble.local { position: absolute; display: none; background-color: rgba( 0, 0, 0, 0.1 ); }
+		.slide#support-live .bubble.local:after { opacity: 0.5; }
+		.slide#support-live .bubble.local-cat { top: 280px; left: 30px; font-size: 90%; padding: 0.2em 0.5em; }
+		.slide#support-live .bubble.local-de { top: 150px; left: 150px; }
+		.slide#support-live .bubble.local-fi { top: 120px; left: 50px; }
+		.slide#support-live .bubble.local-fr { top: 305px; left: 470px; }
+		.slide#support-live .bubble.local-jp { top: 50px; left: 180px; }
+			.slide#support-live .bubble.local-cat:after { -webkit-transform: rotate( 90deg ); left: -12px; top: 5px; }
+			.slide#support-live .bubble.local-fi:after { -webkit-transform: rotate( 90deg ); left: -25px; top: 0; }
+			.slide#support-live .bubble.local-jp:after { -webkit-transform: rotate( 180deg ); left: 25px; top: -20px; }
+
+/*  Community  */
+.slide#community .content {
+	width: 100%;
+}
+
+.slide#community #community_art {
+	position: absolute;
+	left: 30px;
+	bottom: 25px;
+	height: 95px;
+}
+
+.slide#community #share {
+	position: absolute;
+	left: 125px;
+	top: 280px;
+	width: 260px;
+
+	font-size: 90%;
+}

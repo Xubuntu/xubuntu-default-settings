@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ubiquity-slideshow-xubuntu</title>
+	<meta charset="UTF-8" />
+	<base target="_blank" />
+
+	<link href="link/base.css" rel="stylesheet" type="text/css" />
+
+	<script type="text/javascript" src="link-core/jquery.js"></script>
+	<script type="text/javascript" src="link-core/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="link-core/base.js"></script>
+	<script type="text/javascript">
+		SLIDESHOW_OPTIONS = {
+			timeout:15000,
+			speed:500,
+		}
+	</script>
+	<script type="text/javascript" src="link-core/slideshow.js"></script>
+	<script type="text/javascript" src="link/xubuntu.js"></script>
+</head>
+<body>
+
+	<div id="slideshow">
+		<div><a href="01_welcome.html"></a></div>
+		<div><a href="02_support.html"></a></div>
+		<div><a href="03_support-live.html"></a></div>
+		<div><a href="04_community.html"></a></div>
+	</div>
+
+	<div id="hilight" class="fo"></div>
+
+	<div id="controls">
+		<a class="control-arrow" id="prev-slide" style="display:none;"></a>
+		<a class="control-arrow" id="next-slide"></a>
+		<input type="hidden" id="current-slide" />
+	</div>
+
+</body>
+</html>
