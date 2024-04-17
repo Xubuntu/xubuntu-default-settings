@@ -1,9 +1,9 @@
-xubuntu-default-settings (24.04.4) UNRELEASED; urgency=medium
+xubuntu-default-settings (24.04.4) noble; urgency=medium
 
   * debian/live/desktop-provision/slides:
-    - Install a customized installer slideshow
+    - Install a customized installer slideshow (LP: #2061994)
 
- -- Sean Davis <sean@bluesabre.org>  Wed, 17 Apr 2024 07:18:32 -0400
+ -- Sean Davis <sean@bluesabre.org>  Wed, 17 Apr 2024 07:30:42 -0400
 
 xubuntu-default-settings (24.04.3) noble; urgency=medium
 
