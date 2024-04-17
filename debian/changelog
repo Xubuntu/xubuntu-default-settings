@@ -1,3 +1,10 @@
+xubuntu-default-settings (24.04.4) UNRELEASED; urgency=medium
+
+  * debian/live/desktop-provision/slides:
+    - Install a customized installer slideshow
+
+ -- Sean Davis <sean@bluesabre.org>  Wed, 17 Apr 2024 07:18:32 -0400
+
 xubuntu-default-settings (24.04.3) noble; urgency=medium
 
   * debian/live/desktop-provision/images/mascot.png,
