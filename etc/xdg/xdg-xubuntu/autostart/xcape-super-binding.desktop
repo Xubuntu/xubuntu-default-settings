@@ -1,5 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Bind Super Key
-Exec=xcape -e 'Super_L=Alt_L|Pause'
-OnlyShowIn=XFCE;
