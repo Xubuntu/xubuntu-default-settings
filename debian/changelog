@@ -1,10 +1,11 @@
 xubuntu-default-settings (25.04.0) UNRELEASED; urgency=medium
 
   * etc/xdg/xdg-xubuntu/autostart/xcape-super-binding.desktop,
-    etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
+    etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
+    debian/xubuntu-default-settings.maintscript:
     - Replace xcape Super key binding with native support (LP: #2084326)
 
- -- Sean Davis <sean@bluesabre.org>  Sat, 23 Nov 2024 07:14:33 -0500
+ -- Sean Davis <sean@bluesabre.org>  Sat, 23 Nov 2024 07:42:15 -0500
 
 xubuntu-default-settings (24.04.4) noble; urgency=medium
 
