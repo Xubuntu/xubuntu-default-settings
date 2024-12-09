@@ -1,3 +1,11 @@
+xubuntu-default-settings (25.04.1) UNRELEASED; urgency=medium
+
+  * etc/skel/.config/gtk-3.0/settings.ini,
+    etc/skel/.config/gtk-4.0/settings.ini:
+    - Set gtk-print-preview-command to atril (LP: #2025332)
+
+ -- Sean Davis <sean@bluesabre.org>  Mon, 09 Dec 2024 12:05:55 +0000
+
 xubuntu-default-settings (25.04.0) plucky; urgency=medium
 
   * etc/xdg/xdg-xubuntu/autostart/xcape-super-binding.desktop,
