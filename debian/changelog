@@ -1,4 +1,4 @@
-xubuntu-default-settings (25.04.2) UNRELEASED; urgency=medium
+xubuntu-default-settings (25.04.2) plucky; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml:
     - Remove obsolete desktop wallpaper settings
@@ -7,7 +7,7 @@ xubuntu-default-settings (25.04.2) UNRELEASED; urgency=medium
     usr/share/lightdm/lightdm-gtk-greeter.conf.d/30_xubuntu.conf:
     - Replace obsolete icon theme elementary-xfce-dark with elementary-xfce
 
- -- Sean Davis <sean@bluesabre.org>  Thu, 10 Apr 2025 06:32:38 -0400
+ -- Sean Davis <sean@bluesabre.org>  Thu, 10 Apr 2025 06:41:04 -0400
 
 xubuntu-default-settings (25.04.1) plucky; urgency=medium
 
