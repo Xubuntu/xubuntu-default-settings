@@ -3,7 +3,7 @@
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
     <property name="ThemeName" type="string" value="Greybird"/>
-    <property name="IconThemeName" type="string" value="elementary-xfce-dark"/>
+    <property name="IconThemeName" type="string" value="elementary-xfce"/>
     <property name="FallbackIconTheme" type="string" value="gnome"/>
   </property>
   <property name="Xft" type="empty">

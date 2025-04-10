@@ -11,7 +11,7 @@ picture-uri='file:///usr/share/xfce4/backdrops/xubuntu-wallpaper.png'
 
 [org.gnome.desktop.interface]
 gtk-theme='Greybird'
-icon-theme='elementary-xfce-dark'
+icon-theme='elementary-xfce'
 font-name='Noto Sans 9'
 monospace-font-name='Monospace 10'
 
