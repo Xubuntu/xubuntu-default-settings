@@ -1,3 +1,10 @@
+xubuntu-default-settings (26.04) resolute; urgency=medium
+
+  * etc/xdg/xdg-xubuntu/xfce4/panel/default.xml:
+    - Remove indicator plugin
+
+ -- Sean Davis <sean@bluesabre.org>  Thu, 27 Jan 2026 21:29:00 -0500
+
 xubuntu-default-settings (25.04.2) plucky; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml:

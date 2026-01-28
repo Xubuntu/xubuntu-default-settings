@@ -17,7 +17,6 @@
         <value type="int" value="7"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
-        <value type="int" value="10"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
       <property name="size" type="uint" value="24"/>
@@ -50,14 +49,8 @@
       <property name="icon-size" type="int" value="0"/>
     </property>
     <property name="plugin-6" type="string" value="notification-plugin"/>
-    <property name="plugin-7" type="string" value="indicator">
-      <property name="blacklist" type="array">
-        <value type="string" value="libappmenu.so"/>
-      </property>
-      <property name="square-icons" type="bool" value="true"/>
-    </property>
-    <property name="plugin-8" type="string" value="power-manager-plugin"/>
-    <property name="plugin-9" type="string" value="pulseaudio">
+    <property name="plugin-7" type="string" value="power-manager-plugin"/>
+    <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="enable-wnck" type="bool" value="true"/>
@@ -66,7 +59,7 @@
       <property name="persistent-players" type="string" value="parole;org.gnome.Rhythmbox3"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
-    <property name="plugin-10" type="string" value="clock">
+    <property name="plugin-9" type="string" value="clock">
       <property name="digital-format" type="string" value=" %d %b, %H:%M "/>
     </property>
   </property>
