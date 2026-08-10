@@ -36,7 +36,7 @@ msgstr "ويكيبيديا"
 
 #: ../defaults.rc.in.h:4
 msgid "Run in Terminal"
-msgstr "فتح في المحطة الطرفية"
+msgstr "فتح في الطرفية"
 
 #: ../defaults.rc.in.h:5
 msgid "Open URI"
